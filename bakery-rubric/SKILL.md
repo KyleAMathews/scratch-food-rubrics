@@ -448,3 +448,7 @@ Orchestrator rejects & re-dispatches any return with an asserted rating, adjecti
 > **R is a filter, not a score** (bakery ratings inflate; use θ ≈ 4.3★). **Decision:** filter {R ≥ 4.3 ∧ S ≥ 55}, rank by G = √(S × I).
 >
 > **Output:** ranked table — Bakery | S | I | G | R★ | $ | Hours + sell-out timing | one-line rationale | confidence (High/Med/Low). Surface sell-out/morning-only timing explicitly. Show filtered-out venues with the reason (failed θ vs. S-floor). Flag any specialist (one-item shops — bagels, cinnamon rolls, kouign-amann) that scores low on breadth but is genuinely scratch. Don't invent hydration %, batch counts, or ratings — estimate and mark low-confidence when data isn't visible.
+
+## Sharing Results
+
+Want to share your results? Generate an HTML page with the occasion matrix and ranked tables, then use `/gisthost` to publish it as a shareable website. See `reference/gisthost.md` for details.

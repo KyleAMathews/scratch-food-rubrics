@@ -517,3 +517,7 @@ Orchestrator (the SMART model, sole judgment layer): from each raw return, apply
 > **Day-part neutrality:** breakfast/brunch/lunch-only is NOT a negative signal — score S and I on the food itself, never on when it's served. A lunch-only scratch kitchen ranks on the same S×I basis as a dinner spot. Include breakfast/lunch/deli/bakery-café candidates, not just dinner restaurants, and always surface each venue's hours and day-part (breakfast / brunch / lunch / dinner) plus closed days.
 >
 > **Output:** ranked table — Restaurant | S | I | G | R★ | $ | Hours/day-part | one-line rationale | confidence (High/Med/Low = how much menu/reviews actually revealed). Show filtered-out venues separately with the reason (failed θ vs. failed S-floor). Don't invent K, counts, δ, ratings, or hours — estimate and mark low-confidence when data isn't visible.
+
+## Sharing Results
+
+Want to share your results? Generate an HTML page with the occasion matrix and ranked tables, then use `/gisthost` to publish it as a shareable website. See `reference/gisthost.md` for details.
