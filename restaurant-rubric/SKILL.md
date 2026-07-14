@@ -45,22 +45,14 @@ Before advancing, run the printed completion gate, mark every item `✅` or `❌
 
 ## Phase map
 
-1. **Scope and catchment**  
-   Read `../reference/phase-1-scope-and-catchment.md`.
-2. **Candidate discovery**  
-   Read `../reference/phase-2-candidate-discovery.md` and `discovery-reference.md`. Run broad, targeted, visible-head, multilingual, cuisine/format, and marker-item discovery.
-3. **Discovery convergence**  
-   Read `../reference/phase-3-discovery-convergence.md`. Union, normalize, deduplicate, inspect gaps, and require a zero-new-candidate pass or a precise limitation.
-4. **Evidence research**  
-   Read `../reference/phase-4-evidence-research.md` and `phase-4-worker-prompt.md`. Dispatch the canonical prompt verbatim.
-5. **Evidence acceptance and repair**  
-   Read `../reference/phase-5-evidence-acceptance.md`, `../reference/shared-status-and-provenance.md`, and `phase-4-worker-prompt.md`. Inspect every record and repair defects.
-6. **Restaurant scoring and classification**  
-   Read `phase-6-scoring.md`. Apply the unchanged rubric yourself.
-7. **Coverage audit**  
-   Read `../reference/phase-7-coverage-audit.md` and `discovery-reference.md`. Newly found restaurants loop through Phases 4–6; repeat until the audit converges.
-8. **Rendering**  
-   Read `phase-8-rendering.md` only after every earlier gate passes.
+1. **Scope and catchment** Read `../reference/phase-1-scope-and-catchment.md`.
+2. **Candidate discovery** Read `../reference/phase-2-candidate-discovery.md` and `discovery-reference.md`. Run broad, targeted, visible-head, multilingual, cuisine/format, and marker-item discovery.
+3. **Discovery convergence** Read `../reference/phase-3-discovery-convergence.md`. Union, normalize, deduplicate, inspect gaps, and require a zero-new-candidate pass or a precise limitation.
+4. **Evidence research** Read `../reference/phase-4-evidence-research.md` and `phase-4-worker-prompt.md`. Dispatch the canonical prompt verbatim.
+5. **Evidence acceptance and repair** Read `../reference/phase-5-evidence-acceptance.md`, `../reference/shared-status-and-provenance.md`, and `phase-4-worker-prompt.md`. Inspect every record and repair defects.
+6. **Restaurant scoring and classification** Read `phase-6-scoring.md`. Apply the unchanged rubric yourself.
+7. **Coverage audit** Read `../reference/phase-7-coverage-audit.md` and `discovery-reference.md`. Newly found restaurants loop through Phases 4–6; repeat until the audit converges.
+8. **Rendering** Read `phase-8-rendering.md` only after every earlier gate passes.
 
 ## Global hard stops
 

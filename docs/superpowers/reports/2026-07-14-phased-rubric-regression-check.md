@@ -1,6 +1,7 @@
 # Phased Rubric Regression Check
 
-**Date:** 2026-07-14  
+**Date:** 2026-07-14
+
 **Baseline:** `572f1d6`
 
 ## Structural audit
