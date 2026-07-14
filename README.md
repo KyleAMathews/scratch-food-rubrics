@@ -2,7 +2,7 @@
 
 AI-powered rubrics for finding restaurants and bakeries that make food from scratch.
 
-These are skills you can run in a coding agent (Claude Code, Codex, or similar). Each rubric pulls venues from OpenStreetMap, then scores them against criteria designed to surface scratch kitchens and filter out par-bake/reheated operations.
+These are phased skills for coding agents (Claude Code, Codex, or similar). Each combines a popularity-neutral place survey with adaptive local-language targeted discovery, gathers quotation-level evidence, and applies a calibrated rubric to surface ambitious scratch kitchens while filtering par-bake or reheated operations.
 
 ## Rubrics
 
@@ -10,42 +10,70 @@ These are skills you can run in a coding agent (Claude Code, Codex, or similar).
 
 Finds restaurants that are **scratch-made AND interesting to a frequent diner**.
 
-```
+```text
 /restaurant-rubric [location]
 ```
 
 Scores on three axes:
-- **S (scratch)** — production intensity (0-100)
-- **I (interestingness)** — novelty/turnover + market scarcity (0-100)  
-- **R (rating)** — used as quality filter only, not ranking
+
+- **S (scratch)** — production intensity (0–100)
+- **I (interestingness)** — novelty/turnover plus market scarcity (0–100)
+- **R (rating)** — a quality filter only, not the ranking signal
 
 ### Bakery Rubric
 
-Finds bakeries that are **made from raw components on-site AND interesting to a frequent buyer** — screening out par-bake (frozen partially-baked dough finished on-site).
+Finds bakeries that are **made from raw components on-site AND interesting to a frequent buyer**, screening out par-bake (frozen partially baked dough finished on-site).
 
-```
+```text
 /bakery-rubric [location]
 ```
 
-Same S/I/R scoring structure, tuned for bakery-specific signals like lamination quality, bake cadence, and wholesale pressure.
+It uses the same S/I/R structure, tuned for bakery signals such as lamination, bake cadence, and wholesale pressure.
 
 ## How It Works
 
-1. **Retrieval**: Pulls every tagged venue from OpenStreetMap (popularity-neutral, no ranking bias)
-2. **Scoring**: Subagents read menus, reviews, and websites looking for involuntary tells
-3. **Output**: Ranked list organized by foodie occasions (best meal, something new, casual scratch, etc.)
+The primary agent stays in charge for the entire run and loads each phase's instructions immediately before executing it:
+
+1. **Scope:** Define the actual local catchment and its limits.
+2. **Discover broadly:** Survey OpenStreetMap or another popularity-neutral place index.
+3. **Discover deliberately:** Run adaptive local-language searches for prominent, scratch-focused, ambitious, specialist, new, renamed, and poorly tagged venues.
+4. **Converge:** Union and deduplicate candidates, inspect neighborhood, language, and category gaps, and require a no-new-candidate pass.
+5. **Retrieve evidence:** Subagents receive an exact evidence-only prompt and quote menus, sites, reviews, press, and literal ratings. They never score.
+6. **Accept and repair:** The primary agent checks every record. When possible, it messages the original worker for targeted missing evidence.
+7. **Score and audit:** The primary agent applies the unchanged rubric, then challenges the candidate set again before rendering.
+8. **Output:** Results are organized by foodie occasions, rare finds, and an audit ranking, with honest discovery limits.
+
+Broad and targeted discovery are complementary. Map enumeration protects obscure specialists from popularity bias; targeted searches recover prominent, new, renamed, unlisted, and category-adjacent venues that map data misses.
 
 ## Key Concepts
 
-**Involuntary tells**: Signals businesses reveal without intending to. "Fresh baked all day!" confesses par-bake (scratch bakeries sell out). Physical descriptors like "shattering layers, open crumb" survive regardless of marketing.
+**Involuntary tells:** Signals businesses reveal without intending to. “Fresh baked all day!” can confess par-bake economics, while physical descriptors such as “shattering layers” and “open crumb” survive regardless of marketing.
 
-**Register-independent signals**: Weight observable physics over process vocabulary. A par-bake cafe can say "fresh baked" (technically true). But "sells out by 11am" physically contradicts the frozen-inventory model.
+**Register-independent signals:** Weight observable physics over process vocabulary. A par-bake café can say “fresh baked” (technically true), but “sells out by 11am” physically contradicts the frozen-inventory model.
 
-**Market scarcity**: A static menu can be maximally interesting if it's the only place in town doing that cuisine. Novelty has two sources: menu turnover AND local rarity.
+**Market scarcity:** A static menu can be maximally interesting if it is the only place in town doing that cuisine. Novelty has two sources: menu turnover and local rarity.
 
 ## Usage
 
-Add this repo to your coding agent's skills directory, or copy the SKILL.md files to your `.claude/commands/` folder.
+Install or link the **whole repository layout**, not a lone `SKILL.md`: each root skill loads shared files from `reference/` and category files from its own directory just in time.
+
+```text
+scratch-food-rubrics/
+├── reference/
+├── restaurant-rubric/
+│   └── SKILL.md
+└── bakery-rubric/
+    └── SKILL.md
+```
+
+Then invoke:
+
+```text
+/restaurant-rubric [location]
+/bakery-rubric [location]
+```
+
+If your agent's skill installer expects one self-contained directory per skill, preserve the relative shared-reference paths by installing or linking the repository as a unit rather than copying only the root file.
 
 ## License
 
