@@ -16,7 +16,7 @@ reference/phase-5-evidence-acceptance.md: completion gate present
 reference/phase-7-coverage-audit.md: completion gate present
 ```
 
-## Role-boundary audit
+## Role-boundary and operational audit
 
 ```text
 Canonical prompt controls:
@@ -31,6 +31,16 @@ restaurant-rubric/phase-4-worker-prompt.md:49:If this batch has more than 15 can
 Original-worker repair controls:
 36:1. **Original worker first when available:** message or resume the worker recorded on the venue. Request patches only for named venues and defects. Preserve already accepted fields.
 38:3. **Fresh worker fallback:** use a new worker only when the runtime cannot message or resume the original, the original failed or timed out, repeated repair still violates the contract, or independent conflict verification is required.
+Targeted discovery controls:
+32:3. Run both the broad popularity head and combined intent queries. At minimum, use the local equivalents of `best [category] [place]`, `best scratch [category] [place]`, `best artisan/chef-led/baker-led [category] [place]`, and `new [category] [place]`, then adapt rather than forcing English terms. The broad query catches venues whose public copy never says “scratch”; the combined queries catch explicit matches.
+33:4. Include local-language and local-script queries whenever those languages or scripts matter in the market.
+Operational scoring controls:
+restaurant-rubric/phase-6-scoring.md:219:## Operational decision invariants (moved from v8.2–v8.7)
+restaurant-rubric/phase-6-scoring.md:222:- **Service format is orthogonal to production.** Counter service, takeaway, delivery, breakfast/lunch-only operation, market stalls, and informal rooms remain eligible; only accepted production evidence determines the scratch decision.
+restaurant-rubric/phase-6-scoring.md:224:- **Rating exhaustion is terminal, not negative.** A scratch-verified restaurant whose rating is `exhausted-unavailable` after the required search trail goes to the explicit **scratch-verified, rating-unconfirmed** tier. It is surfaced with that caveat, neither silently dropped nor promoted into a rating-gated tier. Estimated or unverified ratings remain non-terminal.
+bakery-rubric/phase-6-scoring.md:239:## Operational decision invariants (moved from v8.2–v8.7)
+bakery-rubric/phase-6-scoring.md:242:- **Specialist production remains eligible.** A chocolate, dessert, confectionery, or single-item label does not disqualify a producer making technically serious pastry, laminated dough, chocolate, or confectionery on site. Retailing only finished or resold goods may be out of scope only when positive evidence establishes that fact.
+bakery-rubric/phase-6-scoring.md:244:- **Rating exhaustion is terminal, not negative.** A scratch-verified bakery whose rating is `exhausted-unavailable` after the required search trail goes to the explicit **scratch-verified, rating-unconfirmed** tier. It is surfaced with that caveat, neither silently dropped nor promoted into a rating-gated tier. Estimated or unverified ratings remain non-terminal.
 Obsolete discovery contradiction scan: clean
 Placeholder scan: clean
 Formatting of newly authored operational files:
