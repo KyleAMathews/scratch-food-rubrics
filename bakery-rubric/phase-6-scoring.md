@@ -236,6 +236,14 @@ Foreign-market run. **Dominant marker = hand-stretched phyllo** (P≈0.90) — b
 
 ---
 
+## Operational decision invariants (moved from v8.2–v8.7)
+
+- **Positive evidence only for disqualification.** Valid adverse evidence includes a frozen/par-bake chain confirmed by its domain or documentation, an opened source confirming frozen or commissary production, resale rather than production, or a permanently closed venue. A directory label, missing tag, missing jargon, service format, product breadth by itself, or an all-day schedule by itself is not a disqualifier.
+- **Specialist production remains eligible.** A chocolate, dessert, confectionery, or single-item label does not disqualify a producer making technically serious pastry, laminated dough, chocolate, or confectionery on site. Retailing only finished or resold goods may be out of scope only when positive evidence establishes that fact.
+- **Per-number provenance remains mandatory.** Treat every S, I, E, R, and price value as documented, estimated, or unverified. Reader-facing rated tiers require documented R and an S decision grounded in accepted evidence.
+- **Rating exhaustion is terminal, not negative.** A scratch-verified bakery whose rating is `exhausted-unavailable` after the required search trail goes to the explicit **scratch-verified, rating-unconfirmed** tier. It is surfaced with that caveat, neither silently dropped nor promoted into a rating-gated tier. Estimated or unverified ratings remain non-terminal.
+- **Conflicts remain visible.** Preserve each literal rating, count, source, and date; prefer a direct source when resolving under the rating hierarchy, flag material discrepancies, and never synthesize a rating.
+
 ## Phase 6 completion gate
 
 - [ ] Every candidate decision cites accepted evidence.

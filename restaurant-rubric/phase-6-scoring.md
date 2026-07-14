@@ -216,6 +216,14 @@ Filtered (S<60): Pacific Catch, Crepevine (chains).
 
 ---
 
+## Operational decision invariants (moved from v8.2–v8.7)
+
+- **Positive evidence only for disqualification.** Valid adverse evidence includes a chain confirmed by domain or documentation, an opened menu or source showing assembly, reheating, frozen commodity inputs, commissary production, or a genuinely wet-led venue with only confirmed bar snacks. A missing tag, unfamiliar cuisine, directory label, popularity, or absent process jargon is not a disqualifier.
+- **Service format is orthogonal to production.** Counter service, takeaway, delivery, breakfast/lunch-only operation, market stalls, and informal rooms remain eligible; only accepted production evidence determines the scratch decision.
+- **Per-number provenance remains mandatory.** Treat every S, I, E, R, and price value as documented, estimated, or unverified. Reader-facing rated tiers require documented R and an S decision grounded in accepted evidence.
+- **Rating exhaustion is terminal, not negative.** A scratch-verified restaurant whose rating is `exhausted-unavailable` after the required search trail goes to the explicit **scratch-verified, rating-unconfirmed** tier. It is surfaced with that caveat, neither silently dropped nor promoted into a rating-gated tier. Estimated or unverified ratings remain non-terminal.
+- **Conflicts remain visible.** Preserve each literal rating, count, source, and date; prefer a direct source when resolving under the rating hierarchy, flag material discrepancies, and never synthesize a rating.
+
 ## Phase 6 completion gate
 
 - [ ] Every candidate decision cites accepted evidence.
