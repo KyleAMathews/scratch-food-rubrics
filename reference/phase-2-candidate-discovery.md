@@ -29,8 +29,9 @@ Build a union. Broad survey protects the obscure long tail; targeted search prot
    - locally important cuisines, bakery traditions, and service formats;
    - specialists, marker items, and production techniques from the category reference;
    - recent openings, new or renamed venues, relocations, pop-ups, markets, cottage/preorder, and informal formats where locally relevant.
-3. Include local-language and local-script queries whenever those languages or scripts matter in the market.
-4. Record exact queries and result sources. Search rank and “best” inclusion create candidates only; they never qualify a venue.
+3. Run both the broad popularity head and combined intent queries. At minimum, use the local equivalents of `best [category] [place]`, `best scratch [category] [place]`, `best artisan/chef-led/baker-led [category] [place]`, and `new [category] [place]`, then adapt rather than forcing English terms. The broad query catches venues whose public copy never says “scratch”; the combined queries catch explicit matches.
+4. Include local-language and local-script queries whenever those languages or scripts matter in the market.
+5. Record exact queries and result sources. Search rank and “best” inclusion create candidates only; they never qualify a venue.
 
 ## Track C — Visible-head challenge (MUST run)
 

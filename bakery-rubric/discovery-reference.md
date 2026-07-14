@@ -6,6 +6,21 @@
 
 Survey bakery, pastry, and confectionery tags plus locally relevant adjacent categories such as café, chocolate shop, dessert shop, bread shop, tortillería, bagel shop, market stall, cottage/preorder bakery, and regional equivalents. Directory category never decides eligibility. Preserve full tags.
 
+## Executable broad-survey template
+
+Use the Phase 1 polygon or box; never silently substitute a smaller boundary. With a bounding box:
+
+```bash
+BBOX="south,west,north,east"
+Q='[out:json][timeout:120];(nwr["shop"~"^(bakery|pastry|confectionery)$"]('"$BBOX"');nwr["cuisine"~"bakery|pastry|dessert",i]('"$BBOX"'););out center tags;'
+for ep in https://overpass-api.de/api/interpreter https://overpass.kumi.systems/api/interpreter https://overpass.osm.ch/api/interpreter; do
+  curl -sS --max-time 120 -A "scratch-food-rubrics/8.9 (research)" "$ep" --data-urlencode "data=$Q" -o bakery-candidates.json
+  python3 -c 'import json; json.load(open("bakery-candidates.json"))' 2>/dev/null && break
+done
+```
+
+For an administrative polygon, replace each `($BBOX)` selector with `(area.a)` after the Phase 1 `map_to_area->.a` statement. Verify valid JSON and record the returned element count. Expand the query with locally relevant adjacent tags rather than treating this minimal template as complete.
+
 ## Adaptive targeted families
 
 Generate locally natural, local-language and local-script variants for bakery, bread, patisserie, boulangerie, viennoiserie, pastry, panadería, tortillería, bagel, laminated pastry, sourdough/natural leavening, house-made phyllo, chocolatier/bonbon production, gluten-free craft bakery, microbakery, baker-owned, artisan, scratch/from raw ingredients, best/top/award/guide, recent opening, and the market’s own traditions. Combine them with every sub-area. This English list seeds concepts; it is not a literal universal query list.

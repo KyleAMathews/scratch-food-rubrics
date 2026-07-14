@@ -6,6 +6,21 @@
 
 Survey restaurant, café, and fast-food tags and, where locally relevant, food-serving pubs and bars, inns, market stalls, food halls, pop-ups, and informal or preorder operations. Retain full tags. Service format is orthogonal to scratch: counter, takeaway, delivery, lunch-only, and rural-inn formats stay discoverable. Route a primary bakery-café to the bakery skill; a restaurant that bakes bread remains a restaurant.
 
+## Executable broad-survey template
+
+Use the Phase 1 polygon or box; never silently substitute a smaller boundary. With a bounding box:
+
+```bash
+BBOX="south,west,north,east"
+Q='[out:json][timeout:120];nwr["amenity"~"^(restaurant|cafe|fast_food|pub|bar)$"]('"$BBOX"');out center tags;'
+for ep in https://overpass-api.de/api/interpreter https://overpass.kumi.systems/api/interpreter https://overpass.osm.ch/api/interpreter; do
+  curl -sS --max-time 120 -A "scratch-food-rubrics/8.9 (research)" "$ep" --data-urlencode "data=$Q" -o restaurant-candidates.json
+  python3 -c 'import json; json.load(open("restaurant-candidates.json"))' 2>/dev/null && break
+done
+```
+
+For an administrative polygon, replace `($BBOX)` with `(area.a)` after the Phase 1 `map_to_area->.a` statement. Verify valid JSON and record the returned element count. Pubs and bars are candidates only when food service is plausible; retain their full tags and resolve them from positive evidence rather than tag absence. Add locally relevant market, stall, food-hall, or other sources outside OSM as required.
+
 ## Adaptive targeted families
 
 Generate locally natural, local-language and local-script variants for restaurant, scratch, house-made, production from raw ingredients, chef-owned or chef-led, seasonal or daily-changing, farm-to-table and local sourcing, tasting menu, ambitious or creative cooking, best/top/award/guide, rare regional cuisine, recent opening, local techniques and formats, and serious traditional cooking. Combine them with every sub-area. This English list seeds concepts; it is not a literal universal query list.
