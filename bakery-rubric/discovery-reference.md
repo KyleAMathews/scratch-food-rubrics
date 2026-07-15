@@ -23,7 +23,7 @@ For an administrative polygon, replace each `($BBOX)` selector with `(area.a)` a
 
 ## Adaptive targeted families
 
-Generate locally natural, local-language and local-script variants for bakery, bread, patisserie, boulangerie, viennoiserie, pastry, panadería, tortillería, bagel, laminated pastry, sourdough/natural leavening, house-made phyllo, chocolatier/bonbon production, gluten-free craft bakery, microbakery, baker-owned, artisan, scratch/from raw ingredients, best/top/award/guide, recent opening, and the market’s own traditions. Combine them with every sub-area. This English list seeds concepts; it is not a literal universal query list.
+Generate locally natural, local-language and local-script variants for bakery, bread, patisserie, boulangerie, viennoiserie, pastry, panadería, tortillería, bagel, laminated pastry, sourdough/natural leavening, house-made phyllo, chocolatier/bonbon production, gluten-free craft bakery, microbakery, baker-owned, artisan, scratch/from raw ingredients, best/top/award/guide, recent opening, and the market’s own traditions. Combine them with every sub-area. Explicitly expand filled-pastry and cultural-tradition synonym families when locally plausible—for example empanada, pastelito, kolache, burek, meat pie, hand pie, samosa, ensaymada, and pandesal—plus local-language and local-script equivalents. These are discovery terms, not automatic bakery eligibility. This English list seeds concepts; it is not a literal universal query list.
 
 ## Marker-item seed search (bakery)
 

@@ -21,6 +21,22 @@ Inspect every venue, not a sample and not merely row counts. For each required f
 
 A generic adjective such as `artisan`, `homemade`, `authentic`, `fresh`, or `traditional` is a quotation but not production evidence. Preserve it without promoting it.
 
+## Identity-first direct-place rating verification
+
+Before any rating is accepted or declared exhausted, build an identity tuple: canonical name, aliases, exact address, phone, branch, category, and storefront or service-area status. Then:
+
+1. Open the direct platform place record and query exact name; name + exact address; alias + address or phone; and, for service-area producers, name + locality.
+2. Record the returned identity, category, literal rating, count, stable place ID, exact query, URL, and access date.
+3. Identity-gate the result before attaching it to the candidate. Classify each checked platform as `exact-rated`, `exact-no-rating`, `no-exact-record`, or `identity-conflict`.
+4. If an exact record has no rating, run a secondary exact-identity rating search. Check current operating status separately; never infer status from rating presence.
+5. `exhausted-unavailable` is valid only after the full query, identity, and rejection log is complete. Immediately before Phase 8, rerun this sweep for every scratch-verified, rating-unconfirmed candidate.
+
+A generic web query described as “Google/Maps-oriented” is not a direct-place check.
+
+## Evidence scope for branch families
+
+Label reusable evidence `company-wide`; label address, hours, rating, availability, production, or menu evidence `branch-specific` or `store-local` as appropriate. `historical` and `factory` are separate scopes. Company-wide evidence may be referenced from multiple branch records rather than copied, but it cannot establish a branch-specific fact. Preserve distinct candidate IDs and require branch-local identity and rating verification.
+
 ## Defect list
 
 For every non-accepted venue, write concrete defects keyed by field, for example:

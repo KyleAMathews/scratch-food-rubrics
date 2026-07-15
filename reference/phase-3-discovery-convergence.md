@@ -13,6 +13,7 @@ Read `shared-status-and-provenance.md` in full immediately before executing this
 3. Merge true duplicates into one canonical row while preserving every discovery source and query.
 4. Keep distinct branches separate where production may differ.
 5. Record closures, renames, relocations, and successors as identity facts only. Phase 6 owns decisions.
+6. For branch families, create one shared brand packet plus distinct branch rows. Tag reusable facts `company-wide`; tag address, hours, rating, availability, production, or menu facts `branch-specific` or `store-local`; keep `historical` and `factory` scopes separate. Company-wide facts may be referenced, not duplicated, and never substitute for branch-local verification.
 
 ## Coverage grid
 

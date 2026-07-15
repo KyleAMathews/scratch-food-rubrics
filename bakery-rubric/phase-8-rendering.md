@@ -73,6 +73,16 @@ Decision rule: filter {R ≥ 4.3 ∧ S ≥ 55}, rank by **G = √(S × I)**.
 
 ---
 
+## Rating-unconfirmed and current-access presentation
+
+After the rated occasion lists, render a separate, visible, unranked **Scratch-verified, rating-unconfirmed** section. Include every candidate with accepted scratch evidence whose rating remains terminally unavailable after the identity-first sweep. State that omission from rated rankings reflects missing rating evidence, not a negative quality judgment.
+
+For every otherwise eligible producer record:
+- **Access format:** `storefront`, `recurring market`, `active preorder`, `service-area/delivery`, `wholesale/stockist`, `home microbakery`, or `unknown`.
+- **Current acquisition evidence:** `walk-in active`, `drop active`, `preorder active`, `hiatus`, `closed`, `conflicting`, or `unverified`, with latest dated source.
+- Main “go here” occasion lists require a stable current acquisition path. Immediately before rendering, recheck intermittent, preorder, market, service-area, and microbakery producers.
+- Keep craft scores unchanged when access is unstable. Put `hiatus`, `conflicting`, `unverified`, and irregular/non-walk-in producers without a currently verified purchase path in a separate **availability-sensitive watchlist**, with the last known way to buy and date. Do not present them as spontaneous walk-in recommendations.
+
 ## Coverage statement
 
 Report broad-survey count, targeted additions, deduplicated union, coverage-audit additions, last-pass yield, and precise limitations. Never call processed OSM rows a complete real-world census.

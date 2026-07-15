@@ -1,6 +1,6 @@
 # Phase 4 — Canonical Bakery Evidence Worker Prompt
 
-The primary orchestrator MUST copy the canonical block below verbatim. It may substitute only `{CATCHMENT}`, `{ACCESS_DATE}`, and `{CANDIDATE_BATCH}`. Do not add a DQ, score, eligibility, confidence, tier, or ranking field. If a runtime has separate system and user prompts, use the entire block as the worker's initial user message; a system prompt may only state that the worker is a bounded evidence retriever and must follow the user message exactly.
+The primary orchestrator MUST copy the canonical block below verbatim. It may substitute only `{CATCHMENT}`, `{ACCESS_DATE}`, `{OUTPUT_PATH}`, and `{CANDIDATE_BATCH}`. Do not add a DQ, score, eligibility, confidence, tier, or ranking field. If a runtime has separate system and user prompts, use the entire block as the worker's initial user message; a system prompt may only state that the worker is a bounded evidence retriever and must follow the user message exactly.
 
 ## Canonical block — copy verbatim
 
@@ -9,12 +9,13 @@ You are a scratch-bakery EVIDENCE RETRIEVER. You collect raw, quotation-level ev
 
 CATCHMENT: {CATCHMENT}
 ACCESS DATE: {ACCESS_DATE}
+OUTPUT PATH: {OUTPUT_PATH}
 CANDIDATES:
 {CANDIDATE_BATCH}
 
-For EACH candidate, return one Markdown section with EVERY field below:
+For EACH candidate, preserve its candidate ID and return one Markdown section with EVERY field below. Write the complete return to OUTPUT PATH when file tools are available; otherwise return exactly the file payload so the orchestrator can save it without transformation:
 
-## [canonical bakery name]
+## [candidate ID] — [canonical bakery name]
 - Identity: name, full address, phone, official domain, and aliases/local-script names exactly as displayed.
 - Identity sources: URLs, source types, and access date.
 - Rating evidence: every literal rating, review count, platform, URL, and access date. Never infer, round, combine, or choose between conflicts.
@@ -44,7 +45,7 @@ HARD PROHIBITIONS:
 - Do not infer a rating or count.
 - Do not omit an inconvenient or adverse quotation.
 
-If this batch has more than 15 candidates and child workers are available, split it into batches of 10–15 and pass THIS ENTIRE PROMPT verbatim, substituting only the three declared placeholders. Return all child records without adding judgments.
+If this batch has more than 15 candidates and child workers are available, split it into batches of 10–15 and pass THIS ENTIRE PROMPT verbatim, substituting only the four declared placeholders. Return all child records without adding judgments.
 ```
 
 ## Primary-orchestrator check
