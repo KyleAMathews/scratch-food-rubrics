@@ -2,6 +2,38 @@
 
 This file defines the shared ledger vocabulary for both food rubrics. Category scoring semantics remain in each category's Phase 6 file.
 
+## Run workspace (mandatory)
+
+Phase 1 creates exactly one dedicated directory for the run in the agent's current working directory:
+
+```text
+<YYYY-MM-DD>-<location-slug>/
+```
+
+Use the agent's local current date and a filesystem-safe slug derived from the user's requested location. Preserve enough geography to disambiguate the place (for example, `2026-07-14-salt-lake-valley-utah`). Lowercase, collapse whitespace and punctuation to hyphens, trim repeated hyphens, and retain Unicode characters when transliteration would lose identity. If that directory already exists, create `-2`, then `-3`, and so on. **Never reuse or overwrite a prior run directory.**
+
+Every durable artifact produced during the run MUST live inside this directory. Temporary tool files may use system temporary storage only while a command runs; copy any evidence, result, log, or data needed later into the run directory immediately. Do not scatter run files through the repository or current working directory.
+
+The standard layout is:
+
+```text
+<run-directory>/
+├── 00-run-manifest.md
+├── 01-scope.md
+├── 02-discovery-ledger.md
+├── 02-query-log.md
+├── 02-source-data/
+├── 03-candidate-ledger.md
+├── 04-worker-returns/
+├── 05-evidence-ledger.md
+├── 05-repair-log.md
+├── 06-decisions.md
+├── 07-coverage-audit.md
+└── 08-results.md
+```
+
+A phase may add clearly named supporting files under the same directory, but it MUST NOT rename or omit the standard artifact for that phase. All phase files refer to this path as `{RUN_DIR}`.
+
 ## Non-negotiable semantics
 
 - Missing evidence is a research state, never evidence against scratch production.

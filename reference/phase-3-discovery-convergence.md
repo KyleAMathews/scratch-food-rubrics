@@ -4,7 +4,7 @@ Read `shared-status-and-provenance.md` in full immediately before executing this
 
 ## Input
 
-The Phase 2 candidate union and query/source log, plus the Phase 1 scope record.
+`{RUN_DIR}/02-discovery-ledger.md`, `{RUN_DIR}/02-query-log.md`, and `{RUN_DIR}/01-scope.md`.
 
 ## Normalize and deduplicate
 
@@ -34,7 +34,7 @@ An empty cell is not proof that a venue exists. It triggers one targeted gap que
 3. Repeat until one complete pass yields zero new in-scope candidates, or a named source/access limitation prevents another pass.
 4. Freeze the set for evidence research while allowing Phase 7 to reopen it later.
 
-Do not use “complete census.” Describe the source convergence actually achieved.
+Do not use “complete census.” Describe the source convergence actually achieved. Write the canonical, deduplicated, frozen ledger to `{RUN_DIR}/03-candidate-ledger.md`, including aliases and all discovery provenance. Update the manifest to `phase-3-complete` only after the gate passes.
 
 ## Completion gate
 
@@ -45,4 +45,5 @@ Do not use “complete census.” Describe the source convergence actually achie
 - [ ] Empty or suspicious cells received a query or explanation.
 - [ ] Last complete gap-pass yield is reported.
 - [ ] Last pass yielded zero new candidates, or a precise source/access limitation is recorded.
-- [ ] Frozen candidate IDs are listed or linked.
+- [ ] Frozen candidate IDs are in `03-candidate-ledger.md`.
+- [ ] Every Phase 3 artifact is inside `{RUN_DIR}`.

@@ -45,7 +45,7 @@ Before advancing, run the printed completion gate, mark every item `✅` or `❌
 
 ## Phase map
 
-1. **Scope and catchment** Read `../reference/phase-1-scope-and-catchment.md`.
+1. **Scope, run directory, and catchment** Read `../reference/phase-1-scope-and-catchment.md`. Before any research, create the unique `<YYYY-MM-DD>-<location-slug>` run directory and manifest; every later artifact stays there.
 2. **Candidate discovery** Read `../reference/phase-2-candidate-discovery.md` and `discovery-reference.md`. Run broad, targeted, visible-head, multilingual, adjacent-category, and marker-item discovery.
 3. **Discovery convergence** Read `../reference/phase-3-discovery-convergence.md`. Union, normalize, deduplicate, inspect gaps, and require a zero-new-candidate pass or a precise limitation.
 4. **Evidence research** Read `../reference/phase-4-evidence-research.md` and `phase-4-worker-prompt.md`. Dispatch the canonical prompt verbatim.
@@ -63,5 +63,6 @@ Before advancing, run the printed completion gate, mark every item `✅` or `❌
 - No product noun alone treated as process evidence.
 - No final occasion matrix or ranked shortlist before the Phase 7 gate passes.
 - No permission-seeking handoff of unfinished candidates.
+- No durable run artifact outside the Phase 1 `{RUN_DIR}` and no reuse or overwrite of an earlier run directory.
 
 Begin with Phase 1 for the location supplied by the user.

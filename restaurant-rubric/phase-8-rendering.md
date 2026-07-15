@@ -74,6 +74,10 @@ Rule of thumb: an external summary should read like a knowledgeable friend's rec
 
 Report broad-survey count, targeted additions, deduplicated union, coverage-audit additions, last-pass yield, and precise limitations. Never call processed OSM rows a complete real-world census.
 
+## Phase 8 artifact
+
+Write the final reader-facing result to `{RUN_DIR}/08-results.md`. Any generated HTML, PDF, export, or sharing payload MUST also live inside `{RUN_DIR}`. Update `00-run-manifest.md` to `complete` with links to every standard artifact.
+
 ## Phase 8 completion gate
 
 - [ ] All prior phase gates passed.

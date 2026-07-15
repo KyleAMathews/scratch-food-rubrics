@@ -4,7 +4,7 @@ Read `shared-status-and-provenance.md` and the invoked category's `phase-4-worke
 
 ## Input
 
-Every raw Phase 4 return and the candidate ledger with original worker references.
+Every raw return under `{RUN_DIR}/04-worker-returns/` and `{RUN_DIR}/03-candidate-ledger.md` with original worker references.
 
 ## Semantic acceptance review (primary orchestrator only)
 
@@ -41,6 +41,8 @@ For every non-accepted venue, write concrete defects keyed by field, for example
 6. `exhausted-unavailable` is terminal only after the category prompt's required source sequence is demonstrated in the search trail.
 7. Review every patch again. A patch is not self-accepting.
 
+Write accepted evidence and per-field states to `{RUN_DIR}/05-evidence-ledger.md`. Append every defect, repair message, worker response reference, conflict action, and acceptance result to `{RUN_DIR}/05-repair-log.md`. Update the manifest to `phase-5-complete` only after the gate passes.
+
 ## Completion gate
 
 - [ ] Every returned record was inspected semantically by the primary orchestrator.
@@ -52,3 +54,4 @@ For every non-accepted venue, write concrete defects keyed by field, for example
 - [ ] Every exhausted field has the required source and query trail.
 - [ ] No `product-only`, thin, conflicting, unsearched, or worker-verdict row is treated as scoring evidence.
 - [ ] Every candidate is `evidence-accepted` or legitimately `evidence-exhausted-unavailable`.
+- [ ] `05-evidence-ledger.md` and `05-repair-log.md` contain the complete Phase 5 history inside `{RUN_DIR}`.

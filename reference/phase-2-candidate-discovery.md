@@ -4,7 +4,7 @@ Read `shared-status-and-provenance.md` and the invoked category's `discovery-ref
 
 ## Input
 
-The completed Phase 1 scope record and the category discovery reference named by the root skill.
+`{RUN_DIR}/00-run-manifest.md`, `{RUN_DIR}/01-scope.md`, and the category discovery reference named by the root skill.
 
 ## Purpose
 
@@ -37,6 +37,13 @@ Build a union. Broad survey protects the obscure long tail; targeted search prot
 
 Check the market's reputable local food publications, major place-directory results, relevant guides and awards, local roundups, and recent-opening coverage. Add every in-scope venue not already present. This track prevents omission of a widely known venue that broad map data missed.
 
+## Required artifacts
+
+- Save every raw broad-survey response, exported list, and other source data under `{RUN_DIR}/02-source-data/`.
+- Write each exact query, language/script, source URL, retrieval time, result count, and candidates added to `{RUN_DIR}/02-query-log.md`.
+- Maintain the source-union rows in `{RUN_DIR}/02-discovery-ledger.md`.
+- Update `00-run-manifest.md` to `phase-2-complete` only after the gate passes.
+
 ## Candidate handling
 
 - Add every in-scope lead to the candidate ledger as `candidate-discovered`.
@@ -53,3 +60,4 @@ Check the market's reputable local food publications, major place-directory resu
 - [ ] Category-specific marker and specialist queries from the discovery reference ran.
 - [ ] Every in-scope result entered the ledger with source and query provenance.
 - [ ] Counts by track are reported; no qualification or scoring occurred.
+- [ ] `02-discovery-ledger.md`, `02-query-log.md`, and reusable raw source data exist under `{RUN_DIR}`; no Phase 2 artifact is outside it.

@@ -64,6 +64,40 @@ PRESERVED: bakery-rubric/SKILL.md sharing
 PRESERVED: restaurant-rubric/SKILL.md sharing
 ```
 
+## Run-workspace audit
+
+```text
+Sandbox: /var/folders/m3/r413t_qj4kxg1mdnmk1zb8q80000gn/T/tmp.mDo5djZ0an
+.
+./2026-07-14-salt-lake-valley-utah
+./2026-07-14-salt-lake-valley-utah-2
+./2026-07-14-salt-lake-valley-utah-2/00-run-manifest.md
+./2026-07-14-salt-lake-valley-utah-2/01-scope.md
+./2026-07-14-salt-lake-valley-utah-2/02-discovery-ledger.md
+./2026-07-14-salt-lake-valley-utah-2/02-query-log.md
+./2026-07-14-salt-lake-valley-utah-2/02-source-data
+./2026-07-14-salt-lake-valley-utah-2/03-candidate-ledger.md
+./2026-07-14-salt-lake-valley-utah-2/04-worker-returns
+./2026-07-14-salt-lake-valley-utah-2/05-evidence-ledger.md
+./2026-07-14-salt-lake-valley-utah-2/05-repair-log.md
+./2026-07-14-salt-lake-valley-utah-2/06-decisions.md
+./2026-07-14-salt-lake-valley-utah-2/07-coverage-audit.md
+./2026-07-14-salt-lake-valley-utah-2/08-results.md
+./2026-07-14-salt-lake-valley-utah/00-run-manifest.md
+./2026-07-14-salt-lake-valley-utah/01-scope.md
+./2026-07-14-salt-lake-valley-utah/02-discovery-ledger.md
+./2026-07-14-salt-lake-valley-utah/02-query-log.md
+./2026-07-14-salt-lake-valley-utah/02-source-data
+./2026-07-14-salt-lake-valley-utah/03-candidate-ledger.md
+./2026-07-14-salt-lake-valley-utah/04-worker-returns
+./2026-07-14-salt-lake-valley-utah/05-evidence-ledger.md
+./2026-07-14-salt-lake-valley-utah/05-repair-log.md
+./2026-07-14-salt-lake-valley-utah/06-decisions.md
+./2026-07-14-salt-lake-valley-utah/07-coverage-audit.md
+./2026-07-14-salt-lake-valley-utah/08-results.md
+PASS: unique date-location directories, collision suffix, and standard artifacts
+```
+
 ## Tabletop regressions
 
 | Scenario                                          | Required route                                                                       | Result |
@@ -80,6 +114,8 @@ PRESERVED: restaurant-rubric/SKILL.md sharing
 | Late candidate appears in coverage audit          | Phase 7 loops it through Phases 4–6 and repeats                                      | PASS   |
 | Attempt to render with unfinished tail            | Root hard stop and Phase 8 prerequisite forbid output                                | PASS   |
 | OSM processed but targeted pass skipped           | Phase 2 and Phase 7 gates fail                                                       | PASS   |
+| Two runs target the same location on one date     | Phase 1 creates date-location then a numeric suffix; neither run is overwritten      | PASS   |
+| A later phase produces a durable artifact         | It writes the standard file under the manifest's `{RUN_DIR}`                         | PASS   |
 
 ## Preservation conclusion
 

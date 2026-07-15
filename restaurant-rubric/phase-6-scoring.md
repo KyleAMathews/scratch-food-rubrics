@@ -224,6 +224,10 @@ Filtered (S<60): Pacific Catch, Crepevine (chains).
 - **Rating exhaustion is terminal, not negative.** A scratch-verified restaurant whose rating is `exhausted-unavailable` after the required search trail goes to the explicit **scratch-verified, rating-unconfirmed** tier. It is surfaced with that caveat, neither silently dropped nor promoted into a rating-gated tier. Estimated or unverified ratings remain non-terminal.
 - **Conflicts remain visible.** Preserve each literal rating, count, source, and date; prefer a direct source when resolving under the rating hierarchy, flag material discrepancies, and never synthesize a rating.
 
+## Phase 6 artifact
+
+Write every orchestrator decision, supporting evidence reference, score and provenance, disqualification rationale, conflict resolution, tier, tie, scarcity, occasion, and confidence decision to `{RUN_DIR}/06-decisions.md`. Do not write decisions into worker-return files. Update `00-run-manifest.md` to `phase-6-complete` only after the gate passes.
+
 ## Phase 6 completion gate
 
 - [ ] Every candidate decision cites accepted evidence.

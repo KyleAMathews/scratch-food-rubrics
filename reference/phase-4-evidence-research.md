@@ -4,7 +4,7 @@ Read `shared-status-and-provenance.md` and the invoked category's `phase-4-worke
 
 ## Input
 
-The frozen candidate ledger and the exact category worker-prompt file named by the root skill.
+`{RUN_DIR}/03-candidate-ledger.md` and the exact category worker-prompt file named by the root skill.
 
 ## Primary-agent responsibility
 
@@ -25,6 +25,13 @@ The primary agent remains the orchestrator. Workers are bounded evidence retriev
 
 Never ask a worker to apply the rubric, score, rank, decide eligibility, assign DQ, label scratch/par-bake/assembly, reason about scarcity, route occasions, assign final confidence, or render recommendations.
 
+## Artifact handling
+
+- Give workers `{RUN_DIR}` only as an output destination when they can write files; otherwise the orchestrator saves their returned message there.
+- Save each raw, unedited return under `{RUN_DIR}/04-worker-returns/` with a stable filename containing batch ID and worker reference.
+- Record dispatch time, candidate IDs, worker reference, prompt-version/category, return filename, and status in `{RUN_DIR}/04-worker-returns/index.md`.
+- Never let a worker write elsewhere in the project.
+
 ## Return handling
 
 - Store raw returns without silently correcting them.
@@ -40,3 +47,4 @@ Never ask a worker to apply the rubric, score, rank, decide eligibility, assign 
 - [ ] Every candidate has a returned record.
 - [ ] No worker was asked to judge, score, DQ, rank, or render.
 - [ ] Returned count equals frozen candidate count; acceptance has not been claimed.
+- [ ] Every raw return and dispatch index entry is under `{RUN_DIR}/04-worker-returns/`; no Phase 4 artifact is outside the run directory.

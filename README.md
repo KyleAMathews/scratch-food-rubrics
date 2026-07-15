@@ -34,7 +34,7 @@ It uses the same S/I/R structure, tuned for bakery signals such as lamination, b
 
 The primary agent stays in charge for the entire run and loads each phase's instructions immediately before executing it:
 
-1. **Scope:** Define the actual local catchment and its limits.
+1. **Create the run workspace and scope:** Create a unique `<YYYY-MM-DD>-<location-slug>/` directory, then define the actual local catchment and its limits. Every ledger, source export, worker return, decision, audit, and result for that run stays inside this directory.
 2. **Discover broadly:** Survey OpenStreetMap or another popularity-neutral place index.
 3. **Discover deliberately:** Run adaptive local-language searches for prominent, scratch-focused, ambitious, specialist, new, renamed, and poorly tagged venues.
 4. **Converge:** Union and deduplicate candidates, inspect neighborhood, language, and category gaps, and require a no-new-candidate pass.
@@ -44,6 +44,8 @@ The primary agent stays in charge for the entire run and loads each phase's inst
 8. **Output:** Results are organized by foodie occasions, rare finds, and an audit ranking, with honest discovery limits.
 
 Broad and targeted discovery are complementary. Map enumeration protects obscure specialists from popularity bias; targeted searches recover prominent, new, renamed, unlisted, and category-adjacent venues that map data misses.
+
+Each run is self-contained. Repeating a location on the same date creates a suffixed directory such as `2026-07-14-salt-lake-valley-2`; prior runs are never reused or overwritten.
 
 ## Key Concepts
 

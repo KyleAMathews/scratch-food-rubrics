@@ -363,6 +363,10 @@ Because the deliverables are instruction files, validation is structural and sem
 9. Tabletop the diary's regression scenarios against the phase gates.
 10. Confirm rendering remains impossible until all gates have closed.
 
+## Post-implementation amendment: per-run workspace
+
+Every invocation creates a unique, self-contained run directory in Phase 1 before any research: `<YYYY-MM-DD>-<location-slug>/`. A same-day repeat uses `-2`, `-3`, and so on; prior runs are never reused or overwritten. The manifest, scope, query log, raw source data, candidate ledger, worker returns, evidence and repair ledgers, decisions, coverage audit, final results, and generated exports all live within that directory. Every later phase consumes and updates these standard artifacts through the authoritative `{RUN_DIR}` recorded in `00-run-manifest.md`.
+
 ## Out of scope
 
 - Changing the rubric or recalibrating scores.
