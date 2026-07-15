@@ -89,7 +89,7 @@ Report broad-survey count, targeted additions, deduplicated union, coverage-audi
 
 ## Phase 8 artifact
 
-Write the final reader-facing result to `{RUN_DIR}/08-results.md`. Any generated HTML, PDF, export, or sharing payload MUST also live inside `{RUN_DIR}`. Update `00-run-manifest.md` to `complete` with links to every standard artifact.
+Write the final reader-facing result to `{RUN_DIR}/08-results.md`. Any generated HTML, PDF, export, or sharing payload MUST also live inside `{RUN_DIR}`. For every generated HTML or PDF export, inspect the rendered pages visually—not only compilation or extracted text. Check for overlap, clipping, illegible wrapping, and broken pagination. Split or redesign any long table or disclosure block that cannot paginate cleanly, then inspect the regenerated export. Update `00-run-manifest.md` to `complete` with links to every standard artifact.
 
 ## Phase 8 completion gate
 
@@ -97,6 +97,9 @@ Write the final reader-facing result to `{RUN_DIR}/08-results.md`. Any generated
 - [ ] Every reader-facing claim rests on accepted evidence.
 - [ ] Occasion, rare-find, tie, audit, timing, and plain-language rules above were followed.
 - [ ] Discovery limitations are stated at the source-convergence level.
+- [ ] Access format and current acquisition evidence are shown for every otherwise eligible producer; unstable or unverified paths are routed to the availability-sensitive watchlist.
+- [ ] The pre-render direct-place rating rerun is reflected in the rated lists and the visible rating-unconfirmed section.
+- [ ] Every generated HTML/PDF export received rendered-page visual inspection; long tables and disclosure blocks paginate without overlap or clipping.
 
 ## Sharing Results
 

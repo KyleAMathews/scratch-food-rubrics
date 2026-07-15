@@ -14,24 +14,28 @@ Inspect every venue, not a sample and not merely row counts. For each required f
 - neutral factual claim fidelity to the quotation;
 - source URL, source type, and access date;
 - required source sequence and search trail;
-- literal rating, count, and platform rather than an assertion;
+- literal rating, literal count or explicit `count-unavailable` state, and platform rather than an assertion;
 - product nouns labeled `product-only` unless separate process, physical, or operational evidence supports more;
 - no worker verdict, score, DQ, eligibility, scarcity, tier, occasion, or final confidence;
-- unavailable fields have a demonstrated search trail rather than a bare “none found.”
+- unavailable fields have a demonstrated search trail rather than a bare “none found”;
+- for bakery runs, access format and current acquisition evidence have literal values, latest dated sources, and no inferred operating status.
 
 A generic adjective such as `artisan`, `homemade`, `authentic`, `fresh`, or `traditional` is a quotation but not production evidence. Preserve it without promoting it.
 
-## Identity-first direct-place rating verification
+## Bakery-only identity-first direct-place rating verification
+
+The following section applies **for bakery runs only**. Restaurant runs use the rating fields and source sequence declared by the restaurant worker prompt; bakery-only direct-place and acquisition requirements MUST NOT reject a restaurant return.
+
 
 Before any rating is accepted or declared exhausted, build an identity tuple: canonical name, aliases, exact address, phone, branch, category, and storefront or service-area status. Then:
 
 1. Open the direct platform place record and query exact name; name + exact address; alias + address or phone; and, for service-area producers, name + locality.
-2. Record the returned identity, category, literal rating, count, stable place ID, exact query, URL, and access date.
-3. Identity-gate the result before attaching it to the candidate. Classify each checked platform as `exact-rated`, `exact-no-rating`, `no-exact-record`, or `identity-conflict`.
+2. Record the returned identity, category, literal rating, literal count or explicit `count-unavailable` state, stable place ID, exact query, URL, and access date.
+3. Identity-gate the result before attaching it to the candidate. Classify each checked platform as `exact-rated`, `exact-rated-count-unavailable`, `exact-no-rating`, `no-exact-record`, or `identity-conflict`. Use `exact-rated-count-unavailable` only when the exact direct record exposes a literal star rating but no literal review count; preserve that absence rather than inventing or rejecting the rating.
 4. If an exact record has no rating, run a secondary exact-identity rating search. Check current operating status separately; never infer status from rating presence.
 5. `exhausted-unavailable` is valid only after the full query, identity, and rejection log is complete. Immediately before Phase 8, rerun this sweep for every scratch-verified, rating-unconfirmed candidate.
 
-A generic web query described as “Google/Maps-oriented” is not a direct-place check.
+A generic web query described as “Google/Maps-oriented” is not a direct-place check. An identity-gated `exact-rated-count-unavailable` result can clear the rating gate using its literal rating; the missing count remains explicit provenance metadata and lowers audit completeness, not the observed rating.
 
 ## Evidence scope for branch families
 
@@ -42,7 +46,7 @@ Label reusable evidence `company-wide`; label address, hours, rating, availabili
 For every non-accepted venue, write concrete defects keyed by field, for example:
 
 - `production`: product noun only; review/local-press process pass absent;
-- `rating`: count or platform missing;
+- `rating`: platform missing, or neither a literal count nor the explicit `exact-rated-count-unavailable` state is recorded;
 - `search_trail`: “none found” lists no sources or queries;
 - `role_boundary`: worker supplied a DQ or score instead of raw facts;
 - `provenance`: quotation lacks URL or access date.
@@ -68,6 +72,8 @@ Write accepted evidence and per-field states to `{RUN_DIR}/05-evidence-ledger.md
 - [ ] Conflicts preserve both claims and received verification.
 - [ ] Every accepted claim has required provenance.
 - [ ] Every exhausted field has the required source and query trail.
+- [ ] For bakery runs, every candidate has a complete identity-first direct-place state and query/identity/rejection log for each checked platform.
+- [ ] For bakery runs, every bakery candidate has accepted access format and current acquisition evidence with its latest dated source; eligibility and presentation routing remain Phase 6 and Phase 8 decisions.
 - [ ] No `product-only`, thin, conflicting, unsearched, or worker-verdict row is treated as scoring evidence.
 - [ ] Every candidate is `evidence-accepted` or legitimately `evidence-exhausted-unavailable`.
 - [ ] `05-evidence-ledger.md` and `05-repair-log.md` contain the complete Phase 5 history inside `{RUN_DIR}`.

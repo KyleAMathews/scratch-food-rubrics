@@ -3,7 +3,7 @@ name: bakery-rubric
 description: Find ambitious bakeries producing from raw components on-site, resist par-bake and discovery bias, and return an evidence-grounded shortlist for a requested location.
 ---
 
-# Scratch-Bakery Scorecard & Travel Prompt (v8.9)
+# Scratch-Bakery Scorecard & Travel Prompt (v8.10)
 
 Find bakeries that are **made from raw components on-site AND interesting to a frequent buyer**. The hidden attribute is production ambition: serious bread, lamination, pâtisserie, chocolate, or locally relevant specialist craft rather than frozen or par-baked inventory finished for display.
 
@@ -21,6 +21,8 @@ Scratch production is the eligibility gate. Interestingness distinguishes surviv
 ## Version line
 
 This skill and the restaurant skill share one version and bump together.
+
+**v8.10:** operational contract hardening; synchronized canonical placeholders and unique leaf-batch outputs; worker-side identity-first direct-place rating and current-access collection; explicit acceptance/rendering gates; pytest-compatible contract validation; and rendered-export visual inspection.
 
 **v8.9:** phased execution; just-in-time phase loading and visible completion gates; mandatory broad-survey plus adaptive multilingual targeted discovery; a canonical verbatim evidence-only worker prompt; semantic return acceptance; original-worker targeted repair when available; orchestrator-only scoring; and a post-score coverage audit. The calibrated rubric is unchanged.
 

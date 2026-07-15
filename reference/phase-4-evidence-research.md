@@ -14,11 +14,11 @@ The primary agent remains the orchestrator. Workers are bounded evidence retriev
 
 1. Split candidates into leaf batches of approximately 10–15 venues.
 2. When parallel workers are available, dispatch independent batches concurrently.
-3. Copy the category prompt's canonical block verbatim. Substitute only `{CATCHMENT}`, `{ACCESS_DATE}`, and `{CANDIDATE_BATCH}`.
+3. Copy the category prompt's canonical block verbatim. Substitute only the placeholders declared by that category prompt: `{CATCHMENT}`, `{ACCESS_DATE}`, and `{CANDIDATE_BATCH}` for restaurants; those three plus `{OUTPUT_PATH}` for bakeries. `{OUTPUT_PATH}` MUST be a unique leaf-batch file under `{RUN_DIR}/04-worker-returns/`, never a directory or a path shared by concurrent workers.
 4. Do not summarize, paraphrase, shorten, improve, or append requirements to the canonical block.
 5. If the runtime separates system and user messages, use the split printed in the category prompt file exactly.
 6. Record each worker reference on every assigned candidate row.
-7. If a worker recursively splits an oversized batch, it passes the same canonical block verbatim and substitutes only the declared placeholders.
+7. Workers MUST NOT recursively split assigned batches. The primary orchestrator alone creates leaf batches. For bakeries, assign each leaf batch a unique worker output path. For restaurants, which have no `{OUTPUT_PATH}` placeholder, assign each leaf batch a unique orchestrator-saved return filename. Never assign concurrent batches to the same artifact.
 8. If subagents are unavailable, execute the same canonical procedure serially. Their absence never permits inference.
 
 ## Forbidden delegation

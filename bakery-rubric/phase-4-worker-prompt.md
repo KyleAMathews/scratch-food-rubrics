@@ -18,9 +18,11 @@ For EACH candidate, preserve its candidate ID and return one Markdown section wi
 ## [candidate ID] — [canonical bakery name]
 - Identity: name, full address, phone, official domain, and aliases/local-script names exactly as displayed.
 - Identity sources: URLs, source types, and access date.
-- Rating evidence: every literal rating, review count, platform, URL, and access date. Never infer, round, combine, or choose between conflicts.
+- Rating evidence: first build and report an identity tuple containing canonical name, aliases, exact address, phone, branch, category, and storefront or service-area status. On each direct platform, query exact name; name + exact address; alias + address or phone; and, for service-area producers, name + locality. Record returned identity, category, literal rating, literal count or explicit `count-unavailable`, stable place ID, exact query, URL, access date, and rejected mismatches. Identity-gate each result and record one terminal state: `exact-rated`, `exact-rated-count-unavailable`, `exact-no-rating`, `no-exact-record`, or `identity-conflict`. For `exact-no-rating`, run and record a secondary exact-identity rating search. Never infer, round, combine, or choose between conflicts; `exhausted-unavailable` requires the complete query, identity, and rejection log.
 - Price evidence: literal displayed value and source, or `exhausted-unavailable` with search trail.
 - Hours and cadence evidence: literal hours plus exact quotations about daily batches, sell-outs, morning-only availability, preorder, restocking, or wholesale cadence; include URL, source type, and access date.
+- Access format: literal evidence for `storefront`, `recurring market`, `active preorder`, `service-area/delivery`, `wholesale/stockist`, `home microbakery`, or `unknown`, with URL, source type, and access date.
+- Current acquisition evidence: literal dated evidence for `walk-in active`, `drop active`, `preorder active`, `market active`, `delivery active`, `stockist active`, `hiatus`, `closed`, `conflicting`, or `unverified`, including the latest known way to buy; do not infer current status.
 - Product/menu quotations: 1–8 exact short quotations naming what is sold, with URL, source type, and access date. Label them `product-only` unless the quotation itself states process.
 - Production/process quotations: exact wording about natural leavening, levain, starter, long or cold fermentation, hydration, mixing, shaping, house lamination, butter folding, milling, named grain or mill, macaronage, entremets, tempered couverture, pastry cream, curd, jam, or other locally relevant production. Include URL, source type, and access date. If absent, use the required search trail; do not infer from products or photographs.
 - Ingredient/sourcing quotations: exact named flour, mill, grain, dairy, chocolate, vanilla, fruit, farm, producer, or other input claims, with URL, source type, and access date.
@@ -45,7 +47,7 @@ HARD PROHIBITIONS:
 - Do not infer a rating or count.
 - Do not omit an inconvenient or adverse quotation.
 
-If this batch has more than 15 candidates and child workers are available, split it into batches of 10–15 and pass THIS ENTIRE PROMPT verbatim, substituting only the four declared placeholders. Return all child records without adding judgments.
+Do not delegate or recursively split this batch. Only the primary orchestrator assigns leaf batches and output paths. If the assigned batch cannot be completed, return the partial evidence and identify the unprocessed candidate IDs; never let multiple workers write to OUTPUT PATH.
 ```
 
 ## Primary-orchestrator check

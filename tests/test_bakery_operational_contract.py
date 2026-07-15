@@ -1,18 +1,68 @@
 from pathlib import Path
-R=Path('.')
-def txt(*p): return (R.joinpath(*p)).read_text()
-checks=[]
-def check(name, ok, detail): checks.append((name,bool(ok),detail))
-p6=txt('bakery-rubric','phase-6-scoring.md').lower(); p8=txt('bakery-rubric','phase-8-rendering.md').lower(); p4=txt('bakery-rubric','phase-4-worker-prompt.md').lower(); p5=txt('reference','phase-5-evidence-acceptance.md').lower(); p7=txt('reference','phase-7-coverage-audit.md').lower(); disc=txt('bakery-rubric','discovery-reference.md').lower(); p1=txt('reference','phase-1-scope-and-catchment.md').lower(); p3=txt('reference','phase-3-discovery-convergence.md').lower()
-check('Bakery-category eligibility gate', 'affirmative bakery production' in p6 and 'confectionery alone' in p6, 'final eligibility must reject pure confectionery without bakery production')
-check('Identity-first direct-place rating exhaustion', all(x in p5 for x in ['identity tuple','exact-no-rating','no-exact-record','identity-conflict','stable place id']), 'acceptance contract must require direct exact-record lookup and terminal states')
-check('Visible rating-unconfirmed section', 'rating-unconfirmed' in p8 and ('unranked' in p8 or 'separate section' in p8), 'rendering must visibly surface scratch-verified candidates lacking a confirmed rating')
-check('Current acquisition gate and watchlist', all(x in p8 for x in ['access format','current acquisition evidence','availability-sensitive watchlist']), 'practical top lists need current acquisition verification')
-check('Worker direct-to-file and candidate IDs', '{output_path}' in p4 and 'candidate id' in p4, 'canonical worker return must preserve artifact path and ledger identity')
-check('Branch evidence scope', all(x in p3+p5 for x in ['company-wide','branch-specific','store-local']), 'shared brand evidence and branch-local evidence must have explicit scope')
-check('Standard not-scoreable disposition', 'not-scoreable' in p6 and 'non-negative' in p6, 'insufficient evidence should have a controlled non-penalty disposition')
-check('Filled-pastry and cultural discovery families', all(x in disc for x in ['empanada','pastelito','kolache','burek','ensaymada','pandesal']), 'targeted discovery should include named locally relevant synonym families')
-check('Multi-component boundary/fallback', all(x in p1 for x in ['corridor','component','fallback']), 'phase 1 should already support multi-component catchments and boundary fallback')
-check('Coverage repeats to zero', ('zero' in p7 and ('repeat' in p7 or 'loop' in p7)), 'phase 7 must continue until a zero-addition pass')
-for i,(n,ok,d) in enumerate(checks,1): print(f"{'PASS' if ok else 'FAIL'} {i}: {n} — {d}")
-raise SystemExit(0 if all(x[1] for x in checks) else 1)
+
+ROOT = Path(__file__).resolve().parents[1]
+
+def text(path):
+    return (ROOT / path).read_text().lower()
+
+def test_category_gate():
+    value = text('bakery-rubric/phase-6-scoring.md')
+    assert 'affirmative bakery production' in value and 'confectionery alone' in value
+
+def test_identity_first_rating_contract():
+    value = text('bakery-rubric/phase-4-worker-prompt.md') + text('reference/phase-5-evidence-acceptance.md')
+    for phrase in ('identity tuple', 'exact-no-rating', 'no-exact-record', 'identity-conflict', 'stable place id', 'rejection log'):
+        assert phrase in value
+
+def test_visible_unconfirmed_and_access_routing():
+    value = text('bakery-rubric/phase-8-rendering.md')
+    for phrase in ('rating-unconfirmed', 'access format', 'current acquisition evidence', 'availability-sensitive watchlist'):
+        assert phrase in value
+
+def test_worker_artifact_contract():
+    worker = text('bakery-rubric/phase-4-worker-prompt.md')
+    shared = text('reference/phase-4-evidence-research.md')
+    assert '{output_path}' in worker and 'candidate id' in worker
+    assert '{output_path}' in shared and 'unique leaf-batch file' in shared
+    assert 'do not delegate or recursively split' in worker
+
+def test_acceptance_and_rendering_gates():
+    phase5 = text('reference/phase-5-evidence-acceptance.md').split('## completion gate', 1)[1]
+    phase8 = text('bakery-rubric/phase-8-rendering.md').split('## phase 8 completion gate', 1)[1]
+    for phrase in ('direct-place', 'rejection log', 'access format', 'current acquisition evidence'):
+        assert phrase in phase5
+    for phrase in ('availability-sensitive watchlist', 'direct-place rating rerun', 'visual inspection', 'long tables'):
+        assert phrase in phase8
+
+def test_branch_scope():
+    value = text('reference/phase-3-discovery-convergence.md') + text('reference/phase-5-evidence-acceptance.md')
+    for phrase in ('company-wide', 'branch-specific', 'store-local'):
+        assert phrase in value
+
+def test_not_scoreable_disposition():
+    value = text('bakery-rubric/phase-6-scoring.md')
+    assert 'not-scoreable' in value and 'non-negative' in value
+
+def test_cultural_discovery_terms():
+    value = text('bakery-rubric/discovery-reference.md')
+    for phrase in ('empanada', 'pastelito', 'kolache', 'burek', 'ensaymada', 'pandesal'):
+        assert phrase in value
+
+def test_multi_component_boundary_fallback():
+    value = text('reference/phase-1-scope-and-catchment.md')
+    for phrase in ('corridor', 'component', 'fallback'):
+        assert phrase in value
+
+def test_coverage_repeats_to_zero():
+    value = text('reference/phase-7-coverage-audit.md')
+    assert 'zero' in value and ('repeat' in value or 'loop' in value), 'coverage repeats to zero'
+
+def test_shared_contract_category_consistency():
+    """shared-contract consistency across category and shared phases."""
+    shared = text('reference/phase-4-evidence-research.md') + text('reference/phase-5-evidence-acceptance.md')
+    bakery = text('bakery-rubric/phase-4-worker-prompt.md')
+    restaurant = text('restaurant-rubric/phase-4-worker-prompt.md')
+    assert 'for bakery runs only' in shared
+    assert 'do not delegate or recursively split' in bakery
+    assert 'do not delegate or recursively split' in restaurant
+    assert 'exact-rated-count-unavailable' in bakery and 'count-unavailable' in shared

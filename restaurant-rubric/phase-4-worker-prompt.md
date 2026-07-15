@@ -46,7 +46,7 @@ HARD PROHIBITIONS:
 - Do not infer a rating or count.
 - Do not omit an inconvenient or adverse quotation.
 
-If this batch has more than 15 candidates and child workers are available, split it into batches of 10–15 and pass THIS ENTIRE PROMPT verbatim, substituting only the three declared placeholders. Return all child records without adding judgments.
+Do not delegate or recursively split this batch. Only the primary orchestrator assigns leaf batches. If the assigned batch cannot be completed, return the partial evidence and identify the unprocessed candidates.
 ```
 
 ## Primary-orchestrator check
