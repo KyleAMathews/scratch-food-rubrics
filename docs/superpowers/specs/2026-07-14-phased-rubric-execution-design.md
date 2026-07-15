@@ -374,3 +374,32 @@ Every invocation creates a unique, self-contained run directory in Phase 1 befor
 - Changing the consumer application in `scratch-food-finder`.
 - Claiming exhaustive real-world discovery.
 - Replacing the primary orchestrator with one agent per phase.
+
+## Post-implementation amendment: vegan options in bakery results
+
+The bakery final report includes a supplemental **Vegan options at scratch bakeries** section. This is convenience metadata for finding likely dairy-free choices; it does not alter discovery, scratch eligibility, S, I, E, R, G, G′, scarcity, ranking, tiers, or occasions.
+
+A bakery may appear in this section only when it already qualifies under the unchanged bakery rubric and accepted evidence contains either:
+
+1. a currently named vegan product; or
+2. an explicit statement that the bakery offers vegan options.
+
+For each entry, render:
+
+- bakery name;
+- the exact documented wording;
+- named vegan products when available;
+- source URL and access date;
+- documented availability constraints such as rotating, preorder-only, or specific days.
+
+The evidence worker collects explicit vegan statements and named vegan products during its existing official menu/site/social pass. It must not infer vegan status from an ingredient list, from a `dairy-free` label, from photographs, or from the apparent nature of a product. `Dairy-free` alone is not promoted to `vegan`, and `vegan` is not represented as allergy-safe. The rendered section includes a concise warning that vegan labeling does not establish freedom from dairy cross-contact or shared equipment.
+
+If no qualifying scratch bakery has accepted explicit vegan evidence, omit the section rather than rendering an empty heading. Restaurant output remains unchanged.
+
+### Validation additions
+
+- Confirm the bakery worker prompt requests literal vegan-option evidence without inferring it.
+- Confirm the bakery rendering instructions include both named vegan products and general explicit availability statements.
+- Confirm vegan evidence has no scoring or eligibility effect.
+- Confirm the section excludes nonqualifying bakeries and inferred vegan claims.
+- Confirm the cross-contact warning is present whenever the section renders.
