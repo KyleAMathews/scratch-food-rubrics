@@ -3,7 +3,7 @@ name: restaurant-rubric
 description: Find ambitious scratch-made restaurants, resist prominence and format bias, and return an evidence-grounded shortlist for a requested location.
 ---
 
-# Scratch-Kitchen Scorecard & Travel Prompt (v8.10)
+# Scratch-Kitchen Scorecard & Travel Prompt (v8.11)
 
 Find restaurants that are **scratch-made AND interesting to a frequent diner**. The hidden attribute is ambition: is this a kitchen making meaningful components from raw materials, or a business primarily assembling and reheating commodity inputs?
 
@@ -21,6 +21,8 @@ Scratch production is the eligibility gate. Interestingness distinguishes surviv
 ## Version line
 
 This skill and the bakery skill share one version and bump together.
+
+**v8.11:** bounded identity reconciliation for locally relevant item roundups and targeted falsification of user-reported omissions. Bakery-only product × format and provisional-rating rules do not alter the restaurant evidence or scoring contract.
 
 **v8.10:** operational contract hardening; primary-orchestrator-only leaf batching; category-conditional shared acceptance gates; pytest-compatible contract validation; and synchronized workflow metadata. Bakery-only rating, access, and rendered-export additions do not alter the restaurant evidence contract.
 

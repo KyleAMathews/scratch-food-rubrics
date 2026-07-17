@@ -37,6 +37,12 @@ Before any rating is accepted or declared exhausted, build an identity tuple: ca
 
 A generic web query described as “Google/Maps-oriented” is not a direct-place check. An identity-gated `exact-rated-count-unavailable` result can clear the rating gate using its literal rating; the missing count remains explicit provenance metadata and lowers audit completeness, not the observed rating.
 
+### Aggregator-attributed provisional rating
+
+An `aggregator-attributed` rating is credible secondary evidence, not a direct platform observation. After the required direct-place attempts, one such source may establish a provisional rating only when it records all of the following: the named attributed platform, literal rating, literal count or explicit `count-unavailable`, matched identity and location, aggregator URL, and access date. Preserve the source's exact attribution and provenance.
+
+A secondary source missing the attributed platform, matched identity, or literal rating remains ordinary context and cannot establish a provisional rating. When direct and aggregator-attributed values conflict, prefer the current identity-matched direct observation and preserve the discrepancy; never average or silently choose. A later valid direct observation replaces the provisional value for rating-gate and presentation purposes while the secondary evidence remains in the audit trail.
+
 ## Evidence scope for branch families
 
 Label reusable evidence `company-wide`; label address, hours, rating, availability, production, or menu evidence `branch-specific` or `store-local` as appropriate. `historical` and `factory` are separate scopes. Company-wide evidence may be referenced from multiple branch records rather than copied, but it cannot establish a branch-specific fact. Preserve distinct candidate IDs and require branch-local identity and rating verification.
@@ -73,6 +79,7 @@ Write accepted evidence and per-field states to `{RUN_DIR}/05-evidence-ledger.md
 - [ ] Every accepted claim has required provenance.
 - [ ] Every exhausted field has the required source and query trail.
 - [ ] For bakery runs, every candidate has a complete identity-first direct-place state and query/identity/rejection log for each checked platform.
+- [ ] Every aggregator-attributed rating remains labeled secondary rather than direct; each accepted provisional rating has an attributed platform, literal rating, literal count or `count-unavailable`, matched identity/location, aggregator URL, and access date.
 - [ ] For bakery runs, every bakery candidate has accepted access format and current acquisition evidence with its latest dated source; eligibility and presentation routing remain Phase 6 and Phase 8 decisions.
 - [ ] No `product-only`, thin, conflicting, unsearched, or worker-verdict row is treated as scoring evidence.
 - [ ] Every candidate is `evidence-accepted` or legitimately `evidence-exhausted-unavailable`.

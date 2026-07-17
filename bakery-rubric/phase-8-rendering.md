@@ -71,6 +71,8 @@ Rule of thumb: an external summary should read like a knowledgeable friend's tip
 
 Decision rule: filter {R ≥ 4.3 ∧ S ≥ 55}, rank by **G = √(S × I)**.
 
+A valid provisional rating follows the same floor and ranking rule, but reader-facing results must label it as secondary-source/provisional and name the attributed platform. Never imply that it was observed directly. Under the existing near-tie rule, provisional rating evidence cannot break a near-tie against directly observed rating evidence.
+
 ---
 
 ## Rating-unconfirmed and current-access presentation
@@ -99,6 +101,7 @@ Write the final reader-facing result to `{RUN_DIR}/08-results.md`. Any generated
 - [ ] Discovery limitations are stated at the source-convergence level.
 - [ ] Access format and current acquisition evidence are shown for every otherwise eligible producer; unstable or unverified paths are routed to the availability-sensitive watchlist.
 - [ ] The pre-render direct-place rating rerun is reflected in the rated lists and the visible rating-unconfirmed section.
+- [ ] Every provisional rating is visibly labeled as secondary-source evidence with its attributed platform and was not used to break a near-tie against direct evidence.
 - [ ] Every generated HTML/PDF export received rendered-page visual inspection; long tables and disclosure blocks paginate without overlap or clipping.
 
 ## Sharing Results

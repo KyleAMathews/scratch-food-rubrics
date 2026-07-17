@@ -14,7 +14,7 @@ Use the Phase 1 polygon or box; never silently substitute a smaller boundary. Wi
 BBOX="south,west,north,east"
 Q='[out:json][timeout:120];(nwr["shop"~"^(bakery|pastry|confectionery)$"]('"$BBOX"');nwr["cuisine"~"bakery|pastry|dessert",i]('"$BBOX"'););out center tags;'
 for ep in https://overpass-api.de/api/interpreter https://overpass.kumi.systems/api/interpreter https://overpass.osm.ch/api/interpreter; do
-  curl -sS --max-time 120 -A "scratch-food-rubrics/8.9 (research)" "$ep" --data-urlencode "data=$Q" -o bakery-candidates.json
+  curl -sS --max-time 120 -A "scratch-food-rubrics/8.11 (research)" "$ep" --data-urlencode "data=$Q" -o bakery-candidates.json
   python3 -c 'import json; json.load(open("bakery-candidates.json"))' 2>/dev/null && break
 done
 ```
@@ -24,6 +24,10 @@ For an administrative polygon, replace each `($BBOX)` selector with `(area.a)` a
 ## Adaptive targeted families
 
 Generate locally natural, local-language and local-script variants for bakery, bread, patisserie, boulangerie, viennoiserie, pastry, panadería, tortillería, bagel, laminated pastry, sourdough/natural leavening, house-made phyllo, chocolatier/bonbon production, gluten-free craft bakery, microbakery, baker-owned, artisan, scratch/from raw ingredients, best/top/award/guide, recent opening, and the market’s own traditions. Combine them with every sub-area. Explicitly expand filled-pastry and cultural-tradition synonym families when locally plausible—for example empanada, pastelito, kolache, burek, meat pie, hand pie, samosa, ensaymada, and pandesal—plus local-language and local-script equivalents. These are discovery terms, not automatic bakery eligibility. This English list seeds concepts; it is not a literal universal query list.
+
+## Product × adjacent-format discovery
+
+Cross locally relevant products and production terms with venue formats that may hide bakery work behind another primary identity. Adaptive examples include bagel × deli, pastry or pâtisserie × café, bread × restaurant, filled pastry × cultural market or grocer, and laminated goods × chocolatier. Run the locally natural and local-language equivalents rather than treating these examples as a fixed universal list. Record every in-scope identity as a discovery candidate; neither the product nor the adjacent format establishes bakery eligibility.
 
 ## Marker-item seed search (bakery)
 

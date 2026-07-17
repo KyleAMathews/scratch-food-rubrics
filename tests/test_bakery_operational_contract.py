@@ -66,3 +66,40 @@ def test_shared_contract_category_consistency():
     assert 'do not delegate or recursively split' in bakery
     assert 'do not delegate or recursively split' in restaurant
     assert 'exact-rated-count-unavailable' in bakery and 'count-unavailable' in shared
+
+def test_roundup_identity_reconciliation():
+    value = text('reference/phase-2-candidate-discovery.md') + text('reference/phase-7-coverage-audit.md')
+    for phrase in ('matched identity', 'candidate id', 'controlled exclusion reason', 'zero new identities'):
+        assert phrase in value
+
+
+def test_product_by_adjacent_format_discovery():
+    value = text('bakery-rubric/discovery-reference.md')
+    for phrase in ('product × adjacent-format', 'bagel', 'deli'):
+        assert phrase in value
+
+
+def test_user_reported_miss_falsification_pass():
+    value = text('reference/phase-7-coverage-audit.md')
+    for phrase in ('user-reported omission', 'discovery route', 'phases 4–6', 'zero new'):
+        assert phrase in value
+
+
+def test_aggregator_attributed_provisional_rating_contract():
+    worker = text('bakery-rubric/phase-4-worker-prompt.md')
+    acceptance = text('reference/phase-5-evidence-acceptance.md')
+    scoring = text('bakery-rubric/phase-6-scoring.md')
+    rendering = text('bakery-rubric/phase-8-rendering.md')
+    for phrase in ('aggregator-attributed', 'attributed platform', 'matched identity', 'access date'):
+        assert phrase in worker + acceptance
+    assert 'provisional rating' in scoring
+    assert 'near-tie' in rendering and 'direct' in rendering
+
+
+def test_v811_metadata_is_synchronized():
+    bakery = text('bakery-rubric/SKILL.md')
+    restaurant = text('restaurant-rubric/SKILL.md')
+    assert 'prompt (v8.11)' in bakery and '**v8.11:**' in bakery
+    assert 'prompt (v8.11)' in restaurant and '**v8.11:**' in restaurant
+    assert 'scratch-food-rubrics/8.11 (research)' in text('bakery-rubric/discovery-reference.md')
+    assert 'scratch-food-rubrics/8.11 (research)' in text('restaurant-rubric/discovery-reference.md')

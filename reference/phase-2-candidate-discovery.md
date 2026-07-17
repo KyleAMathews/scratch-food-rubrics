@@ -37,6 +37,12 @@ Build a union. Broad survey protects the obscure long tail; targeted search prot
 
 Check the market's reputable local food publications, major place-directory results, relevant guides and awards, local roundups, and recent-opening coverage. Add every in-scope venue not already present. This track prevents omission of a widely known venue that broad map data missed.
 
+### Bounded item-roundup reconciliation
+
+Reconcile current, locally scoped sources that name actual venues for an item, product family, cuisine, or tradition relevant to the market. Do not process every generic “best” list. For each qualifying source, record every venue as named, its matched identity and location, its existing or new candidate ID, and its action. An omitted row needs a controlled exclusion reason grounded at identity level, such as outside the catchment or duplicate identity; discovery is not the place to exclude a venue for presumed quality or production.
+
+Continue across independent qualifying sources until one complete source adds zero new identities. A blocked, stale, non-local, or non-enumerable source does not count as reconciled: log the limitation and use another qualifying source when available. Roundup inclusion creates a candidate only; it never establishes eligibility, scratch production, or score.
+
 ## Required artifacts
 
 - Save every raw broad-survey response, exported list, and other source data under `{RUN_DIR}/02-source-data/`.
@@ -57,6 +63,7 @@ Check the market's reputable local food publications, major place-directory resu
 - [ ] Track B ran every universal query family with locally generated terms.
 - [ ] Relevant local languages/scripts were used or their non-use is explained.
 - [ ] Track C checked visible-head and recent-opening sources.
+- [ ] Every qualifying item-roundup venue has a matched identity/location, candidate ID and action, or a controlled exclusion reason; the last independent qualifying source added zero new identities, or a precise source limitation is recorded.
 - [ ] Category-specific marker and specialist queries from the discovery reference ran.
 - [ ] Every in-scope result entered the ledger with source and query provenance.
 - [ ] Counts by track are reported; no qualification or scoring occurred.
