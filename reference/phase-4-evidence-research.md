@@ -4,7 +4,7 @@ Read `shared-status-and-provenance.md` and the invoked category's `phase-4-worke
 
 ## Input
 
-`{RUN_DIR}/03-candidate-ledger.md` and the exact category worker-prompt file named by the root skill.
+`{RUN_DIR}/03-candidate-ledger.md` and the exact category worker-prompt file named by the root skill. Dispatch only `ready` candidates. Keep `repair` and `quarantine` rows indexed and accounted for without sending them full evidence packets.
 
 ## Primary-agent responsibility
 

@@ -17,6 +17,7 @@ Build a union. Broad survey protects the obscure long tail; targeted search prot
 3. Include category-adjacent tags from the category reference so specialists are not erased by directory classification.
 4. Partition large markets by non-overlapping neighborhoods or tiles when needed, then union every partition.
 5. If the broad source is unavailable, use at least one alternate broad directory or systematic category sweep, log the failure, and state the limitation. Never rename the fallback a census.
+6. After the broad survey, record a candidate-volume feasibility checkpoint: returned rows, in-boundary rows, named and unnamed rows, expected Phase 4 leaf count, and any tiling or batching adaptation. A large result may change execution strategy but must not silently narrow the user's catchment.
 
 ## Track B — Adaptive targeted discovery (MUST run)
 
@@ -60,6 +61,7 @@ Continue across independent qualifying sources until one complete source adds ze
 ## Completion gate
 
 - [ ] Track A covered the declared catchment or its precise fallback limitation is recorded.
+- [ ] The candidate-volume feasibility checkpoint reports row counts, expected leaf count, and execution adaptations without narrowing the catchment.
 - [ ] Track B ran every universal query family with locally generated terms.
 - [ ] Relevant local languages/scripts were used or their non-use is explained.
 - [ ] Track C checked visible-head and recent-opening sources.

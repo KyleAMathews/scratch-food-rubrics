@@ -15,6 +15,18 @@ Read `shared-status-and-provenance.md` in full immediately before executing this
 5. Record closures, renames, relocations, and successors as identity facts only. Phase 6 owns decisions.
 6. For branch families, create one shared brand packet plus distinct branch rows. Tag reusable facts `company-wide`; tag address, hours, rating, availability, production, or menu facts `branch-specific` or `store-local`; keep `historical` and `factory` scopes separate. Company-wide facts may be referenced, not duplicated, and never substitute for branch-local verification.
 
+## Identity readiness before evidence research
+
+Every frozen candidate receives one identity-readiness state before Phase 4:
+
+- `ready`: named identity and provenance are sufficient for evidence research;
+- `repair`: a likely venue whose name, address, branch, domain, successor, or catchment identity needs bounded correction;
+- `quarantine`: no researchable identity yet, including an unresolved unnamed map object.
+
+Validate a claimed official domain against the venue name plus address, phone, or another strong identity field; domain presence alone is not domain correctness. Shared domains, phones, addresses, similar names, and proximity may propose but never authorize a merge. The primary orchestrator records one relationship: `same physical venue`, `same concept, different branch`, `successor or historical identity`, `different venue`, or `unresolved`.
+
+Successful repair returns a row to `ready`. Quarantine remains auditable, consumes no full evidence packet, and is neither a DQ nor a quality judgment.
+
 ## Coverage grid
 
 Inspect the deduplicated union across:
@@ -47,4 +59,5 @@ Do not use “complete census.” Describe the source convergence actually achie
 - [ ] Last complete gap-pass yield is reported.
 - [ ] Last pass yielded zero new candidates, or a precise source/access limitation is recorded.
 - [ ] Frozen candidate IDs are in `03-candidate-ledger.md`.
+- [ ] Every frozen row has an identity-readiness state; all `repair` work is resolved or recorded, and every `quarantine` row remains auditable without entering Phase 4.
 - [ ] Every Phase 3 artifact is inside `{RUN_DIR}`.

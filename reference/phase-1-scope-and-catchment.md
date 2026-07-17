@@ -41,6 +41,12 @@ The user's requested location and the category selected by the invoked root skil
 8. Record included areas, adjacent markets excluded as separate runs, boundary method and source, and uncertainty.
 9. If the requested scope cannot be researched completely with available tools, narrow it explicitly before discovery. Never narrow it silently later to make completion easier.
 
+## Explicit travel-time requests
+
+An explicit user travel-time request overrides the default administrative-boundary and resident-normal-market heuristics. Build a provider-neutral isochrone and record the exact origin, requested duration, travel mode, routing provider and profile, traffic or departure-time assumption, retrieval time, saved geometry, point-in-polygon method, and routing/map-data limitations. Report the modeled geographic extent before discovery.
+
+For a venue near the generalized polygon edge, run and preserve a destination-specific route check before finalizing its scope state. If the provider fails, record the failure and ask the user before substituting a materially different boundary model. If the edge route cannot be checked, retain explicit scope uncertainty. Never silently replace a travel-time request with a radius or administrative boundary.
+
 ## Prohibited
 
 - Do not begin research before the run directory and manifest exist.
@@ -51,7 +57,7 @@ The user's requested location and the category selected by the invoked root skil
 
 ## Output
 
-Write `{RUN_DIR}/01-scope.md` with the canonical and local-script place names, country and region pin, boundary or component list, boundary source and method, center/radius if used, included rural or adjacent areas, excluded markets, uncertainty, and tool limitations. Update `00-run-manifest.md` with the canonical location, final `{RUN_DIR}` name, and status `phase-1-complete`.
+Write `{RUN_DIR}/01-scope.md` with the canonical and local-script place names, country and region pin, boundary or component list, boundary source and method, center/radius if used, included rural or adjacent areas, excluded markets, uncertainty, and tool limitations. For a travel-time request, also record every travel-time field, the saved isochrone path, modeled geographic extent, and each destination-specific edge check. Update `00-run-manifest.md` with the canonical location, final `{RUN_DIR}` name, and status `phase-1-complete`.
 
 ## Completion gate
 
@@ -63,4 +69,5 @@ Write `{RUN_DIR}/01-scope.md` with the canonical and local-script place names, c
 - [ ] Boundary method and source recorded.
 - [ ] Non-zero boundary verified or fallback documented.
 - [ ] Market-type calibration explained.
+- [ ] For a travel-time request, precedence, origin, duration, mode, routing provider/profile, traffic assumption, saved isochrone, modeled extent, point-in-polygon method, and edge-check handling are recorded.
 - [ ] Uncertainty and tool limits stated.
