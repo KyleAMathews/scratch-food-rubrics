@@ -39,3 +39,21 @@ def test_identity_readiness_precedes_phase4():
     ):
         assert phrase in convergence
     assert 'dispatch only `ready` candidates' in research
+
+
+def test_adaptive_leaf_size_and_durable_return_gate():
+    value = text('reference/phase-4-evidence-research.md')
+    for phrase in (
+        'adaptive leaf size',
+        'durably saved throughput',
+        'partial return',
+        'only missing candidate ids',
+        'zero-progress return',
+        'minimum useful leaf size',
+        'worker-health circuit breaker',
+        '`evidence-returned`',
+        '`raw-saved`',
+        'before assigning that worker another batch',
+        'automatically requeue',
+    ):
+        assert phrase in value
