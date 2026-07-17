@@ -96,10 +96,10 @@ def test_aggregator_attributed_provisional_rating_contract():
     assert 'near-tie' in rendering and 'direct' in rendering
 
 
-def test_v811_metadata_is_synchronized():
+def test_v812_metadata_is_synchronized():
     bakery = text('bakery-rubric/SKILL.md')
     restaurant = text('restaurant-rubric/SKILL.md')
-    assert 'prompt (v8.11)' in bakery and '**v8.11:**' in bakery
-    assert 'prompt (v8.11)' in restaurant and '**v8.11:**' in restaurant
-    assert 'scratch-food-rubrics/8.11 (research)' in text('bakery-rubric/discovery-reference.md')
-    assert 'scratch-food-rubrics/8.11 (research)' in text('restaurant-rubric/discovery-reference.md')
+    assert 'prompt (v8.12)' in bakery and '**v8.12:**' in bakery
+    assert 'prompt (v8.12)' in restaurant and '**v8.12:**' in restaurant
+    assert 'scratch-food-rubrics/8.12 (research)' in text('bakery-rubric/discovery-reference.md')
+    assert 'scratch-food-rubrics/8.12 (research)' in text('restaurant-rubric/discovery-reference.md')

@@ -70,6 +70,12 @@ Rule of thumb: an external summary should read like a knowledgeable friend's rec
 
 ---
 
+## Large-run reader-facing diversity
+
+When at least 12 eligible venues exist, treat all occasion slots and rare finds as one reader-facing discovery budget. Choose occasion slots jointly and prefer a distinct restaurant in every slot. Then choose rare finds against the already-used venue set while retaining scratch and market-scarcity gates. Repeat a venue only when a specific occasion or rare-item requirement lacks a credible distinct alternative, and record the exception.
+
+Diversity is a presentation constraint, not a scoring input. It never changes the audit, lowers evidence or eligibility thresholds, invents rarity, or promotes a weak venue only to avoid repetition. Completeness-oriented appendices may repeat venues.
+
 ## Normalized rendering boundary
 
 Before rendering, transform every scoreable Phase 6 decision—including ordinary vector-form and calibration-backed scalar-form decisions—into one normalized audit-row schema. Each row contains the canonical candidate ID and venue name, disposition, criterion or accepted scalar score representation, total S, I, rating value and provenance, computed G, tier and ranking eligibility, and canonical merge target when applicable.
@@ -89,6 +95,7 @@ Write the final reader-facing result to `{RUN_DIR}/08-results.md`. Any generated
 - [ ] All prior phase gates passed.
 - [ ] Every reader-facing claim rests on accepted evidence.
 - [ ] Occasion, rare-find, tie, audit, hours/day-part, and plain-language rules above were followed.
+- [ ] For a large run, occasion and rare-find slots use distinct venues or every repetition records the lack of a credible distinct alternative.
 - [ ] Discovery limitations are stated at the source-convergence level.
 - [ ] Every scoreable decision normalized exactly once, Phase 6 validation remains green, and rendered audit-row count equals scoreable decision count.
 

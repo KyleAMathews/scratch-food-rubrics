@@ -122,3 +122,40 @@ def test_phase8_normalized_rendering_boundary():
         'canonical merge target',
     ):
         assert phrase in rendering
+
+
+def test_large_run_cross_layer_diversity():
+    rendering = text('restaurant-rubric/phase-8-rendering.md')
+    for phrase in (
+        'at least 12 eligible venues',
+        'reader-facing discovery budget',
+        'occasion slots jointly',
+        'distinct restaurant',
+        'rare finds',
+        'credible distinct alternative',
+        'record the exception',
+    ):
+        assert phrase in rendering
+    assert 'diversity is a presentation constraint' in rendering
+
+
+def test_already_covered_invariants_remain_intact():
+    discovery = text('reference/phase-2-candidate-discovery.md')
+    audit = text('reference/phase-7-coverage-audit.md')
+    scoring = text('restaurant-rubric/phase-6-scoring.md')
+    root = text('restaurant-rubric/SKILL.md')
+    for phrase in ('matched identity', 'controlled exclusion reason', 'zero new identities'):
+        assert phrase in discovery + audit
+    assert 'user-reported omission' in audit
+    assert '../reference/phase-7-coverage-audit.md' in root
+    assert 'service format is orthogonal to production' in scoring
+    assert 'chain-ness is magnitude, not direction' in scoring
+
+
+def test_v812_metadata_is_synchronized():
+    bakery = text('bakery-rubric/SKILL.md')
+    restaurant = text('restaurant-rubric/SKILL.md')
+    assert 'prompt (v8.12)' in bakery and '**v8.12:**' in bakery
+    assert 'prompt (v8.12)' in restaurant and '**v8.12:**' in restaurant
+    assert 'scratch-food-rubrics/8.12 (research)' in text('bakery-rubric/discovery-reference.md')
+    assert 'scratch-food-rubrics/8.12 (research)' in text('restaurant-rubric/discovery-reference.md')
