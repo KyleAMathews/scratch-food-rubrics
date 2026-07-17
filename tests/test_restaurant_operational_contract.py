@@ -91,3 +91,34 @@ def test_positive_dq_subtypes_are_required():
         assert phrase in scoring
     assert '`exhausted-unavailable` must not support a dq' in scoring
     assert 'affirmative source citation' in scoring
+
+
+def test_phase6_deterministic_integrity_validation():
+    scoring = text('restaurant-rubric/phase-6-scoring.md')
+    for phrase in (
+        'deterministic integrity validation',
+        'machine-readable result',
+        'population equality',
+        'exactly one decision',
+        'duplicate decision ids',
+        'canonical merge target',
+        'criterion maxima',
+        'geometric mean',
+        'summary disposition counts',
+    ):
+        assert phrase in scoring
+    assert 'the phase gate fails' in scoring
+
+
+def test_phase8_normalized_rendering_boundary():
+    rendering = text('restaurant-rubric/phase-8-rendering.md')
+    for phrase in (
+        'normalized audit-row schema',
+        'vector-form',
+        'scalar-form',
+        'scoreable decision count',
+        'rendered audit-row count',
+        'rendering fails',
+        'canonical merge target',
+    ):
+        assert phrase in rendering

@@ -70,6 +70,12 @@ Rule of thumb: an external summary should read like a knowledgeable friend's rec
 
 ---
 
+## Normalized rendering boundary
+
+Before rendering, transform every scoreable Phase 6 decision—including ordinary vector-form and calibration-backed scalar-form decisions—into one normalized audit-row schema. Each row contains the canonical candidate ID and venue name, disposition, criterion or accepted scalar score representation, total S, I, rating value and provenance, computed G, tier and ranking eligibility, and canonical merge target when applicable.
+
+Rendering fails if a scoreable decision cannot be normalized, an ID appears twice, a canonical merge target is missing, the normalized row violates Phase 6 validation, or rendered audit-row count differs from scoreable decision count. Record both the scoreable decision count and rendered audit-row count in the final report. Successful Markdown, HTML, or PDF generation alone does not establish complete rendering.
+
 ## Coverage statement
 
 Report broad-survey count, targeted additions, deduplicated union, coverage-audit additions, last-pass yield, and precise limitations. Never call processed OSM rows a complete real-world census.
@@ -84,6 +90,7 @@ Write the final reader-facing result to `{RUN_DIR}/08-results.md`. Any generated
 - [ ] Every reader-facing claim rests on accepted evidence.
 - [ ] Occasion, rare-find, tie, audit, hours/day-part, and plain-language rules above were followed.
 - [ ] Discovery limitations are stated at the source-convergence level.
+- [ ] Every scoreable decision normalized exactly once, Phase 6 validation remains green, and rendered audit-row count equals scoreable decision count.
 
 ## Sharing Results
 

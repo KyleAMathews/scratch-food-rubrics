@@ -231,6 +231,21 @@ Use `evidence-exhausted-no-score` when required research completed without a def
 
 Each no-score decision records the candidate ID, accepted-evidence citation, disposition, primary missing field or reason, and any positive scratch markers worth retaining. Mechanically generated rows are valid only when every row preserves its individual citation and reason.
 
+## Deterministic integrity validation
+
+Before Phase 6 closes, run deterministic integrity validation over the complete decision ledger and save its machine-readable result inside `{RUN_DIR}`. Validate:
+
+- population equality between frozen candidates plus accepted Phase 7 additions and decisions;
+- exactly one decision per canonical candidate and no duplicate decision IDs;
+- every canonical merge target exists and is resolved;
+- every criterion respects its criterion maxima, criterion sums and total S are internally consistent, and the recomputed geometric mean G matches the existing formula and rounding rule;
+- every ranked row satisfies the current scratch and rating gates;
+- every DQ has a permitted positive-evidence subtype and citation;
+- unresolved and exhausted rows are absent from ranked tiers;
+- summary disposition counts equal the decision population.
+
+The phase gate fails on any validation defect. Link the machine-readable result from `06-decisions.md` and `00-run-manifest.md`. A run-local deterministic validator is sufficient; a universal repository parser is not required.
+
 ## Phase 6 artifact
 
 Write every orchestrator decision, supporting evidence reference, score and provenance, disqualification rationale, conflict resolution, tier, tie, scarcity, occasion, and confidence decision to `{RUN_DIR}/06-decisions.md`. Do not write decisions into worker-return files. Update `00-run-manifest.md` to `phase-6-complete` only after the gate passes.
@@ -243,3 +258,4 @@ Write every orchestrator decision, supporting evidence reference, score and prov
 - [ ] Missing or process-sparse evidence was not converted to a low score.
 - [ ] Every score, scarcity, tier, tie, confidence, and occasion decision was made by the primary orchestrator.
 - [ ] Product-only evidence and service format were not treated as production verdicts.
+- [ ] Deterministic integrity validation passed every invariant, and its machine-readable result is linked from the decision ledger and manifest.
