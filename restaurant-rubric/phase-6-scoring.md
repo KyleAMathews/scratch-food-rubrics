@@ -218,11 +218,18 @@ Filtered (S<60): Pacific Catch, Crepevine (chains).
 
 ## Operational decision invariants (moved from v8.2–v8.7)
 
-- **Positive evidence only for disqualification.** Valid adverse evidence includes a chain confirmed by domain or documentation, an opened menu or source showing assembly, reheating, frozen commodity inputs, commissary production, or a genuinely wet-led venue with only confirmed bar snacks. A missing tag, unfamiliar cuisine, directory label, popularity, or absent process jargon is not a disqualifier.
+- **Positive evidence only for disqualification.** Every DQ requires an affirmative source citation and exactly one controlled subtype: `explicit_closed`, `explicit_no_food`, `external_food_only`, `offsite_all_production`, `uncooked_retail_only`, or `confirmed_snack_only`. `exhausted-unavailable` must not support a DQ. Missing process language, weak web presence, category, format, generic menu appearance, chain or franchise status, and absent food-program evidence are not DQ evidence.
 - **Service format is orthogonal to production.** Counter service, takeaway, delivery, breakfast/lunch-only operation, market stalls, and informal rooms remain eligible; only accepted production evidence determines the scratch decision.
+- **Evidence domains and scopes do not transfer silently.** Daily production is not menu turnover. Opening hours, dayparts, seasonal drinks, promotions, events, sourcing/delivery schedules, and food-hall tenant changes do not establish `food-menu-turnover` without separate literal evidence. Non-food production cannot inflate a food scratch score. Company-wide, commissary/shared-kitchen, external-supplier, and predecessor/historical evidence cannot silently become current `branch-local` production.
 - **Per-number provenance remains mandatory.** Treat every S, I, E, R, and price value as documented, estimated, or unverified. Reader-facing rated tiers require documented R and an S decision grounded in accepted evidence.
 - **Rating exhaustion is terminal, not negative.** A scratch-verified restaurant whose rating is `exhausted-unavailable` after the required search trail goes to the explicit **scratch-verified, rating-unconfirmed** tier. It is surfaced with that caveat, neither silently dropped nor promoted into a rating-gated tier. Estimated or unverified ratings remain non-terminal.
 - **Conflicts remain visible.** Preserve each literal rating, count, source, and date; prefer a direct source when resolving under the rating hierarchy, flag material discrepancies, and never synthesize a rating.
+
+## Controlled decision dispositions
+
+Use `evidence-exhausted-no-score` when required research completed without a defensible scoring packet. Use `score-unresolved` when accepted positive evidence exists but one or more required scoring dimensions remain too uncertain. Both are non-negative states: neither implies low quality, ineligibility, or DQ, and neither may be converted into a low numeric score.
+
+Each no-score decision records the candidate ID, accepted-evidence citation, disposition, primary missing field or reason, and any positive scratch markers worth retaining. Mechanically generated rows are valid only when every row preserves its individual citation and reason.
 
 ## Phase 6 artifact
 
@@ -231,7 +238,8 @@ Write every orchestrator decision, supporting evidence reference, score and prov
 ## Phase 6 completion gate
 
 - [ ] Every candidate decision cites accepted evidence.
-- [ ] Every disqualification rests on positive evidence.
+- [ ] Every disqualification has an affirmative source citation and exactly one permitted DQ subtype; exhausted or absent evidence never supports DQ.
+- [ ] Every `score-unresolved` and `evidence-exhausted-no-score` row has its accepted-evidence citation, primary missing field/reason, and retained positive scratch markers.
 - [ ] Missing or process-sparse evidence was not converted to a low score.
 - [ ] Every score, scarcity, tier, tie, confidence, and occasion decision was made by the primary orchestrator.
 - [ ] Product-only evidence and service format were not treated as production verdicts.

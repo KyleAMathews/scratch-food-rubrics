@@ -21,8 +21,8 @@ For EACH candidate, return one Markdown section with EVERY field below:
 - Price evidence: literal displayed value and source, or `exhausted-unavailable` with search trail.
 - Hours/day-part evidence: literal hours, closed days, and breakfast, brunch, lunch, dinner, or other service-window facts, with URL, source type, and access date.
 - Menu quotations: exact short quotations sufficient to expose the menu grammar, recurring bases, proteins, sauces, formats, heterogeneous one-offs, cuisine focus, and breadth. Include URL, source type, and access date. Do not estimate K or N.
-- Production/process quotations: exact wording about house-made pasta, noodles, bread, masa, tortillas, dashi, sauces, charcuterie, cheese, or desserts; fermentation, milling, butchery, spice grinding, live fire, long-cooked preparations, made-to-order techniques, or other locally relevant production. Include URL, source type, and access date.
-- Seasonality/turnover quotations: exact dated, weekly, daily, market, tasting-menu, specials-board, or seasonal-rotation wording, with URL, source type, and access date.
+- Production/process quotations: exact wording about house-made pasta, noodles, bread, masa, tortillas, dashi, sauces, charcuterie, cheese, or desserts; fermentation, milling, butchery, spice grinding, live fire, long-cooked preparations, made-to-order techniques, or other locally relevant production. For every quotation, label production domain as `food`, `beverage`, `roastery`, or `bakery`; and production location/scope as `branch-local`, `company-wide`, `commissary/shared-kitchen`, `external-supplier`, `predecessor/historical`, or `unknown`. Keep each label tied to the quotation, identity, URL, source type, and access date. Use `unknown` instead of inferring scope.
+- Seasonality/turnover quotations: exact dated, weekly, daily, market, tasting-menu, specials-board, or seasonal-rotation wording, with URL, source type, and access date. Label cadence domain as `food-menu-turnover`, `daily-production`, `availability/daypart`, `beverage`, `promotion`, `event`, or `sourcing/delivery`. Preserve literal wording and do not convert one domain into another.
 - Ingredient/sourcing quotations: exact named farms, fisheries, breeds, mills, producers, ingredients, or local and seasonal sourcing facts, with URL, source type, and access date.
 - Review-text quotations: exact customer or critic wording about physical, technical, operational, novelty, or defect evidence. Separate food/product comments from service, drinks, price, parking, and ambiance. Include platform or publication, URL, and access date.
 - Potentially adverse factual quotations: exact wording about frozen, pre-made, commissary, boil-in-bag, or assembly products; chain ownership; bar-snacks-only food; closure; or cross-cuisine commodity breadth. Report facts only; do not conclude `DQ` or fail.
@@ -43,6 +43,7 @@ HARD PROHIBITIONS:
 - No scratch, assembly-heavy, likely, authentic, or qualifies conclusion. Quote facts and let the orchestrator decide.
 - No inference from photographs, directory category, cuisine, service format, popularity, or missing process language.
 - Do not promote fresh, homemade, authentic, traditional, chef-driven, or farm-to-table into production evidence without preserving the exact underlying factual quotation.
+- Do not promote company-wide, commissary/shared-kitchen, external-supplier, predecessor/historical, beverage, promotion, event, availability/daypart, sourcing/delivery, or daily-production evidence into branch-local current food-menu turnover.
 - Do not infer a rating or count.
 - Do not omit an inconvenient or adverse quotation.
 
