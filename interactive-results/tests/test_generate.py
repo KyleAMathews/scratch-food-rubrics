@@ -148,3 +148,27 @@ class RenderTests(unittest.TestCase):
             self.assertEqual(result['status'],'static-pass')
             self.assertTrue(all(v.startswith('sha256:') for v in result['hashes'].values()))
             self.assertNotIn(str(td),out.read_text())
+
+
+class TemplateContractTests(unittest.TestCase):
+    def setUp(self):
+        self.template=(SKILL_DIR/'template.html').read_text()
+
+    def test_payload_marker_and_leaflet_contract(self):
+        self.assertEqual(self.template.count('__INTERACTIVE_RESULTS_PAYLOAD__'),1)
+        self.assertIn('leaflet@1.9.4',self.template)
+        self.assertIn('tile.openstreetmap.org',self.template)
+
+    def test_stable_dom_hooks_exist(self):
+        for hook in ('search','mode-practical','mode-audit','sort','facet-panel','results','map-panel','map','filters-toggle','map-toggle','result-count','mapped-count','saved-only'):
+            self.assertIn(f'id="{hook}"',self.template)
+        self.assertIn('data-record-id',self.template)
+
+    def test_interaction_and_layout_contract(self):
+        for phrase in ('localStorage','showCard','alternateFacetCounts','scrollIntoView','.focus(','minmax(0, 1fr)','min-height: 0','overflow: hidden','overflow: auto','@media (max-width: 1050px)','@media (max-width: 720px)'):
+            self.assertIn(phrase,self.template)
+        self.assertNotIn('onclick=',self.template.lower())
+
+    def test_only_leaflet_is_external_application_dependency(self):
+        self.assertEqual(self.template.count('<script src='),1)
+        self.assertEqual(self.template.count('<link rel="stylesheet" href='),1)
