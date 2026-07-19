@@ -26,9 +26,20 @@ Finds bakeries that are **made from raw components on-site AND interesting to a 
 
 ```text
 /bakery-rubric [location]
+/interactive-results <RUN_DIR>
 ```
 
 It uses the same S/I/R structure, tuned for bakery signals such as lamination, bake cadence, and wholesale pressure.
+
+### Interactive Results
+
+After either rubric completes, the optional **Interactive Results** skill turns the frozen run snapshot into a validated, local-first faceted list-and-map site. It reads canonical `06-decisions.json`, asks you to approve its facet design, and does not do new research or publish automatically.
+
+```text
+/interactive-results <RUN_DIR>
+```
+
+This is an optional post-run step. A separate explicit `/gisthost` request is required to publish the generated local page.
 
 ## How It Works
 
@@ -64,7 +75,9 @@ scratch-food-rubrics/
 ├── reference/
 ├── restaurant-rubric/
 │   └── SKILL.md
-└── bakery-rubric/
+├── bakery-rubric/
+│   └── SKILL.md
+└── interactive-results/
     └── SKILL.md
 ```
 
@@ -73,6 +86,7 @@ Then invoke:
 ```text
 /restaurant-rubric [location]
 /bakery-rubric [location]
+/interactive-results <RUN_DIR>
 ```
 
 If your agent's skill installer expects one self-contained directory per skill, preserve the relative shared-reference paths by installing or linking the repository as a unit rather than copying only the root file.
