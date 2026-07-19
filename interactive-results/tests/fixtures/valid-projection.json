@@ -1,0 +1,20 @@
+{
+  "schema_version":"1.0","source":{"run_id":"fixture-bakery","category":"bakery","decision_hash":""},
+  "snapshots":{"run_date":"2026-07-18","rating_date":"2026-07-18","access_date":"2026-07-18"},
+  "title":"Scratch bakeries around Example","scope":"Example metro",
+  "facets":[
+    {"key":"region","label":"Region","kind":"multi","values":[{"value":"central","label":"Central"},{"value":"east","label":"East"}]},
+    {"key":"access","label":"Access","kind":"multi","values":[{"value":"walk-in","label":"Walk-in"},{"value":"preorder","label":"Preorder"}]},
+    {"key":"occasion","label":"Occasion","kind":"multi","values":[{"value":"best-bread","label":"Best bread"},{"value":"cross-town","label":"Worth crossing town"}]},
+    {"key":"status","label":"Status","kind":"multi","values":[{"value":"rated","label":"Rated"},{"value":"unconfirmed","label":"Rating unconfirmed"},{"value":"deferred","label":"Deferred"}]},
+    {"key":"specialty","label":"Specialty","kind":"multi","values":[{"value":"bread","label":"Bread"},{"value":"regional","label":"Regional specialty"}]}
+  ],
+  "theme":{"category":"bakery","palette":"bakery","typography":"warm","default_sort":"combined"},
+  "counts":{"practical":2,"audit":1,"mapped":1,"omitted":0},
+  "practical":[
+    {"id":"BAK-001","name":"North Star Bread","address":"123 Main St, Example, UT","coordinates":{"lat":40.75,"lng":-111.88},"location_label":"Central Example","summary":"Open-crumb naturally leavened loaves.","facet_values":{"region":["central"],"access":["walk-in"],"occasion":["best-bread"],"status":["rated"],"specialty":["bread"]}},
+    {"id":"BAK-002","name":"Moonrise Microbakery","address":null,"coordinates":null,"location_label":"East Example","summary":"Weekly preorder with a regional bun specialty.","facet_values":{"region":["east"],"access":["preorder"],"occasion":["cross-town"],"status":["unconfirmed"],"specialty":["regional"]}}
+  ],
+  "audit":[{"id":"BAK-003","name":"Old Mill Bakery","address":"9 Mill Rd, Example, UT","coordinates":{"lat":40.70,"lng":-111.90},"location_label":"Central Example","summary":"","facet_values":{"region":["central"],"access":[],"occasion":[],"status":["deferred"],"specialty":["bread"]}}],
+  "omitted":[]
+}

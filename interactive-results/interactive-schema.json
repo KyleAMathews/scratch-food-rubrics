@@ -1,0 +1,349 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scratch-food-rubrics.local/interactive-schema.json",
+  "title": "Scratch Food Interactive Projection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "source",
+    "snapshots",
+    "title",
+    "scope",
+    "facets",
+    "theme",
+    "counts",
+    "practical",
+    "audit",
+    "omitted"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "run_id",
+        "category",
+        "decision_hash"
+      ],
+      "properties": {
+        "run_id": {
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "bakery",
+            "restaurant"
+          ]
+        },
+        "decision_hash": {
+          "type": "string"
+        }
+      }
+    },
+    "snapshots": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "run_date",
+        "rating_date",
+        "access_date"
+      ],
+      "properties": {
+        "run_date": {
+          "type": "string"
+        },
+        "rating_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "access_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "facets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "key",
+          "label",
+          "kind",
+          "values"
+        ],
+        "properties": {
+          "key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "multi",
+              "range",
+              "boolean"
+            ]
+          },
+          "values": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "value",
+                "label"
+              ],
+              "properties": {
+                "value": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "label": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "theme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "category",
+        "palette",
+        "typography",
+        "default_sort"
+      ],
+      "properties": {
+        "category": {
+          "enum": [
+            "bakery",
+            "restaurant"
+          ]
+        },
+        "palette": {
+          "type": "string"
+        },
+        "typography": {
+          "type": "string"
+        },
+        "default_sort": {
+          "type": "string"
+        }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "practical",
+        "audit",
+        "mapped",
+        "omitted"
+      ],
+      "properties": {
+        "practical": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "audit": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "mapped": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "omitted": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "practical": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "address",
+          "coordinates",
+          "location_label",
+          "summary",
+          "facet_values"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "address": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "coordinates": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": false,
+            "required": [
+              "lat",
+              "lng"
+            ],
+            "properties": {
+              "lat": {
+                "type": "number",
+                "minimum": -90,
+                "maximum": 90
+              },
+              "lng": {
+                "type": "number",
+                "minimum": -180,
+                "maximum": 180
+              }
+            }
+          },
+          "location_label": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "facet_values": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            }
+          }
+        }
+      }
+    },
+    "audit": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "address",
+          "coordinates",
+          "location_label",
+          "summary",
+          "facet_values"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "address": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "coordinates": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": false,
+            "required": [
+              "lat",
+              "lng"
+            ],
+            "properties": {
+              "lat": {
+                "type": "number",
+                "minimum": -90,
+                "maximum": 90
+              },
+              "lng": {
+                "type": "number",
+                "minimum": -180,
+                "maximum": 180
+              }
+            }
+          },
+          "location_label": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "facet_values": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            }
+          }
+        }
+      }
+    },
+    "omitted": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "reason"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

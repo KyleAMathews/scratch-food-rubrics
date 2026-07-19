@@ -1,0 +1,346 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scratch-food-rubrics.local/decision-schema.json",
+  "title": "Scratch Food Canonical Decision Ledger",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "category",
+    "run_id",
+    "generated_at",
+    "source_artifacts",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "category": {
+      "enum": [
+        "bakery",
+        "restaurant"
+      ]
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_artifacts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "required": [
+        "manifest",
+        "evidence"
+      ]
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "aliases",
+          "branch",
+          "address",
+          "coordinates",
+          "disposition",
+          "reason",
+          "score",
+          "rating",
+          "tier",
+          "ranking_eligible",
+          "occasions",
+          "rare_finds",
+          "access",
+          "merge_target",
+          "rationale",
+          "sources"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "branch": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "address": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "coordinates": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": false,
+            "required": [
+              "lat",
+              "lng"
+            ],
+            "properties": {
+              "lat": {
+                "type": "number",
+                "minimum": -90,
+                "maximum": 90
+              },
+              "lng": {
+                "type": "number",
+                "minimum": -180,
+                "maximum": 180
+              }
+            }
+          },
+          "disposition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string"
+          },
+          "score": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": false,
+            "required": [
+              "s",
+              "i",
+              "g",
+              "provenance"
+            ],
+            "properties": {
+              "s": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "i": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "g": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "provenance": {
+                "enum": [
+                  "documented",
+                  "estimated",
+                  "calibrated",
+                  "provisional-secondary"
+                ]
+              }
+            }
+          },
+          "rating": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "count",
+              "count_state",
+              "platform",
+              "provenance",
+              "accessed_at"
+            ],
+            "properties": {
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 5
+              },
+              "count": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "count_state": {
+                "enum": [
+                  "literal",
+                  "count-unavailable",
+                  "unconfirmed"
+                ]
+              },
+              "platform": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "provenance": {
+                "enum": [
+                  "direct",
+                  "provisional-secondary",
+                  "unconfirmed"
+                ]
+              },
+              "accessed_at": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "tier": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ranking_eligible": {
+            "type": "boolean"
+          },
+          "occasions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "rare_finds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "access": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": false,
+            "required": [
+              "format",
+              "state",
+              "evidence_date"
+            ],
+            "properties": {
+              "format": {
+                "type": "string",
+                "minLength": 1
+              },
+              "state": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence_date": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "merge_target": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "rationale": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "artifact",
+                "ref"
+              ],
+              "properties": {
+                "artifact": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "ref": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "ranking_eligible": {
+                  "const": true
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "score": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "disposition": {
+                  "const": "canonical-duplicate"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "merge_target": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

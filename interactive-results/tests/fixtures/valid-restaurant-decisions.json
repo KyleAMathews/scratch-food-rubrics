@@ -1,0 +1,7 @@
+{
+  "schema_version":"1.0","category":"restaurant","run_id":"fixture-restaurant","generated_at":"2026-07-18T00:00:00Z","source_artifacts":{"manifest":"00-run-manifest.md","evidence":"05-evidence-ledger.md"},
+  "records":[
+    {"id":"RST-001","name":"Mesa Kitchen","aliases":[],"branch":null,"address":"7 Center St, Example, UT","coordinates":{"lat":40.74,"lng":-111.89},"disposition":"rated-survivor","reason":"Scratch kitchen","score":{"s":86,"i":74,"g":79.77,"provenance":"documented"},"rating":{"value":4.6,"count":90,"count_state":"literal","platform":"Google","provenance":"direct","accessed_at":"2026-07-18"},"tier":"A","ranking_eligible":true,"occasions":["best-meal"],"rare_finds":["regional-stew"],"access":{"format":"storefront","state":"walk-in active","evidence_date":"2026-07-18"},"merge_target":null,"rationale":["House-made components."],"sources":[{"artifact":"05-evidence-ledger.md","ref":"RST-001"}]},
+    {"id":"RST-002","name":"Archive Supper Club","aliases":[],"branch":null,"address":"22 State St, Example, UT","coordinates":null,"disposition":"score-unresolved","reason":"Food cadence unresolved","score":null,"rating":null,"tier":null,"ranking_eligible":false,"occasions":[],"rare_finds":[],"access":{"format":"private event","state":"unverified","evidence_date":"2026-07-17"},"merge_target":null,"rationale":[],"sources":[{"artifact":"05-evidence-ledger.md","ref":"RST-002"}]}
+  ]
+}
