@@ -89,6 +89,10 @@ For every otherwise eligible producer record:
 
 Report broad-survey count, targeted additions, deduplicated union, coverage-audit additions, last-pass yield, and precise limitations. Never call processed OSM rows a complete real-world census.
 
+## Canonical rendering input
+
+Read decisions exclusively from canonical `{RUN_DIR}/06-decisions.json`; do not consume an independently authored `06-decisions.md`. The JSON is the only decision authority. Verify every reader-facing membership and count against canonical JSON while keeping `08-results.md` as reader-facing prose.
+
 ## Phase 8 artifact
 
 Write the final reader-facing result to `{RUN_DIR}/08-results.md`. Any generated HTML, PDF, export, or sharing payload MUST also live inside `{RUN_DIR}`. For every generated HTML or PDF export, inspect the rendered pages visually—not only compilation or extracted text. Check for overlap, clipping, illegible wrapping, and broken pagination. Split or redesign any long table or disclosure block that cannot paginate cleanly, then inspect the regenerated export. Update `00-run-manifest.md` to `complete` with links to every standard artifact.
@@ -103,6 +107,10 @@ Write the final reader-facing result to `{RUN_DIR}/08-results.md`. Any generated
 - [ ] The pre-render direct-place rating rerun is reflected in the rated lists and the visible rating-unconfirmed section.
 - [ ] Every provisional rating is visibly labeled as secondary-source evidence with its attributed platform and was not used to break a near-tie against direct evidence.
 - [ ] Every generated HTML/PDF export received rendered-page visual inspection; long tables and disclosure blocks paginate without overlap or clipping.
+
+## Optional interactive follow-up
+
+After the Phase 8 completion gate passes and the manifest is `complete`, suggest exactly one optional next step: `/interactive-results {RUN_DIR}`. Do not invoke it, generate a website, or publish anything without the user's subsequent explicit approval.
 
 ## Sharing Results
 

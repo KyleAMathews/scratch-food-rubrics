@@ -152,10 +152,10 @@ def test_already_covered_invariants_remain_intact():
     assert 'chain-ness is magnitude, not direction' in scoring
 
 
-def test_v812_metadata_is_synchronized():
+def test_v813_metadata_is_synchronized():
     bakery = text('bakery-rubric/SKILL.md')
     restaurant = text('restaurant-rubric/SKILL.md')
-    assert 'prompt (v8.12)' in bakery and '**v8.12:**' in bakery
-    assert 'prompt (v8.12)' in restaurant and '**v8.12:**' in restaurant
-    assert 'scratch-food-rubrics/8.12 (research)' in text('bakery-rubric/discovery-reference.md')
-    assert 'scratch-food-rubrics/8.12 (research)' in text('restaurant-rubric/discovery-reference.md')
+    assert 'prompt (v8.13)' in bakery and '**v8.13:**' in bakery
+    assert 'prompt (v8.13)' in restaurant and '**v8.13:**' in restaurant
+    assert 'scratch-food-rubrics/8.13 (research)' in text('bakery-rubric/discovery-reference.md')
+    assert 'scratch-food-rubrics/8.13 (research)' in text('restaurant-rubric/discovery-reference.md')

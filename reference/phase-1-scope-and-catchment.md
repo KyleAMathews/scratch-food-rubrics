@@ -24,7 +24,8 @@ The user's requested location and the category selected by the invoked root skil
      "$run/02-discovery-ledger.md" "$run/02-query-log.md" \
      "$run/03-candidate-ledger.md" "$run/04-worker-returns/index.md" \
      "$run/05-evidence-ledger.md" "$run/05-repair-log.md" \
-     "$run/06-decisions.md" "$run/07-coverage-audit.md" "$run/08-results.md"
+     "$run/07-coverage-audit.md" "$run/08-results.md"
+   printf '%s\n' '{"schema_version":"1.0","category":"CATEGORY_TO_SET","run_id":"RUN_ID_TO_SET","generated_at":"1970-01-01T00:00:00Z","source_artifacts":{"manifest":"00-run-manifest.md","evidence":"05-evidence-ledger.md"},"records":[]}' > "$run/06-decisions.json"
    RUN_DIR="$(cd "$run" && pwd -P)"
    ```
 

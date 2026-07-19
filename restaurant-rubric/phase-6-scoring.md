@@ -244,11 +244,13 @@ Before Phase 6 closes, run deterministic integrity validation over the complete 
 - unresolved and exhausted rows are absent from ranked tiers;
 - summary disposition counts equal the decision population.
 
-The phase gate fails on any validation defect. Link the machine-readable result from `06-decisions.md` and `00-run-manifest.md`. A run-local deterministic validator is sufficient; a universal repository parser is not required.
+The phase gate fails on any validation defect. Link the machine-readable result from canonical `06-decisions.json` and `00-run-manifest.md`. A run-local deterministic validator is sufficient; a universal repository parser is not required.
 
 ## Phase 6 artifact
 
-Write every orchestrator decision, supporting evidence reference, score and provenance, disqualification rationale, conflict resolution, tier, tie, scarcity, occasion, and confidence decision to `{RUN_DIR}/06-decisions.md`. Do not write decisions into worker-return files. Update `00-run-manifest.md` to `phase-6-complete` only after the gate passes.
+Write every orchestrator decision to canonical `{RUN_DIR}/06-decisions.json`: stable ID and identity, disposition and reason, structured rationale and source references, score/rating/access provenance, merge target, tier, ranking eligibility, occasions, and category-specific decisions. Validate it against `../interactive-results/decision-schema.json`, run all category integrity checks, compute its canonical SHA-256 content hash, and link the schema version, validator result, hash, and JSON path from `00-run-manifest.md`. Write atomically, then update the manifest to `phase-6-complete` only after schema validation and all gates pass.
+
+`06-decisions.md` is an optional deterministic audit view generated from canonical JSON. Never author or repair it independently, and never use it as an authority. Do not write decisions into worker-return files.
 
 ## Phase 6 completion gate
 

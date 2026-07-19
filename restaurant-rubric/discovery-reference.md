@@ -14,7 +14,7 @@ Use the Phase 1 polygon or box; never silently substitute a smaller boundary. Wi
 BBOX="south,west,north,east"
 Q='[out:json][timeout:120];nwr["amenity"~"^(restaurant|cafe|fast_food|pub|bar)$"]('"$BBOX"');out center tags;'
 for ep in https://overpass-api.de/api/interpreter https://overpass.kumi.systems/api/interpreter https://overpass.osm.ch/api/interpreter; do
-  curl -sS --max-time 120 -A "scratch-food-rubrics/8.12 (research)" "$ep" --data-urlencode "data=$Q" -o restaurant-candidates.json
+  curl -sS --max-time 120 -A "scratch-food-rubrics/8.13 (research)" "$ep" --data-urlencode "data=$Q" -o restaurant-candidates.json
   python3 -c 'import json; json.load(open("restaurant-candidates.json"))' 2>/dev/null && break
 done
 ```

@@ -3,7 +3,7 @@ name: restaurant-rubric
 description: Find ambitious scratch-made restaurants, resist prominence and format bias, and return an evidence-grounded shortlist for a requested location.
 ---
 
-# Scratch-Kitchen Scorecard & Travel Prompt (v8.12)
+# Scratch-Kitchen Scorecard & Travel Prompt (v8.13)
 
 Find restaurants that are **scratch-made AND interesting to a frequent diner**. The hidden attribute is ambition: is this a kitchen making meaningful components from raw materials, or a business primarily assembling and reheating commodity inputs?
 
@@ -21,6 +21,8 @@ Scratch production is the eligibility gate. Interestingness distinguishes surviv
 ## Version line
 
 This skill and the bakery skill share one version and bump together.
+
+**v8.13:** canonical schema-validated `06-decisions.json` is the Phase 6 handoff; optional generated Markdown is non-authoritative; completed runs may offer the separate local-first `/interactive-results` skill. The calibrated rubrics and rating floors are unchanged.
 
 **v8.12:** explicit travel-time scope; identity-readiness routing; adaptive durable evidence dispatch; restaurant production/cadence scoping; honest no-score states; typed positive DQs; deterministic decision/render validation; and large-run cross-layer recommendation diversity. The calibrated rubrics and rating floors are unchanged.
 

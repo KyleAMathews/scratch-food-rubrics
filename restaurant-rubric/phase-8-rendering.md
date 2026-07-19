@@ -86,6 +86,10 @@ Rendering fails if a scoreable decision cannot be normalized, an ID appears twic
 
 Report broad-survey count, targeted additions, deduplicated union, coverage-audit additions, last-pass yield, and precise limitations. Never call processed OSM rows a complete real-world census.
 
+## Canonical rendering input
+
+Read decisions exclusively from canonical `{RUN_DIR}/06-decisions.json`; do not consume an independently authored `06-decisions.md`. The JSON is the only decision authority. Verify every reader-facing membership and count against canonical JSON while keeping `08-results.md` as reader-facing prose.
+
 ## Phase 8 artifact
 
 Write the final reader-facing result to `{RUN_DIR}/08-results.md`. Any generated HTML, PDF, export, or sharing payload MUST also live inside `{RUN_DIR}`. Update `00-run-manifest.md` to `complete` with links to every standard artifact.
@@ -98,6 +102,10 @@ Write the final reader-facing result to `{RUN_DIR}/08-results.md`. Any generated
 - [ ] For a large run, occasion and rare-find slots use distinct venues or every repetition records the lack of a credible distinct alternative.
 - [ ] Discovery limitations are stated at the source-convergence level.
 - [ ] Every scoreable decision normalized exactly once, Phase 6 validation remains green, and rendered audit-row count equals scoreable decision count.
+
+## Optional interactive follow-up
+
+After the Phase 8 completion gate passes and the manifest is `complete`, suggest exactly one optional next step: `/interactive-results {RUN_DIR}`. Do not invoke it, generate a website, or publish anything without the user's subsequent explicit approval.
 
 ## Sharing Results
 

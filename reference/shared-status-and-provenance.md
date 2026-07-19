@@ -27,12 +27,15 @@ The standard layout is:
 ├── 04-worker-returns/
 ├── 05-evidence-ledger.md
 ├── 05-repair-log.md
-├── 06-decisions.md
+├── 06-decisions.json
+├── 06-decisions.md (optional generated audit view)
 ├── 07-coverage-audit.md
 └── 08-results.md
 ```
 
 A phase may add clearly named supporting files under the same directory, but it MUST NOT rename or omit the standard artifact for that phase. All phase files refer to this path as `{RUN_DIR}`.
+
+`06-decisions.json` is the canonical Phase 6 decision ledger for both categories and MUST validate against `../interactive-results/decision-schema.json`. `06-decisions.md` is optional and, when present, MUST be generated from the JSON; it is never independently authored or authoritative. Record the schema version, validator result, canonical content hash, and artifact path in `00-run-manifest.md`. Regenerate derived views after JSON changes so no manual drift is possible.
 
 ## Non-negotiable semantics
 
