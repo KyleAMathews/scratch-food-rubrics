@@ -42,3 +42,109 @@ class SchemaContractTests(unittest.TestCase):
         self.assertGreaterEqual(len(projection["practical"]), 2)
         self.assertGreaterEqual(len(projection["audit"]), 1)
         self.assertTrue(any(row["coordinates"] is None for row in projection["practical"]))
+
+
+class GeneratorValidationTests(unittest.TestCase):
+    def setUp(self):
+        self.module = load_module()
+        self.decisions = json.loads((FIXTURES / "valid-decisions.json").read_text())
+        self.projection = json.loads((FIXTURES / "valid-projection.json").read_text())
+        self.projection["source"]["decision_hash"] = self.module.sha256_uri(self.decisions)
+
+    def test_valid_documents_pass(self):
+        self.assertEqual(self.module.validate_decisions(self.decisions), [])
+        self.assertEqual(self.module.validate_projection(self.projection, self.decisions), [])
+
+    def test_duplicate_decision_id_fails(self):
+        self.decisions["records"].append(copy.deepcopy(self.decisions["records"][0]))
+        self.assertIn("duplicate decision id", "\n".join(self.module.validate_decisions(self.decisions)))
+
+    def test_merge_target_must_resolve(self):
+        self.decisions["records"][0]["merge_target"] = "MISSING"
+        self.assertIn("merge target", "\n".join(self.module.validate_decisions(self.decisions)))
+
+    def test_practical_requires_access_and_populations_do_not_overlap(self):
+        self.projection["audit"].append(copy.deepcopy(self.projection["practical"][0]))
+        errors = "\n".join(self.module.validate_projection(self.projection, self.decisions))
+        self.assertIn("overlap", errors)
+
+    def test_undeclared_facet_value_fails(self):
+        self.projection["practical"][0]["facet_values"]["region"] = ["invented"]
+        self.assertIn("undeclared facet value", "\n".join(self.module.validate_projection(self.projection, self.decisions)))
+
+    def test_coordinate_and_count_mismatches_fail(self):
+        self.projection["practical"][0]["coordinates"]["lat"] = 200
+        self.projection["counts"]["mapped"] = 99
+        errors = "\n".join(self.module.validate_projection(self.projection, self.decisions))
+        self.assertIn("coordinate", errors)
+        self.assertIn("mapped count", errors)
+
+    def test_non_finite_number_is_rejected(self):
+        self.decisions["records"][0]["score"]["s"] = math.nan
+        self.assertIn("finite", "\n".join(self.module.validate_decisions(self.decisions)))
+
+    def test_build_payload_joins_canonical_fields_and_map_links(self):
+        payload = self.module.build_payload(self.decisions, self.projection)
+        mapped = payload["practical"][0]
+        unpinned = payload["practical"][1]
+        audit = payload["audit"][0]
+        self.assertEqual(mapped["score"]["s"], 82)
+        self.assertIn("maps/search", mapped["map_url"])
+        self.assertEqual(mapped["map_action"], "Directions")
+        self.assertIsNone(unpinned["map_url"])
+        self.assertEqual(audit["map_action"], "Check current place record")
+        self.assertNotIn("sources", mapped)
+        self.assertNotIn("rationale", mapped)
+
+    def test_build_payload_uses_name_and_address_query(self):
+        payload = self.module.build_payload(self.decisions, self.projection)
+        url = payload["practical"][0]["map_url"]
+        self.assertIn("North+Star+Bread", url)
+        self.assertIn("123+Main+St", url)
+
+
+class RenderTests(unittest.TestCase):
+    def setUp(self):
+        self.module=load_module()
+        self.decisions=json.loads((FIXTURES/"valid-decisions.json").read_text())
+        self.projection=json.loads((FIXTURES/"valid-projection.json").read_text())
+        self.projection["source"]["decision_hash"]=self.module.sha256_uri(self.decisions)
+
+    def test_render_is_deterministic_and_script_safe(self):
+        payload=self.module.build_payload(self.decisions,self.projection)
+        payload["practical"][0]["summary"]='</script><b>&\u2028"\''
+        template='<script type="application/json">__INTERACTIVE_RESULTS_PAYLOAD__</script>'
+        first=self.module.render(template,payload)
+        second=self.module.render(template,payload)
+        self.assertEqual(first,second)
+        self.assertNotIn('</script><b>',first)
+        self.assertIn('\\u003c/script\\u003e',first)
+        self.assertIn('\\u0026',first)
+
+    def test_render_requires_exactly_one_marker(self):
+        with self.assertRaises(ValueError): self.module.render('none',{})
+        with self.assertRaises(ValueError): self.module.render('__INTERACTIVE_RESULTS_PAYLOAD____INTERACTIVE_RESULTS_PAYLOAD__',{})
+
+    def test_failed_generation_preserves_existing_output(self):
+        with tempfile.TemporaryDirectory() as td:
+            td=Path(td); out=td/'index.html'; out.write_text('sentinel')
+            bad=copy.deepcopy(self.projection); bad['counts']['mapped']=99
+            p=td/'projection.json'; p.write_text(json.dumps(bad))
+            with self.assertRaises(ValueError):
+                self.module.generate(FIXTURES/'valid-decisions.json',p,td/'missing-template.html',out,td/'validation.json','2026-07-18T00:00:00Z')
+            self.assertEqual(out.read_text(),'sentinel')
+
+    def test_successful_generation_is_deterministic_and_reports_hashes(self):
+        with tempfile.TemporaryDirectory() as td:
+            td=Path(td); template=td/'template.html'; template.write_text('<script type="application/json">__INTERACTIVE_RESULTS_PAYLOAD__</script>')
+            projection=td/'projection.json'; projection.write_text(json.dumps(self.projection))
+            decisions=td/'decisions.json'; decisions.write_text(json.dumps(self.decisions))
+            (td/'00-run-manifest.md').write_text('fixture'); (td/'05-evidence-ledger.md').write_text('fixture')
+            out=td/'index.html'; report=td/'validation.json'
+            result=self.module.generate(decisions,projection,template,out,report,'2026-07-18T00:00:00Z')
+            first=out.read_bytes()
+            self.module.generate(decisions,projection,template,out,report,'2026-07-18T00:00:00Z')
+            self.assertEqual(first,out.read_bytes())
+            self.assertEqual(result['status'],'static-pass')
+            self.assertTrue(all(v.startswith('sha256:') for v in result['hashes'].values()))
+            self.assertNotIn(str(td),out.read_text())
