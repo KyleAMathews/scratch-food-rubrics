@@ -136,7 +136,8 @@
         "category",
         "palette",
         "typography",
-        "default_sort"
+        "default_sort",
+        "rating_floor"
       ],
       "properties": {
         "category": {
@@ -153,6 +154,11 @@
         },
         "default_sort": {
           "type": "string"
+        },
+        "rating_floor": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5
         }
       }
     },

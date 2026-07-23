@@ -32,14 +32,14 @@ def main() -> None:
         row["candidate_id"]: row for row in candidates_doc["candidates"]
     }
 
-    identity_updates = 0
     missing_candidates = []
-    repaired_sources = 0
+    matched_candidates = 0
     for record in decisions["records"]:
         candidate = candidates.get(record["id"])
         if candidate is None:
             missing_candidates.append(record["id"])
         else:
+            matched_candidates += 1
             point = candidate.get("point")
             address = candidate.get("address") or None
             coordinates = (
@@ -48,12 +48,6 @@ def main() -> None:
             aliases = list(
                 dict.fromkeys(record.get("aliases", []) + candidate.get("aliases", []))
             )
-            if (
-                record.get("address") != address
-                or record.get("coordinates") != coordinates
-                or record.get("aliases") != aliases
-            ):
-                identity_updates += 1
             record["address"] = address
             record["coordinates"] = coordinates
             record["aliases"] = aliases
@@ -61,7 +55,6 @@ def main() -> None:
         for source in record["sources"]:
             if source["artifact"] == "06-decisions.md":
                 source["artifact"] = "06-decisions.legacy-v8.10.md"
-                repaired_sources += 1
 
     decisions["generated_at"] = "2026-07-21T00:00:00-06:00"
     decisions["source_artifacts"]["legacy_decisions"] = (
@@ -72,6 +65,7 @@ def main() -> None:
     )
 
     projection = json.loads(PROJECTION_PATH.read_text())
+    projection["theme"]["rating_floor"] = 4.0
     by_id = {record["id"]: record for record in decisions["records"]}
     projected_ids = []
     for population in ("practical", "audit", "omitted"):
@@ -98,11 +92,16 @@ def main() -> None:
     )
 
     decision_ids = {record["id"] for record in decisions["records"]}
+    normalized_legacy_sources = sum(
+        source["artifact"] == "06-decisions.legacy-v8.10.md"
+        for record in decisions["records"]
+        for source in record["sources"]
+    )
     report = {
         "schema_contract": "restaurant v8.14 identity and projection repair",
         "decision_population": len(decisions["records"]),
-        "identity_updates": identity_updates,
-        "legacy_source_references_repaired": repaired_sources,
+        "identities_resolved_from_candidate_source": matched_candidates,
+        "normalized_legacy_source_references": normalized_legacy_sources,
         "candidate_ids_missing_from_identity_source": sorted(missing_candidates),
         "projection_population": len(projected_ids),
         "projection_ids_match_decisions": set(projected_ids) == decision_ids,

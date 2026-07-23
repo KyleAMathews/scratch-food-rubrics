@@ -19,6 +19,7 @@ CRITERION_MAXIMA = {
     "restaurant": {"base_prep": 25, "production": 40, "coherence": 20, "operator_format": 15},
     "bakery": {"core_craft": 30, "input_sourcing": 20, "breadth_capacity": 20, "bake_cadence": 20, "operator_format": 10},
 }
+RATING_FLOORS = {"bakery": 4.3, "restaurant": 4.0}
 
 
 def load_json(path):
@@ -169,6 +170,10 @@ def validate_projection(value, decisions):
     if source.get("run_id") != decisions.get("run_id"): errors.append("projection run_id does not match decisions")
     if source.get("category") != decisions.get("category"): errors.append("projection category does not match decisions")
     if source.get("decision_hash") != sha256_uri(decisions): errors.append("projection decision_hash does not match decisions")
+    theme=value.get("theme",{})
+    expected_floor=RATING_FLOORS.get(decisions.get("category"))
+    if theme.get("rating_floor") != expected_floor:
+        errors.append(f"theme rating_floor must be {expected_floor} for {decisions.get('category')}")
     decision_by_id={r.get("id"):r for r in decisions.get("records",[]) if isinstance(r,dict)}
     facets=value.get("facets",[])
     declared={}

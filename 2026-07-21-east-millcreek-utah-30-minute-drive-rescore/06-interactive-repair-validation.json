@@ -1,8 +1,8 @@
 {
   "schema_contract": "restaurant v8.14 identity and projection repair",
   "decision_population": 1650,
-  "identity_updates": 1644,
-  "legacy_source_references_repaired": 1650,
+  "identities_resolved_from_candidate_source": 1644,
+  "normalized_legacy_source_references": 1650,
   "candidate_ids_missing_from_identity_source": [
     "R-2928",
     "R-2929",

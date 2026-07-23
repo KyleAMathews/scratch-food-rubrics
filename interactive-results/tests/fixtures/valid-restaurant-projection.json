@@ -73,7 +73,8 @@
     "category": "restaurant",
     "palette": "restaurant",
     "typography": "earthy",
-    "default_sort": "combined"
+    "default_sort": "combined",
+    "rating_floor": 4.0
   },
   "counts": {
     "practical": 1,

@@ -55,6 +55,10 @@ class GeneratorValidationTests(unittest.TestCase):
         self.assertEqual(self.module.validate_decisions(self.decisions), [])
         self.assertEqual(self.module.validate_projection(self.projection, self.decisions), [])
 
+    def test_rating_floor_matches_category(self):
+        self.projection["theme"]["rating_floor"] = 4.0
+        self.assertIn("rating_floor must be 4.3", "\n".join(self.module.validate_projection(self.projection, self.decisions)))
+
     def test_duplicate_decision_id_fails(self):
         self.decisions["records"].append(copy.deepcopy(self.decisions["records"][0]))
         self.assertIn("duplicate decision id", "\n".join(self.module.validate_decisions(self.decisions)))
@@ -189,8 +193,9 @@ class TemplateContractTests(unittest.TestCase):
         self.assertIn('data-record-id',self.template)
 
     def test_interaction_and_layout_contract(self):
-        for phrase in ('localStorage','showCard','alternateFacetCounts','scoreMetrics','Scratch evidence','scrollIntoView','.focus(','minmax(0, 1fr)','min-height: 0','overflow: hidden','overflow: auto','@media (max-width: 1050px)','@media (max-width: 720px)'):
+        for phrase in ('localStorage','showCard','alternateFacetCounts','scoreMetrics','Scratch evidence','defaultRatingFloor','state.rating=defaultRatingFloor','scrollIntoView','.focus(','minmax(0, 1fr)','min-height: 0','overflow: hidden','overflow: auto','@media (max-width: 1050px)','@media (max-width: 720px)'):
             self.assertIn(phrase,self.template)
+        self.assertNotIn('>Any</strong>', self.template)
         self.assertNotIn('onclick=',self.template.lower())
 
     def test_only_leaflet_is_external_application_dependency(self):

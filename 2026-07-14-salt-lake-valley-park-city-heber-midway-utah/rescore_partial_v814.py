@@ -186,6 +186,7 @@ def main() -> None:
     DECISIONS_PATH.write_text(json.dumps(decisions, indent=2, ensure_ascii=False) + "\n")
 
     projection = json.loads(PROJECTION_PATH.read_text())
+    projection["theme"]["rating_floor"] = 4.3
     for population in ("practical", "audit", "omitted"):
         for row in projection[population]:
             row["summary"] = (

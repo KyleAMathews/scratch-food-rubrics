@@ -185,7 +185,8 @@
     "category": "bakery",
     "palette": "bakery",
     "typography": "warm",
-    "default_sort": "combined"
+    "default_sort": "combined",
+    "rating_floor": 4.3
   },
   "counts": {
     "practical": 58,

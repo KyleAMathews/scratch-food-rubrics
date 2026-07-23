@@ -1,6 +1,6 @@
 {
     "browser": {
-        "checked_at": "2026-07-23T00:00:00-06:00",
+        "checked_at": "2026-07-23T11:05:00-06:00",
         "status": "pass",
         "observed_counts": {
             "practical": 224,
@@ -8,12 +8,8 @@
             "mapped": 221
         },
         "checks": {
-            "partial_cards": true,
-            "search": true,
-            "audit_mode": true,
-            "map": true,
-            "mobile_layout": true,
-            "unicode": true,
+            "rating_floor_4_0": true,
+            "baseline_results": true,
             "console_clean": true
         }
     },
@@ -23,13 +19,13 @@
         "omitted": 0,
         "practical": 224
     },
-    "generated_at": "2026-07-23T00:00:00-06:00",
+    "generated_at": "2026-07-23T11:05:00-06:00",
     "generator_version": "1.0",
     "hashes": {
         "decisions": "sha256:5eae241f6e68dfadcbce91187cba7838e0fe4305fcb7215eca5c0859e13612f1",
-        "output": "sha256:8de721d2f0120de1c45ac59f97b62bb0327bd4da7ba81850f7ca11b460e628ac",
-        "projection": "sha256:aad2e9305a75aebf0a267c457666726cfe710035b40618395cb26504c887bab4",
-        "template": "sha256:528e86582e6f4f7d614984d5c39c3143b657f568d29a165796ed6cf4cf1260e9"
+        "output": "sha256:7b6a06a3a3fc22f5c1a77248b5989363b3bc4d512113e0d8020a10e48c19088f",
+        "projection": "sha256:69727f761a886d80db676d717de5db14958e3395fd38420ebedac4fd90fcd461",
+        "template": "sha256:2c6627488869eedc21a81900b692408d0900fcdba471d19b9e1a9662297a40f8"
     },
     "schema_version": "1.0",
     "static_checks": {
