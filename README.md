@@ -51,7 +51,7 @@ The primary agent stays in charge for the entire run and loads each phase's inst
 4. **Converge:** Union and deduplicate candidates, inspect neighborhood, language, and category gaps, and require a no-new-candidate pass.
 5. **Retrieve evidence:** Subagents receive an exact evidence-only prompt and quote menus, sites, reviews, press, and literal ratings. They never score.
 6. **Accept and repair:** The primary agent checks every record. When possible, it messages the original worker for targeted missing evidence.
-7. **Score and audit:** The primary agent applies the unchanged rubric, then challenges the candidate set again before rendering.
+7. **Score and audit:** The primary agent scores observed production criteria, preserves unknown criteria through non-normalized partial scores, then challenges the candidate set again before rendering.
 8. **Output:** Results are organized by foodie occasions, rare finds, and an audit ranking, with honest discovery limits.
 
 Broad and targeted discovery are complementary. Map enumeration protects obscure specialists from popularity bias; targeted searches recover prominent, new, renamed, unlisted, and category-adjacent venues that map data misses.

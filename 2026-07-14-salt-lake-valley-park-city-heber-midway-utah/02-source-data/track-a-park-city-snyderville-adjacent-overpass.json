@@ -1,0 +1,121 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-15T04:39:30Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1667621499,
+  "lat": 40.6598289,
+  "lon": -111.5021453,
+  "tags": {
+    "name": "Windy Ridge Bakery",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 2366146738,
+  "lat": 40.6454799,
+  "lon": -111.4970779,
+  "tags": {
+    "name": "Cake",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 2417990135,
+  "lat": 40.6620362,
+  "lon": -111.5078842,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "yes",
+    "name": "Wasatch Bagel",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4296767299,
+  "lat": 40.7250623,
+  "lon": -111.5489099,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Great Harvest Bread Co."
+  }
+},
+{
+  "type": "node",
+  "id": 4296789376,
+  "lat": 40.7242363,
+  "lon": -111.5418399,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Park City Bread and Bagel"
+  }
+},
+{
+  "type": "node",
+  "id": 4299141280,
+  "lat": 40.6519301,
+  "lon": -111.5073066,
+  "tags": {
+    "brand": "Rocky Mountain Chocolate Factory",
+    "brand:wikidata": "Q7355878",
+    "name": "Rocky Mountain Chocolate Factory",
+    "shop": "confectionery"
+  }
+},
+{
+  "type": "node",
+  "id": 4468747090,
+  "lat": 40.6444260,
+  "lon": -111.4960821,
+  "tags": {
+    "brand": "Rocky Mountain Chocolate Factory",
+    "brand:wikidata": "Q7355878",
+    "name": "Rocky Mountain Chocolate Factory",
+    "shop": "confectionery"
+  }
+},
+{
+  "type": "node",
+  "id": 13204028658,
+  "lat": 40.6467912,
+  "lon": -111.4971341,
+  "tags": {
+    "name": "Union Patisserie",
+    "shop": "pastry"
+  }
+},
+{
+  "type": "way",
+  "id": 227961385,
+  "center": {
+    "lat": 40.6432510,
+    "lon": -111.4953316
+  },
+  "tags": {
+    "addr:city": "Park City",
+    "addr:housenumber": "402",
+    "addr:postcode": "84060",
+    "addr:state": "UT",
+    "addr:street": "Main Street",
+    "amenity": "cafe",
+    "building": "yes",
+    "building:colour": "tan",
+    "building:material": "plaster",
+    "cuisine": "coffee_shop",
+    "name": "Java Cow Cafe & Bakery",
+    "opening_hours": "Mo-Sa 08:00-21:00; Su 08:00-20:00"
+  }
+}
+
+  ]
+}

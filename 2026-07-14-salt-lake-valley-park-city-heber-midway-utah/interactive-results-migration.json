@@ -1,0 +1,2980 @@
+{
+  "schema_version": "1.0",
+  "migration_type": "legacy-markdown-to-canonical-decisions",
+  "run_id": "2026-07-14-salt-lake-valley-park-city-heber-midway-utah",
+  "source_artifacts": [
+    "00-run-manifest.md",
+    "05-evidence-ledger.md",
+    "06-decisions.md",
+    "08-results.md",
+    "index.html (existing snapshot only; accepted address/coordinate/access projection)"
+  ],
+  "parsed_rows": [
+    {
+      "id": "T-001",
+      "name": "Salt Lake Sourdough",
+      "disposition": "rating-unconfirmed",
+      "source_refs": [
+        "05-evidence-ledger.md#T-001",
+        "06-decisions.md#T-001"
+      ]
+    },
+    {
+      "id": "T-002",
+      "name": "Mims Bakery",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#T-002",
+        "06-decisions.md#T-002"
+      ]
+    },
+    {
+      "id": "T-003",
+      "name": "Tomodachi Bake Shoppe",
+      "disposition": "rating-unconfirmed",
+      "source_refs": [
+        "05-evidence-ledger.md#T-003",
+        "06-decisions.md#T-003"
+      ]
+    },
+    {
+      "id": "T-004",
+      "name": "Bedlam",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-004",
+        "06-decisions.md#T-004"
+      ]
+    },
+    {
+      "id": "T-005",
+      "name": "Slice of Delight",
+      "disposition": "evidence-exhausted-unavailable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-005",
+        "06-decisions.md#T-005"
+      ]
+    },
+    {
+      "id": "T-006",
+      "name": "Bix Bakery & Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-006",
+        "06-decisions.md#T-006"
+      ]
+    },
+    {
+      "id": "T-007",
+      "name": "Cinnful Buns",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-007",
+        "06-decisions.md#T-007"
+      ]
+    },
+    {
+      "id": "T-008",
+      "name": "The Grey Rabbit Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-008",
+        "06-decisions.md#T-008"
+      ]
+    },
+    {
+      "id": "T-009",
+      "name": "Crumb Collective",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-009",
+        "06-decisions.md#T-009"
+      ]
+    },
+    {
+      "id": "T-010",
+      "name": "Doughlene Bakes SLC",
+      "disposition": "rating-unconfirmed",
+      "source_refs": [
+        "05-evidence-ledger.md#T-010",
+        "06-decisions.md#T-010"
+      ]
+    },
+    {
+      "id": "T-011",
+      "name": "The Salted Loaf",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#T-011",
+        "06-decisions.md#T-011"
+      ]
+    },
+    {
+      "id": "T-012",
+      "name": "Petite Orangerie",
+      "disposition": "status-deferred",
+      "source_refs": [
+        "05-evidence-ledger.md#T-012",
+        "06-decisions.md#T-012"
+      ]
+    },
+    {
+      "id": "T-013",
+      "name": "The Chocolate Palette",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-013",
+        "06-decisions.md#T-013"
+      ]
+    },
+    {
+      "id": "T-014",
+      "name": "Aroma Chocolates",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-014",
+        "06-decisions.md#T-014"
+      ]
+    },
+    {
+      "id": "T-015",
+      "name": "Crown Chocolate",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-015",
+        "06-decisions.md#T-015"
+      ]
+    },
+    {
+      "id": "T-016",
+      "name": "Amsterdam Delicious",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#T-016",
+        "06-decisions.md#T-016"
+      ]
+    },
+    {
+      "id": "T-017",
+      "name": "Sheer Ambrosia Bakery",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#T-017",
+        "06-decisions.md#T-017"
+      ]
+    },
+    {
+      "id": "T-018",
+      "name": "Sweets by Steph SLC",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-018",
+        "06-decisions.md#T-018"
+      ]
+    },
+    {
+      "id": "T-019",
+      "name": "Nano's Bagels",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#T-019",
+        "06-decisions.md#T-019"
+      ]
+    },
+    {
+      "id": "T-020",
+      "name": "Mi Casa Tortilleria",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-020",
+        "06-decisions.md#T-020"
+      ]
+    },
+    {
+      "id": "T-021",
+      "name": "House of Corn",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-021",
+        "06-decisions.md#T-021"
+      ]
+    },
+    {
+      "id": "T-022",
+      "name": "El Asadero",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-022",
+        "06-decisions.md#T-022"
+      ]
+    },
+    {
+      "id": "T-023",
+      "name": "Auntie Em's",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#T-023",
+        "06-decisions.md#T-023"
+      ]
+    },
+    {
+      "id": "T-024",
+      "name": "The Bake Shop",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#T-024",
+        "06-decisions.md#T-024"
+      ]
+    },
+    {
+      "id": "T-025",
+      "name": "Hawk & Sparrow",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#T-025",
+        "06-decisions.md#T-025"
+      ]
+    },
+    {
+      "id": "T-026",
+      "name": "Park City Desserts",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-026",
+        "06-decisions.md#T-026"
+      ]
+    },
+    {
+      "id": "T-027",
+      "name": "Red Bicycle Breadworks",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#T-027",
+        "06-decisions.md#T-027"
+      ]
+    },
+    {
+      "id": "T-028",
+      "name": "Süss Cookie Company",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#T-028",
+        "06-decisions.md#T-028"
+      ]
+    },
+    {
+      "id": "T-029",
+      "name": "Midway Bakery on Main",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#T-029",
+        "06-decisions.md#T-029"
+      ]
+    },
+    {
+      "id": "T-030",
+      "name": "Dottie's Kolaches",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#T-030",
+        "06-decisions.md#T-030"
+      ]
+    },
+    {
+      "id": "T-032",
+      "name": "Hungry Bunny Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-032",
+        "06-decisions.md#T-032"
+      ]
+    },
+    {
+      "id": "T-033",
+      "name": "Panaderia y Pasteleria Santa Cruz",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-033",
+        "06-decisions.md#T-033"
+      ]
+    },
+    {
+      "id": "T-034",
+      "name": "The Pretzel Connection",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-034",
+        "06-decisions.md#T-034"
+      ]
+    },
+    {
+      "id": "T-035",
+      "name": "Tina's Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-035",
+        "06-decisions.md#T-035"
+      ]
+    },
+    {
+      "id": "T-036",
+      "name": "CC Sweet Crumbs",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-036",
+        "06-decisions.md#T-036"
+      ]
+    },
+    {
+      "id": "T-037",
+      "name": "Luna's Kitchen & Juicery",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#T-037",
+        "06-decisions.md#T-037"
+      ]
+    },
+    {
+      "id": "T-038",
+      "name": "Bagel Coop",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-038",
+        "06-decisions.md#T-038"
+      ]
+    },
+    {
+      "id": "T-039",
+      "name": "Pie Party",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#T-039",
+        "06-decisions.md#T-039"
+      ]
+    },
+    {
+      "id": "T-040",
+      "name": "Love & Light Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-040",
+        "06-decisions.md#T-040"
+      ]
+    },
+    {
+      "id": "T-041",
+      "name": "Doki Doki Dessert Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-041",
+        "06-decisions.md#T-041"
+      ]
+    },
+    {
+      "id": "T-042",
+      "name": "Gluten Free by Kassie",
+      "disposition": "evidence-exhausted-unavailable",
+      "source_refs": [
+        "05-evidence-ledger.md#T-042",
+        "06-decisions.md#T-042"
+      ]
+    },
+    {
+      "id": "P3-001",
+      "name": "House of Bread",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-001",
+        "06-decisions.md#P3-001"
+      ]
+    },
+    {
+      "id": "P3-002",
+      "name": "Magnolia Bakery — Foothill Village",
+      "disposition": "status-deferred",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-002",
+        "06-decisions.md#P3-002"
+      ]
+    },
+    {
+      "id": "P3-003",
+      "name": "JD Flannel Donuts & Coffee — Foothill Village",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-003",
+        "06-decisions.md#P3-003"
+      ]
+    },
+    {
+      "id": "P3-004",
+      "name": "Argentina's Café — Salt Lake County branch",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-004",
+        "06-decisions.md#P3-004"
+      ]
+    },
+    {
+      "id": "P3-005",
+      "name": "Curt's Micro Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-005",
+        "06-decisions.md#P3-005"
+      ]
+    },
+    {
+      "id": "P3-006",
+      "name": "Beardall's Bakery",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-006",
+        "06-decisions.md#P3-006"
+      ]
+    },
+    {
+      "id": "P3-007",
+      "name": "Conte De Fee",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-007",
+        "06-decisions.md#P3-007"
+      ]
+    },
+    {
+      "id": "P3-008",
+      "name": "Le Pain de Charlie",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-008",
+        "06-decisions.md#P3-008"
+      ]
+    },
+    {
+      "id": "P3-009",
+      "name": "Sugar Rush by MB",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-009",
+        "06-decisions.md#P3-009"
+      ]
+    },
+    {
+      "id": "P3-010",
+      "name": "Los Compadres Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-010",
+        "06-decisions.md#P3-010"
+      ]
+    },
+    {
+      "id": "P3-011",
+      "name": "Powder Peak Sweets",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-011",
+        "06-decisions.md#P3-011"
+      ]
+    },
+    {
+      "id": "P3-012",
+      "name": "Pies the Limit",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-012",
+        "06-decisions.md#P3-012"
+      ]
+    },
+    {
+      "id": "P3-013",
+      "name": "Harmons Bakery — Draper",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-013",
+        "06-decisions.md#P3-013"
+      ]
+    },
+    {
+      "id": "P3-014",
+      "name": "Harmons Bakery — West",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-014",
+        "06-decisions.md#P3-014"
+      ]
+    },
+    {
+      "id": "P3-015",
+      "name": "Harmons Bakery — Emigration Market",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-015",
+        "06-decisions.md#P3-015"
+      ]
+    },
+    {
+      "id": "P3-016",
+      "name": "Harmons Bakery — Mountain View Village",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-016",
+        "06-decisions.md#P3-016"
+      ]
+    },
+    {
+      "id": "P3-017",
+      "name": "Harmons Bakery — Seventh Street",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-017",
+        "06-decisions.md#P3-017"
+      ]
+    },
+    {
+      "id": "P3-018",
+      "name": "Harmons Bakery — The Brickyard",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-018",
+        "06-decisions.md#P3-018"
+      ]
+    },
+    {
+      "id": "P3-019",
+      "name": "Harmons Bakery — Taylorsville",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-019",
+        "06-decisions.md#P3-019"
+      ]
+    },
+    {
+      "id": "P3-020",
+      "name": "Harmons Bakery — The District",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-020",
+        "06-decisions.md#P3-020"
+      ]
+    },
+    {
+      "id": "P3-021",
+      "name": "Harmons Bakery — Daybreak",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-021",
+        "06-decisions.md#P3-021"
+      ]
+    },
+    {
+      "id": "P3-022",
+      "name": "Harmons Bakery — Cougar",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-022",
+        "06-decisions.md#P3-022"
+      ]
+    },
+    {
+      "id": "P3-023",
+      "name": "Harmons Bakery — Holladay Market",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-023",
+        "06-decisions.md#P3-023"
+      ]
+    },
+    {
+      "id": "P3-024",
+      "name": "Harmons Bakery — South Jordan",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-024",
+        "06-decisions.md#P3-024"
+      ]
+    },
+    {
+      "id": "P3-025",
+      "name": "Harmons Bakery — Bangerter Crossing",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-025",
+        "06-decisions.md#P3-025"
+      ]
+    },
+    {
+      "id": "P3-026",
+      "name": "Harmons Bakery — City Creek",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-026",
+        "06-decisions.md#P3-026"
+      ]
+    },
+    {
+      "id": "P3-027",
+      "name": "Flourish Bakery",
+      "disposition": "status-deferred",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-027",
+        "06-decisions.md#P3-027"
+      ]
+    },
+    {
+      "id": "P3-028",
+      "name": "Mad Dough",
+      "disposition": "rating-unconfirmed",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-028",
+        "06-decisions.md#P3-028"
+      ]
+    },
+    {
+      "id": "P3-029",
+      "name": "Lee's Scratch Bakery — Market at 4th West",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-029",
+        "06-decisions.md#P3-029"
+      ]
+    },
+    {
+      "id": "P3-030",
+      "name": "Lee's Scratch Bakery — Heber",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-030",
+        "06-decisions.md#P3-030"
+      ]
+    },
+    {
+      "id": "P3-031",
+      "name": "Lee's Scratch Bakery — Herriman",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-031",
+        "06-decisions.md#P3-031"
+      ]
+    },
+    {
+      "id": "P3-032",
+      "name": "Ballerina Farm Store — Midway",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-032",
+        "06-decisions.md#P3-032"
+      ]
+    },
+    {
+      "id": "P3-033",
+      "name": "The Bakery at Zermatt Utah",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-033",
+        "06-decisions.md#P3-033"
+      ]
+    },
+    {
+      "id": "P3-034",
+      "name": "My Brother's Pastry",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-034",
+        "06-decisions.md#P3-034"
+      ]
+    },
+    {
+      "id": "P3-035",
+      "name": "Sprinkle Me Frosted",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-035",
+        "06-decisions.md#P3-035"
+      ]
+    },
+    {
+      "id": "P3-036",
+      "name": "La Yaquesita",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-036",
+        "06-decisions.md#P3-036"
+      ]
+    },
+    {
+      "id": "P3-037",
+      "name": "New Mimosa Pastry Café",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-037",
+        "06-decisions.md#P3-037"
+      ]
+    },
+    {
+      "id": "P3-038",
+      "name": "The Flour Box Bakery LLC",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-038",
+        "06-decisions.md#P3-038"
+      ]
+    },
+    {
+      "id": "P3-039",
+      "name": "Love Baked by Callie",
+      "disposition": "status-deferred",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-039",
+        "06-decisions.md#P3-039"
+      ]
+    },
+    {
+      "id": "P3-040",
+      "name": "Mandy's Custom Cakes",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-040",
+        "06-decisions.md#P3-040"
+      ]
+    },
+    {
+      "id": "P3-041",
+      "name": "Sourdough Bruh",
+      "disposition": "rating-unconfirmed",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-041",
+        "06-decisions.md#P3-041"
+      ]
+    },
+    {
+      "id": "P3-042",
+      "name": "Artisan Bakery Utah",
+      "disposition": "rating-unconfirmed",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-042",
+        "06-decisions.md#P3-042"
+      ]
+    },
+    {
+      "id": "P3-043",
+      "name": "DeeLicious Park City",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-043",
+        "06-decisions.md#P3-043"
+      ]
+    },
+    {
+      "id": "P3-044",
+      "name": "Cakes By Edith — Riverton",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-044",
+        "06-decisions.md#P3-044"
+      ]
+    },
+    {
+      "id": "P3-045",
+      "name": "Esperanza Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-045",
+        "06-decisions.md#P3-045"
+      ]
+    },
+    {
+      "id": "P3-046",
+      "name": "Panadería Guatemalteca La Bendición",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-046",
+        "06-decisions.md#P3-046"
+      ]
+    },
+    {
+      "id": "P3-047",
+      "name": "Panadería Monterrey",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#P3-047",
+        "06-decisions.md#P3-047"
+      ]
+    },
+    {
+      "id": "A-001",
+      "name": "[unnamed]",
+      "disposition": "canonical-duplicate",
+      "source_refs": [
+        "05-evidence-ledger.md#A-001",
+        "06-decisions.md#A-001"
+      ]
+    },
+    {
+      "id": "A-002",
+      "name": "85°C Bakery Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-002",
+        "06-decisions.md#A-002"
+      ]
+    },
+    {
+      "id": "A-003",
+      "name": "Alebrijes Candy Shop",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-003",
+        "06-decisions.md#A-003"
+      ]
+    },
+    {
+      "id": "A-004",
+      "name": "Alicia's Panaderia",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-004",
+        "06-decisions.md#A-004"
+      ]
+    },
+    {
+      "id": "A-005",
+      "name": "Alicia's Panaderia",
+      "disposition": "scored-but-filtered",
+      "source_refs": [
+        "05-evidence-ledger.md#A-005",
+        "06-decisions.md#A-005"
+      ]
+    },
+    {
+      "id": "A-006",
+      "name": "All Purpose Bakehouse",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-006",
+        "06-decisions.md#A-006"
+      ]
+    },
+    {
+      "id": "A-007",
+      "name": "Altojitos",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-007",
+        "06-decisions.md#A-007"
+      ]
+    },
+    {
+      "id": "A-008",
+      "name": "Antojitos Luna",
+      "disposition": "evidence-exhausted-unavailable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-008",
+        "06-decisions.md#A-008"
+      ]
+    },
+    {
+      "id": "A-009",
+      "name": "Atticus Coffee, Books, and Teahouse",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-009",
+        "06-decisions.md#A-009"
+      ]
+    },
+    {
+      "id": "A-010",
+      "name": "Auntie Rae's Sweets & Tea Parties",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-010",
+        "06-decisions.md#A-010"
+      ]
+    },
+    {
+      "id": "A-011",
+      "name": "Avenue Bakery on Fourth",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-011",
+        "06-decisions.md#A-011"
+      ]
+    },
+    {
+      "id": "A-012",
+      "name": "Baby's Bagels",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-012",
+        "06-decisions.md#A-012"
+      ]
+    },
+    {
+      "id": "A-013",
+      "name": "Bagel Den",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-013",
+        "06-decisions.md#A-013"
+      ]
+    },
+    {
+      "id": "A-014",
+      "name": "Bakers C & C",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-014",
+        "06-decisions.md#A-014"
+      ]
+    },
+    {
+      "id": "A-015",
+      "name": "Banbury Cross",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-015",
+        "06-decisions.md#A-015"
+      ]
+    },
+    {
+      "id": "A-016",
+      "name": "Beaucoup Boulangerie et Marche",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-016",
+        "06-decisions.md#A-016"
+      ]
+    },
+    {
+      "id": "A-017",
+      "name": "Beaumont Bakery",
+      "disposition": "evidence-exhausted-unavailable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-017",
+        "06-decisions.md#A-017"
+      ]
+    },
+    {
+      "id": "A-018",
+      "name": "Beaumont Bakery & Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-018",
+        "06-decisions.md#A-018"
+      ]
+    },
+    {
+      "id": "A-019",
+      "name": "Bonne Vie",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-019",
+        "06-decisions.md#A-019"
+      ]
+    },
+    {
+      "id": "A-020",
+      "name": "Breads",
+      "disposition": "evidence-exhausted-unavailable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-020",
+        "06-decisions.md#A-020"
+      ]
+    },
+    {
+      "id": "A-023",
+      "name": "Bruges Waffles & Frites",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-023",
+        "06-decisions.md#A-023"
+      ]
+    },
+    {
+      "id": "A-024",
+      "name": "Buono Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-024",
+        "06-decisions.md#A-024"
+      ]
+    },
+    {
+      "id": "A-025",
+      "name": "Buzzed Coffeehouse",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-025",
+        "06-decisions.md#A-025"
+      ]
+    },
+    {
+      "id": "A-027",
+      "name": "Cakes By Edith",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-027",
+        "06-decisions.md#A-027"
+      ]
+    },
+    {
+      "id": "A-028",
+      "name": "Canela Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-028",
+        "06-decisions.md#A-028"
+      ]
+    },
+    {
+      "id": "A-029",
+      "name": "Carlucci's",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-029",
+        "06-decisions.md#A-029"
+      ]
+    },
+    {
+      "id": "A-030",
+      "name": "Carol's Pastry Shop",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-030",
+        "06-decisions.md#A-030"
+      ]
+    },
+    {
+      "id": "A-031",
+      "name": "Chez Nibs",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-031",
+        "06-decisions.md#A-031"
+      ]
+    },
+    {
+      "id": "A-032",
+      "name": "Chip",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-032",
+        "06-decisions.md#A-032"
+      ]
+    },
+    {
+      "id": "A-033",
+      "name": "Chip",
+      "disposition": "evidence-exhausted-unavailable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-033",
+        "06-decisions.md#A-033"
+      ]
+    },
+    {
+      "id": "A-034",
+      "name": "Chip Cookies",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-034",
+        "06-decisions.md#A-034"
+      ]
+    },
+    {
+      "id": "A-035",
+      "name": "Chip Cookies",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-035",
+        "06-decisions.md#A-035"
+      ]
+    },
+    {
+      "id": "A-036",
+      "name": "Chip Cookies",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-036",
+        "06-decisions.md#A-036"
+      ]
+    },
+    {
+      "id": "A-037",
+      "name": "Chocolate Cottage",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-037",
+        "06-decisions.md#A-037"
+      ]
+    },
+    {
+      "id": "A-038",
+      "name": "Chocolate Covered Wagon - Trolley Taffy Stat",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-038",
+        "06-decisions.md#A-038"
+      ]
+    },
+    {
+      "id": "A-039",
+      "name": "Cinnabon",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-039",
+        "06-decisions.md#A-039"
+      ]
+    },
+    {
+      "id": "A-040",
+      "name": "City Cakes",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-040",
+        "06-decisions.md#A-040"
+      ]
+    },
+    {
+      "id": "A-041",
+      "name": "City Cakes",
+      "disposition": "status-deferred",
+      "source_refs": [
+        "05-evidence-ledger.md#A-041",
+        "06-decisions.md#A-041"
+      ]
+    },
+    {
+      "id": "A-042",
+      "name": "Colombian Baker",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-042",
+        "06-decisions.md#A-042"
+      ]
+    },
+    {
+      "id": "A-043",
+      "name": "Condie's Candies",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-043",
+        "06-decisions.md#A-043"
+      ]
+    },
+    {
+      "id": "A-044",
+      "name": "Corner Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-044",
+        "06-decisions.md#A-044"
+      ]
+    },
+    {
+      "id": "A-045",
+      "name": "Corner Bakery Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-045",
+        "06-decisions.md#A-045"
+      ]
+    },
+    {
+      "id": "A-046",
+      "name": "Crave",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-046",
+        "06-decisions.md#A-046"
+      ]
+    },
+    {
+      "id": "A-047",
+      "name": "Crave",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-047",
+        "06-decisions.md#A-047"
+      ]
+    },
+    {
+      "id": "A-048",
+      "name": "Crave",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-048",
+        "06-decisions.md#A-048"
+      ]
+    },
+    {
+      "id": "A-049",
+      "name": "Crave",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-049",
+        "06-decisions.md#A-049"
+      ]
+    },
+    {
+      "id": "A-050",
+      "name": "Crave Cookies",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-050",
+        "06-decisions.md#A-050"
+      ]
+    },
+    {
+      "id": "A-051",
+      "name": "Creme de Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-051",
+        "06-decisions.md#A-051"
+      ]
+    },
+    {
+      "id": "A-052",
+      "name": "Crumbl Cookies",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-052",
+        "06-decisions.md#A-052"
+      ]
+    },
+    {
+      "id": "A-053",
+      "name": "Crumbl Cookies",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-053",
+        "06-decisions.md#A-053"
+      ]
+    },
+    {
+      "id": "A-054",
+      "name": "Crumbl Cookies",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-054",
+        "06-decisions.md#A-054"
+      ]
+    },
+    {
+      "id": "A-055",
+      "name": "Crumbl Cookies",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-055",
+        "06-decisions.md#A-055"
+      ]
+    },
+    {
+      "id": "A-056",
+      "name": "Crumbl Cookies",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-056",
+        "06-decisions.md#A-056"
+      ]
+    },
+    {
+      "id": "A-057",
+      "name": "Crust Club",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-057",
+        "06-decisions.md#A-057"
+      ]
+    },
+    {
+      "id": "A-058",
+      "name": "Cucina",
+      "disposition": "evidence-exhausted-unavailable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-058",
+        "06-decisions.md#A-058"
+      ]
+    },
+    {
+      "id": "A-059",
+      "name": "Cumming's Studio Chocolates",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-059",
+        "06-decisions.md#A-059"
+      ]
+    },
+    {
+      "id": "A-061",
+      "name": "Cupcakes by Kasthuri",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-061",
+        "06-decisions.md#A-061"
+      ]
+    },
+    {
+      "id": "A-062",
+      "name": "Daniel's Fine Chocolate",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-062",
+        "06-decisions.md#A-062"
+      ]
+    },
+    {
+      "id": "A-063",
+      "name": "Darla's Doughnuts",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-063",
+        "06-decisions.md#A-063"
+      ]
+    },
+    {
+      "id": "A-064",
+      "name": "Daylight Donuts",
+      "disposition": "evidence-exhausted-unavailable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-064",
+        "06-decisions.md#A-064"
+      ]
+    },
+    {
+      "id": "A-065",
+      "name": "Dear Coco",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-065",
+        "06-decisions.md#A-065"
+      ]
+    },
+    {
+      "id": "A-066",
+      "name": "Delicias Fruty Snacks",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-066",
+        "06-decisions.md#A-066"
+      ]
+    },
+    {
+      "id": "A-068",
+      "name": "Dirty Dough",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-068",
+        "06-decisions.md#A-068"
+      ]
+    },
+    {
+      "id": "A-069",
+      "name": "Donut Boy",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-069",
+        "06-decisions.md#A-069"
+      ]
+    },
+    {
+      "id": "A-070",
+      "name": "Donut House",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-070",
+        "06-decisions.md#A-070"
+      ]
+    },
+    {
+      "id": "A-071",
+      "name": "Donut Star Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-071",
+        "06-decisions.md#A-071"
+      ]
+    },
+    {
+      "id": "A-072",
+      "name": "Donut Star Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-072",
+        "06-decisions.md#A-072"
+      ]
+    },
+    {
+      "id": "A-073",
+      "name": "Dough Lady",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-073",
+        "06-decisions.md#A-073"
+      ]
+    },
+    {
+      "id": "A-074",
+      "name": "Dough Miner",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-074",
+        "06-decisions.md#A-074"
+      ]
+    },
+    {
+      "id": "A-075",
+      "name": "Dunkin'",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-075",
+        "06-decisions.md#A-075"
+      ]
+    },
+    {
+      "id": "A-076",
+      "name": "Dunkin'",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-076",
+        "06-decisions.md#A-076"
+      ]
+    },
+    {
+      "id": "A-077",
+      "name": "Délice",
+      "disposition": "scored-but-filtered",
+      "source_refs": [
+        "05-evidence-ledger.md#A-077",
+        "06-decisions.md#A-077"
+      ]
+    },
+    {
+      "id": "A-078",
+      "name": "Eclair French Pastry",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-078",
+        "06-decisions.md#A-078"
+      ]
+    },
+    {
+      "id": "A-079",
+      "name": "Einstein Bagels",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-079",
+        "06-decisions.md#A-079"
+      ]
+    },
+    {
+      "id": "A-080",
+      "name": "Einstein Bros. Bagels",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-080",
+        "06-decisions.md#A-080"
+      ]
+    },
+    {
+      "id": "A-081",
+      "name": "Einstein Bros. Bagels",
+      "disposition": "status-deferred",
+      "source_refs": [
+        "05-evidence-ledger.md#A-081",
+        "06-decisions.md#A-081"
+      ]
+    },
+    {
+      "id": "A-082",
+      "name": "Einstein Bros. Bagels",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-082",
+        "06-decisions.md#A-082"
+      ]
+    },
+    {
+      "id": "A-083",
+      "name": "Einstein Bros. Bagels",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-083",
+        "06-decisions.md#A-083"
+      ]
+    },
+    {
+      "id": "A-084",
+      "name": "Einstein Bros. Bagels",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-084",
+        "06-decisions.md#A-084"
+      ]
+    },
+    {
+      "id": "A-085",
+      "name": "Einstein Bros. Bagels",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-085",
+        "06-decisions.md#A-085"
+      ]
+    },
+    {
+      "id": "A-086",
+      "name": "Einstein Bros. Bagels",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-086",
+        "06-decisions.md#A-086"
+      ]
+    },
+    {
+      "id": "A-087",
+      "name": "Einstein Bros. Bagels",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-087",
+        "06-decisions.md#A-087"
+      ]
+    },
+    {
+      "id": "A-088",
+      "name": "Einstein Bros. Bagels",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-088",
+        "06-decisions.md#A-088"
+      ]
+    },
+    {
+      "id": "A-089",
+      "name": "Einstein Bros. Bagels",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-089",
+        "06-decisions.md#A-089"
+      ]
+    },
+    {
+      "id": "A-090",
+      "name": "Einstein Bros. Bagels",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-090",
+        "06-decisions.md#A-090"
+      ]
+    },
+    {
+      "id": "A-091",
+      "name": "Einstein Bros. Bagels",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-091",
+        "06-decisions.md#A-091"
+      ]
+    },
+    {
+      "id": "A-094",
+      "name": "El Bodegon Dulceria",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-094",
+        "06-decisions.md#A-094"
+      ]
+    },
+    {
+      "id": "A-095",
+      "name": "Empanadas801",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-095",
+        "06-decisions.md#A-095"
+      ]
+    },
+    {
+      "id": "A-096",
+      "name": "Eva's Bakery",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-096",
+        "06-decisions.md#A-096"
+      ]
+    },
+    {
+      "id": "A-097",
+      "name": "Fernwood Finest Candies",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-097",
+        "06-decisions.md#A-097"
+      ]
+    },
+    {
+      "id": "A-098",
+      "name": "Fillings & Emulsions",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-098",
+        "06-decisions.md#A-098"
+      ]
+    },
+    {
+      "id": "A-099",
+      "name": "Fillings & Emulsions",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-099",
+        "06-decisions.md#A-099"
+      ]
+    },
+    {
+      "id": "A-100",
+      "name": "Flake Pie Co.",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-100",
+        "06-decisions.md#A-100"
+      ]
+    },
+    {
+      "id": "A-101",
+      "name": "Flores Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-101",
+        "06-decisions.md#A-101"
+      ]
+    },
+    {
+      "id": "A-102",
+      "name": "Forty Three Bakery",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-102",
+        "06-decisions.md#A-102"
+      ]
+    },
+    {
+      "id": "A-103",
+      "name": "Fresh Donut & Deli",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-103",
+        "06-decisions.md#A-103"
+      ]
+    },
+    {
+      "id": "A-104",
+      "name": "Fudge Co",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-104",
+        "06-decisions.md#A-104"
+      ]
+    },
+    {
+      "id": "A-105",
+      "name": "Garden Gate",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-105",
+        "06-decisions.md#A-105"
+      ]
+    },
+    {
+      "id": "A-106",
+      "name": "Good Food Gluten Free",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-106",
+        "06-decisions.md#A-106"
+      ]
+    },
+    {
+      "id": "A-107",
+      "name": "Goodly Cookies",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-107",
+        "06-decisions.md#A-107"
+      ]
+    },
+    {
+      "id": "A-108",
+      "name": "Gourmandise",
+      "disposition": "scored-but-filtered",
+      "source_refs": [
+        "05-evidence-ledger.md#A-108",
+        "06-decisions.md#A-108"
+      ]
+    },
+    {
+      "id": "A-109",
+      "name": "Gourmandise",
+      "disposition": "scored-but-filtered",
+      "source_refs": [
+        "05-evidence-ledger.md#A-109",
+        "06-decisions.md#A-109"
+      ]
+    },
+    {
+      "id": "A-110",
+      "name": "Granary Bakehouse",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-110",
+        "06-decisions.md#A-110"
+      ]
+    },
+    {
+      "id": "A-111",
+      "name": "Granite Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-111",
+        "06-decisions.md#A-111"
+      ]
+    },
+    {
+      "id": "A-112",
+      "name": "Great Harvest Bakery & Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-112",
+        "06-decisions.md#A-112"
+      ]
+    },
+    {
+      "id": "A-113",
+      "name": "Great Harvest Bread Co.",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-113",
+        "06-decisions.md#A-113"
+      ]
+    },
+    {
+      "id": "A-114",
+      "name": "Great Harvest Bread Company",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-114",
+        "06-decisions.md#A-114"
+      ]
+    },
+    {
+      "id": "A-115",
+      "name": "Great Harvest Bread Company",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-115",
+        "06-decisions.md#A-115"
+      ]
+    },
+    {
+      "id": "A-116",
+      "name": "Great Harvest Bread Company",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-116",
+        "06-decisions.md#A-116"
+      ]
+    },
+    {
+      "id": "A-117",
+      "name": "Great Harvest Bread Company",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-117",
+        "06-decisions.md#A-117"
+      ]
+    },
+    {
+      "id": "A-118",
+      "name": "Hall Patisserie",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-118",
+        "06-decisions.md#A-118"
+      ]
+    },
+    {
+      "id": "A-119",
+      "name": "Happy Camper Deli & Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-119",
+        "06-decisions.md#A-119"
+      ]
+    },
+    {
+      "id": "A-120",
+      "name": "Happy Camper Deli & Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-120",
+        "06-decisions.md#A-120"
+      ]
+    },
+    {
+      "id": "A-121",
+      "name": "Hatch Family Chocolates",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-121",
+        "06-decisions.md#A-121"
+      ]
+    },
+    {
+      "id": "A-122",
+      "name": "Java Cow Cafe & Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-122",
+        "06-decisions.md#A-122"
+      ]
+    },
+    {
+      "id": "A-123",
+      "name": "Judy's Donuts and Coffee",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-123",
+        "06-decisions.md#A-123"
+      ]
+    },
+    {
+      "id": "A-124",
+      "name": "June Pie",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-124",
+        "06-decisions.md#A-124"
+      ]
+    },
+    {
+      "id": "A-125",
+      "name": "Kahve Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-125",
+        "06-decisions.md#A-125"
+      ]
+    },
+    {
+      "id": "A-126",
+      "name": "Karim Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-126",
+        "06-decisions.md#A-126"
+      ]
+    },
+    {
+      "id": "A-127",
+      "name": "Kneaders",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-127",
+        "06-decisions.md#A-127"
+      ]
+    },
+    {
+      "id": "A-128",
+      "name": "Kneaders Bakery & Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-128",
+        "06-decisions.md#A-128"
+      ]
+    },
+    {
+      "id": "A-129",
+      "name": "Kneaders Bakery & Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-129",
+        "06-decisions.md#A-129"
+      ]
+    },
+    {
+      "id": "A-130",
+      "name": "Kneaders Bakery & Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-130",
+        "06-decisions.md#A-130"
+      ]
+    },
+    {
+      "id": "A-131",
+      "name": "Krispy Kreme",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-131",
+        "06-decisions.md#A-131"
+      ]
+    },
+    {
+      "id": "A-132",
+      "name": "Krispy Kreme",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-132",
+        "06-decisions.md#A-132"
+      ]
+    },
+    {
+      "id": "A-133",
+      "name": "Krispy Kreme",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-133",
+        "06-decisions.md#A-133"
+      ]
+    },
+    {
+      "id": "A-134",
+      "name": "Kyung's Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-134",
+        "06-decisions.md#A-134"
+      ]
+    },
+    {
+      "id": "A-135",
+      "name": "La Espiga Dorada",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-135",
+        "06-decisions.md#A-135"
+      ]
+    },
+    {
+      "id": "A-136",
+      "name": "La Flor de Salt Lake Tortillas",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-136",
+        "06-decisions.md#A-136"
+      ]
+    },
+    {
+      "id": "A-137",
+      "name": "Leavity Bread & Coffee",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-137",
+        "06-decisions.md#A-137"
+      ]
+    },
+    {
+      "id": "A-138",
+      "name": "Leslie's Pastries",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-138",
+        "06-decisions.md#A-138"
+      ]
+    },
+    {
+      "id": "A-139",
+      "name": "Lisa's Passion for Popcorn",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-139",
+        "06-decisions.md#A-139"
+      ]
+    },
+    {
+      "id": "A-140",
+      "name": "Local Cookie Co",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-140",
+        "06-decisions.md#A-140"
+      ]
+    },
+    {
+      "id": "A-141",
+      "name": "Lone Pine Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-141",
+        "06-decisions.md#A-141"
+      ]
+    },
+    {
+      "id": "A-142",
+      "name": "Louks Greek Baby Donuts",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-142",
+        "06-decisions.md#A-142"
+      ]
+    },
+    {
+      "id": "A-144",
+      "name": "Magnolia Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-144",
+        "06-decisions.md#A-144"
+      ]
+    },
+    {
+      "id": "A-146",
+      "name": "Middle Eastern Bakery & Groceries",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-146",
+        "06-decisions.md#A-146"
+      ]
+    },
+    {
+      "id": "A-147",
+      "name": "Mochinut",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-147",
+        "06-decisions.md#A-147"
+      ]
+    },
+    {
+      "id": "A-148",
+      "name": "Mochinut",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-148",
+        "06-decisions.md#A-148"
+      ]
+    },
+    {
+      "id": "A-149",
+      "name": "Momo's Gourmet Cheesecake",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-149",
+        "06-decisions.md#A-149"
+      ]
+    },
+    {
+      "id": "A-150",
+      "name": "Mozz Sourdough Pizza",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-150",
+        "06-decisions.md#A-150"
+      ]
+    },
+    {
+      "id": "A-151",
+      "name": "Mrs. Backer's Pastry Shop",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-151",
+        "06-decisions.md#A-151"
+      ]
+    },
+    {
+      "id": "A-152",
+      "name": "Mrs. Call's Chocolates",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-152",
+        "06-decisions.md#A-152"
+      ]
+    },
+    {
+      "id": "A-153",
+      "name": "Mrs. Hewitt's",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-153",
+        "06-decisions.md#A-153"
+      ]
+    },
+    {
+      "id": "A-154",
+      "name": "My Sugar's Donut Shoppe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-154",
+        "06-decisions.md#A-154"
+      ]
+    },
+    {
+      "id": "A-155",
+      "name": "Napoli's Italian Restaurant",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-155",
+        "06-decisions.md#A-155"
+      ]
+    },
+    {
+      "id": "A-157",
+      "name": "Nothing Bundt Cakes",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-157",
+        "06-decisions.md#A-157"
+      ]
+    },
+    {
+      "id": "A-158",
+      "name": "Nothing Bundt Cakes",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-158",
+        "06-decisions.md#A-158"
+      ]
+    },
+    {
+      "id": "A-159",
+      "name": "Nothing Bundt Cakes",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-159",
+        "06-decisions.md#A-159"
+      ]
+    },
+    {
+      "id": "A-160",
+      "name": "Nothing Bundt Cakes",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-160",
+        "06-decisions.md#A-160"
+      ]
+    },
+    {
+      "id": "A-161",
+      "name": "Old Cuss Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-161",
+        "06-decisions.md#A-161"
+      ]
+    },
+    {
+      "id": "A-162",
+      "name": "Panaderia Dulcinea Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-162",
+        "06-decisions.md#A-162"
+      ]
+    },
+    {
+      "id": "A-163",
+      "name": "Panaderia Lizbeth",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-163",
+        "06-decisions.md#A-163"
+      ]
+    },
+    {
+      "id": "A-164",
+      "name": "Panaderia Mexico",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-164",
+        "06-decisions.md#A-164"
+      ]
+    },
+    {
+      "id": "A-165",
+      "name": "Panderia Flores",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-165",
+        "06-decisions.md#A-165"
+      ]
+    },
+    {
+      "id": "A-166",
+      "name": "Panera Bread",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-166",
+        "06-decisions.md#A-166"
+      ]
+    },
+    {
+      "id": "A-167",
+      "name": "Panera Bread",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-167",
+        "06-decisions.md#A-167"
+      ]
+    },
+    {
+      "id": "A-168",
+      "name": "Parfé Diem",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-168",
+        "06-decisions.md#A-168"
+      ]
+    },
+    {
+      "id": "A-169",
+      "name": "Paris Baguette",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-169",
+        "06-decisions.md#A-169"
+      ]
+    },
+    {
+      "id": "A-170",
+      "name": "Park City Bread and Bagel",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-170",
+        "06-decisions.md#A-170"
+      ]
+    },
+    {
+      "id": "A-171",
+      "name": "Passion Flour Patisserie",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-171",
+        "06-decisions.md#A-171"
+      ]
+    },
+    {
+      "id": "A-172",
+      "name": "Picnic Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-172",
+        "06-decisions.md#A-172"
+      ]
+    },
+    {
+      "id": "A-173",
+      "name": "Pie Fight",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-173",
+        "06-decisions.md#A-173"
+      ]
+    },
+    {
+      "id": "A-174",
+      "name": "Pink Sweets Cafe",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-174",
+        "06-decisions.md#A-174"
+      ]
+    },
+    {
+      "id": "A-175",
+      "name": "RISE Bakery & Market",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-175",
+        "06-decisions.md#A-175"
+      ]
+    },
+    {
+      "id": "A-176",
+      "name": "Refreskeria Mi Fiesta Facil",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-176",
+        "06-decisions.md#A-176"
+      ]
+    },
+    {
+      "id": "A-177",
+      "name": "Rich's Bagels",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-177",
+        "06-decisions.md#A-177"
+      ]
+    },
+    {
+      "id": "A-178",
+      "name": "Rich's Bagels",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-178",
+        "06-decisions.md#A-178"
+      ]
+    },
+    {
+      "id": "A-179",
+      "name": "Ritual Chocolate",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-179",
+        "06-decisions.md#A-179"
+      ]
+    },
+    {
+      "id": "A-180",
+      "name": "Rocket Fizz",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-180",
+        "06-decisions.md#A-180"
+      ]
+    },
+    {
+      "id": "A-181",
+      "name": "Rocket Fizz",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-181",
+        "06-decisions.md#A-181"
+      ]
+    },
+    {
+      "id": "A-182",
+      "name": "Rocky Mountain Chocolate Factory",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-182",
+        "06-decisions.md#A-182"
+      ]
+    },
+    {
+      "id": "A-183",
+      "name": "Rocky Mountain Chocolate Factory",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-183",
+        "06-decisions.md#A-183"
+      ]
+    },
+    {
+      "id": "A-184",
+      "name": "Rocky Mountain Chocolate Factory",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-184",
+        "06-decisions.md#A-184"
+      ]
+    },
+    {
+      "id": "A-185",
+      "name": "Rocky Mountain Chocolate Factory",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-185",
+        "06-decisions.md#A-185"
+      ]
+    },
+    {
+      "id": "A-186",
+      "name": "Rough Stone Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-186",
+        "06-decisions.md#A-186"
+      ]
+    },
+    {
+      "id": "A-187",
+      "name": "RubySnap Fresh Cookies",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-187",
+        "06-decisions.md#A-187"
+      ]
+    },
+    {
+      "id": "A-188",
+      "name": "Sagato's Bakery and Cafe",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-188",
+        "06-decisions.md#A-188"
+      ]
+    },
+    {
+      "id": "A-189",
+      "name": "Salt City Che",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-189",
+        "06-decisions.md#A-189"
+      ]
+    },
+    {
+      "id": "A-190",
+      "name": "Salt City Sweet Shop",
+      "disposition": "status-deferred",
+      "source_refs": [
+        "05-evidence-ledger.md#A-190",
+        "06-decisions.md#A-190"
+      ]
+    },
+    {
+      "id": "A-191",
+      "name": "Sapori",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-191",
+        "06-decisions.md#A-191"
+      ]
+    },
+    {
+      "id": "A-192",
+      "name": "Schmidt's Pastry Cottage",
+      "disposition": "scored-but-filtered",
+      "source_refs": [
+        "05-evidence-ledger.md#A-192",
+        "06-decisions.md#A-192"
+      ]
+    },
+    {
+      "id": "A-193",
+      "name": "Schmidt's Pastry Cottage",
+      "disposition": "scored-but-filtered",
+      "source_refs": [
+        "05-evidence-ledger.md#A-193",
+        "06-decisions.md#A-193"
+      ]
+    },
+    {
+      "id": "A-194",
+      "name": "See's Candies",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-194",
+        "06-decisions.md#A-194"
+      ]
+    },
+    {
+      "id": "A-195",
+      "name": "See's Candies",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-195",
+        "06-decisions.md#A-195"
+      ]
+    },
+    {
+      "id": "A-196",
+      "name": "See's Candies",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-196",
+        "06-decisions.md#A-196"
+      ]
+    },
+    {
+      "id": "A-197",
+      "name": "Shane's Donuts",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-197",
+        "06-decisions.md#A-197"
+      ]
+    },
+    {
+      "id": "A-198",
+      "name": "Shugarlandia",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-198",
+        "06-decisions.md#A-198"
+      ]
+    },
+    {
+      "id": "A-199",
+      "name": "Shugarlandia",
+      "disposition": "evidence-exhausted-unavailable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-199",
+        "06-decisions.md#A-199"
+      ]
+    },
+    {
+      "id": "A-200",
+      "name": "Sidecar Doughnuts & Coffee",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-200",
+        "06-decisions.md#A-200"
+      ]
+    },
+    {
+      "id": "A-201",
+      "name": "So Cupcake",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-201",
+        "06-decisions.md#A-201"
+      ]
+    },
+    {
+      "id": "A-202",
+      "name": "Sprinkle's Cupcakes",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-202",
+        "06-decisions.md#A-202"
+      ]
+    },
+    {
+      "id": "A-203",
+      "name": "Stone Ground Bakery",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-203",
+        "06-decisions.md#A-203"
+      ]
+    },
+    {
+      "id": "A-204",
+      "name": "Stone Ground Bakery Facility #2",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-204",
+        "06-decisions.md#A-204"
+      ]
+    },
+    {
+      "id": "A-205",
+      "name": "Sweet Corner Treats",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-205",
+        "06-decisions.md#A-205"
+      ]
+    },
+    {
+      "id": "A-206",
+      "name": "Sweet Hazel & Co. Grab & Go",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-206",
+        "06-decisions.md#A-206"
+      ]
+    },
+    {
+      "id": "A-207",
+      "name": "Sweet Rolled Tacos",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-207",
+        "06-decisions.md#A-207"
+      ]
+    },
+    {
+      "id": "A-208",
+      "name": "Sweet Spot Bakery & Cafe",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-208",
+        "06-decisions.md#A-208"
+      ]
+    },
+    {
+      "id": "A-209",
+      "name": "Sweetaly Gelato & Custom Cakes",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-209",
+        "06-decisions.md#A-209"
+      ]
+    },
+    {
+      "id": "A-210",
+      "name": "Sweethoney Dessert",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-210",
+        "06-decisions.md#A-210"
+      ]
+    },
+    {
+      "id": "A-211",
+      "name": "Table X Bread",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-211",
+        "06-decisions.md#A-211"
+      ]
+    },
+    {
+      "id": "A-212",
+      "name": "The Bagel Project",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-212",
+        "06-decisions.md#A-212"
+      ]
+    },
+    {
+      "id": "A-213",
+      "name": "The Bagel Project",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-213",
+        "06-decisions.md#A-213"
+      ]
+    },
+    {
+      "id": "A-216",
+      "name": "The Chocolate",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-216",
+        "06-decisions.md#A-216"
+      ]
+    },
+    {
+      "id": "A-217",
+      "name": "The Kolache Place",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-217",
+        "06-decisions.md#A-217"
+      ]
+    },
+    {
+      "id": "A-218",
+      "name": "The Kolache Place",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-218",
+        "06-decisions.md#A-218"
+      ]
+    },
+    {
+      "id": "A-219",
+      "name": "The Nut Garden",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-219",
+        "06-decisions.md#A-219"
+      ]
+    },
+    {
+      "id": "A-224",
+      "name": "The Other Side Donuts",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-224",
+        "06-decisions.md#A-224"
+      ]
+    },
+    {
+      "id": "A-225",
+      "name": "Tous les Jours",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-225",
+        "06-decisions.md#A-225"
+      ]
+    },
+    {
+      "id": "A-226",
+      "name": "Tulie Bakery",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-226",
+        "06-decisions.md#A-226"
+      ]
+    },
+    {
+      "id": "A-227",
+      "name": "Twisted Sugar",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-227",
+        "06-decisions.md#A-227"
+      ]
+    },
+    {
+      "id": "A-228",
+      "name": "U-Swirl & Rocky Mountain Chocolate Factory",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-228",
+        "06-decisions.md#A-228"
+      ]
+    },
+    {
+      "id": "A-229",
+      "name": "Union Patisserie",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-229",
+        "06-decisions.md#A-229"
+      ]
+    },
+    {
+      "id": "A-230",
+      "name": "V Chocolates",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-230",
+        "06-decisions.md#A-230"
+      ]
+    },
+    {
+      "id": "A-231",
+      "name": "ValSof Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-231",
+        "06-decisions.md#A-231"
+      ]
+    },
+    {
+      "id": "A-232",
+      "name": "Vosen's Bread Paradise",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-232",
+        "06-decisions.md#A-232"
+      ]
+    },
+    {
+      "id": "A-233",
+      "name": "Wanna Cinn",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-233",
+        "06-decisions.md#A-233"
+      ]
+    },
+    {
+      "id": "A-234",
+      "name": "Wasatch Bagel",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-234",
+        "06-decisions.md#A-234"
+      ]
+    },
+    {
+      "id": "A-235",
+      "name": "Windy Ridge Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-235",
+        "06-decisions.md#A-235"
+      ]
+    },
+    {
+      "id": "A-236",
+      "name": "Wombat Bagels",
+      "disposition": "status-deferred",
+      "source_refs": [
+        "05-evidence-ledger.md#A-236",
+        "06-decisions.md#A-236"
+      ]
+    },
+    {
+      "id": "A-237",
+      "name": "Xiao Bao Bao",
+      "disposition": "disqualified",
+      "source_refs": [
+        "05-evidence-ledger.md#A-237",
+        "06-decisions.md#A-237"
+      ]
+    },
+    {
+      "id": "A-238",
+      "name": "Yao Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-238",
+        "06-decisions.md#A-238"
+      ]
+    },
+    {
+      "id": "A-239",
+      "name": "Yonutz",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#A-239",
+        "06-decisions.md#A-239"
+      ]
+    },
+    {
+      "id": "A-240",
+      "name": "eats",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#A-240",
+        "06-decisions.md#A-240"
+      ]
+    },
+    {
+      "id": "A-241",
+      "name": "Éclair",
+      "disposition": "canonical-duplicate",
+      "source_refs": [
+        "05-evidence-ledger.md#A-241",
+        "06-decisions.md#A-241"
+      ]
+    },
+    {
+      "id": "COV-001",
+      "name": "Volker's Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#COV-001",
+        "06-decisions.md#COV-001"
+      ]
+    },
+    {
+      "id": "COV-002",
+      "name": "Bohemian Baklava",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#COV-002",
+        "06-decisions.md#COV-002"
+      ]
+    },
+    {
+      "id": "COV-003",
+      "name": "Hi Crunchy Utah",
+      "disposition": "rating-unconfirmed",
+      "source_refs": [
+        "05-evidence-ledger.md#COV-003",
+        "06-decisions.md#COV-003"
+      ]
+    },
+    {
+      "id": "COV-004",
+      "name": "Buckets Bakery",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#COV-004",
+        "06-decisions.md#COV-004"
+      ]
+    },
+    {
+      "id": "COV-005",
+      "name": "The Olive Press Café at The Dainty Pear Co.",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#COV-005",
+        "06-decisions.md#COV-005"
+      ]
+    },
+    {
+      "id": "COV-006",
+      "name": "La Paneria",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#COV-006",
+        "06-decisions.md#COV-006"
+      ]
+    },
+    {
+      "id": "COV-007",
+      "name": "Sweet and Savory Pies",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#COV-007",
+        "06-decisions.md#COV-007"
+      ]
+    },
+    {
+      "id": "COV-008",
+      "name": "Hearth & Crust",
+      "disposition": "evidence-exhausted-unavailable",
+      "source_refs": [
+        "05-evidence-ledger.md#COV-008",
+        "06-decisions.md#COV-008"
+      ]
+    },
+    {
+      "id": "COV-009",
+      "name": "Empanada.Co",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#COV-009",
+        "06-decisions.md#COV-009"
+      ]
+    },
+    {
+      "id": "COV-010",
+      "name": "Argentina's Best Empanadas",
+      "disposition": "scored-but-filtered",
+      "source_refs": [
+        "05-evidence-ledger.md#COV-010",
+        "06-decisions.md#COV-010"
+      ]
+    },
+    {
+      "id": "COV-011",
+      "name": "Pastelitos Pipo Utah",
+      "disposition": "not-scoreable",
+      "source_refs": [
+        "05-evidence-ledger.md#COV-011",
+        "06-decisions.md#COV-011"
+      ]
+    },
+    {
+      "id": "COV-012",
+      "name": "High Altitude Bakeshop",
+      "disposition": "scored-but-filtered",
+      "source_refs": [
+        "05-evidence-ledger.md#COV-012",
+        "06-decisions.md#COV-012"
+      ]
+    },
+    {
+      "id": "COV-013",
+      "name": "Feldman's Deli",
+      "disposition": "rated-survivor",
+      "source_refs": [
+        "05-evidence-ledger.md#COV-013",
+        "06-decisions.md#COV-013"
+      ]
+    }
+  ],
+  "counts": {
+    "canonical-duplicate": 2,
+    "disqualified": 38,
+    "evidence-exhausted-unavailable": 10,
+    "not-scoreable": 196,
+    "rated-survivor": 57,
+    "rating-unconfirmed": 7,
+    "scored-but-filtered": 8,
+    "status-deferred": 8
+  },
+  "duplicate_ids": [],
+  "missing_ids": [],
+  "unresolved_fields": {
+    "address_and_coordinates": "Null unless already present in the existing snapshot index data; private, service-area, and non-public addresses remain null.",
+    "rating_counts": "Null/unconfirmed where the legacy decision states a rating without a literal count.",
+    "access": "Null for records without an accepted access description in the existing snapshot artifacts.",
+    "aliases_and_branches": "Left empty/null unless identity resolution was explicit."
+  },
+  "consequential_ambiguities": [],
+  "notes": [
+    "Every one of the 326 evidence-ledger IDs is represented exactly once.",
+    "A-001 is canonical-duplicate of T-007 and A-241 is canonical-duplicate of A-078 per the conflict-resolution section.",
+    "A-099 is not marked canonical-duplicate because the snapshot says it is not a separate storefront but does not state an ID merge target; its original positive-evidence DQ is preserved.",
+    "Snapshot date metadata uses the completed evidence window; no current facts were researched."
+  ],
+  "canonical_output": "06-decisions.json",
+  "canonical_sha256": "sha256:7968d93f75be68423c7902ed4243e4b59a4d47bf84193fa27b0ce72d6e4e5f28",
+  "validation": {
+    "decision_schema": "passed via generate.py validate_decisions",
+    "projection_schema": "passed via generate.py validate_projection",
+    "cross_record_invariants": "passed"
+  }
+}

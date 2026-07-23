@@ -31,7 +31,7 @@ First write `{RUN_DIR}/interactive-results-migration.json` containing parsed row
 ## Practical, Audit, and location rules
 
 - **Practical** contains all currently obtainable qualifying records in the canonical snapshot, including stable walk-in, preorder, market, delivery, or other accepted acquisition paths. It is not merely a top-three display.
-- **Audit** contains non-Practical canonical records useful for transparency: filtered, disqualified, unavailable, unresolved, unconfirmed, or duplicate dispositions. Use compact rows. Supply `Check current place record` only when the canonical decision has an accepted business address.
+- **Audit** contains non-Practical canonical records useful for transparency: filtered, disqualified, unavailable, unresolved, unconfirmed, or duplicate dispositions. Use compact rows. Use `Directions` only for Practical records with an accepted address. Otherwise, `Find on Google Maps` may search by canonical name plus run scope; label it as a search, never as an accepted location.
 - **Omitted** is allowed only with a per-ID reason; populations must not overlap.
 - Use only accepted business addresses and coordinates from `06-decisions.json`. Never geocode, repair, or guess coordinates. A no-coordinate corpus must render as list-only.
 - Ratings, scores, access, names, and dispositions must match the canonical snapshot exactly.

@@ -1,0 +1,20 @@
+# Phase 4 raw evidence return — batch 059
+
+Access date throughout: 2026-07-15. Evidence only.
+
+## R-2313 — Potbelly Sandwich Shop — Sandy
+- Identity: **Potbelly** / **Potbelly Sandwich Shop**, 130 W 10600 S Ste B, Sandy, UT 84070; (801) 307-4830; https://www.potbelly.com/locations/utah/sandy. Original OSM way/348020920.
+- Identity sources: official branch URL surfaced by [Birdeye](https://reviews.birdeye.com/potbelly-173506943876723); [Restaurantji](https://www.restaurantji.com/ut/sandy/potbelly-sandwich-shop-/); [Tripadvisor](https://www.tripadvisor.com/Restaurant_Review-g57122-d15171877-Reviews-Potbelly_Sandwich_Shop-Sandy_Utah.html), accessed 2026-07-15.
+- Rating evidence: Restaurantji **3.4 (229 ratings)**. Birdeye **3.9 (683 reviews)**. DoorDash exposes branch reviews but accessible result did not show a literal aggregate/count. Tripadvisor rank #52 of 199 but no literal score/count exposed.
+- Price evidence: Restaurantji **$**. DoorDash diner says soup costs “around $9.”
+- Hours/day-part evidence: Restaurantji Mon–Thu 10am–9pm; Fri–Sat 10am–9:30pm; Sun 10am–8pm. Lunch/dinner sandwich-shop service.
+- Menu quotations: Restaurantji favorites: “Mediterranean Sandwich,” “Chicken Pot Pie Soup,” “Italian Sandwich,” “Grilled Chicken,” “A Wreck,” salads. DoorDash categories: “Sandwiches,” “Wraps,” “Salads,” “Pick-your-Pair,” “Chips + Sides,” “Cookies + Shakes.”
+- Production/process quotations: SEC filing: “cookies baked fresh daily in each shop”; “hand-dipped shakes, malts and smoothies”; sandwiches use signature regular or multigrain bread and are served hot. Corporate report: fresh produce delivered “two to three times per week,” “hearth-baked bread,” and whole-block ingredients. No branch house-made bread/sauce/soup statement located.
+- Seasonality/turnover quotations: 2025 Axios reports a limited prime-rib sandwich rollout; it was not confirmed for Sandy. No branch-specific dated/weekly/seasonal rotation located.
+- Ingredient/sourcing quotations: 2016 annual report: “almost all of our bread from one supplier, Campagna-Turano Bakery, Inc.” and more than 97% of meat products from ten suppliers. Axios quotes current use of “bread from Turano Bakery,” “freshly baked in Chicago and always oven-toasted.”
+- Review-text quotations — food/product: Restaurantji synthesis: Chicken Club has “perfectly toasted bread and juicy grilled chicken.” DoorDash: Italian sandwich “exceptionally dry”; “majority … was the bread”; “bland in flavor and hard to chew”; soup amount “barely a half cup.” Grubhub result: order “late to arrive and was cold”; sandwich “so soggy the bread was mush.” Service: Restaurantji reports ordering communication lacking and staff “unenthusiastic.”
+- Potentially adverse factual quotations: Nationwide chain; Axios says “nearly 450 locations.” Bread is supplied by Turano rather than made in branch, then oven-toasted; produce delivery and corporate supplier facts above. Menu includes packaged chips. No branch-specific frozen, commissary or boil-in-bag statement located.
+- Cuisine/format: Restaurantji “Sandwich Shops, Fast Food, Salad”; toasted-sandwich counter service with takeout/delivery, soups, salads, cookies and shakes.
+- Neutral factual claims: Sources support externally supplied Turano bread, in-shop oven toasting, fresh-daily cookie baking, hand-dipped shakes, centralized suppliers, and mixed branch food/service reports. They do not establish branch-made bread/sauces/soups.
+- Search trail: Official branch/menu/about/location searches; official social/specials searches; Restaurantji, Birdeye, Tripadvisor, DoorDash, Grubhub; SEC filings/annual reports; Axios culinary interview; process, sourcing and rating queries. Queries: `Potbelly Sandy 130 W 10600 reviews rating official`; `site:potbelly.com 130 W 10600 Sandy`; `Potbelly sandwich bread baked in store meat sourcing official`; `Potbelly Sandy reviews cold sandwich service`.
+- Unavailable fields: branch-specific house-made components, named produce/meat suppliers beyond aggregate counts, branch-specific turnover/social archive, and Tripadvisor aggregate rating/count are **exhausted-unavailable** after the required sequence.

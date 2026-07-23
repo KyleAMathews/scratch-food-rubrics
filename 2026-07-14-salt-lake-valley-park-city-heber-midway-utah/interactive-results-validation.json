@@ -1,0 +1,43 @@
+{
+    "browser": {
+        "checked_at": "2026-07-23T00:00:00-06:00",
+        "status": "pass",
+        "observed_counts": {
+            "practical": 58,
+            "audit": 268,
+            "mapped": 49
+        },
+        "checks": {
+            "partial_cards": true,
+            "search": true,
+            "audit_mode": true,
+            "map": true,
+            "mobile_filters": true,
+            "mobile_map": true,
+            "unicode": true,
+            "console_clean": true
+        }
+    },
+    "expected_counts": {
+        "audit": 268,
+        "mapped": 49,
+        "omitted": 0,
+        "practical": 58
+    },
+    "generated_at": "2026-07-23T00:00:00-06:00",
+    "generator_version": "1.0",
+    "hashes": {
+        "decisions": "sha256:e2a7d076fcb76b43fff2008e8da3f209a60135ecb975eebca6033a1e19d1fd47",
+        "output": "sha256:3a43fd450a286a28f2b93d1bc657f4e90cc11d6d20ff8597d67102474b6b05d9",
+        "projection": "sha256:ba193ad1520e23a864f1c185fecd2e039a8f4628e4e37772349a6f01ad1f7276",
+        "template": "sha256:528e86582e6f4f7d614984d5c39c3143b657f568d29a165796ed6cf4cf1260e9"
+    },
+    "schema_version": "1.0",
+    "static_checks": {
+        "atomic_write": true,
+        "decision_validation": true,
+        "projection_validation": true,
+        "safe_embedding": true
+    },
+    "status": "static-pass"
+}

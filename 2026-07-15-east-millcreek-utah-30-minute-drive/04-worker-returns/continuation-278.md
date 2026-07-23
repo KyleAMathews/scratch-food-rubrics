@@ -1,0 +1,78 @@
+# Raw evidence return: R-2866, R-2875, R-2878, R-2882
+
+Accessed **2026-07-16**. Facts only; no scoring, ranking, classification, or recommendation.
+
+## R-2866 — Ti Amo Wood Fired Pizza
+
+- **Identity:** Official `Ti Amo Wood Fired Pizza`, `515 W 2600 S, Bountiful, UT 84010`, `(801) 294-5180`, `https://tiamowoodfiredpizza.com/`.
+- **Identity sources:** Official [menu](https://tiamowoodfiredpizza.com/menu), [Restaurantji](https://www.restaurantji.com/ut/bountiful/ti-amo-wood-fired-pizza-/), [Restaurant Guru](https://restaurantguru.com/Ti-Amo-Wood-Fired-Pizza-Bountiful), accessed 2026-07-16.
+- **Rating evidence:** Restaurantji `4.9`, `454 ratings`. Restaurant Guru reports Google `4.8/5` from `1,629`, Tripadvisor `4.6/5` from `58`, Facebook `4.6/5` from `82`; it also displays `791 visitor reviews`. DoorDash displays `4.7`, `500+ ratings`, `30+ public reviews`.
+- **Price evidence:** Official menu: bruschetta `$9`, caprese `$11`, garlic focaccia `$11`, antipasto misto `$16`, soups `$10`, 12-inch pizzas `$16–$21`, calzone/stromboli `$20`, salads `$8–$12`, desserts `$7–$9`, gelato `$8` for 8 oz and `$14.50` per pint. DoorDash prices are higher than official direct-menu prices and are retained as delivery-channel values rather than substituted.
+- **Hours/day-part evidence:** Restaurantji Mon–Thu `4:30 PM–9 PM`, Fri–Sat `4 PM–9 PM`, Sun closed; dinner service.
+- **Menu quotations:** Official categories are antipasti, soups, kids' pizzas, signature/classic/special pizzas, salads, drinks, desserts and gelato. Examples include Margherita, Diavola, Quattro Stagioni, Margherita Burrata, half-pizza/half-calzone and stromboli.
+- **Production/process quotations:** Official bruschetta is `wood fired toasted homemade bread`; antipasto is served with `homemade bread`; tomato basil soup is `Handcrafted`; vegan pizza uses `fire roasted red bell peppers`. Brand and menu repeatedly identify pizza as wood-fired. Official gelato wording says `Real Italian gelato, made with real Italian ingredients the authentic Italian way`; it does not state explicitly whether production occurs on site.
+- **Seasonality/turnover quotations:** A `Most ordered` section is current merchandising, not rotation. No dated seasonal, daily or weekly menu-rotation statement recovered.
+- **Ingredient/sourcing quotations:** Fior di latte mozzarella, burrata, Calabrese salami, prosciutto crudo/cotto, Italian pancetta, Italian sausage, extra-virgin olive oil and San Pellegrino products are named. `Real Italian ingredients` is stated for gelato. No farm, flour mill, tomato grower, cheese maker, meat producer or other named supplier recovered.
+- **Review-text quotations — food/product:** Restaurant Guru/Google review aggregation includes crust described as `soft and fluffy with perfect amount of char`. DoorDash reviewers say `Best dough, best wood fired pizza` and that crust uses `quality ingredients` and is `wood fired to perfection`.
+- **Review-text quotations — service/price/ambiance:** Tripadvisor review evidence mentions a large wood-fired oven and a gelato display. Restaurantji includes an adverse customer statement that pizza was `over priced and bland`.
+- **Potentially adverse factual quotations:** The official menu uses grilled chicken strips, cured/cooked meats, fountain beverages and bottled tea alongside house-production statements. No frozen dough, premade crust, commissary, boil-in-bag, microwave, reheating or chain wording recovered.
+- **Cuisine/format:** Italian wood-fired pizza restaurant, dinner-only, dine-in/takeout/delivery, salads/soups/desserts/gelato.
+- **Neutral factual claims:** Official menu directly supports homemade bread, handcrafted soup, wood-fired preparation, item composition and prices. No source recovered states dough fermentation time, flour type, mozzarella production, sauce production, meatball/sausage production or named suppliers.
+- **Search trail:** Opened official site/menu, Restaurantji, Restaurant Guru, DoorDash and Tripadvisor traces; searched exact address/phone, dough/fermentation/flour, wood oven, sauce/mozzarella/bread/soup/gelato, suppliers, specials/seasonality, reviews/defects and press/interviews.
+- **Unavailable fields:** Named sourcing, explicit pizza-dough method, sauce/cheese/meat production and menu turnover are **exhausted-unavailable** after the required sequence.
+
+## R-2875 — 7 Brew Coffee, Millcreek
+
+- **Identity:** Official branch `7 Brew Coffee`, `877 E 4500 S, Millcreek, UT 84107`, `(479) 358-9274`, `https://locations.7brew.com/ut/millcreek/877-e-4500-s`.
+- **Identity sources:** Official [Millcreek branch page](https://locations.7brew.com/ut/millcreek/877-e-4500-s), [Restaurantji](https://www.restaurantji.com/ut/millcreek/7-brew-coffee-/), accessed 2026-07-16.
+- **Rating evidence:** Official branch page `4.6 Average Rating`, `Based on 371 reviews`. Restaurantji `4.6`, `234 ratings`.
+- **Price evidence:** Restaurantji `$`. Exact branch-level current drink and muffin-top prices **exhausted-unavailable** after official menu/order and delivery searches.
+- **Hours/day-part evidence:** Official Sun–Thu `5:30 AM–10 PM`, Fri–Sat `5:30 AM–11 PM`; all-day beverage service. Official says no order-ahead/mobile ordering and no delivery.
+- **Menu quotations:** Official branch favorites are Strawberry Smoothie with Whipped Cream, Blondie with Whipped Cream & Caramel Drizzle, Ocean Breeze 7 Energy with Cold Foam and Georgia Peach Green Tea. Official describes coffees, energy drinks, 7 Fizz, smoothies and teas; food is limited to Blueberry Cake, Lemon Poppyseed and Chocolate Chip muffin tops.
+- **Production/process quotations:** Drinks are prepared/customized at the stand; official copy does not disclose coffee roaster, espresso extraction parameters, concentrate/syrup production, cold-brew method, smoothie base or muffin production. No scratch food-production statement recovered.
+- **Seasonality/turnover quotations:** Official promotion occurs every seventh of the month from `7am-7pm` with `a new surprise`. No seasonal menu-rotation claim recovered.
+- **Ingredient/sourcing quotations:** Whipped cream, caramel drizzle, cold foam, tea, coffee, smoothie and energy-drink components are named. No roaster, farm, dairy, bakery or syrup producer recovered.
+- **Review-text quotations — food/product:** Official recent review dated May 17, 2026: `No one knows how to make a cup of coffee, always too milky, burnt most times.. the only good thing here is the cold tea or cold brew.` Another review says a requested drink's ingredients are repeatedly unavailable and substitutions are assumed; another reports uncertainty whether almond milk or flavoring caused illness. These are customer reports, not operator admissions.
+- **Review-text quotations — service/price/ambiance:** Official reviews praise chai, staff and fast line movement; another calls service `wildly inconsistent`. Restaurantji summary says strong/hot coffee and service. A review calls pricing reasonable.
+- **Potentially adverse factual quotations:** Officially drive-through only with no lobby; some stands have walk-up windows. Food is three muffin-top flavors and the business explicitly says its focus is drinks. The official location system and nearby-location list establish a multi-location chain. No commissary, frozen, reheating or on-site baking statement recovered.
+- **Cuisine/format:** Chain drive-through beverage stand; coffee, flavored/energy drinks, smoothies, teas and limited packaged-style bakery offering.
+- **Neutral factual claims:** Official supports branch identity, chain format, hours, menu scope, reviews and service constraints. It does not identify production methods or suppliers for drink bases or muffin tops.
+- **Search trail:** Opened official location/menu/FAQ/review content and Restaurantji; searched exact address/phone, prices/order/delivery, roasting/cold brew/syrups, muffin source/baking, suppliers, seasonality and defect reviews.
+- **Unavailable fields:** Exact prices, named sourcing, on-site food production, roaster identity and beverage-base production are **exhausted-unavailable** after the required sequence.
+
+## R-2878 — 7 Brew Coffee, Riverton
+
+- **Identity:** Official branch `7 Brew Coffee`, `4004 West 13400 South, Riverton, UT 84096`, `(479) 358-9274`, `https://locations.7brew.com/ut/riverton/4004-west-13400-south`.
+- **Identity sources:** Official [Riverton branch page](https://locations.7brew.com/ut/riverton/4004-west-13400-south), official [Riverton location index](https://locations.7brew.com/ut/riverton), [Yellow Pages](https://www.yellowpages.com/riverton-ut/mip/7-brew-coffee-578186328), accessed 2026-07-16.
+- **Rating evidence:** The official page exposes a `Recent Riverton Reviews` section but the indexed page does not expose an aggregate score/count. Yellow Pages says `Be the first to review`. Additional exact branch-level rating/count **exhausted-unavailable** after Google/Yelp/Restaurantji/Tripadvisor/Apple Maps searches.
+- **Price evidence:** Exact branch-level current prices **exhausted-unavailable** after official menu/order and delivery searches.
+- **Hours/day-part evidence:** Official Mon–Thu and Sun `5:30 AM–10 PM`; Fri–Sat `5:30 AM–11 PM`. No order-ahead/mobile ordering or delivery; drive-through-only/no lobby, with some locations offering walk-up.
+- **Menu quotations:** Official favorites mirror the Millcreek branch: Strawberry Smoothie with Whipped Cream, Blondie with Whipped Cream & Caramel Drizzle, Ocean Breeze 7 Energy with Cold Foam and Georgia Peach Green Tea. Official describes coffees, energy drinks, 7 Fizz, smoothies and teas; food is Blueberry Cake, Lemon Poppyseed and Chocolate Chip muffin tops.
+- **Production/process quotations:** Official says the experience is built for fast beverage service but does not identify roasting, syrup/concentrate, cold brew, smoothie-base or muffin-top production. No scratch food-production statement recovered.
+- **Seasonality/turnover quotations:** Official recurring promotion every seventh day-of-month from `7am-7pm` with `a new surprise`; no seasonal food/drink rotation wording recovered.
+- **Ingredient/sourcing quotations:** Whipped cream, caramel drizzle, cold foam, tea, coffee, smoothie and energy components are named. No roaster, bakery, dairy, farm or producer recovered.
+- **Review-text quotations:** Branch-level food/product defect quotation **exhausted-unavailable**; the official page's indexed review section did not yield text in the accessible extract and other exact-address platforms did not yield a usable current defect quotation.
+- **Potentially adverse factual quotations:** Officially drive-through only, no lobby, focused on drinks, with only three muffin-top flavors as food. Official location indexes and nearby-branch links establish a multi-location chain. Crexi characterizes the parcel as `QSR/Fast Food` and a `7 Brew Ground Lease Investment`; that is property-market evidence, not operator production evidence.
+- **Cuisine/format:** Chain drive-through coffee/energy/smoothie/tea stand with limited bakery food.
+- **Neutral factual claims:** Official supports exact branch identity, chain relationship, hours, menu scope and service constraints. No production or supplier details were recovered.
+- **Search trail:** Opened official branch/index/FAQ/menu paths and Yellow Pages; searched exact address/name/phone, ratings/reviews/defects, prices/order/delivery, roasting/cold brew/syrup/muffin production, suppliers and local coverage.
+- **Unavailable fields:** Exact prices, direct aggregate rating/count, named sourcing, component production and a physical product defect quotation are **exhausted-unavailable** after the required sequence.
+
+## R-2882 — Alpenglow Table
+
+- **Identity:** Official `Alpenglow Table`, Salt Lake City, Utah, `https://www.alpenglowtable.com/`; private-home dining with exact address shared only with confirmed guests. Chef named as Jackson Miller.
+- **Identity source:** Official [Alpenglow Table](https://www.alpenglowtable.com/), accessed 2026-07-16. Independent identity corroboration **exhausted-unavailable** after exact-name, chef, social, reservation, press and directory searches.
+- **Rating evidence:** **exhausted-unavailable** after Google, Yelp, Tripadvisor, OpenTable, Tock, Resy and press searches.
+- **Price evidence:** Official `$165 / cover` for seven courses; `$50 deposit per person`, remainder due the evening of dinner; BYOB with no corkage.
+- **Hours/day-part evidence:** Dinners run about `2.5–3 hours`; dates/hours are distributed through a waitlist, whose members receive 48-hour priority. No recurring weekly schedule is published.
+- **Menu quotations:** Spring menu, April–June 2026: radish and cultured butter; pea and morel velouté; œuf en cocotte with asparagus and truffle; Idaho trout à la grenobloise; rhubarb and Champagne granita; spring lamb with fava beans and jus; fraisier. Seven courses include amuse-bouche through dessert with a palate cleanser.
+- **Production/process quotations:** Official says food is `cooked with the discipline of classical French technique`, `one chef`, `No shortcuts`, and `Every menu is written from the farmers market outward`. The menu names cultured butter, velouté, œuf en cocotte, grenobloise, granita, jus and fraisier, but the site does not separately state which named components are produced on site.
+- **Seasonality/turnover quotations:** `The menu changes each season, built around what's growing in Utah right now`; spring menu is dated April–June 2026; seven courses are `built around a single seasonal thread`.
+- **Ingredient/sourcing quotations:** Official describes the offering as `Utah-sourced`; menu attributes Utah radish, Wasatch morels, Utah asparagus, Idaho trout/Snake River, Utah rhubarb, Utah lamb and Utah strawberry. `All courses sourced from Utah and the Intermountain West where possible.` No named farms, ranches, fishery or market vendors are disclosed.
+- **Chef/background quotations:** Official says Jackson Miller trained in professional restaurant kitchens and has formal culinary training; cuisine is `French technique, Utah ingredients`. No school or prior restaurant is named.
+- **Review-text quotations:** Independent customer review evidence and physical food-defect quotations **exhausted-unavailable**.
+- **Potentially adverse factual quotations:** It is explicitly a private home rather than a conventional restaurant, capped at ten seats, waitlist-based, exact address withheld until confirmation, BYOB and deposit-backed. The site includes visible placeholder copy: `Your hero photograph` / `Replace this with your best plated dish — lamb rack recommended` and `Your portrait or kitchen photo`; these are current-page publication facts and may indicate unfinished site content, not food-production facts.
+- **Cuisine/format:** Seasonal, French-influenced private-home tasting menu; ten seats, one chef, seven courses, waitlist reservation.
+- **Neutral factual claims:** All production, menu, chef, sourcing and format statements above come from the restaurant's own site. No independent source corroborates opening/operational history, chef credentials, sourcing or customer experience.
+- **Search trail:** Opened official site and Instagram link trace; searched exact name/domain, chef Jackson Miller, Salt Lake City private dining, menu/reservations, address/phone, ratings/reviews, press/interviews, culinary training and sourcing/farms.
+- **Unavailable fields:** Independent identity corroboration, ratings, reviews/defects, recurring schedule, exact address/phone, named suppliers and independently verified chef history are **exhausted-unavailable** after the required sequence.

@@ -83,16 +83,40 @@ class GeneratorValidationTests(unittest.TestCase):
         self.decisions["records"][0]["score"]["s"] = math.nan
         self.assertIn("finite", "\n".join(self.module.validate_decisions(self.decisions)))
 
+    def test_partial_scores_validate_without_normalization(self):
+        partial = self.decisions["records"][1]
+        self.assertEqual(partial["score"]["state"], "partial")
+        self.assertEqual(self.module.validate_decisions(self.decisions), [])
+        partial["score"]["s_coverage"] = 0.9
+        self.assertIn("coverage", "\n".join(self.module.validate_decisions(self.decisions)))
+
+    def test_partial_score_must_be_positive(self):
+        partial = self.decisions["records"][1]
+        partial["score"]["criteria"]["core_craft"] = 0
+        partial["score"]["s_earned"] = 0
+        self.assertIn("earned score out of range", "\n".join(self.module.validate_decisions(self.decisions)))
+
+    def test_restaurant_partial_scores_validate(self):
+        decisions = json.loads((FIXTURES / "valid-restaurant-decisions.json").read_text())
+        partial = decisions["records"][1]
+        self.assertEqual(partial["score"]["state"], "partial")
+        self.assertEqual(self.module.validate_decisions(decisions), [])
+        partial["score"]["criteria"]["production"] = 41
+        self.assertIn("production out of range", "\n".join(self.module.validate_decisions(decisions)))
+
     def test_build_payload_joins_canonical_fields_and_map_links(self):
         payload = self.module.build_payload(self.decisions, self.projection)
         mapped = payload["practical"][0]
         unpinned = payload["practical"][1]
         audit = payload["audit"][0]
         self.assertEqual(mapped["score"]["s"], 82)
+        self.assertEqual(unpinned["score"]["state"], "partial")
         self.assertIn("maps/search", mapped["map_url"])
         self.assertEqual(mapped["map_action"], "Directions")
-        self.assertIsNone(unpinned["map_url"])
-        self.assertEqual(audit["map_action"], "Check current place record")
+        self.assertIn("maps/search", unpinned["map_url"])
+        self.assertIn("Moonrise+Microbakery", unpinned["map_url"])
+        self.assertIn("Example+metro", unpinned["map_url"])
+        self.assertEqual(audit["map_action"], "Find on Google Maps")
         self.assertNotIn("sources", mapped)
         self.assertNotIn("rationale", mapped)
 
@@ -165,7 +189,7 @@ class TemplateContractTests(unittest.TestCase):
         self.assertIn('data-record-id',self.template)
 
     def test_interaction_and_layout_contract(self):
-        for phrase in ('localStorage','showCard','alternateFacetCounts','scrollIntoView','.focus(','minmax(0, 1fr)','min-height: 0','overflow: hidden','overflow: auto','@media (max-width: 1050px)','@media (max-width: 720px)'):
+        for phrase in ('localStorage','showCard','alternateFacetCounts','scoreMetrics','Scratch evidence','scrollIntoView','.focus(','minmax(0, 1fr)','min-height: 0','overflow: hidden','overflow: auto','@media (max-width: 1050px)','@media (max-width: 720px)'):
             self.assertIn(phrase,self.template)
         self.assertNotIn('onclick=',self.template.lower())
 

@@ -1,0 +1,24 @@
+{
+  "schema_contract": "restaurant v8.14 identity and projection repair",
+  "decision_population": 1650,
+  "identity_updates": 1644,
+  "legacy_source_references_repaired": 1650,
+  "candidate_ids_missing_from_identity_source": [
+    "R-2928",
+    "R-2929",
+    "R-2930",
+    "R-2931",
+    "R-2932",
+    "R-2933"
+  ],
+  "projection_population": 1650,
+  "projection_ids_match_decisions": true,
+  "projection_counts": {
+    "practical": 224,
+    "audit": 1426,
+    "omitted": 0,
+    "mapped": 221
+  },
+  "decision_hash": "sha256:5eae241f6e68dfadcbce91187cba7838e0fe4305fcb7215eca5c0859e13612f1",
+  "passed": true
+}

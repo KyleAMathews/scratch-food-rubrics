@@ -1,0 +1,41 @@
+Access date for every source: **2026-07-15**. Facts only.
+
+## TY Fish & Chips
+- Identity: “TY FISH & CHIPS” / “TY Fish & Chips”; 9411 S 700 E, Unit 19, Sandy, UT 84070; (385) 274-2760; official domain displayed by Apple Maps as `tyfishnchips.com`.
+- Identity sources: [Apple Maps](https://maps.apple.com/place?place-id=ID645CE1D3C817E3A), business listing; [Restaurantji](https://www.restaurantji.com/ut/sandy/ty-fish-and-chips-/), restaurant/review directory; [MenuPix](https://www.menupix.com/saltlakecity/restaurants/32792609/TY-Fish-and-Chips-Sandy-UT), menu/review directory.
+- Rating evidence: Restaurantji displays “4.7” and “273 ratings.” Apple Maps displays Yelp “4.4 (149).” MenuPix displays “4.5” and “8 reviews.” [MenuToEat](https://menutoeat.com/ty-fish-and-chips/) reports Google “4.6/5” from “545 ratings,” checked March 11, 2026. DoorDash search displays “4.7(1k+).”
+- Price evidence: Restaurantji “$”; Apple Maps “$$$$”; MenuPix “($$).” MenuPix examples: two fish pieces $11.75; three $14.75; seven shrimp $12.50; seafood egg roll $7; mango-custard Japanese donut $5. MenuToEat instead displays fish (2) $11 and fish (3) $14.
+- Hours/day-part evidence: Restaurantji: Mon–Thu 11am–8:30pm; Fri–Sat 11am–9pm; Sun 11am–7pm. Apple Maps instead displays Sunday 11am–5pm. MenuPix displays “11:30am-9:00pm” for the accessed day.
+- Menu quotations: MenuToEat headings: “BUILD YOUR BOX,” “CHOOSE YOUR CHIP,” “CHOOSE YOUR SAUCE,” and “CHEF TY’S SPECIAL.” MenuPix: “Japanese hand cut fish”; fried shrimp with fries in pickled-jalapeño garlic cream, truffle Parmesan, Japanese miso ketchup, salted, or plain formats; sauces including TY tartar and mango curry; seafood egg roll with shrimp, calamari, cilantro, onion, cream cheese, and sweet-chile-lime sauce. Restaurantji names crab balls, seasonal vegetable tempura, shrimp ceviche, Japanese donuts, and fish-and-chips with Parmesan-truffle fries.
+- Production/process quotations: MenuPix literal wording “Japanese hand cut fish.” Restaurantji describes the food as fried and fish as “crispy and tender”; customer says “Super crunchy batter, cooked perfect.” No source specifies whether sauces, batter, doughnuts, or fries are produced in-house.
+- Seasonality/turnover quotations: Restaurantji literal menu item “Seasonal Vegetable Tempura.” No dated rotation/specials-board wording surfaced.
+- Ingredient/sourcing quotations: Restaurantji customer identifies “red snapper.” Menu sources name shrimp, calamari, seasonal vegetables, Japanese miso, mango, truffle Parmesan, jalapeño, and cream cheese. No fishery, farm, producer, or catch method was named.
+- Review-text quotations:
+  - Food/product: Restaurantji: fish is “perfectly cooked and flaky,” fries “golden brown and crisp,” and sauces include “Lemon Sweet Chili and Honey Wasabi.” Apple Maps customer: “Super crunchy batter, cooked perfect, and the tartar sauce was on point.”
+  - Defect/price: Restaurantji customer: “Pricey considering they don’t even clean the shrimp.” Apple Maps customer says portions were not large for the price.
+  - Service/ambiance: Restaurantji describes the atmosphere as “simple and clean.”
+- Potentially adverse factual quotations: Restaurantji says “there are no healthy options like salads.” A Reddit customer says, “If you’re looking for classic British fish and chips TY is not that”; Apple Maps calls it “a fusion of classic fish and chips with a Japanese flair.”
+- Cuisine/format: Restaurantji “Fish & Chips, Seafood”; Apple Maps “Fish and Chip Shop”; MenuToEat “Seafood Asian.” Dine-in, takeout, delivery, and outdoor dining.
+- Neutral factual claims: Sources support a Japanese-influenced fish-and-chips menu, hand-cut-fish wording, configurable fried seafood/fries/sauces, seasonal vegetable tempura, and several conflicting platform facts for ratings, prices, hours, and phone formatting.
+- Search trail: queries `Ty Fish Chips Salt Lake City Utah restaurant`, `site:restaurantji.com/ut/sandy/ty-fish-and-chips TY Fish Chips hours address rating`, and `TY Fish Chips Sandy menu phone`; opened Tripadvisor, Restaurantji, DoorDash search, Apple Maps, MenuPix, MenuToEat, and multiple local Reddit fish-and-chips threads; searched official site/menu/social, local press, and direct ratings.
+- Unavailable fields: official about/social content, named sourcing, detailed batter/sauce/dessert production, and dated specials beyond “Seasonal Vegetable Tempura” are `exhausted-unavailable` after that sequence.
+
+## Tonyburgers — Holladay
+- Identity: “Tonyburgers” / “TonyBurgers (Holladay)”; 4670 S Holladay Village Plaza #106, Holladay, UT 84117; official branch page displays 801-987-8309, while the candidate supplied 801-708-0047 and Grubhub displays 801-676-9686; official [Tonyburgers Holladay page](https://www.tonyburgers.com/holladay).
+- Identity sources: official branch, [home](https://www.tonyburgers.com/), [menu](https://www.tonyburgers.com/menu/), and [about](https://www.tonyburgers.com/about); Apple Maps; Grubhub.
+- Rating evidence: [DoorDash](https://www.doordash.com/store/tonyburgers-holladay-157476/) displays “4.5(5k+)” and “5k+ ratings • 60+ public reviews.” [Apple Maps](https://maps.apple.com/place?place-id=IDD0A8FC9C4588355) displays Yelp “3.1 (186).” Grubhub displays “264 ratings” but no literal overall score.
+- Price evidence: DoorDash “$.” Featured items: SuperSmash $11.50; Ol’ Reliable $10.24; Burgers $9.08; I’m So Bleu $11.38; Tony’s Southern $11.38; Tiny Tonyburger Meal $9.32. Apple Maps displays “$$$$.”
+- Hours/day-part evidence: Official: Mon–Thu 11am–9pm; Fri–Sat 11am–10pm; Sun 11am–8pm. Apple Maps matches. Grubhub instead displays pickup/delivery until 9:30pm on the accessed day.
+- Menu quotations: DoorDash headings: “Managers’ Favorites,” “Build Your Burger,” “Fries N Rings,” “Milk Shakes,” “Kids’ Meals,” and “Extra Sauces.” Featured burgers include SuperSmash, Ol’ Reliable, I’m So Bleu, and Tony’s Southern.
+- Production/process quotations: Official home: beef is “OUR SPECIAL BEEF BLEND OF SIRLOIN, CHUCK, AND BRISKET” and is “BROUGHT IN FRESH DAILY.” Official says shakes use “REAL BLUE BUNNY ICE CREAM” and are “HAND BLENDED … DINER STYLE WITH A SPINDLE BLENDER.” Apple Maps business description says “house cut fries” are “fried twice in pure peanut oil” and shakes are “hand spun.” Official about page says founders tested “mixing different cuts of beef in exactly the right percentages.”
+- Seasonality/turnover quotations: `exhausted-unavailable`.
+- Ingredient/sourcing quotations: Official names sirloin, chuck, brisket, Blue Bunny ice cream, and pure peanut oil. No cattle ranch, beef processor, potato farm, bakery, or mill was named.
+- Review-text quotations:
+  - Food/product: Apple Maps customer: “Fantastic diner(ish) style burgers”; another says fries and burger were “delicious.” DoorDash customer describes Tony’s Southern as a burger they had not encountered in more than five years.
+  - Service/operations: Apple Maps customer criticizes the cashless policy. Grubhub reviews contain delivery-driver complaints, separated from restaurant food production.
+  - Price: DoorDash customer calls it “A little on the pricier side.”
+- Potentially adverse factual quotations: Official home lists locations in Clinton, Centerville, Downtown SLC, Holladay, Herriman, South Jordan, and West Valley. Official about says the first restaurant was in Centerville. Apple Maps states the business is cashless in customer review text.
+- Cuisine/format: Burger restaurant; official “BURGERS ELEVATED”; Apple Maps says smash burgers. Takeout, delivery, drive-through, outdoor dining, and kids’ service.
+- Neutral factual claims: Official sources support a seven-location Utah burger group, a sirloin/chuck/brisket blend delivered fresh daily, twice-fried house-cut fries in peanut oil, and spindle-blended Blue Bunny shakes.
+- Search trail: official home/menu/about/Holladay branch; DoorDash; Grubhub; Apple Maps; USArestaurants; menu PDF result; queries `Tonyburgers Holladay official menu process beef rating` and `Tonyburgers Holladay Restaurantji rating hours`; searched social, reviews, local press, and direct ratings.
+- Unavailable fields: seasonality, named meat/potato/bun suppliers, local-press production interviews, and a Holladay-specific Restaurantji rating are `exhausted-unavailable` after that sequence.

@@ -1,0 +1,4567 @@
+{
+  "source_files": [
+    "track-a-salt-lake-county-overpass.json",
+    "track-a-park-city-snyderville-core-overpass.json",
+    "track-a-park-city-snyderville-adjacent-overpass.json",
+    "track-a-heber-valley-overpass.json"
+  ],
+  "elements": [
+    {
+      "type": "node",
+      "id": 11460525194,
+      "lat": 40.7267134,
+      "lon": -111.9795753,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "3678",
+        "addr:state": "UT",
+        "addr:street": "West 2100 South",
+        "description": "Vegan chocolatier and specialty bakery. Location is for pickup and shipping only.",
+        "diet:vegan": "only",
+        "phone": "+1 801-839-5055",
+        "shop": "chocolate",
+        "takeaway": "only"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4543847111,
+      "lat": 40.6979997,
+      "lon": -111.8902190,
+      "tags": {
+        "addr:city": "South Salt Lake",
+        "addr:housenumber": "3390",
+        "addr:postcode": "84115",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "addr:unit": "18",
+        "alt_name": "85°C",
+        "amenity": "cafe",
+        "brand": "85°C Bakery Cafe",
+        "brand:wikidata": "Q4644852",
+        "check_date": "2025-10-09",
+        "cuisine": "coffee_shop;chinese",
+        "name": "85°C Bakery Cafe",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "outdoor_seating": "no",
+        "phone": "+1 385-355-9991",
+        "shop": "pastry",
+        "takeaway": "yes",
+        "website": "https://www.85cbakerycafe.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12724564689,
+      "lat": 40.6970311,
+      "lon": -112.0087035,
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:housenumber": "4936",
+        "addr:postcode": "84120",
+        "addr:state": "UT",
+        "addr:street": "West 3500 South",
+        "addr:unit": "C",
+        "name": "Alebrijes Candy Shop",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12724564688,
+      "lat": 40.6969137,
+      "lon": -112.0087436,
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:housenumber": "4936",
+        "addr:postcode": "84120",
+        "addr:state": "UT",
+        "addr:street": "West 3500 South",
+        "addr:unit": "D",
+        "name": "Alicia's Panaderia",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13360544821,
+      "lat": 40.6090857,
+      "lon": -111.9570154,
+      "tags": {
+        "addr:city": "West Jordan",
+        "addr:housenumber": "2653",
+        "addr:state": "UT",
+        "addr:street": "West 7800 South",
+        "alt_name": "Alicia's Bakery;Panaderia Alicia's",
+        "name": "Alicia's Panaderia",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13447180957,
+      "lat": 40.7521805,
+      "lon": -111.8850827,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "779",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "South 200 East",
+        "amenity": "cafe",
+        "check_date": "2026-03-12",
+        "contact:instagram": "@allpurposebakehouse",
+        "cuisine": "coffee_shop;bakery",
+        "internet_access": "wlan",
+        "level": "0",
+        "name": "All Purpose Bakehouse",
+        "opening_hours": "We-Su 08:00-14:00",
+        "outdoor_seating": "yes",
+        "payment:app": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "short_name": "AP Bakehouse",
+        "start_date": "2026-01-10",
+        "website": "https://www.apbakehouse.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13758777136,
+      "lat": 40.6113901,
+      "lon": -111.9104605,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "mexican;dessert",
+        "name": "Altojitos",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12843245771,
+      "lat": 40.6960992,
+      "lon": -112.0067696,
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:housenumber": "4865",
+        "addr:postcode": "84120",
+        "addr:state": "UT",
+        "addr:street": "West 3500 South",
+        "addr:unit": "#G",
+        "description": "Mexican ice cream, candies, & snacks",
+        "name": "Antojitos Luna",
+        "opening_hours": "Tu-Th 12:00-20:00; Fr 11:00-20:00; Sa-Su 11:00-21:00",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 801-819-4703",
+        "shop": "confectionery",
+        "website": "https://www.antojitoslunautah.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3625585827,
+      "lat": 40.6472476,
+      "lon": -111.4978233,
+      "tags": {
+        "amenity": "cafe",
+        "atm": "yes",
+        "bar": "no",
+        "check_date": "2023-10-15",
+        "cuisine": "coffee_shop;bakery",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Atticus",
+        "level": "0",
+        "name": "Atticus Coffee, Books, and Teahouse",
+        "opening_hours": "Mo-Fr 07:00-18:00; Su 07:00-17:00",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "books",
+        "toilets": "yes",
+        "website": "https://www.atticustea.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3738277586,
+      "lat": 40.6674640,
+      "lon": -111.8238780,
+      "tags": {
+        "addr:city": "Holladay",
+        "addr:housenumber": "4704",
+        "addr:street": "South Holladay Boulevard",
+        "name": "Auntie Rae's Sweets & Tea Parties",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12563395901,
+      "lat": 40.7738519,
+      "lon": -111.8780196,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "376",
+        "addr:postcode": "84103",
+        "addr:state": "UT",
+        "addr:street": "East 4th Avenue",
+        "diet:gluten_free": "only",
+        "name": "Avenue Bakery on Fourth",
+        "opening_hours": "Mo-Sa 10:00-19:00; Su 10:00-17:00",
+        "phone": "+1 385-602-2111",
+        "shop": "bakery",
+        "website": "https://www.avenuesonfourth.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11040239394,
+      "lat": 40.7582678,
+      "lon": -111.8850460,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "204",
+        "addr:state": "UT",
+        "addr:street": "East 500 South",
+        "addr:street:prefix": "East",
+        "name": "Baby's Bagels",
+        "opening_hours": "Mo-Su 07:30-14:00",
+        "payment:cash": "no",
+        "shop": "bakery",
+        "website": "https://www.babysbagels.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 984111235,
+      "center": {
+        "lat": 40.5155410,
+        "lon": -111.4123809
+      },
+      "tags": {
+        "addr:city": "Heber City",
+        "addr:housenumber": "570",
+        "addr:postcode": "84032",
+        "addr:state": "UT",
+        "addr:street": "North Main Street",
+        "building": "commercial",
+        "drive_through": "yes",
+        "name": "Bagel Den",
+        "opening_hours": "Mo-Su 06:00-17:00",
+        "shop": "bakery",
+        "website": "https://www.thebagelden.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6569219699,
+      "lat": 40.6639156,
+      "lon": -111.8925140,
+      "tags": {
+        "name": "Bakers C & C",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+        "shop": "chocolate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 291855245,
+      "center": {
+        "lat": 40.7538510,
+        "lon": -111.8707318
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "678",
+        "addr:state": "UT",
+        "addr:street": "700 South",
+        "amenity": "restaurant",
+        "building": "retail",
+        "contact:facebook": "https://www.facebook.com/BanburyCrossDonuts/",
+        "cuisine": "donut",
+        "name": "Banbury Cross"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13002359687,
+      "lat": 40.6863962,
+      "lon": -111.7946772,
+      "tags": {
+        "addr:city": "Millcreek",
+        "addr:housenumber": "3939",
+        "addr:state": "UT",
+        "addr:street": "South Wasatch Boulevard",
+        "addr:unit": "Suite 12",
+        "description": "An extension of Beaumont Bakery & Cafe. This location is intended for customers that just want to grab a baked good; it offers almost everything in the Beaumont bakery cases, plus some extra offerings (e.g., foccacia, macaroons).",
+        "diet:gluten_free": "limited",
+        "diet:vegan": "limited",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Beaucoup Boulangerie et Marche",
+        "opening_hours": "Mo-Sa 07:00-17:00; Su 07:00-15:00",
+        "outdoor_seating": "no",
+        "shop": "bakery",
+        "short_name": "Beaucoup",
+        "website": "https://www.beaucoup-bakery.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1072033317,
+      "center": {
+        "lat": 40.5439941,
+        "lon": -111.8891809
+      },
+      "tags": {
+        "check_date": "2022-06-17",
+        "construction": "building",
+        "landuse": "construction",
+        "name": "Beaumont Bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10022696830,
+      "lat": 40.6852483,
+      "lon": -111.7955920,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "3979",
+        "addr:postcode": "84124",
+        "addr:state": "UT",
+        "addr:street": "South Wasatch Boulevard",
+        "addr:unit": "Suite 206",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "delivery": "no",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Beaumont Bakery & Cafe",
+        "opening_hours": "Mo-Th 07:00-19:00; Fr-Sa 07:00-20:00; Su 08:00-15:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 801-676-9340",
+        "takeaway": "yes",
+        "website": "https://www.beaumont.cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2460700082,
+      "lat": 40.7579611,
+      "lon": -111.8903170,
+      "tags": {
+        "diet:vegan": "yes",
+        "full_name": "Bonne Vie Patisserie",
+        "name": "Bonne Vie",
+        "opening_hours": "Mo-Su 06:00-18:00",
+        "shop": "bakery",
+        "website": "https://www.grandamerica.com/dining/bonne-vie/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4584427247,
+      "lat": 40.5213797,
+      "lon": -111.9580904,
+      "tags": {
+        "name": "Breads",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10939073390,
+      "lat": 40.4834627,
+      "lon": -111.9882394,
+      "tags": {
+        "addr:city": "Herriman",
+        "addr:housenumber": "14732",
+        "addr:postcode": "84096",
+        "addr:state": "UT",
+        "addr:street": "South Marketplace Drive",
+        "description": "Break Bread Barber Co. is a premier barbershop located in Salt Lake City, Utah.",
+        "email": "Breakbreadbarberco@gmail.com",
+        "male": "yes",
+        "name": "Break Bread Barber Co.",
+        "opening_hours": "Mo 11:00-19:00; Tu-Sa 09:00-19:00; Su 11:00-16:00",
+        "operator": "Ricky Arriola",
+        "phone": "+1-801-641-0618",
+        "shop": "hairdresser",
+        "website": "https://www.breakbreadbarber.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8065670998,
+      "lat": 40.7890550,
+      "lon": -111.9162764,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "910",
+        "addr:postcode": "84116",
+        "addr:state": "UT",
+        "addr:street": "North 900 West",
+        "air_conditioning": "yes",
+        "contact:phone": "+1 801-641-0618",
+        "contact:website": "https://www.breakbreadbarber.com/",
+        "name": "Break Bread Barber Co.",
+        "shop": "hairdresser",
+        "source": "streetlevel imagery;website",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 377643147,
+      "center": {
+        "lat": 40.7207429,
+        "lon": -111.8581545
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "2314",
+        "addr:postcode": "84106",
+        "addr:state": "UT",
+        "addr:street": "South Highland Drive",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "international",
+        "name": "Bruges Waffles & Frites",
+        "opening_hours": "Mo-Th 10:00-20:00; Fr-Sa 09:00-21:00; Su 09:00-14:00",
+        "phone": "+1-801-486-9999",
+        "shop": "confectionery",
+        "smoking": "outside",
+        "website": "https://brugeswaffles.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10062272944,
+      "lat": 40.5787949,
+      "lon": -111.8733490,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "662",
+        "addr:postcode": "84070",
+        "addr:state": "UT",
+        "addr:street": "Union Square",
+        "description": "Latino bakery/sweetshop.",
+        "name": "Buono Bakery",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13568770623,
+      "lat": 40.7636987,
+      "lon": -111.8875539,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "265",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "addr:unit": "113",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;ice_cream;pastry",
+        "name": "Buzzed Coffeehouse",
+        "outdoor_seating": "no",
+        "website": "https://buzzedcoffeecompany.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2366146738,
+      "lat": 40.6454799,
+      "lon": -111.4970779,
+      "tags": {
+        "name": "Cake",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9438490307,
+      "lat": 40.6606184,
+      "lon": -111.9398365,
+      "tags": {
+        "addr:city": "Taylorsville",
+        "addr:housenumber": "1736",
+        "addr:postcode": "84129",
+        "addr:state": "UT",
+        "addr:street": "West 5000 South",
+        "contact:facebook": "Cakes By Edith Bakery",
+        "contact:instagram": "@CakesByEdithUtah",
+        "full_name": "Cakes By Edith Pastaleria y Panaderia",
+        "name": "Cakes By Edith",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-18:00; Su 08:00-16:00",
+        "phone": "+1-801-963-3743",
+        "shop": "bakery",
+        "website": "https://cakesbyedithbakery.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13051329499,
+      "lat": 40.7369091,
+      "lon": -111.8901051,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "25",
+        "addr:state": "UT",
+        "addr:street": "East Kensington Avenue",
+        "addr:unit": "B",
+        "name": "Canela Bakery",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-18:00",
+        "phone": "+1 385-371-5342",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2344998584,
+      "lat": 40.7630373,
+      "lon": -111.9003150,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "282",
+        "addr:postcode": "84101",
+        "addr:state": "UT",
+        "addr:street": "South 300 West",
+        "amenity": "cafe",
+        "name": "Carlucci's",
+        "phone": "+1 801-366-4484",
+        "shop": "bakery",
+        "website": "https://theresecarlucci.wixsite.com/mysite-1",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5271105172,
+      "lat": 40.7268681,
+      "lon": -111.8634669,
+      "tags": {
+        "name": "Carol's Pastry Shop",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11388299254,
+      "lat": 40.7582667,
+      "lon": -111.8847770,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "212",
+        "addr:state": "UT",
+        "addr:street": "East 500 South",
+        "addr:unit": "A",
+        "description": "Offers chocolates (ganache-based) and pralines and a limited selection of baked goods (e.g., kouign amann).",
+        "name": "Chez Nibs",
+        "opening_hours": "We-Fr 12:00-18:00; Sa 10:30-18:00",
+        "shop": "chocolate",
+        "start_date": "2023-11-18",
+        "website": "https://cheznibs.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11663776618,
+      "lat": 40.5614666,
+      "lon": -112.0022448,
+      "tags": {
+        "name": "Chip",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13205806303,
+      "lat": 40.6445013,
+      "lon": -111.4965981,
+      "tags": {
+        "name": "Chip",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11102308889,
+      "lat": 40.5096439,
+      "lon": -112.0004707,
+      "tags": {
+        "addr:city": "Riverton",
+        "addr:housenumber": "4578",
+        "addr:postcode": "84096",
+        "addr:state": "UT",
+        "addr:street": "West Partridge Hill Lane",
+        "name": "Chip Cookies",
+        "opening_hours": "Mo-Sa 11:00-22:00; Su 12:00-17:00",
+        "phone": "+1-385-787-5057",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1134018865,
+      "center": {
+        "lat": 40.6739969,
+        "lon": -111.8235327
+      },
+      "tags": {
+        "addr:city": "Holladay",
+        "addr:housenumber": "2340",
+        "addr:postcode": "84117",
+        "addr:state": "UT",
+        "addr:street": "East 4500 South",
+        "building": "yes",
+        "name": "Chip Cookies",
+        "opening_hours": "Mo-Sa 11:00-22:00",
+        "phone": "+1 385-429-4018",
+        "shop": "bakery",
+        "source": "microsoft/BuildingFootprints;esri/USA_NAD_Addresses",
+        "website": "https://www.chipcookies.co/pages/holladay"
+      }
+    },
+    {
+      "type": "way",
+      "id": 580736053,
+      "center": {
+        "lat": 40.7236373,
+        "lon": -111.8716126
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "2180",
+        "addr:postcode": "84106",
+        "addr:state": "UT",
+        "addr:street": "South 700 East",
+        "building": "retail",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Chip Cookies",
+        "opening_hours": "Mo-Sa 11:00-22:00; Su off",
+        "outdoor_seating": "yes",
+        "phone": "+1-385-210-0277",
+        "shop": "pastry",
+        "takeaway": "yes",
+        "utahagrc:parcelid": "16201040090000",
+        "website": "https://www.chipcookies.co/pages/salt-lake-city"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13410395414,
+      "lat": 40.5585738,
+      "lon": -111.8712269,
+      "tags": {
+        "description": "Chocolates, chocolate-dipped fruit, English toffee.",
+        "name": "Chocolate Cottage",
+        "opening_hours": "Mo-Fr 09:30-18:30; Sa 10:00-18:00; Su off",
+        "shop": "chocolate",
+        "strapline": "Excellence in Chocolates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12911144563,
+      "lat": 40.6104825,
+      "lon": -111.9222968,
+      "tags": {
+        "addr:city": "West Jordan",
+        "addr:housenumber": "1100",
+        "addr:postcode": "84088",
+        "addr:state": "UT",
+        "addr:street": "West 7800 South",
+        "addr:street:prefix": "West",
+        "addr:unit": "10",
+        "name": "Chocolate Covered Wagon - Trolley Taffy Stat",
+        "opening_hours": "Mo-Th 10:00-18:00; Fr-Sa 10:00-19:00",
+        "phone": "+1 801-938-1963",
+        "shop": "confectionery",
+        "website": "https://www.gardnervillage.com/chocolate-covered-wagon"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6805873030,
+      "lat": 40.7265831,
+      "lon": -111.9154764,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "2025",
+        "addr:postcode": "84119",
+        "addr:state": "UT",
+        "addr:street": "South 900 West",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:website": "https://www.cinnabon.com/",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "description": "Located inside convenience store.",
+        "drive_through": "no",
+        "name": "Cinnabon",
+        "opening_hours": "Mo-Su 06:00-19:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+1-801-972-3711",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/ut/salt-lake-city/2025-s-900-w",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12818233991,
+      "lat": 40.6239917,
+      "lon": -111.8965713,
+      "tags": {
+        "addr:city": "Midvale",
+        "addr:housenumber": "7009",
+        "addr:state": "UT",
+        "addr:street": "South High Tech Drive",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "only",
+        "name": "City Cakes",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "shop": "pastry",
+        "website": "https://www.citycakescafe.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5935692028,
+      "lat": 40.7295986,
+      "lon": -111.9009054,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1860",
+        "addr:postcode": "84115",
+        "addr:state": "UT",
+        "addr:street": "South 300 West",
+        "addr:unit": "D",
+        "contact:phone": "+1 801-359-2239",
+        "description": "Vegan and mostly gluten-free bakery with baked goods including cakes, peanut butter bars, and cheesecake.",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "only",
+        "name": "City Cakes",
+        "opening_hours": "Mo-Th 08:00-18:00; Fr-Sa 08:00-20:00; Su off",
+        "outdoor_seating": "yes",
+        "shop": "bakery",
+        "website": "https://www.citycakescafe.com/location/salt-lake-city/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12959915948,
+      "lat": 40.6688806,
+      "lon": -111.9556588,
+      "tags": {
+        "addr:city": "Taylorsville",
+        "addr:housenumber": "2594",
+        "addr:postcode": "84129",
+        "addr:state": "UT",
+        "addr:street": "West 4700 South",
+        "name": "Colombian Baker",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8060731366,
+      "lat": 40.7374462,
+      "lon": -111.8906570,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1479",
+        "addr:postcode": "84115",
+        "addr:state": "UT",
+        "addr:street": "South Main Street",
+        "contact:facebook": "@condiescandies",
+        "email": "condiescandies@yahoo.com",
+        "name": "Condie's Candies",
+        "phone": "+1-801-485-2261",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 439745494,
+      "center": {
+        "lat": 40.7547677,
+        "lon": -111.8339117
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "610",
+        "addr:postcode": "84113",
+        "addr:state": "UT",
+        "addr:street": "South Foothill Drive",
+        "amenity": "cafe",
+        "brand": "Corner Bakery",
+        "brand:wikidata": "Q5171598",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "internet_access": "yes",
+        "name": "Corner Bakery",
+        "opening_hours": "Mo-Fr 06:30-21:00; Sa 07:00-21:00; Su 07:00-20:00",
+        "operator": "Corner Bakery",
+        "outdoor_seating": "yes",
+        "phone": "+1 801-503-2000",
+        "takeaway": "yes",
+        "website": "https://www.cornerbakerycafe.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3999437607,
+      "lat": 40.6349271,
+      "lon": -111.8861050,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Corner Bakery",
+        "brand:wikidata": "Q5171598",
+        "check_date": "2022-10-05",
+        "cuisine": "coffee_shop",
+        "name": "Corner Bakery Cafe",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "bakery",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10940793043,
+      "lat": 40.5254380,
+      "lon": -111.8826855,
+      "tags": {
+        "name": "Crave",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11841905469,
+      "lat": 40.7560613,
+      "lon": -111.8903434,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "20",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "East 600 South",
+        "addr:unit": "102",
+        "check_date": "2025-06-01",
+        "name": "Crave",
+        "shop": "pastry",
+        "website": "https://cravecookies.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11842281449,
+      "lat": 40.7387244,
+      "lon": -111.8263322,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1400",
+        "addr:postcode": "84108",
+        "addr:state": "UT",
+        "addr:street": "South Foothill Drive",
+        "addr:unit": "160",
+        "description": "Cookies.",
+        "level": "0",
+        "name": "Crave",
+        "opening_hours": "Mo-Th 10:30-22:00; Fr-Sa 10:30-23:00",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3634690170,
+      "lat": 40.6174013,
+      "lon": -111.8590274,
+      "tags": {
+        "addr:city": "Cottonwood Heights",
+        "addr:housenumber": "7386",
+        "addr:state": "UT",
+        "addr:street": "Union Park Avenue",
+        "name": "Crave",
+        "opening_hours": "Mo-Th 10:30-22:00; Fr-Sa 10:30-23:00",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9646026425,
+      "lat": 40.6963889,
+      "lon": -111.9587401,
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:country": "US",
+        "addr:housenumber": "2723",
+        "addr:postcode": "84119",
+        "addr:state": "UT",
+        "addr:street": "West 3500 South",
+        "addr:unit": "160",
+        "contact:phone": "+1 801-613-1225",
+        "contact:website": "https://www.cravecookies.com/",
+        "name": "Crave Cookies",
+        "opening_hours": "Mo-Th 10:30-22:00; Fr-Sa 10:30-23:00; Su off",
+        "shop": "pastry",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10944787424,
+      "lat": 40.6618264,
+      "lon": -111.8879386,
+      "tags": {
+        "addr:city": "Murray",
+        "addr:housenumber": "5043",
+        "addr:postcode": "84107",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "name": "Creme de Bakery",
+        "opening_hours": "Mo-Sa 08:30-19:00",
+        "phone": "+1 801-268-1680",
+        "shop": "bakery",
+        "website": "https://www.cremedebakery.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12123324770,
+      "lat": 40.6125244,
+      "lon": -111.9819012,
+      "tags": {
+        "addr:city": "West Jordan",
+        "addr:housenumber": "7626",
+        "addr:postcode": "84084",
+        "addr:state": "UT",
+        "addr:street": "South Campus View Drive",
+        "addr:unit": "130",
+        "brand": "Crumbl Cookies",
+        "brand:wikidata": "Q106924414",
+        "check_date": "2024-08-18",
+        "name": "Crumbl Cookies",
+        "shop": "pastry",
+        "short_name": "Crumbl"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7801562400,
+      "lat": 40.6240847,
+      "lon": -111.8383120,
+      "tags": {
+        "addr:housenumber": "1844",
+        "addr:postcode": "84121",
+        "addr:state": "UT",
+        "addr:street": "East Fort Union Boulevard",
+        "amenity": "restaurant",
+        "branch": "Cookie",
+        "brand": "Crumbl Cookies",
+        "brand:wikidata": "Q106924414",
+        "cuisine": "dessert",
+        "name": "Crumbl Cookies",
+        "shop": "pastry",
+        "short_name": "Crumbl"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9080763995,
+      "lat": 40.7259827,
+      "lon": -111.8721870,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "675",
+        "addr:postcode": "84106",
+        "addr:state": "UT",
+        "addr:street": "East 2100 South",
+        "addr:unit": "J",
+        "brand": "Crumbl Cookies",
+        "brand:wikidata": "Q106924414",
+        "email": "ut.saltlake@crumbl.com",
+        "name": "Crumbl Cookies",
+        "opening_hours": "Mo-Th 08:00-20:00; Fr-Sa 08:00-24:00",
+        "opening_hours:url": "https://crumblcookies.com/saltlake",
+        "phone": "+1 385-501-1777",
+        "shop": "pastry",
+        "short_name": "Crumbl",
+        "website": "https://crumblcookies.com/saltlake"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9654029905,
+      "lat": 40.6951276,
+      "lon": -111.9752194,
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:housenumber": "3515",
+        "addr:postcode": "84119",
+        "addr:state": "UT",
+        "addr:street": "West 3500 South",
+        "brand": "Crumbl Cookies",
+        "brand:wikidata": "Q106924414",
+        "email": "westvalley@crumbl.com",
+        "name": "Crumbl Cookies",
+        "opening_hours": "Mo-Th 08:00-22:00; Fr 08:00-24:00; Sa 08:00-22:00; Su off",
+        "phone": "+1-385-388-8325",
+        "shop": "pastry",
+        "short_name": "Crumbl",
+        "website": "https://crumblcookies.com/westvalley"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9962828798,
+      "lat": 40.5293566,
+      "lon": -111.8557260,
+      "tags": {
+        "brand": "Crumbl Cookies",
+        "brand:wikidata": "Q106924414",
+        "name": "Crumbl Cookies",
+        "shop": "pastry",
+        "short_name": "Crumbl"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12857804066,
+      "lat": 40.5438560,
+      "lon": -111.9352308,
+      "tags": {
+        "name": "Crust Club",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2211697127,
+      "lat": 40.7714732,
+      "lon": -111.8587601,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1026",
+        "addr:postcode": "84103",
+        "addr:state": "UT",
+        "addr:street": "East 2nd Avenue",
+        "alt_name": "Cucina Deli;Cucina Wine Bar",
+        "amenity": "restaurant",
+        "cuisine": "sandwich;american;seafood;breakfast;pastry;diner;fine_dining;wine;bar",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "limited",
+        "diet:vegetarian": "yes",
+        "name": "Cucina",
+        "note": "Operates as Cucina all the time; calls itself Cucina Deli during the day (until 17:00); calls itself Cucina Wine Bar in the evenings.",
+        "opening_hours": "Mo-Th 07:00-21:00; Fr-Sa 08:00-22:00; Su 08:00-21:00",
+        "outdoor_seating": "patio",
+        "phone": "+1 801-322-3055",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "http://www.cucinadeli.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 292023896,
+      "center": {
+        "lat": 40.7500658,
+        "lon": -111.8714401
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "679",
+        "addr:postcode": "84105-1128",
+        "addr:state": "UT",
+        "addr:street": "East 900 South",
+        "building": "retail",
+        "check_date": "2024-01-22",
+        "craft": "confectionery",
+        "name": "Cumming's Studio Chocolates",
+        "opening_hours": "Tu-Sa 11:00-17:00 open \"Summer Hours\"",
+        "phone": "+1-801-328-4858",
+        "source": "survey",
+        "utahagrc:parcelid": "16081510180000",
+        "website": "https://www.cummingsstudiochocolates.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 595951140,
+      "center": {
+        "lat": 40.7644177,
+        "lon": -111.8828799
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "218",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "South 300 East",
+        "beauty": "nails",
+        "building": "yes",
+        "name": "Cupcake Nail & Beauty Bar",
+        "opening_hours": "Su-Sa 10:00-19:00",
+        "payment:credit_cards": "yes",
+        "phone": "+1 801 462 4491",
+        "shop": "beauty",
+        "utahagrc:parcelid": "16061780160000"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10940423843,
+      "lat": 40.7512250,
+      "lon": -111.9030048,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "824",
+        "addr:postcode": "84101",
+        "addr:state": "UT",
+        "addr:street": "South 400 West",
+        "addr:street:prefix": "South",
+        "addr:unit": "B112",
+        "email": "kas@cupcakesbykasthuri.com",
+        "name": "Cupcakes by Kasthuri",
+        "opening_hours": "\"by appointment only\"",
+        "phone": "+1 801-635-7392",
+        "shop": "bakery",
+        "website": "https://www.cupcakesbykasthuri.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3738287139,
+      "lat": 40.6680760,
+      "lon": -111.8228860,
+      "tags": {
+        "craft": "confectionery",
+        "name": "Daniel's Fine Chocolate"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10136165864,
+      "lat": 40.7214690,
+      "lon": -111.9394328,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "donut",
+        "drive_through": "no",
+        "name": "Darla's Doughnuts"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4379967604,
+      "lat": 40.5449851,
+      "lon": -111.8899606,
+      "tags": {
+        "addr:floor": "G",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Daylight Donuts",
+        "brand:wikidata": "Q48970508",
+        "check_date": "2022-11-23",
+        "cuisine": "donut",
+        "delivery": "no",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Daylight Donuts",
+        "opening_hours": "Mo-Fr 05:00-13:00; Sa 06:00-14:00; Su,PH off",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "source": "survey",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13910383258,
+      "lat": 40.7495276,
+      "lon": -111.8789246,
+      "tags": {
+        "amenity": "cafe",
+        "check_date": "2026-02-07",
+        "cuisine": "chocolate",
+        "delivery": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Dear Coco",
+        "opening_hours": "Mo 09:00-19:00; Tu-Sa 08:00-19:00; Su 09:00-17:00",
+        "outdoor_seating": "yes",
+        "shop": "gift",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11868093660,
+      "lat": 40.6803998,
+      "lon": -111.9396844,
+      "tags": {
+        "addr:city": "Taylorsville",
+        "addr:housenumber": "1739",
+        "addr:postcode": "84129",
+        "addr:state": "UT",
+        "addr:street": "West 4160 South",
+        "amenity": "restaurant",
+        "cuisine": "mexican;dessert",
+        "name": "Delicias Fruty Snacks",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr-Su 09:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10940754959,
+      "lat": 40.7526309,
+      "lon": -111.9134621,
+      "tags": {
+        "industrial": "bakery",
+        "man_made": "works",
+        "name": "Deseret Bakery Production",
+        "operator": "The Church of Jesus Christ of Latter Day Saints",
+        "operator:type": "religious",
+        "phone": "+1 801-240-7385",
+        "product": "bakery_products"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12030016222,
+      "lat": 40.6520001,
+      "lon": -111.9420802,
+      "tags": {
+        "addr:city": "Taylorsville",
+        "addr:country": "US",
+        "addr:housenumber": "5462",
+        "addr:postcode": "84123",
+        "addr:state": "UT",
+        "addr:street": "South Redwood Road",
+        "brand": "Dirty Dough Cookies",
+        "check_date": "2024-07-02",
+        "name": "Dirty Dough",
+        "opening_hours": "Mo-Sa 10:00-22:00; Su 10:00-20:00",
+        "phone": "+1 801-849-8595",
+        "shop": "pastry",
+        "website": "https://dirtydoughcookies.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10136165883,
+      "lat": 40.6972626,
+      "lon": -111.9463539,
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:housenumber": "2194",
+        "addr:postcode": "84119",
+        "addr:state": "UT",
+        "addr:street": "West 3500 South",
+        "addr:unit": "D-4",
+        "amenity": "fast_food",
+        "contact:instagram": "https://www.instagram.com/donutboywvc",
+        "cuisine": "donut",
+        "name": "Donut Boy",
+        "opening_hours": "Mo-Sa 06:00-13:00 \"or sold out\"; Su 07:00-13:00 \"or sold out\"",
+        "phone": "+1-385-528-0782"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6434396394,
+      "lat": 40.7913628,
+      "lon": -111.9188460,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "950",
+        "addr:postcode": "84116",
+        "addr:state": "UT",
+        "addr:street": "West 1000 North",
+        "addr:unit": "B",
+        "amenity": "fast_food",
+        "check_date:opening_hours": "2023-05-01",
+        "contact:phone": "+1 801-699-6876",
+        "cuisine": "donut",
+        "drive_through": "no",
+        "name": "Donut House",
+        "opening_hours": "Tu-Su 06:00-16:00; Mo off",
+        "shop": "donut",
+        "start_date": "2023",
+        "takeaway": "only",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13544374976,
+      "lat": 40.5604912,
+      "lon": -111.9393317,
+      "tags": {
+        "addr:city": "South Jordan",
+        "addr:housenumber": "10522",
+        "addr:postcode": "84095",
+        "addr:state": "UT",
+        "addr:street": "South Redwood Road",
+        "amenity": "fast_food",
+        "cuisine": "donut",
+        "drive_through": "no",
+        "name": "Donut Star Cafe",
+        "opening_hours": "Mo-Su 05:00-15:00",
+        "phone": "+1-801-413-8564",
+        "website": "https://www.donutstarcafe.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9974905992,
+      "lat": 40.5271131,
+      "lon": -111.8848316,
+      "tags": {
+        "addr:city": "Draper",
+        "addr:housenumber": "213",
+        "addr:postcode": "84020",
+        "addr:state": "UT",
+        "addr:street": "East 12300 South",
+        "addr:unit": "H-1",
+        "amenity": "fast_food",
+        "cuisine": "donut",
+        "drive_through": "no",
+        "name": "Donut Star Cafe",
+        "opening_hours": "Mo-Su 05:00-15:00",
+        "phone": "+1-801-790-2615",
+        "website": "https://www.donutstarcafe.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13040399131,
+      "lat": 40.6985087,
+      "lon": -111.8251639,
+      "tags": {
+        "addr:city": "Millcreek",
+        "addr:housenumber": "3362",
+        "addr:postcode": "84109",
+        "addr:state": "UT",
+        "addr:street": "South 2300 East",
+        "addr:unit": "A",
+        "lgbtq": "welcome",
+        "name": "Dough Lady",
+        "opening_hours": "Mo off; Tu-Fr 08:00-14:00; Sa-Su 09:00-14:00",
+        "payment:cash": "yes \"Exact change only.\"",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9917679561,
+      "lat": 40.7483911,
+      "lon": -111.8994310,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "945",
+        "addr:postcode": "84101",
+        "addr:state": "UT",
+        "addr:street": "South 300 West",
+        "addr:unit": "Suite 101",
+        "amenity": "cafe",
+        "cuisine": "pasty;donut;bagel",
+        "delivery": "no",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "Doughminer-guest",
+        "level": "0",
+        "name": "Dough Miner",
+        "opening_hours": "Mo,We-Fr 07:30-13:30; Sa-Su 08:00-14:00; Tu off",
+        "outdoor_seating": "yes",
+        "phone": "+1 385-334-3389",
+        "start_date": "2022-07-27",
+        "website": "https://doughminer.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13006702347,
+      "lat": 40.5436294,
+      "lon": -111.9811474,
+      "tags": {
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "name": "Dunkin'",
+        "start_date": "2025-07-16",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1026199848,
+      "center": {
+        "lat": 40.5882536,
+        "lon": -111.9319550
+      },
+      "tags": {
+        "addr:city": "West Jordan",
+        "addr:housenumber": "1410",
+        "addr:postcode": "84088",
+        "addr:state": "UT",
+        "addr:street": "West 9000 South",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "restaurant",
+        "check_date": "2024-05-18",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "05:00-19:00",
+        "phone": "+1 801-569-3500",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9750181485,
+      "lat": 40.7117215,
+      "lon": -111.8879570,
+      "tags": {
+        "addr:city": "South Salt Lake",
+        "addr:housenumber": "2747",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "check_date:opening_hours": "2023-11-15",
+        "full_name": "Delice French Bakery & Cafe",
+        "name": "Délice",
+        "opening_hours": "Mo-We 07:00-19:00; Th-Sa 07:00-21:00",
+        "phone": "+1-801-953-1910",
+        "shop": "bakery",
+        "website": "https://www.delicebakeryslc.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9820715160,
+      "lat": 40.6072653,
+      "lon": -111.8553857,
+      "tags": {
+        "addr:housenumber": "7948",
+        "addr:street": "Union Park Avenue",
+        "name": "Eclair French Pastry",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3999878471,
+      "lat": 40.6663906,
+      "lon": -111.8396621,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "american",
+        "name": "Einstein Bagels"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11974193633,
+      "lat": 40.6098198,
+      "lon": -112.0236981,
+      "tags": {
+        "addr:city": "West Jordan",
+        "addr:housenumber": "5542",
+        "addr:postcode": "84081",
+        "addr:state": "UT",
+        "addr:street": "West 7800 South",
+        "addr:unit": "104",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "West Jordan",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "06:00-14:00",
+        "phone": "+1 385-583-5593",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ut/west-jordan/5542-west-7800-south"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11974193640,
+      "lat": 40.6242650,
+      "lon": -111.8234473,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "2353",
+        "addr:postcode": "84121",
+        "addr:state": "UT",
+        "addr:street": "East Fort Union Boulevard",
+        "addr:unit": "C",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Cottonwood",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "06:00-14:00",
+        "phone": "+1 801-944-5590",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ut/salt-lake-city/2353-e-fort-union-blvd"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11974193646,
+      "lat": 40.5584389,
+      "lon": -111.8891229,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "72",
+        "addr:postcode": "84070",
+        "addr:state": "UT",
+        "addr:street": "East 10600 South",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "South Pointe",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "06:00-14:00",
+        "phone": "+1 801-523-9356",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ut/sandy/72-e-10600-s"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11974193653,
+      "lat": 40.5329791,
+      "lon": -112.0168962,
+      "tags": {
+        "addr:city": "Herriman",
+        "addr:housenumber": "11977",
+        "addr:postcode": "84096",
+        "addr:state": "UT",
+        "addr:street": "South Herriman Main Street",
+        "addr:unit": "100",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Herriman",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "06:00-14:00",
+        "phone": "+1 385-334-6423",
+        "takeaway": "only",
+        "website": "https://locations.einsteinbros.com/us/ut/herriman/11977-s-herriman-main-street"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1402379970,
+      "lat": 40.7002469,
+      "lon": -111.8547040,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "3292",
+        "addr:postcode": "84106",
+        "addr:state": "UT",
+        "addr:street": "South Richmond Street",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "3300 South & 1300 East",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "06:00-14:00",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ut/salt-lake-city/3292-s-richmond-st-ste-c"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1834779446,
+      "lat": 40.6863520,
+      "lon": -111.7952203,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "3923",
+        "addr:postcode": "84124",
+        "addr:state": "UT",
+        "addr:street": "South Wasatch Boulevard",
+        "addr:unit": "C",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Olympus",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "06:00-14:00",
+        "phone": "+1 801-278-6339",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ut/salt-lake-city/3923-s-wasatch-blvd"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2462094417,
+      "lat": 40.7696781,
+      "lon": -111.8772977,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "481",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "East South Temple",
+        "addr:unit": "C",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "E Street & South Temple",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "check_date": "2025-06-02",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "06:00-14:00",
+        "phone": "+1 801-322-0803",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ut/salt-lake-city/481-e-south-temple",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4110086520,
+      "lat": 40.6497270,
+      "lon": -111.9405012,
+      "tags": {
+        "addr:city": "Taylorsville",
+        "addr:housenumber": "5588",
+        "addr:postcode": "84123",
+        "addr:state": "UT",
+        "addr:street": "South Redwood Road",
+        "air_conditioning": "yes",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Midvalley",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "check_date": "2024-07-02",
+        "cuisine": "bagel",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "Mo-Su 06:00-14:00",
+        "phone": "+1 801-966-6692",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ut/salt-lake-city/5588-s-redwood-rd",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6620807151,
+      "lat": 40.7650392,
+      "lon": -111.8458390,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "200",
+        "addr:postcode": "84112",
+        "addr:state": "UT",
+        "addr:street": "South Central Campus Drive",
+        "addr:unit": "C",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Univ. of Utah",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "Mo-Fr 07:30-17:30",
+        "phone": "+1 801-585-9569",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ut/salt-lake-city/200-central-campus-dr"
+      }
+    },
+    {
+      "type": "way",
+      "id": 346317288,
+      "center": {
+        "lat": 40.5293188,
+        "lon": -111.8538051
+      },
+      "tags": {
+        "addr:city": "Draper",
+        "addr:housenumber": "1297",
+        "addr:postcode": "84020",
+        "addr:state": "UT",
+        "addr:street": "East Draper Parkway",
+        "addr:unit": "100",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "12300 South & 1300 East",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "building": "retail",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "06:00-14:00",
+        "phone": "+1 801-523-8733",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ut/draper/1297-e-draper-pkwy"
+      }
+    },
+    {
+      "type": "way",
+      "id": 465766319,
+      "center": {
+        "lat": 40.5082498,
+        "lon": -111.9779324
+      },
+      "tags": {
+        "addr:city": "Riverton",
+        "addr:housenumber": "3638",
+        "addr:postcode": "84065",
+        "addr:state": "UT",
+        "addr:street": "West 13400 South",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Riverton",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "building": "retail",
+        "check_date": "2023-08-11",
+        "cuisine": "bagel",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "Mo-Su 06:00-14:00",
+        "phone": "+1 801-997-7800",
+        "source": "website",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ut/riverton/3638-w-13400-s?gad=1&gclid=EAIaIQobChMI6_m64-TUgAMV7FN_AB3c2AdsEBEYASAHEgLXOfD_BwE"
+      }
+    },
+    {
+      "type": "way",
+      "id": 526380931,
+      "center": {
+        "lat": 40.7365698,
+        "lon": -111.8483368
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1520",
+        "addr:postcode": "84105",
+        "addr:state": "UT",
+        "addr:street": "South 1500 East",
+        "addr:unit": "C",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "15th & 15th",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "building": "commercial",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "06:00-14:00",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ut/salt-lake-city/1520-s-1500-e"
+      }
+    },
+    {
+      "type": "way",
+      "id": 465432967,
+      "center": {
+        "lat": 40.5585045,
+        "lon": -111.8890527
+      },
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Einstein's Bagels"
+      }
+    },
+    {
+      "type": "way",
+      "id": 659616036,
+      "center": {
+        "lat": 40.6242903,
+        "lon": -111.8234258
+      },
+      "tags": {
+        "addr:city": "Cottonwood Heights",
+        "addr:housenumber": "2353",
+        "addr:postcode": "84121",
+        "addr:state": "UT",
+        "addr:street": "East Fort Union Boulevard",
+        "amenity": "fast_food",
+        "building": "house",
+        "cuisine": "american",
+        "name": "Einstein's Bagels",
+        "utahagrc:parcelid": "22224520150000"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9643436429,
+      "lat": 40.6606183,
+      "lon": -111.9396341,
+      "tags": {
+        "addr:city": "Taylorsville",
+        "addr:housenumber": "1728",
+        "addr:postcode": "84129",
+        "addr:state": "UT",
+        "addr:street": "West 5000 South",
+        "name": "El Bodegon Dulceria",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su off",
+        "phone": "+1-801-915-8191",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11212899342,
+      "lat": 40.7000595,
+      "lon": -111.8778130,
+      "tags": {
+        "addr:city": "South Salt Lake",
+        "addr:housenumber": "465",
+        "addr:state": "UT",
+        "addr:street": "East 3300 South",
+        "contact:email": "empanadas801ut@gmail.com",
+        "contact:instagram": "@empanadas801ut",
+        "diet:gluten_free": "limited",
+        "diet:vegan": "limited",
+        "diet:vegetarian": "limited",
+        "name": "Empanadas801",
+        "opening_hours": "Tu-Fr 10:30-18:00; Sa 10:00-17:00; Su, Mo off",
+        "outdoor_seating": "no",
+        "phone": "+1-801-891-2270",
+        "shop": "bakery",
+        "strapline": "Artisinal Peruvian Empanadas",
+        "website": "https://www.empanadas801ut.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3836602257,
+      "lat": 40.7657223,
+      "lon": -111.8908250,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "155",
+        "addr:state": "UT",
+        "addr:street": "South Main Street",
+        "amenity": "restaurant",
+        "check_date": "2026-02-22",
+        "cuisine": "sandwich;pastry;bakery",
+        "delivery": "no",
+        "name": "Eva's Bakery",
+        "opening_hours": "Mo-Sa 07:30-15:30; Su 08:00-15:00",
+        "outdoor_seating": "sidewalk",
+        "phone": "+1 801-355-3942",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.evasbakeryslc.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7801562401,
+      "lat": 40.6252178,
+      "lon": -111.8539977,
+      "tags": {
+        "name": "Fernwood Finest Candies",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6478982367,
+      "lat": 40.7393307,
+      "lon": -111.8992516,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1391",
+        "addr:postcode": "84115",
+        "addr:state": "UT",
+        "addr:street": "South 300 West",
+        "name": "Fillings & Emulsions",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-18:00",
+        "phone": "+1-385-229-4228",
+        "shop": "bakery",
+        "website": "https://fillingsandemulsions.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8072353903,
+      "lat": 40.7848895,
+      "lon": -111.9852060,
+      "tags": {
+        "check_date": "2024-06-09",
+        "level": "2",
+        "name": "Fillings & Emulsions",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11828697090,
+      "lat": 40.5582700,
+      "lon": -111.9377989,
+      "tags": {
+        "addr:city": "South Jordan",
+        "addr:housenumber": "1665",
+        "addr:postcode": "84095",
+        "addr:state": "UT",
+        "addr:street": "West Towne Center Drive",
+        "addr:unit": "#3",
+        "email": "orders@flakepie.com",
+        "name": "Flake Pie Co.",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr-Sa 10:00-23:00; Su 11:00-20:00",
+        "phone": "+1 385-342-2620",
+        "shop": "pastry",
+        "website": "https://www.flakepie.com/location"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6401415314,
+      "lat": 40.7841172,
+      "lon": -111.9371606,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "1625",
+        "addr:postcode": "84116",
+        "addr:state": "UT",
+        "addr:street": "West 700 North",
+        "addr:unit": "E",
+        "air_conditioning": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Flores Bakery",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-801-533-0209",
+        "shop": "bakery",
+        "stroller": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9080763994,
+      "lat": 40.7505859,
+      "lon": -111.9123180,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "733",
+        "addr:postcode": "84104",
+        "addr:state": "UT",
+        "addr:street": "West Genesee Avenue",
+        "check_date:opening_hours": "2023-10-01",
+        "name": "Forty Three Bakery",
+        "note": "I have written the name as the business writes it, with \"Forty Three\" unhyphenated.",
+        "opening_hours": "Su-Mo 08:00-15:00; We-Sa 08:00-15:00, 17:00-21:00",
+        "shop": "bakery",
+        "website": "https://fortythreebakery.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 377640435,
+      "center": {
+        "lat": 40.7128675,
+        "lon": -111.8879404
+      },
+      "tags": {
+        "addr:city": "South Salt Lake",
+        "addr:housenumber": "2699",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Fresh Donut & Deli",
+        "phone": "+1 801-467-8322"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7264309080,
+      "lat": 40.5111281,
+      "lon": -112.0250313,
+      "tags": {
+        "addr:city": "Herriman",
+        "addr:housenumber": "13292",
+        "addr:state": "UT",
+        "addr:street": "South Rosecrest Road",
+        "addr:unit": "Suite B",
+        "description": "Fudge, caramel apples, candy",
+        "name": "Fudge Co",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7020864224,
+      "lat": 40.7495817,
+      "lon": -111.8644130,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "928",
+        "addr:postcode": "84105",
+        "addr:state": "UT",
+        "addr:street": "East 900 South",
+        "name": "Garden Gate",
+        "phone": "+1-801-328-8436",
+        "shop": "chocolate",
+        "website": "https://gardengatechocolate.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9902710846,
+      "lat": 40.7516802,
+      "lon": -111.9037862,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "423",
+        "addr:postcode": "84101",
+        "addr:state": "UT",
+        "addr:street": "West 800 South",
+        "addr:unit": "Suite A113",
+        "diet:gluten_free": "only",
+        "diet:vegan": "\"special orders only\"",
+        "diet:vegetarian": "only",
+        "email": "goodfoodglutenfreebakery@gmail.com",
+        "name": "Good Food Gluten Free",
+        "opening_hours": "Mo-Fr 09:00-17:30; Sa 09:00-14:00; Su off",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+1 801-413-4978",
+        "shop": "bakery",
+        "website": "https://goodfoodglutenfree.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11156256827,
+      "lat": 40.5436292,
+      "lon": -111.9810159,
+      "tags": {
+        "addr:city": "South Jordan",
+        "addr:housenumber": "11429",
+        "addr:postcode": "84095",
+        "addr:state": "UT",
+        "addr:street": "South District Drive",
+        "addr:unit": "300",
+        "name": "Goodly Cookies",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6124016268,
+      "lat": 40.5272648,
+      "lon": -111.8706340,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sandwich;bakery",
+        "name": "Gourmandise",
+        "opening_hours": "Mo-Th 08:00-21:00; Fr-Sa 08:00-22:00; Su 09:00-15:00",
+        "website": "https://www.gourmandise.com/locations-draper"
+      }
+    },
+    {
+      "type": "way",
+      "id": 152963645,
+      "center": {
+        "lat": 40.7638534,
+        "lon": -111.8831655
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "250",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "South 300 East",
+        "building": "commercial",
+        "building:levels": "1",
+        "email": "info@gourmandisethebakery.com",
+        "name": "Gourmandise",
+        "opening_hours": "Mo-Th 08:00-22:00; Fr-Sa 08:00-23:00; Su 09:00-14:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+1-801-328-3330",
+        "shop": "bakery",
+        "utahagrc:parcelid": "16061790110000",
+        "website": "https://www.gourmandise.com/locations#downtown-slc"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7986248981,
+      "lat": 40.7500468,
+      "lon": -111.8604630,
+      "tags": {
+        "addr:unit": "102",
+        "name": "Granary Bakehouse",
+        "shop": "bakery",
+        "website": "https://www.granarybakehouse.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 531372369,
+      "center": {
+        "lat": 40.7124479,
+        "lon": -111.8649435
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "902",
+        "addr:postcode": "84106",
+        "addr:state": "UT",
+        "addr:street": "East 2700 South",
+        "building": "commercial",
+        "name": "Granite Bakery",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12485190615,
+      "lat": 40.7256861,
+      "lon": -111.8290852,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "2145",
+        "addr:postcode": "84109",
+        "addr:state": "UT",
+        "addr:street": "East 2100 South",
+        "addr:unit": "1113",
+        "name": "Great Harvest Bakery & Cafe",
+        "opening_hours": "Mo-Fr 06:00-18:30; Sa 06:00-18:00; Su off",
+        "phone": "+1 801 456 2121",
+        "shop": "bakery",
+        "website": "https://greatharvestslc.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4296767299,
+      "lat": 40.7250623,
+      "lon": -111.5489099,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Great Harvest Bread Co."
+      }
+    },
+    {
+      "type": "node",
+      "id": 12802962988,
+      "lat": 40.6357207,
+      "lon": -111.9382834,
+      "tags": {
+        "addr:city": "Taylorsville",
+        "addr:housenumber": "6357",
+        "addr:postcode": "84123",
+        "addr:state": "UT",
+        "addr:street": "South Redwood Road",
+        "brand": "Great Harvest Bread Company",
+        "brand:wikidata": "Q5599297",
+        "name": "Great Harvest Bread Company",
+        "shop": "bakery",
+        "website": "https://greatharvestutah.com/taylorsville"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13818577893,
+      "lat": 40.5438870,
+      "lon": -111.9761690,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Great Harvest Bread Company",
+        "brand:wikidata": "Q5599297",
+        "cuisine": "sandwich",
+        "name": "Great Harvest Bread Company",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2336726852,
+      "lat": 40.6695140,
+      "lon": -111.8240452,
+      "tags": {
+        "brand": "Great Harvest Bread Company",
+        "brand:wikidata": "Q5599297",
+        "cuisine": "sandwich",
+        "name": "Great Harvest Bread Company",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3999811837,
+      "lat": 40.5280278,
+      "lon": -111.8847738,
+      "tags": {
+        "addr:city": "Draper",
+        "addr:housenumber": "217",
+        "addr:postcode": "84020",
+        "addr:state": "UT",
+        "addr:street": "East 12300 South",
+        "brand": "Great Harvest Bread Company",
+        "brand:wikidata": "Q5599297",
+        "name": "Great Harvest Bread Company",
+        "opening_hours": "Su-Mo off; Tu-Fr 06:30-18:30; Sa 06:30-18:00",
+        "phone": "+1-801-572-3373",
+        "shop": "bakery",
+        "website": "https://greatharvestutah.com/draper"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12881557410,
+      "lat": 40.7659497,
+      "lon": -111.9036876,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "153",
+        "addr:state": "UT",
+        "addr:street": "South Rio Grande Street",
+        "level": "0",
+        "name": "Hall Patisserie",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-23:00",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12911144568,
+      "lat": 40.6106475,
+      "lon": -111.9231484,
+      "tags": {
+        "addr:city": "West Jordan",
+        "addr:housenumber": "1100",
+        "addr:postcode": "84088",
+        "addr:state": "UT",
+        "addr:street": "West 7800 South",
+        "addr:street:prefix": "West",
+        "addr:unit": "21",
+        "amenity": "cafe",
+        "cuisine": "sandwich;soup;salad;pizza",
+        "name": "Happy Camper Deli & Bakery",
+        "opening_hours": "Mo-Th 10:00-18:00; Fr-Sa 10:00-19:00",
+        "phone": "+1 801-566-8808",
+        "website": "https://www.gardnervillage.com/happy-camper-deli-and-bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13082327897,
+      "lat": 40.7566747,
+      "lon": -111.8723753,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "602",
+        "addr:postcode": "84105",
+        "addr:state": "UT",
+        "addr:street": "East 600 South",
+        "addr:unit": "D125",
+        "amenity": "restaurant",
+        "branch": "Trolley Square",
+        "cuisine": "sandwich;pizza;breakfast;salad",
+        "diet:vegetarian": "limited",
+        "level": "0",
+        "name": "Happy Camper Deli & Bakery",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su 12:00-17:00",
+        "phone": "+1 385-589-7006",
+        "website": "https://www.happycamperdeli.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 462965668,
+      "center": {
+        "lat": 40.7782899,
+        "lon": -111.8781943
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "376",
+        "addr:postcode": "84103",
+        "addr:state": "UT",
+        "addr:street": "East 8th Avenue",
+        "addr:unit": "A",
+        "building": "yes",
+        "name": "Hatch Family Chocolates",
+        "opening_hours": "Tu-Th 12:00-21:00; Fr-Sa 12:00-22:00",
+        "phone": "+1-801-532-4912",
+        "shop": "chocolate",
+        "website": "https://hatchfamilychocolates.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 227961385,
+      "center": {
+        "lat": 40.6432510,
+        "lon": -111.4953316
+      },
+      "tags": {
+        "addr:city": "Park City",
+        "addr:housenumber": "402",
+        "addr:postcode": "84060",
+        "addr:state": "UT",
+        "addr:street": "Main Street",
+        "amenity": "cafe",
+        "building": "yes",
+        "building:colour": "tan",
+        "building:material": "plaster",
+        "cuisine": "coffee_shop",
+        "name": "Java Cow Cafe & Bakery",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 08:00-20:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9081052616,
+      "lat": 40.5123767,
+      "lon": -111.4673023,
+      "tags": {
+        "cuisine": "donut;coffee",
+        "drive_through": "yes",
+        "name": "Judy's Donuts and Coffee",
+        "opening_hours": "Tu-Sa 07:00-13:00",
+        "outdoor_seating": "yes",
+        "shop": "pastry",
+        "start_date": "2018"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10102081888,
+      "lat": 40.4710068,
+      "lon": -111.4486155,
+      "tags": {
+        "addr:housenumber": "2175",
+        "addr:street": "West 3000 South",
+        "addr:unit": "Suite 101",
+        "check_date:opening_hours": "2022-10-12",
+        "name": "June Pie",
+        "opening_hours": "Tu-Fr 15:00-19:00; Sa 11:00-14:00",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9765598819,
+      "lat": 40.7678978,
+      "lon": -111.8735620,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "turkish;tea;coffee;dessert",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "KahveCafeSLC",
+        "level": "0",
+        "name": "Kahve Cafe",
+        "opening_hours": "Tu-Sa 10:00-17:00; Su 10:00-15:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 801-674-7047",
+        "website": "https://www.kahvecafeslc.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7613734589,
+      "lat": 40.7146291,
+      "lon": -111.8879300,
+      "tags": {
+        "addr:city": "South Salt Lake",
+        "addr:housenumber": "2575",
+        "addr:postcode": "84115",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "cuisine": "arab;mediterranean",
+        "name": "Karim Bakery",
+        "opening_hours": "Mo-Sa 08:30-19:00",
+        "phone": "+1 801-645-4533",
+        "shop": "bakery",
+        "website": "http://www.karimbakery.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 375966630,
+      "center": {
+        "lat": 40.7124640,
+        "lon": -112.0237705
+      },
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:country": "US",
+        "addr:housenumber": "2642",
+        "addr:postcode": "84120",
+        "addr:state": "UT",
+        "addr:street": "South High Commons Way",
+        "building": "retail",
+        "name": "Kneaders",
+        "opening_hours": "Mo-Th 07:00-21:00; Fr-Sa 07:00-22:00; Su off",
+        "phone": "+1-801-456-5390",
+        "shop": "bakery",
+        "source": "website",
+        "website": "https://www.kneaders.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2327662164,
+      "lat": 40.7686785,
+      "lon": -111.8890322,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "28",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "addr:unit": "235",
+        "amenity": "restaurant",
+        "check_date": "2024-06-17",
+        "cuisine": "sandwich;pastry",
+        "level": "1",
+        "name": "Kneaders Bakery & Cafe",
+        "name:en": "Kneaders",
+        "opening_hours": "Mo-Sa 08:00-21:00",
+        "phone": "+1 801-428-3051",
+        "website": "https://www.kneaders.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1014522438,
+      "center": {
+        "lat": 40.4944230,
+        "lon": -111.4142180
+      },
+      "tags": {
+        "addr:city": "Heber City",
+        "addr:housenumber": "1020",
+        "addr:postcode": "84032",
+        "addr:state": "UT",
+        "addr:street": "South Main Street",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Kneaders Bakery & Cafe",
+        "website": "https://kneaders.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 161134878,
+      "center": {
+        "lat": 40.5074316,
+        "lon": -112.0122616
+      },
+      "tags": {
+        "addr:city": "Riverton",
+        "addr:housenumber": "5083",
+        "addr:postcode": "84096",
+        "addr:state": "UT",
+        "addr:street": "West 13400 South",
+        "building": "retail",
+        "name": "Kneaders Bakery & Cafe",
+        "opening_hours": "Mo-Th 07:00-21:00; Fr-Sa 07:00-22:00; Su off",
+        "phone": "+1-801-253-1060",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11842281422,
+      "lat": 40.7412528,
+      "lon": -111.8262244,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1118923798,
+      "center": {
+        "lat": 40.6989982,
+        "lon": -112.0254305
+      },
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:housenumber": "3370",
+        "addr:postcode": "84120",
+        "addr:state": "UT",
+        "addr:street": "South 5600 West",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "retail",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1290128659,
+      "center": {
+        "lat": 40.5593023,
+        "lon": -111.8920886
+      },
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "48 W",
+        "addr:postcode": "84070",
+        "addr:state": "UT",
+        "addr:street": "10600 South",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/ut/sandy/48-w-10600-s"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3779011758,
+      "lat": 40.6759729,
+      "lon": -111.8863380,
+      "tags": {
+        "addr:city": "Murray",
+        "addr:housenumber": "153",
+        "addr:postcode": "84107",
+        "addr:state": "UT",
+        "addr:street": "East 4370 South",
+        "addr:street:prefix": "East",
+        "addr:unit": "Ste. 18",
+        "name": "Kyung's Bakery",
+        "opening_hours": "Tu 12:00-19:00; We-Sa 10:00-19:00",
+        "phone": "+1-801-904-3849",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12945750727,
+      "lat": 40.6535136,
+      "lon": -111.9503620,
+      "tags": {
+        "addr:city": "Taylorsville",
+        "addr:housenumber": "2292",
+        "addr:postcode": "84129",
+        "addr:state": "UT",
+        "addr:street": "West 5400 South",
+        "name": "La Espiga Dorada",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8067158941,
+      "lat": 40.7291588,
+      "lon": -111.9691732,
+      "tags": {
+        "check_date:opening_hours": "2024-05-10",
+        "name": "La Flor de Salt Lake Tortillas",
+        "opening_hours": "Mo-Fr 08:00-16:00; Sa 09:00-14:00",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12345185240,
+      "lat": 40.7473857,
+      "lon": -111.8916172,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1000",
+        "addr:state": "UT",
+        "addr:street": "South Main Street",
+        "check_date": "2025-09-27",
+        "check_date:opening_hours": "2025-06-01",
+        "level": "0",
+        "name": "Leavity Bread & Coffee",
+        "opening_hours": "Tu-Su 07:30-15:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "bakery",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 503509866,
+      "center": {
+        "lat": 40.6678489,
+        "lon": -111.8244168
+      },
+      "tags": {
+        "addr:city": "Holladay",
+        "addr:housenumber": "2308",
+        "addr:postcode": "84117",
+        "addr:state": "UT",
+        "addr:street": "East Murray Holladay Road",
+        "building": "retail",
+        "name": "Leslie's Pastries",
+        "opening_hours": "Tu-Fr 08:00-18:00; Sa 08:00-17:00",
+        "phone": "+1-801-278-3341",
+        "shop": "bakery",
+        "strapline": "\"You can tell by the TASTE\""
+      }
+    },
+    {
+      "type": "node",
+      "id": 12177433831,
+      "lat": 40.7570328,
+      "lon": -111.8723160,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "602",
+        "addr:postcode": "84102",
+        "addr:state": "UT",
+        "addr:street": "East 500 South",
+        "addr:unit": "D208",
+        "craft": "confectionery",
+        "level": "1",
+        "name": "Lisa's Passion for Popcorn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9646152960,
+      "lat": 40.5629233,
+      "lon": -111.9724090,
+      "tags": {
+        "addr:city": "South Jordan",
+        "addr:country": "US",
+        "addr:housenumber": "10384",
+        "addr:postcode": "84095",
+        "addr:state": "UT",
+        "addr:street": "South River Heights Drive",
+        "addr:unit": "103",
+        "name": "Local Cookie Co",
+        "opening_hours": "Mo-Sa 10:00-22:00",
+        "phone": "+1 801 948 4397",
+        "shop": "pastry",
+        "website": "https://www.localcookieco.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9791363008,
+      "lat": 40.5792981,
+      "lon": -111.8683550,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "834",
+        "addr:street": "9400 South",
+        "addr:street:prefix": "East",
+        "addr:unit": "#58",
+        "name": "Lone Pine Bakery",
+        "opening_hours": "Tu-Fr 07:30-15:00; Sa 07:30-14:00; Su, Mo off",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10082069598,
+      "lat": 40.6250365,
+      "lon": -111.8538196,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "donut",
+        "name": "Louks Greek Baby Donuts"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10705358511,
+      "lat": 40.7003506,
+      "lon": -111.8560671,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1127",
+        "addr:postcode": "84106",
+        "addr:state": "UT",
+        "addr:street": "East 3300 South",
+        "name": "Ma & Paws Bakery",
+        "opening_hours": "Mo-Sa 10:00-18:00",
+        "phone": "+1 801 487 3838",
+        "shop": "pet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13931812882,
+      "lat": 40.6645039,
+      "lon": -111.8367855,
+      "tags": {
+        "addr:city": "Holladay",
+        "addr:housenumber": "1895",
+        "addr:postcode": "84117",
+        "addr:state": "UT",
+        "addr:street": "E Rodeo Walk Dr",
+        "addr:unit": "B 101",
+        "name": "Magnolia Bakery",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "phone": "+1-385-887-9397",
+        "shop": "bakery",
+        "website": "https://www.magnoliabakery.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 240724203,
+      "center": {
+        "lat": 40.5840972,
+        "lon": -112.0412348
+      },
+      "tags": {
+        "addr:city": "West Jordan",
+        "addr:housename": "Papa Pita Bakery",
+        "addr:housenumber": "6208",
+        "addr:postcode": "84081-5694",
+        "addr:state": "UT",
+        "addr:street": "West Dannon Way",
+        "building": "manufacture",
+        "designation": "Bakery",
+        "name": "Maxim's Nutricare Inc. dba Papa Pita Bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9181476349,
+      "lat": 40.6874129,
+      "lon": -111.8833191,
+      "tags": {
+        "name": "Middle Eastern Bakery & Groceries",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10102006222,
+      "lat": 40.7213439,
+      "lon": -111.5390328,
+      "tags": {
+        "addr:city": "Park City",
+        "addr:housenumber": "1241",
+        "addr:postcode": "84098",
+        "addr:state": "UT",
+        "addr:street": "Center Drive",
+        "addr:unit": "L150",
+        "amenity": "fast_food",
+        "brand": "Mochinut",
+        "brand:wikidata": "Q112757409",
+        "cuisine": "donut;bubble_tea",
+        "drive_through": "no",
+        "name": "Mochinut",
+        "outdoor_seating": "sidewalk",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11490033582,
+      "lat": 40.5604487,
+      "lon": -111.9382632,
+      "tags": {
+        "addr:city": "South Jordan",
+        "addr:housenumber": "10497",
+        "addr:state": "UT",
+        "addr:street": "South Redwood Road",
+        "amenity": "fast_food",
+        "cuisine": "donut",
+        "fixme": "Not surveyed, but their website says next to the Cold Stone and the Fedex, so this is a guess.",
+        "name": "Mochinut",
+        "not:brand:wikidata": "Q112757409",
+        "website": "https://www.mochinututah.com/locations",
+        "website:menu": "https://www.mochinututah.com/menu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9081052601,
+      "lat": 40.7608874,
+      "lon": -111.8899900,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "29",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "East 400 South",
+        "check_date": "2025-06-02",
+        "diet:vegetarian": "yes",
+        "name": "Momo's Gourmet Cheesecake",
+        "opening_hours": "; Tu-Th 15:00-21:00; Fr-Sa 15:00-21:30; Su,Mo off",
+        "outdoor_seating": "no",
+        "phone": "+1 801-900-8283",
+        "shop": "bakery",
+        "short_name": "Momo's",
+        "source": "website",
+        "website": "https://momoscheesecakes.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13025919972,
+      "lat": 40.7495622,
+      "lon": -111.8792558,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "416",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "East 900 South",
+        "addr:street:prefix": "East",
+        "amenity": "restaurant",
+        "check_date": "2026-03-08",
+        "contact:facebook": "MOZZ-568664280254907",
+        "contact:instagram": "mozz.pizza",
+        "cuisine": "pizza",
+        "email": "mozz.milkblock@gmail.com",
+        "name": "Mozz Sourdough Pizza",
+        "opening_date": "2025-07-29",
+        "opening_hours": "Tu-Sa 11:30-21:00; Su-Mo 11:30-20:00",
+        "phone": "+1 385-420-4791",
+        "website": "https://www.mozzartisanpizza.com/milk-block",
+        "website:menu": "https://order.toasttab.com/online/mozz-milk-block-416-e-900-s-suite-101"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4303282416,
+      "lat": 40.7691076,
+      "lon": -111.8783358,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "434",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "East South Temple",
+        "check_date": "2025-06-02",
+        "contact:facebook": "https://www.facebook.com/MrsBackers/",
+        "name": "Mrs. Backer's Pastry Shop",
+        "phone": "+1 801-532-2022",
+        "shop": "bakery",
+        "start_date": "1941",
+        "website": "https://www.mrsbackers.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 553841490,
+      "center": {
+        "lat": 40.4950814,
+        "lon": -111.4199671
+      },
+      "tags": {
+        "addr:city": "Heber City",
+        "addr:housenumber": "356",
+        "addr:state": "UT",
+        "addr:street": "W 1000 S",
+        "building": "yes",
+        "name": "Mrs. Call's Chocolates"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9645711038,
+      "lat": 40.7160855,
+      "lon": -111.9017635,
+      "tags": {
+        "addr:city": "South Salt Lake",
+        "addr:housenumber": "395",
+        "addr:postcode": "84115",
+        "addr:state": "UT",
+        "addr:street": "West Lawndale Drive",
+        "email": "info@gfbakers.com",
+        "name": "Mrs. Hewitt's",
+        "opening_hours": "Mo-Fr 09:00-16:30",
+        "phone": "+1 801-419-0829",
+        "shop": "bakery",
+        "website": "https://mrshewitts.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9217147215,
+      "lat": 40.7252093,
+      "lon": -111.9682695,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "donut",
+        "name": "My Sugar's Donut Shoppe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9523414857,
+      "lat": 40.6120813,
+      "lon": -111.8558297,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "7640",
+        "addr:postcode": "84047",
+        "addr:state": "UT",
+        "addr:street": "Union Park Avenue",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/napolismidvaleut",
+        "cuisine": "italian;seafood;dessert;chicken;pasta",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Napoli's Italian Restaurant",
+        "outdoor_seating": "yes",
+        "phone": "+1 385-281-2598",
+        "start_date": "2024-03-05",
+        "website": "https://napolislc.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13712161379,
+      "lat": 40.8175439,
+      "lon": -111.9554057,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "2331",
+        "addr:street": "North 2200 West",
+        "man_made": "works",
+        "name": "Nature's Bakery",
+        "product": "bakery_products"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11842281430,
+      "lat": 40.7401734,
+      "lon": -111.8270644,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1354B",
+        "addr:postcode": "84108",
+        "addr:state": "UT",
+        "addr:street": "South Foothill Drive",
+        "brand": "Nothing Bundt Cakes",
+        "brand:wikidata": "Q62082526",
+        "name": "Nothing Bundt Cakes",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13604377578,
+      "lat": 40.5281840,
+      "lon": -112.0135836,
+      "tags": {
+        "addr:city": "Herriman",
+        "addr:housenumber": "12271",
+        "addr:postcode": "84096",
+        "addr:state": "UT",
+        "addr:street": "South Herriman Main Street",
+        "brand": "Nothing Bundt Cakes",
+        "brand:wikidata": "Q62082526",
+        "email": "herriman-ut@nothingbundtcakes.com",
+        "name": "Nothing Bundt Cakes",
+        "opening_hours": "Mo-Sa 09:00-19:00; Su 09:00-14:00",
+        "phone": "+1 385-352-0500",
+        "shop": "pastry",
+        "website": "https://www.nothingbundtcakes.com/find-a-bakery/ut/herriman/bakery-968.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5360175064,
+      "lat": 40.5625739,
+      "lon": -111.8903495,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "10389",
+        "addr:postcode": "84070",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "brand": "Nothing Bundt Cakes",
+        "brand:wikidata": "Q62082526",
+        "check_date": "2024-06-01",
+        "name": "Nothing Bundt Cakes",
+        "opening_hours": "Mo-Sa 09:00-19:00",
+        "phone": "+1-801-619-3757",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8369676385,
+      "lat": 40.6544265,
+      "lon": -111.9396865,
+      "tags": {
+        "addr:city": "Taylorsville",
+        "addr:housenumber": "5338",
+        "addr:postcode": "84123",
+        "addr:state": "UT",
+        "addr:street": "South Redwood Road",
+        "brand": "Nothing Bundt Cakes",
+        "brand:wikidata": "Q62082526",
+        "check_date": "2024-08-08",
+        "delivery": "yes",
+        "email": "Taylorsville-ut@nothingbundtcakes.com",
+        "name": "Nothing Bundt Cakes",
+        "opening_hours": "Mo-Sa 09:00-19:00",
+        "phone": "+1-801-988-5919",
+        "shop": "pastry",
+        "website": "https://www.nothingbundtcakes.com/bakery/ut/taylorsville",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9791175933,
+      "lat": 40.7636760,
+      "lon": -111.9005558,
+      "tags": {
+        "addr:housenumber": "325",
+        "addr:street": "West Pierpont Avenue",
+        "alt_name": "Old Cuss",
+        "amenity": "cafe",
+        "check_date": "2026-06-14",
+        "cuisine": "breakfast;brunch;pastry",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "no",
+        "name": "Old Cuss Cafe",
+        "opening_hours": "Tu-Su 08:00-15:00; Mo off",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12167176411,
+      "lat": 40.6537440,
+      "lon": -111.9885477,
+      "tags": {
+        "cuisine": "spanish",
+        "name": "Panaderia Dulcinea Bakery",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9983808823,
+      "lat": 40.7914731,
+      "lon": -111.9174540,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "1013",
+        "addr:postcode": "84116",
+        "addr:state": "UT",
+        "addr:street": "North 900 West",
+        "addr:street:prefix": "North",
+        "contact:phone": "+1 435-729-9049",
+        "diet:vegetarian": "yes",
+        "name": "Panaderia Lizbeth",
+        "shop": "bakery",
+        "test": "test",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1313885164,
+      "center": {
+        "lat": 40.6524409,
+        "lon": -111.9865310
+      },
+      "tags": {
+        "addr:city": "Taylorsville",
+        "addr:housenumber": "5423",
+        "addr:postcode": "84129",
+        "addr:state": "UT",
+        "addr:street": "South 4015 West",
+        "building": "retail",
+        "cuisine": "mexican",
+        "name": "Panaderia Mexico",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1131057239,
+      "center": {
+        "lat": 40.7496396,
+        "lon": -111.9174285
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "904",
+        "addr:postcode": "84104",
+        "addr:state": "UT",
+        "addr:street": "South 900 West",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/panaderiafloresutah/",
+        "contact:instagram": "https://www.instagram.com/panaderiaflores/",
+        "name": "Panderia Flores",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1 801-533-0211",
+        "shop": "bakery",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://panaderiaflores.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11490281092,
+      "lat": 40.5083380,
+      "lon": -111.9966437,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-20:00",
+        "short_name": "Panera",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8072353908,
+      "lat": 40.7856372,
+      "lon": -111.9865758,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "3920",
+        "addr:postcode": "84116",
+        "addr:state": "UT",
+        "addr:street": "West Terminal Drive",
+        "addr:unit": "CAW-2-040",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "level": "2",
+        "name": "Panera Bread",
+        "opening_hours": "24/7",
+        "phone": "+1 801-657-5070",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/ut/salt-lake-city/3920-w-terminal-drive.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13206248359,
+      "lat": 40.7259883,
+      "lon": -111.8627900,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "2040",
+        "addr:postcode": "84105",
+        "addr:state": "UT",
+        "addr:street": "South 1000 East",
+        "amenity": "cafe",
+        "check_date": "2026-03-09",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100089037544765",
+        "contact:instagram": "https://www.instagram.com/parfediem/",
+        "cuisine": "dessert;pudding",
+        "fixme": "Unsure of exact style of food service offered, so may need to correct amenity:cafe tag to amenity:fast_food or other primary tag if more suitable",
+        "name": "Parfé Diem",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "outdoor_seating": "yes",
+        "website": "https://parfediem.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12088012574,
+      "lat": 40.6215916,
+      "lon": -111.8645908,
+      "tags": {
+        "addr:city": "Midvale",
+        "addr:housenumber": "950",
+        "addr:state": "UT",
+        "addr:street": "Fort Union Boulevard",
+        "brand": "Paris Baguette",
+        "brand:wikidata": "Q62605260",
+        "name": "Paris Baguette",
+        "opening_hours": "Mo-Su 06:30-21:00",
+        "shop": "bakery",
+        "website": "https://parisbaguette.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4296789376,
+      "lat": 40.7242363,
+      "lon": -111.5418399,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Park City Bread and Bagel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5253317024,
+      "lat": 40.7499845,
+      "lon": -111.8860430,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "165",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "East 900 South",
+        "contact:phone": "+1 385-242-7040",
+        "description": "2026-02-01: Has closed to public access. It isn't clear if they'll keep operating out of this space, but they will operate as a mail-order bakery only.",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "only",
+        "name": "Passion Flour Patisserie",
+        "opening_hours": "off",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4725175593,
+      "lat": 40.7408925,
+      "lon": -111.8764930,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "bar": "no",
+        "check_date": "2026-03-21",
+        "cuisine": "coffee_shop;pastry;sandwich;ice_cream",
+        "delivery": "no",
+        "drive_through": "no",
+        "food": "yes",
+        "highchair": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Picnic Cafe",
+        "opening_hours": "Mo-Fr 08:00-14:00; Sa-Su 08:00-15:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-801-467-2947",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://www.picnicslc.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8125277503,
+      "lat": 40.7500304,
+      "lon": -111.8641270,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "937",
+        "addr:postcode": "84105",
+        "addr:state": "UT",
+        "addr:street": "East 900 South",
+        "name": "Pie Fight",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+        "phone": "+1-385-528-1184",
+        "shop": "bakery",
+        "website": "https://www.thepiefight.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11967530153,
+      "lat": 40.5227571,
+      "lon": -111.9419793,
+      "tags": {
+        "addr:city": "Riverton",
+        "addr:housenumber": "1872",
+        "addr:state": "UT",
+        "addr:street": "West 12600 South",
+        "contact:facebook": "facebook.com/Pinksweetscafe",
+        "description": "Middle Eastern pastry and sweets shop.",
+        "name": "Pink Sweets Cafe",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11205948044,
+      "lat": 40.6080572,
+      "lon": -111.9705658,
+      "tags": {
+        "addr:city": "West Jordan",
+        "addr:housenumber": "7872",
+        "addr:postcode": "84088",
+        "addr:state": "UT",
+        "addr:street": "South Old Bingham Highway",
+        "alt_name": "RISE by Good Day",
+        "cuisine": "polish",
+        "description": "Polish food:  a bakery, cafe, and market. They also operate a food truck and they also do catering.",
+        "name": "RISE Bakery & Market",
+        "opening_hours": "Tu-Fr 09:00-19:00; Sa 09:00-17:00",
+        "phone": "+1 801-906-8568",
+        "shop": "bakery",
+        "start_date": "2023-07-15",
+        "website": "https://risebygoodday.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11868093663,
+      "lat": 40.6803108,
+      "lon": -111.9391663,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "mexican;dessert",
+        "name": "Refreskeria Mi Fiesta Facil",
+        "phone": "+1 801-906-0415",
+        "website": "http://orderrefreskeriamifiestafacil.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2468870399,
+      "lat": 40.6387500,
+      "lon": -111.8333868,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Rich's Bagels"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5322812253,
+      "lat": 40.5924864,
+      "lon": -111.8309387,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "8691",
+        "addr:street": "Highland Drive",
+        "amenity": "cafe",
+        "name": "Rich's Bagels"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10102081887,
+      "lat": 40.4709211,
+      "lon": -111.4487389,
+      "tags": {
+        "addr:housenumber": "2175",
+        "addr:street": "West 3000 South",
+        "addr:unit": "Suite 100",
+        "check_date:opening_hours": "2022-10-12",
+        "name": "Ritual Chocolate",
+        "opening_hours": "Tu-Su 08:00-15:00",
+        "shop": "chocolate"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1695357156,
+      "lat": 40.7682101,
+      "lon": -111.8901567,
+      "tags": {
+        "brand": "Rocket Fizz",
+        "brand:wikidata": "Q17107987",
+        "check_date": "2025-05-31",
+        "level": "0",
+        "name": "Rocket Fizz",
+        "official_name": "Rocket Fizz Soda Pop & Candy Shop",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5726247454,
+      "lat": 40.7689440,
+      "lon": -111.9039190,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "51",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "South Rio Grande Street",
+        "addr:unit": "Suite 137",
+        "brand": "Rocket Fizz",
+        "brand:wikidata": "Q17107987",
+        "name": "Rocket Fizz",
+        "official_name": "Rocket Fizz Soda Pop & Candy Shop",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 12:00-18:00",
+        "phone": "+1-801-456-2613",
+        "shop": "confectionery",
+        "website": "https://rocketfizz.com/locations/rocket-fizz-salt-lake-city-ut/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3634690192,
+      "lat": 40.6116616,
+      "lon": -111.8550497,
+      "tags": {
+        "brand": "Rocky Mountain Chocolate Factory",
+        "brand:wikidata": "Q7355878",
+        "name": "Rocky Mountain Chocolate Factory",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4299141280,
+      "lat": 40.6519301,
+      "lon": -111.5073066,
+      "tags": {
+        "brand": "Rocky Mountain Chocolate Factory",
+        "brand:wikidata": "Q7355878",
+        "name": "Rocky Mountain Chocolate Factory",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4468747090,
+      "lat": 40.6444260,
+      "lon": -111.4960821,
+      "tags": {
+        "brand": "Rocky Mountain Chocolate Factory",
+        "brand:wikidata": "Q7355878",
+        "name": "Rocky Mountain Chocolate Factory",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1059426026,
+      "center": {
+        "lat": 40.7849773,
+        "lon": -111.9846399
+      },
+      "tags": {
+        "brand": "Rocky Mountain Chocolate Factory",
+        "brand:wikidata": "Q7355878",
+        "indoor": "room",
+        "level": "2",
+        "name": "Rocky Mountain Chocolate Factory",
+        "room": "retail",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13002359681,
+      "lat": 40.6136236,
+      "lon": -111.9479822,
+      "tags": {
+        "description": "Contact by text (801-462-6709). Home-based business. Sourdough, cinnamon rolls, foccacia bread. By pre-order only.",
+        "name": "Rough Stone Bakery",
+        "opening_hours": "\"by appointment\"",
+        "phone": "+1 801-462-6709",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4167659584,
+      "lat": 40.7523977,
+      "lon": -111.8999780,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "770",
+        "addr:postcode": "84101",
+        "addr:state": "UT",
+        "addr:street": "South 300 West",
+        "check_date": "2026-02-07",
+        "contact:facebook": "https://www.facebook.com/people/RubySnap/100061304030687/",
+        "diet:vegetarian": "yes",
+        "name": "RubySnap Fresh Cookies",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:00-19:00",
+        "phone": "+1 801-834-6111",
+        "shop": "pastry",
+        "website": "https://rubysnap.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12072645710,
+      "lat": 40.6211428,
+      "lon": -111.8923523,
+      "tags": {
+        "addr:city": "Midvale",
+        "addr:country": "US",
+        "addr:housenumber": "44",
+        "addr:postcode": "84047",
+        "addr:state": "UT",
+        "addr:street": "West 7200 South",
+        "amenity": "restaurant",
+        "cuisine": "new_zealand;samoan",
+        "delivery": "no",
+        "name": "Sagato's Bakery and Cafe",
+        "opening_hours": "Mo-Sa 10:00-19:00",
+        "outdoor_seating": "no",
+        "phone": "+1 385-557-1728",
+        "reservation": "no",
+        "takeaway": "yes",
+        "website": "https://www.sagatofoods.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12924911470,
+      "lat": 40.6951673,
+      "lon": -111.9381583,
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:housenumber": "3585",
+        "addr:state": "UT",
+        "addr:street": "South Redwood Road",
+        "amenity": "cafe",
+        "cuisine": "dessert;vietnamese",
+        "name": "Salt City Che",
+        "operator": "Pho 777"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11959382691,
+      "lat": 40.5626594,
+      "lon": -111.8950558,
+      "tags": {
+        "craft": "confectionery",
+        "level": "0",
+        "name": "Salt City Sweet Shop"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13956033039,
+      "lat": 40.6914698,
+      "lon": -111.8470821,
+      "tags": {
+        "addr:housenumber": "3667",
+        "name": "Sapori",
+        "phone": "+1-801-906-0128",
+        "shop": "bakery",
+        "website": "https://saporibakery.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12964534972,
+      "lat": 40.5612015,
+      "lon": -111.9247411,
+      "tags": {
+        "addr:city": "South Jordan",
+        "addr:housenumber": "1133",
+        "addr:postcode": "84095",
+        "addr:state": "UT",
+        "addr:street": "West South Jordan Parkway",
+        "name": "Schmidt's Pastry Cottage",
+        "shop": "bakery",
+        "website": "https://www.schmidtspastry.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4110086526,
+      "lat": 40.6484439,
+      "lon": -111.9410931,
+      "tags": {
+        "addr:city": "Taylorsville",
+        "addr:housenumber": "5664",
+        "addr:postcode": "84123",
+        "addr:state": "UT",
+        "addr:street": "South Redwood Road",
+        "name": "Schmidt's Pastry Cottage",
+        "opening_hours": "Mo-Sa 07:00-19:00; Su off",
+        "payment:cash": "yes",
+        "payment:cheque": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-801-967-9766",
+        "shop": "bakery",
+        "website": "https://www.schmidtspastry.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3681524449,
+      "lat": 40.7252494,
+      "lon": -111.8705780,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "2707",
+        "addr:postcode": "84106",
+        "addr:state": "UT",
+        "addr:street": "South 700 East",
+        "brand": "See's Candies",
+        "brand:wikidata": "Q2103510",
+        "name": "See's Candies",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3999722854,
+      "lat": 40.6215641,
+      "lon": -111.8648137,
+      "tags": {
+        "addr:city": "Midvale",
+        "addr:housenumber": "940",
+        "addr:state": "UT",
+        "addr:street": "Fort Union Boulevard",
+        "branch": "Chocolate Shop",
+        "brand": "See's Candies",
+        "brand:wikidata": "Q2103510",
+        "check_date": "2025-03-11",
+        "name": "See's Candies",
+        "opening_hours": "Mo-Sa 10:00-19:00; Su 12:00-17:00",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4600674926,
+      "lat": 40.5252911,
+      "lon": -111.8892930,
+      "tags": {
+        "addr:city": "Draper",
+        "addr:housenumber": "12423",
+        "addr:postcode": "84020",
+        "addr:state": "UT",
+        "addr:street": "South Minuteman Drive",
+        "branch": "Chocolate Shop",
+        "brand": "See's Candies",
+        "brand:wikidata": "Q2103510",
+        "name": "See's Candies",
+        "opening_hours": "Mo-Sa 10:00-19:00; Su off",
+        "phone": "+1-801-495-2322",
+        "shop": "confectionery",
+        "website": "https://chocolateshops.sees.com/ut/draper/chocolate_shops_draper_ut_2ut004.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6603406513,
+      "lat": 40.6519700,
+      "lon": -111.8879240,
+      "tags": {
+        "addr:city": "Murray",
+        "addr:housenumber": "5471",
+        "addr:postcode": "84107",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "amenity": "fast_food",
+        "cuisine": "donut",
+        "name": "Shane's Donuts",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12713670559,
+      "lat": 40.6971642,
+      "lon": -111.9778843,
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:housenumber": "3628",
+        "addr:postcode": "84120",
+        "addr:state": "UT",
+        "addr:street": "West 3500 South",
+        "amenity": "restaurant",
+        "contact:instagram": "https://www.instagram.com/shugarlandia/",
+        "cuisine": "mexican;dessert",
+        "delivery": "yes",
+        "name": "Shugarlandia",
+        "opening_hours": "Su-Th 12:00-21:00; Fr-Sa 12:00-22:00",
+        "phone": "+1-801-930-9652",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13772893400,
+      "lat": 40.6221604,
+      "lon": -111.9110513,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "mexican;ice_cream;dessert;l",
+        "name": "Shugarlandia"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12190990757,
+      "lat": 40.7256696,
+      "lon": -111.8707485,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "701",
+        "addr:state": "UT",
+        "addr:street": "East 2100 South",
+        "amenity": "fast_food",
+        "cuisine": "donut",
+        "drive_through": "no",
+        "name": "Sidecar Doughnuts & Coffee",
+        "opening_hours": "Su-Th 06:30-16:00; Fr-Sa 06:30-18:00",
+        "payment:cash": "no",
+        "short_name": "Sidecar",
+        "start_date": "2026-01-23"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9173321350,
+      "lat": 40.6848714,
+      "lon": -111.8449899,
+      "tags": {
+        "name": "So Cupcake",
+        "phone": "+1 801-274-8300",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9898708153,
+      "lat": 40.5110242,
+      "lon": -111.9977540,
+      "tags": {
+        "addr:city": "Riverton",
+        "addr:housenumber": "4488",
+        "addr:postcode": "84096",
+        "addr:state": "UT",
+        "addr:street": "West Teal Ridge Way",
+        "addr:unit": "H-145",
+        "check_date": "2026-06-02",
+        "disused:shop": "pastry",
+        "name": "Sprinkle's Cupcakes",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-19:00",
+        "phone": "+1-385-988-4013",
+        "source": "website",
+        "website": "https://sprinkles.com/pages/location-riverton"
+      }
+    },
+    {
+      "type": "way",
+      "id": 473864175,
+      "center": {
+        "lat": 40.7469425,
+        "lon": -111.9102407
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1025",
+        "addr:state": "UT",
+        "addr:street": "South 700 West",
+        "building": "yes",
+        "name": "Stone Ground Bakery",
+        "opening_hours": "Mo off; Tu-Sa 08:00-12:00; Su off",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7928632809,
+      "lat": 40.7466203,
+      "lon": -111.9115218,
+      "tags": {
+        "name": "Stone Ground Bakery Facility #2",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9108643276,
+      "lat": 40.5066714,
+      "lon": -111.4137638,
+      "tags": {
+        "addr:city": "Heber City",
+        "addr:housenumber": "94",
+        "addr:postcode": "84032",
+        "addr:state": "UT",
+        "addr:street": "South Main Street",
+        "addr:unit": "2",
+        "name": "Sweet Corner Treats",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10200455388,
+      "lat": 40.7473937,
+      "lon": -111.8914737,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1000",
+        "addr:postcode": "84101",
+        "addr:state": "UT",
+        "addr:street": "South Main Street",
+        "addr:unit": "100",
+        "alt_name": "Sweet Hazel & Co",
+        "check_date:opening_hours": "2022-11-15",
+        "contact:facebook": "https://www.facebook.com/Sweethazelandco",
+        "contact:instagram": "https://www.instagram.com/sweethazelandco/",
+        "cuisine": "breakfast;lunch;sandwich;dessert",
+        "delivery": "yes",
+        "description": "All vegan grab and go items, including drinks, candy bars, wraps, salads. No cafe service or food made to order.",
+        "diet:vegan": "only",
+        "email": "hello@sweethazelandco.com",
+        "indoor_seating": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Sweet Hazel & Co. Grab & Go",
+        "opening_hours": "Mo-Tu,Th-Fr 11:30-19:30; We off; Sa-Su 10:00-16:00",
+        "outdoor_seating": "no",
+        "phone": "+1 801-889-1466",
+        "shop": "snack",
+        "strapline": "Vegan Grab & Go",
+        "takeaway": "yes",
+        "website": "https://sweethazelandco.com",
+        "website:menu": "https://sweethazelandco.com/menu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11105050401,
+      "lat": 40.5096374,
+      "lon": -111.9982741,
+      "tags": {
+        "addr:city": "Riverton",
+        "addr:housenumber": "13222",
+        "addr:postcode": "84096",
+        "addr:state": "UT",
+        "addr:street": "South Tree Sparrow Drive",
+        "addr:unit": "R-110",
+        "check_date": "2023-08-10",
+        "name": "Sweet Rolled Tacos",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-23:00; Su 12:00-18:00",
+        "phone": "+1-385-276-3503",
+        "shop": "pastry",
+        "source": "website",
+        "website": "https://www.sweetrolledtacos.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10062272945,
+      "lat": 40.5787664,
+      "lon": -111.8732956,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "664",
+        "addr:postcode": "84070",
+        "addr:state": "UT",
+        "addr:street": "Union Square",
+        "cuisine": "brazilian",
+        "name": "Sweet Spot Bakery & Cafe",
+        "opening_hours": "Mo-Th 11:00-19:00; Fr 11:00-21:00; Sa 10:30-19:00; Su off",
+        "phone": "+1 801 207 2414",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 526378330,
+      "center": {
+        "lat": 40.7364847,
+        "lon": -111.8476735
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1527",
+        "addr:postcode": "84105",
+        "addr:state": "UT",
+        "addr:street": "South 1500 East",
+        "amenity": "ice_cream",
+        "building": "commercial",
+        "check_date": "2024-06-07",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Sweetaly Gelato & Custom Cakes",
+        "opening_hours": "Mo-Th 12:00-21:30; Fr-Sa 12:00-22:00; Su 12:00-20:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.sweetaly.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9102259105,
+      "lat": 40.6977787,
+      "lon": -111.8902278,
+      "tags": {
+        "addr:city": "South Salt Lake",
+        "addr:housenumber": "3390",
+        "addr:postcode": "84115",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "addr:unit": "22",
+        "amenity": "cafe",
+        "brand": "Sweethoney Dessert",
+        "brand:en": "Sweethoney Dessert",
+        "brand:wikidata": "Q122329263",
+        "brand:zh": "杏记甜品",
+        "cuisine": "asian;dessert",
+        "name": "Sweethoney Dessert",
+        "name:en": "Sweethoney Dessert",
+        "name:zh": "杏记甜品",
+        "opening_hours": "Mo-Su 13:00-21:30",
+        "outdoor_seating": "no",
+        "phone": "+1 801-410-8136",
+        "takeaway": "yes",
+        "website": "https://www.sweethoneydessert.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9173321391,
+      "lat": 40.6990067,
+      "lon": -111.8498340,
+      "tags": {
+        "level": "0",
+        "name": "Table X Bread",
+        "opening_hours": "We-Sa 08:00-15:00",
+        "phone": "+1 801-953-0477",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2336726857,
+      "lat": 40.6661491,
+      "lon": -111.8365810,
+      "tags": {
+        "addr:city": "Holladay",
+        "addr:housenumber": "1919",
+        "addr:postcode": "84117",
+        "addr:state": "UT",
+        "addr:street": "East Murray Holladay Road",
+        "amenity": "restaurant",
+        "cuisine": "bagel",
+        "name": "The Bagel Project",
+        "opening_hours": "Tu-Sa 07:30-14:00",
+        "phone": "+1 801-820-6040",
+        "website": "https://bagelproject.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 593160824,
+      "center": {
+        "lat": 40.7521729,
+        "lon": -111.8764587
+      },
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "779",
+        "addr:postcode": "84102",
+        "addr:state": "UT",
+        "addr:street": "South 500 East",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "bagel",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "last_checked": "2025-08-24",
+        "name": "The Bagel Project",
+        "opening_hours": "Mo-Su 07:30-14:00",
+        "phone": "+1 801-906-0698",
+        "shop": "bakery",
+        "utahagrc:parcelid": "16072300120000",
+        "website": "https://bagelproject.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2327662145,
+      "lat": 40.7676044,
+      "lon": -111.8896090,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "65",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "South Regent Street",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "delivery": "yes",
+        "level": "0",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 10:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-801-521-1732",
+        "reservation": "yes",
+        "smoking": "outside",
+        "source": "Bing;website",
+        "takeaway": "yes",
+        "website": "https://www.thecheesecakefactory.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2328396014,
+      "lat": 40.6354006,
+      "lon": -111.8879422,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "check_date": "2022-10-05",
+        "cuisine": "american",
+        "fixme": "The meat-on-a-stick place opened at this postal address. Does that mean Cheesecake Fattory closed or are they close neighbors?",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 10:00-24:00; Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12346447127,
+      "lat": 40.5850781,
+      "lon": -111.9391412,
+      "tags": {
+        "addr:city": "West Jordan",
+        "addr:housenumber": "9120",
+        "addr:state": "UT",
+        "addr:street": "South Redwood Road",
+        "name": "The Chocolate",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su off",
+        "phone": "+1 801-566-5330",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13523237342,
+      "lat": 40.7323721,
+      "lon": -111.8592868,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1751",
+        "addr:postcode": "84105",
+        "addr:state": "UT",
+        "addr:street": "South 1100 East",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "name": "The Kolache Place",
+        "old_name": "Hruska's",
+        "opening_hours": "Mo-Sa 06:30-13:00 \"or sell out\"",
+        "phone": "+1-385-309-4379",
+        "shop": "bakery",
+        "start_date": "2026-02-03",
+        "website": "https://www.thekolacheplace.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13763818558,
+      "lat": 40.6133024,
+      "lon": -111.9383455,
+      "tags": {
+        "addr:city": "West Jordan",
+        "addr:housenumber": "7579",
+        "addr:postcode": "84084",
+        "addr:state": "UT",
+        "addr:street": "South Redwood Road",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "name": "The Kolache Place",
+        "old_name": "Hruska's",
+        "opening_hours": "Mo-Sa 06:30-13:00",
+        "phone": "+1-385-276-5964",
+        "shop": "bakery",
+        "website": "https://www.thekolacheplace.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13555929366,
+      "lat": 40.4994634,
+      "lon": -111.9564812,
+      "tags": {
+        "name": "The Nut Garden",
+        "shop": "confectionery",
+        "website": "https://thenutgarden.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2974596082,
+      "lat": 40.6233849,
+      "lon": -111.8589128,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4100041855,
+      "lat": 40.5449707,
+      "lon": -111.8907120,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "check_date": "2022-11-23",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6088855134,
+      "lat": 40.7252417,
+      "lon": -111.8684309,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "790",
+        "addr:postcode": "84106",
+        "addr:state": "UT",
+        "addr:street": "East 2100 South",
+        "addr:unit": "400",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:website": "https://www.originalpancakehouse.com/",
+        "brand:wikidata": "Q7755384",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House"
+      }
+    },
+    {
+      "type": "way",
+      "id": 157337541,
+      "center": {
+        "lat": 40.5073000,
+        "lon": -111.9811462
+      },
+      "tags": {
+        "addr:city": "Riverton",
+        "addr:housenumber": "3843",
+        "addr:postcode": "84065",
+        "addr:state": "UT",
+        "addr:street": "West 13400 South",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "building": "retail",
+        "check_date": "2023-08-11",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "opening_hours": "Mo-Fr 07:00-14:00; Sa-Su 07:30-15:00",
+        "phone": "+1-801-999-4104",
+        "source": "website",
+        "website": "https://www.ophutah.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12094299353,
+      "lat": 40.7528667,
+      "lon": -111.9394662,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "760",
+        "addr:state": "UT",
+        "addr:street": "South Redwood Road",
+        "amenity": "fast_food",
+        "check_date": "2025-05-30",
+        "cuisine": "donut",
+        "description": "Proceeds benefit The Other Side Village, a project to transition people out of homelessness.",
+        "drive_through": "no",
+        "name": "The Other Side Donuts",
+        "opening_hours": "Tu-Sa 07:00-15:00",
+        "outdoor_seating": "patio",
+        "website": "https://www.theothersidedonuts.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12376549622,
+      "lat": 40.6944775,
+      "lon": -111.8887269,
+      "tags": {
+        "brand": "Tous les Jours",
+        "brand:wikidata": "Q3535609",
+        "name": "Tous les Jours",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 292009563,
+      "center": {
+        "lat": 40.7543981,
+        "lon": -111.8660638
+      },
+      "tags": {
+        "building": "commercial",
+        "email": "info@tuliebakery.com",
+        "name": "Tulie Bakery",
+        "opening_hours": "Mo-Su 08:00-17:00",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+1 801 883 9741",
+        "shop": "bakery",
+        "website": "https://tuliebakery.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3999780434,
+      "lat": 40.6241952,
+      "lon": -111.8364220,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "dessert",
+        "name": "Twisted Sugar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9975110591,
+      "lat": 40.5273445,
+      "lon": -111.8836680,
+      "tags": {
+        "addr:city": "Draper",
+        "addr:housenumber": "241",
+        "addr:postcode": "84020",
+        "addr:state": "UT",
+        "addr:street": "East 12300 South",
+        "amenity": "ice_cream",
+        "name": "U-Swirl & Rocky Mountain Chocolate Factory"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13204028658,
+      "lat": 40.6467912,
+      "lon": -111.4971341,
+      "tags": {
+        "name": "Union Patisserie",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4497644489,
+      "lat": 40.7506885,
+      "lon": -111.8913921,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "850",
+        "addr:postcode": "84101",
+        "addr:state": "UT",
+        "addr:street": "South Main Street",
+        "name": "V Chocolates",
+        "opening_hours:signed": "no",
+        "phone": "+1-801-269-8444",
+        "shop": "confectionery",
+        "website": "https://vchocolates.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10062272928,
+      "lat": 40.5790037,
+      "lon": -111.8740490,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "9486",
+        "addr:postcode": "84070",
+        "addr:state": "UT",
+        "addr:street": "Union Square",
+        "check_date:opening_hours": "2023-09-01",
+        "description": "Colombian bakery/cafe.",
+        "name": "ValSof Bakery",
+        "opening_hours": "Tu-Sa 09:00-20:00; Su 09:00-16:00",
+        "phone": "+1 385 216 5359",
+        "shop": "bakery",
+        "start_date": "2021",
+        "website": "https://valsofbakery.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1832066742,
+      "lat": 40.7651915,
+      "lon": -111.9007374,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "328",
+        "addr:postcode": "84101",
+        "addr:street": "West 200 South",
+        "diet:vegetarian": "yes",
+        "name": "Vosen's Bread Paradise",
+        "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-16:30",
+        "phone": "+1 801 322 2424",
+        "shop": "bakery",
+        "website": "http://vosen.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11102308888,
+      "lat": 40.5096398,
+      "lon": -112.0003607,
+      "tags": {
+        "addr:city": "Riverton",
+        "addr:housenumber": "4578",
+        "addr:postcode": "84096",
+        "addr:state": "UT",
+        "addr:street": "West Partridge Hill Lane",
+        "name": "Wanna Cinn",
+        "shop": "pastry",
+        "survey:date": "2023-01-03",
+        "website": "https://wannacinn.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2417990135,
+      "lat": 40.6620362,
+      "lon": -111.5078842,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Wasatch Bagel",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1667621499,
+      "lat": 40.6598289,
+      "lon": -111.5021453,
+      "tags": {
+        "name": "Windy Ridge Bakery",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13683321736,
+      "lat": 40.6090801,
+      "lon": -111.9502483,
+      "tags": {
+        "addr:city": "West Jordan",
+        "addr:housenumber": "2273",
+        "addr:postcode": "84088",
+        "addr:state": "UT",
+        "addr:street": "West 7800 South",
+        "addr:unit": "#1",
+        "amenity": "fast_food",
+        "cuisine": "bagel",
+        "name": "Wombat Bagels",
+        "opening_hours": "Tu-Sa 07:00-14:00; Su-Mo off",
+        "phone": "+1-385-787-0299",
+        "website": "https://wombatbagels.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2341511597,
+      "lat": 40.7582677,
+      "lon": -111.8846550,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "216",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "East 500 South",
+        "cuisine": "chinese",
+        "name": "Xiao Bao Bao",
+        "opening_hours": "Tu-Th 11:00-14:00,16:00-19:00; Fr-Sa 11:00-19:00",
+        "phone": "+1-801-835-2226",
+        "shop": "bakery",
+        "website": "https://xiaobaobaoslc.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11820468273,
+      "lat": 40.6099094,
+      "lon": -111.9655885,
+      "tags": {
+        "addr:city": "West Jordan",
+        "addr:housenumber": "3078",
+        "addr:postcode": "84088",
+        "addr:state": "UT",
+        "addr:street": "West 7800 South",
+        "addr:unit": "2",
+        "name": "Yao Bakery",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12926602244,
+      "lat": 40.5499719,
+      "lon": -111.8924320,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "11078",
+        "addr:postcode": "84070",
+        "addr:state": "UT",
+        "addr:street": "S State Street",
+        "addr:unit": "103",
+        "amenity": "fast_food",
+        "cuisine": "donut;ice_cream",
+        "description": "They offer doughnuts and they offer ice cream, but their real shtick is smashing ice cream over doughnuts.",
+        "drive_through": "no",
+        "name": "Yonutz",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 09:00-23:00; Su 12:00-20:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12952553186,
+      "lat": 40.7668999,
+      "lon": -111.8837292,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "248",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "East 100 South",
+        "contact:instagram": "@eats_bakery",
+        "cuisine": "pastry;coffee",
+        "description": "This is the outfit that operated a cinnamon roll / sweet roll booth at farmers markets along the Wasatch Front 2022-24, now (2025) expanding to a brick and mortar. All vegan, with sweet rolls, other pastries, and coffee.",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "only",
+        "full_name": "eats bakery",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "eats",
+        "note": "The business name really is just \"eats\" and really they use the insouciant lowercase 'e'.",
+        "opening_hours": "We-Su 08:00-15:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "pastry",
+        "start_date": "2025_05"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12264585597,
+      "lat": 40.7685252,
+      "lon": -111.8898477,
+      "tags": {
+        "check_date:opening_hours": "2024-10-18",
+        "name": "Éclair",
+        "opening_hours:signed": "no",
+        "shop": "pastry"
+      }
+    }
+  ]
+}

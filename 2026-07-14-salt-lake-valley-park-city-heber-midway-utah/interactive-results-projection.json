@@ -1,0 +1,6317 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "run_id": "2026-07-14-salt-lake-valley-park-city-heber-midway-utah",
+    "category": "bakery",
+    "decision_hash": "sha256:e2a7d076fcb76b43fff2008e8da3f209a60135ecb975eebca6033a1e19d1fd47"
+  },
+  "snapshots": {
+    "run_date": "2026-07-14",
+    "rating_date": "2026-07-16",
+    "access_date": "2026-07-16"
+  },
+  "title": "The bakery short list: Salt Lake Valley + Park City, Heber & Midway",
+  "scope": "Salt Lake Valley and the Wasatch Back corridor of Park City, Heber City, and Midway, with an East Millcreek home base.",
+  "facets": [
+    {
+      "key": "region",
+      "label": "Region",
+      "kind": "multi",
+      "values": [
+        {
+          "value": "salt-lake-city",
+          "label": "Salt Lake City"
+        },
+        {
+          "value": "east-bench",
+          "label": "East bench"
+        },
+        {
+          "value": "salt-lake-valley",
+          "label": "Salt Lake Valley"
+        },
+        {
+          "value": "park-city",
+          "label": "Park City"
+        },
+        {
+          "value": "heber-midway",
+          "label": "Heber & Midway"
+        }
+      ]
+    },
+    {
+      "key": "access",
+      "label": "Access",
+      "kind": "multi",
+      "values": [
+        {
+          "value": "walk-in",
+          "label": "Walk-in"
+        },
+        {
+          "value": "preorder-market",
+          "label": "Preorder / market"
+        },
+        {
+          "value": "delivery-service-area",
+          "label": "Delivery / service area"
+        },
+        {
+          "value": "wholesale-stockist",
+          "label": "Wholesale / stockist"
+        },
+        {
+          "value": "unavailable-unverified",
+          "label": "Unavailable / unverified"
+        }
+      ]
+    },
+    {
+      "key": "occasion",
+      "label": "Occasion",
+      "kind": "multi",
+      "values": [
+        {
+          "value": "best-bread",
+          "label": "Best bread"
+        },
+        {
+          "value": "pastry-coffee",
+          "label": "Pastry + coffee"
+        },
+        {
+          "value": "gift",
+          "label": "Bring or give"
+        },
+        {
+          "value": "cross-town",
+          "label": "Worth crossing town"
+        },
+        {
+          "value": "rare-find",
+          "label": "Rare find"
+        }
+      ]
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "kind": "multi",
+      "values": [
+        {
+          "value": "rated",
+          "label": "Rated survivor"
+        },
+        {
+          "value": "partial",
+          "label": "Scratch evidence (partial)"
+        },
+        {
+          "value": "rating-unconfirmed",
+          "label": "Rating unconfirmed"
+        },
+        {
+          "value": "filtered",
+          "label": "Scored but filtered"
+        },
+        {
+          "value": "deferred",
+          "label": "Status deferred"
+        },
+        {
+          "value": "not-scoreable",
+          "label": "Not scoreable"
+        },
+        {
+          "value": "evidence-unavailable",
+          "label": "Evidence unavailable"
+        },
+        {
+          "value": "disqualified",
+          "label": "Disqualified"
+        },
+        {
+          "value": "duplicate",
+          "label": "Canonical duplicate"
+        }
+      ]
+    },
+    {
+      "key": "specialty",
+      "label": "Specialty",
+      "kind": "multi",
+      "values": [
+        {
+          "value": "bread",
+          "label": "Bread"
+        },
+        {
+          "value": "pastry-patisserie",
+          "label": "Pastry & pâtisserie"
+        },
+        {
+          "value": "doughnuts",
+          "label": "Doughnuts"
+        },
+        {
+          "value": "bagels-savory",
+          "label": "Bagels & savory"
+        },
+        {
+          "value": "pies",
+          "label": "Pies"
+        },
+        {
+          "value": "cookies-sweets",
+          "label": "Cookies & sweets"
+        },
+        {
+          "value": "cakes-cheesecake",
+          "label": "Cakes & cheesecake"
+        },
+        {
+          "value": "regional-specialty",
+          "label": "Regional specialty"
+        },
+        {
+          "value": "gluten-free-vegan",
+          "label": "Gluten-free / vegan"
+        }
+      ]
+    }
+  ],
+  "theme": {
+    "category": "bakery",
+    "palette": "bakery",
+    "typography": "warm",
+    "default_sort": "combined"
+  },
+  "counts": {
+    "practical": 58,
+    "audit": 268,
+    "omitted": 0,
+    "mapped": 49
+  },
+  "practical": [
+    {
+      "id": "T-002",
+      "name": "Mims Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "Salt Lake Valley",
+      "summary": "Cottage microbakery with naturally leavened bread and seasonal Wheeler Farm market access.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "preorder-market"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "T-016",
+      "name": "Amsterdam Delicious",
+      "address": null,
+      "coordinates": null,
+      "location_label": "Salt Lake Valley",
+      "summary": "Handmade small-batch Dutch stroopwafel and cookies; arrange ordering and pickup first.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "delivery-service-area"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "regional-specialty"
+        ]
+      }
+    },
+    {
+      "id": "T-017",
+      "name": "Sheer Ambrosia Bakery",
+      "address": "1749 S State St #102, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7322843,
+        "lng": -111.8879697
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Polished 45-layer baklava in rotating flavors; a strong showpiece or gift.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [
+          "gift"
+        ],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "regional-specialty"
+        ]
+      }
+    },
+    {
+      "id": "T-019",
+      "name": "Nano's Bagels",
+      "address": "668 E Union Square, Sandy",
+      "coordinates": {
+        "lat": 40.5787556,
+        "lng": -111.8731688
+      },
+      "location_label": "Salt Lake Valley",
+      "summary": "Bagel specialist: hand-rolled, boiled, and baked daily.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bagels-savory"
+        ]
+      }
+    },
+    {
+      "id": "T-023",
+      "name": "Auntie Em's",
+      "address": "1351 Kearns Blvd #150, Park City",
+      "coordinates": {
+        "lat": 40.661545,
+        "lng": -111.502856
+      },
+      "location_label": "Park City",
+      "summary": "Park City preorder pie and bread producer; arrange in advance.",
+      "facet_values": {
+        "region": [
+          "park-city"
+        ],
+        "access": [
+          "preorder-market"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pies"
+        ]
+      }
+    },
+    {
+      "id": "T-024",
+      "name": "The Bake Shop",
+      "address": "1154 Center Dr D200, Park City",
+      "coordinates": {
+        "lat": 40.7201091,
+        "lng": -111.538789
+      },
+      "location_label": "Park City",
+      "summary": "Exploratory breakfast stop with laminated pastry and bread.",
+      "facet_values": {
+        "region": [
+          "park-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "T-025",
+      "name": "Hawk & Sparrow",
+      "address": "21 S 500 W, Heber City",
+      "coordinates": {
+        "lat": 40.5074884,
+        "lng": -111.421999
+      },
+      "location_label": "Heber & Midway",
+      "summary": "Hand-formed, multi-day naturally leavened loaves with some on-site milling; verify Saturday hours.",
+      "facet_values": {
+        "region": [
+          "heber-midway"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [
+          "best-bread"
+        ],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "T-027",
+      "name": "Red Bicycle Breadworks",
+      "address": "Stockist at 1500 Snow Creek Dr, Park City",
+      "coordinates": {
+        "lat": 40.662272,
+        "lng": -111.5092342
+      },
+      "location_label": "Park City",
+      "summary": "High-scratch wholesale bread; verify current retail stock rather than navigating to production.",
+      "facet_values": {
+        "region": [
+          "park-city"
+        ],
+        "access": [
+          "wholesale-stockist"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "T-028",
+      "name": "Süss Cookie Company",
+      "address": null,
+      "coordinates": null,
+      "location_label": "Heber & Midway",
+      "summary": "rated survivor — C — worthwhile specialist",
+      "facet_values": {
+        "region": [
+          "heber-midway"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "cookies-sweets"
+        ]
+      }
+    },
+    {
+      "id": "T-029",
+      "name": "Midway Bakery on Main",
+      "address": "112 S Center St, Midway",
+      "coordinates": {
+        "lat": 40.510198,
+        "lng": -111.4726831
+      },
+      "location_label": "Heber & Midway",
+      "summary": "Broad Midway bakery and dependable town-center stop.",
+      "facet_values": {
+        "region": [
+          "heber-midway"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "T-037",
+      "name": "Luna's Kitchen & Juicery",
+      "address": "1400 Snow Creek Dr L, Park City",
+      "coordinates": {
+        "lat": 40.662094,
+        "lng": -111.508356
+      },
+      "location_label": "Park City",
+      "summary": "Dedicated gluten-free kitchen and pastry destination in Park City.",
+      "facet_values": {
+        "region": [
+          "park-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "gluten-free-vegan"
+        ]
+      }
+    },
+    {
+      "id": "T-039",
+      "name": "Pie Party",
+      "address": "3130 S Highland Dr A4, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7025119,
+        "lng": -111.8525196
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Seasonal scratch pie specialist; inventory depends on the current preorder or market schedule.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "preorder-market"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pies"
+        ]
+      }
+    },
+    {
+      "id": "P3-003",
+      "name": "JD Flannel Donuts & Coffee — Foothill Village",
+      "address": "1400 S Foothill Dr #112, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7390069,
+        "lng": -111.8269027
+      },
+      "location_label": "East bench",
+      "summary": "Handmade small-batch scratch doughnuts at Foothill Village.",
+      "facet_values": {
+        "region": [
+          "east-bench"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "doughnuts"
+        ]
+      }
+    },
+    {
+      "id": "P3-004",
+      "name": "Argentina's Café — Salt Lake County branch",
+      "address": null,
+      "coordinates": null,
+      "location_label": "Salt Lake City",
+      "summary": "rated survivor — B; exact current Google place card 4.5 (n=336), user-verified 2026-07-16",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "regional-specialty"
+        ]
+      }
+    },
+    {
+      "id": "P3-006",
+      "name": "Beardall's Bakery",
+      "address": "8963 W Magna Main St, Magna",
+      "coordinates": {
+        "lat": 40.7108062,
+        "lng": -112.1055062
+      },
+      "location_label": "Salt Lake Valley",
+      "summary": "Broad local Magna bakery and practical neighborhood standby.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "P3-032",
+      "name": "Ballerina Farm Store — Midway",
+      "address": "101 W Main St #102, Midway",
+      "coordinates": {
+        "lat": 40.5117809,
+        "lng": -111.4747325
+      },
+      "location_label": "Heber & Midway",
+      "summary": "Farm-store bread and pastry; rating covers the wider store experience.",
+      "facet_values": {
+        "region": [
+          "heber-midway"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "P3-033",
+      "name": "The Bakery at Zermatt Utah",
+      "address": "784 W Resort Dr, Midway",
+      "coordinates": {
+        "lat": 40.5247496,
+        "lng": -111.4888211
+      },
+      "location_label": "Heber & Midway",
+      "summary": "Resort bakery with a made-from-scratch claim; branch execution remains less certain.",
+      "facet_values": {
+        "region": [
+          "heber-midway"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "P3-038",
+      "name": "The Flour Box Bakery LLC",
+      "address": null,
+      "coordinates": null,
+      "location_label": "Salt Lake Valley",
+      "summary": "Home/preorder bakery producing scratch sourdough, pies, and laminated pastry.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "preorder-market"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "A-006",
+      "name": "All Purpose Bakehouse",
+      "address": "779 S 200 E, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7521651,
+        "lng": -111.8849245
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Three-day croissants and pain suisse with overnight fermentation and butter lamination; go early.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [
+          "pastry-coffee",
+          "cross-town"
+        ],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "A-010",
+      "name": "Auntie Rae's Sweets & Tea Parties",
+      "address": "4704 Holladay Blvd E, Holladay",
+      "coordinates": {
+        "lat": 40.6674672,
+        "lng": -111.8239744
+      },
+      "location_label": "East bench",
+      "summary": "Tea-party and classic-dessert specialist with broad public access.",
+      "facet_values": {
+        "region": [
+          "east-bench"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "cakes-cheesecake"
+        ]
+      }
+    },
+    {
+      "id": "A-016",
+      "name": "Beaucoup Boulangerie et Marche",
+      "address": null,
+      "coordinates": null,
+      "location_label": "East bench",
+      "summary": "rated survivor — B — strong regional",
+      "facet_values": {
+        "region": [
+          "east-bench"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [
+          "pastry-coffee"
+        ],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "A-030",
+      "name": "Carol's Pastry Shop",
+      "address": "1991 Lincoln St, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7268809,
+        "lng": -111.8636417
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Traditional pastry-shop standby.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "A-031",
+      "name": "Chez Nibs",
+      "address": "212 E 500 S #A, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7582728,
+        "lng": -111.8847804
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Chocolate-led pâtisserie with laminated pastry, including kouign-amann.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "A-040",
+      "name": "City Cakes",
+      "address": null,
+      "coordinates": null,
+      "location_label": "Salt Lake Valley",
+      "summary": "rated survivor — D; exact Midvale branch direct Google record 4.4",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "gluten-free-vegan"
+        ]
+      }
+    },
+    {
+      "id": "A-069",
+      "name": "Donut Boy",
+      "address": "2194 W 3500 S, West Valley City",
+      "coordinates": {
+        "lat": 40.6972365,
+        "lng": -111.946386
+      },
+      "location_label": "Salt Lake Valley",
+      "summary": "West Valley neighborhood doughnut stop.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "doughnuts"
+        ]
+      }
+    },
+    {
+      "id": "A-070",
+      "name": "Donut House",
+      "address": "950 W 1000 N, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7913457,
+        "lng": -111.9188457
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Neighborhood morning doughnut stop.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "doughnuts"
+        ]
+      }
+    },
+    {
+      "id": "A-073",
+      "name": "Dough Lady",
+      "address": null,
+      "coordinates": null,
+      "location_label": "East bench",
+      "summary": "Rotation-driven home bakery known for cinnamon rolls; ordering is not walk-in.",
+      "facet_values": {
+        "region": [
+          "east-bench"
+        ],
+        "access": [
+          "preorder-market"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "cookies-sweets"
+        ]
+      }
+    },
+    {
+      "id": "A-074",
+      "name": "Dough Miner",
+      "address": "945 S 300 W #101, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7483258,
+        "lng": -111.8994722
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Bagels, pasties, rolls, custards, and glazes made in house; weekly specials and early sell-outs.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [
+          "cross-town"
+        ],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bagels-savory"
+        ]
+      }
+    },
+    {
+      "id": "A-078",
+      "name": "Eclair French Pastry",
+      "address": "7948 S 1300 E, Sandy",
+      "coordinates": {
+        "lat": 40.6073099,
+        "lng": -111.8553078
+      },
+      "location_label": "Salt Lake Valley",
+      "summary": "Focused éclair and French pastry shop with deep flavor exploration.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "A-096",
+      "name": "Eva's Bakery",
+      "address": "155 S Main St, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7657866,
+        "lng": -111.8908379
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Downtown French-style classic with bread and laminated pastry.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "A-098",
+      "name": "Fillings & Emulsions",
+      "address": "1391 S 300 W, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7395121,
+        "lng": -111.8992032
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Broad pâtisserie and laminated-pastry destination with strong variety.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "A-102",
+      "name": "Forty Three Bakery",
+      "address": "733 Genesee Ave, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7506033,
+        "lng": -111.912317
+      },
+      "location_label": "Salt Lake City",
+      "summary": "West-side bakery destination covering bread and lamination.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "A-103",
+      "name": "Fresh Donut & Deli",
+      "address": "2699 S State St, South Salt Lake",
+      "coordinates": {
+        "lat": 40.7128747,
+        "lng": -111.887914
+      },
+      "location_label": "Salt Lake Valley",
+      "summary": "Classic scratch morning doughnut stop with a large rating base.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "doughnuts"
+        ]
+      }
+    },
+    {
+      "id": "A-104",
+      "name": "Fudge Co",
+      "address": "13292 S Rosecrest Rd B, Herriman",
+      "coordinates": {
+        "lat": 40.5111192,
+        "lng": -112.0249439
+      },
+      "location_label": "Salt Lake Valley",
+      "summary": "Scratch confectionery specialist for gifts and focused sweets.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "cookies-sweets"
+        ]
+      }
+    },
+    {
+      "id": "A-106",
+      "name": "Good Food Gluten Free",
+      "address": "423 W 800 S A113, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7517126,
+        "lng": -111.9031867
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Gluten-free-specific bakery standby.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "gluten-free-vegan"
+        ]
+      }
+    },
+    {
+      "id": "A-114",
+      "name": "Great Harvest Bread Company",
+      "address": "6357 S Redwood Rd, Taylorsville",
+      "coordinates": {
+        "lat": 40.6356359,
+        "lng": -111.9382559
+      },
+      "location_label": "Salt Lake Valley",
+      "summary": "Branch with daily stone milling and reliable traditional bread; lower novelty.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "A-117",
+      "name": "Great Harvest Bread Company",
+      "address": "217 E 12300 S J5, Draper",
+      "coordinates": {
+        "lat": 40.5280597,
+        "lng": -111.8847851
+      },
+      "location_label": "Salt Lake Valley",
+      "summary": "Draper branch with daily stone milling and no mixes or frozen dough.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "A-124",
+      "name": "June Pie",
+      "address": "2175 W 3000 S, Heber City",
+      "coordinates": {
+        "lat": 40.4706539,
+        "lng": -111.4489512
+      },
+      "location_label": "Heber & Midway",
+      "summary": "Seasonal hand-pie specialist; check the current ordering window.",
+      "facet_values": {
+        "region": [
+          "heber-midway"
+        ],
+        "access": [
+          "preorder-market"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pies"
+        ]
+      }
+    },
+    {
+      "id": "A-137",
+      "name": "Leavity Bread & Coffee",
+      "address": "1000 S Main St #101, Salt Lake City",
+      "coordinates": {
+        "lat": 40.747375,
+        "lng": -111.891652
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Long-fermented naturally leavened bread with a dependable public café counter.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [
+          "best-bread"
+        ],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "A-146",
+      "name": "Middle Eastern Bakery & Groceries",
+      "address": "3884 S 300 E, South Salt Lake",
+      "coordinates": {
+        "lat": 40.6873504,
+        "lng": -111.8832992
+      },
+      "location_label": "Salt Lake Valley",
+      "summary": "Fresh Middle Eastern flatbread reportedly made multiple times a day; verify conflicting hours.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [
+          "rare-find"
+        ],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "regional-specialty"
+        ]
+      }
+    },
+    {
+      "id": "A-149",
+      "name": "Momo's Gourmet Cheesecake",
+      "address": "29 E 400 S, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7609236,
+        "lng": -111.889987
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Cheesecake specialist with weekly flavor interest and a downtown storefront.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "cakes-cheesecake"
+        ]
+      }
+    },
+    {
+      "id": "A-150",
+      "name": "Mozz Sourdough Pizza",
+      "address": "416 E 900 S, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7495622,
+        "lng": -111.8792558
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Naturally leavened pizza for a sourdough-specific occasion.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bagels-savory"
+        ]
+      }
+    },
+    {
+      "id": "A-153",
+      "name": "Mrs. Hewitt's",
+      "address": "3703 Parkway Blvd, West Valley City",
+      "coordinates": {
+        "lat": 40.7107464,
+        "lng": -111.9788224
+      },
+      "location_label": "Salt Lake Valley",
+      "summary": "Gluten-free wholesale bread; verify current retail stockist.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "wholesale-stockist"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "gluten-free-vegan"
+        ]
+      }
+    },
+    {
+      "id": "A-168",
+      "name": "Parfé Diem",
+      "address": null,
+      "coordinates": null,
+      "location_label": "Salt Lake City",
+      "summary": "rated survivor — D — qualified standby",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "cookies-sweets"
+        ]
+      }
+    },
+    {
+      "id": "A-187",
+      "name": "RubySnap Fresh Cookies",
+      "address": "770 S 300 W, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7523955,
+        "lng": -111.8999332
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Each cookie gets its own built dough, with scratch components such as lime curd and rotating specials.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [
+          "gift"
+        ],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "cookies-sweets"
+        ]
+      }
+    },
+    {
+      "id": "A-188",
+      "name": "Sagato's Bakery and Cafe",
+      "address": "44 W 7200 S, Midvale",
+      "coordinates": {
+        "lat": 40.6211146,
+        "lng": -111.8924398
+      },
+      "location_label": "Salt Lake Valley",
+      "summary": "Pacific meat pies, kekepua'a, sausage rolls, lamingtons, and regional desserts.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [
+          "rare-find"
+        ],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "regional-specialty"
+        ]
+      }
+    },
+    {
+      "id": "A-200",
+      "name": "Sidecar Doughnuts & Coffee",
+      "address": "701 E 2100 S, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7256973,
+        "lng": -111.8706979
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Scratch doughnuts produced throughout the day; developing local rating evidence.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "doughnuts"
+        ]
+      }
+    },
+    {
+      "id": "A-203",
+      "name": "Stone Ground Bakery",
+      "address": "1025 S 700 W, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7469276,
+        "lng": -111.9108611
+      },
+      "location_label": "Salt Lake City",
+      "summary": "High-scratch wholesale bread with comparatively low novelty; verify retail availability.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "wholesale-stockist"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "A-211",
+      "name": "Table X Bread",
+      "address": "1457 E 3350 S, Salt Lake City",
+      "coordinates": {
+        "lat": 40.6990987,
+        "lng": -111.8498486
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Handmade daily bread with levain and a documented 36-hour fermentation process.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [
+          "best-bread"
+        ],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "A-226",
+      "name": "Tulie Bakery",
+      "address": "863 E 700 S, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7543981,
+        "lng": -111.8660638
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Deep pastry case with croissants, cakes, tarts, quiche, cookies, and scratch components.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [
+          "pastry-coffee"
+        ],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "A-232",
+      "name": "Vosen's Bread Paradise",
+      "address": "328 W 200 S, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7651883,
+        "lng": -111.9007581
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Traditional German bread and pastry shop with a dependable downtown counter.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "A-240",
+      "name": "eats",
+      "address": "248 E 100 S, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7668056,
+        "lng": -111.8836438
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Broad downtown bakery-and-coffee standby with documented homemade products.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "COV-002",
+      "name": "Bohemian Baklava",
+      "address": "57 S 600 E, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7678943,
+        "lng": -111.8734636
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Small-batch baklava with house syrup, pistachio cream, tahini, and rotating uncommon flavors.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [
+          "gift",
+          "cross-town",
+          "rare-find"
+        ],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "regional-specialty"
+        ]
+      }
+    },
+    {
+      "id": "COV-009",
+      "name": "Empanada.Co",
+      "address": "2030 S 900 E, Salt Lake City",
+      "coordinates": {
+        "lat": 40.726186,
+        "lng": -111.8659255
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Continuously baked small-batch empanadas with a live menu; verify same day because status labels conflict.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "regional-specialty"
+        ]
+      }
+    },
+    {
+      "id": "COV-013",
+      "name": "Feldman's Deli",
+      "address": "2005 E 2700 S Ste D, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7129134,
+        "lng": -111.8336732
+      },
+      "location_label": "East bench",
+      "summary": "Hand-rolled, boiled-and-baked Jewish-deli bagels in a limited daily batch; go early. Direct Google count is unavailable.",
+      "facet_values": {
+        "region": [
+          "east-bench"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": [
+          "bagels-savory"
+        ]
+      }
+    },
+    {
+      "id": "A-012",
+      "name": "Baby's Bagels",
+      "address": "204 East 500 South, Salt Lake City, UT 84111",
+      "coordinates": {
+        "lat": 40.7582678,
+        "lng": -111.885046
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Scratch bagels are confirmed by user ground truth; the run also found in-house cured lox and sauces. Rating and most rubric criteria remain unknown.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "partial"
+        ],
+        "specialty": [
+          "bagels-savory"
+        ]
+      }
+    },
+    {
+      "id": "A-013",
+      "name": "Bagel Den",
+      "address": "570 North Main Street, Heber City, UT 84032",
+      "coordinates": {
+        "lat": 40.515541,
+        "lng": -111.4123809
+      },
+      "location_label": "Heber City",
+      "summary": "The official site confirms scratch-made schmears but says the bagel dough arrives from New York. The partial score covers schmears only; the aggregate rating remains unavailable.",
+      "facet_values": {
+        "region": [
+          "heber-midway"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "partial"
+        ],
+        "specialty": [
+          "bagels-savory"
+        ]
+      }
+    },
+    {
+      "id": "A-231",
+      "name": "ValSof Bakery",
+      "address": "9486 South Union Square, Sandy, UT 84070",
+      "coordinates": {
+        "lat": 40.5790037,
+        "lng": -111.874049
+      },
+      "location_label": "Sandy",
+      "summary": "Low-confidence evidence supports house fillings only. Dough, bread, puff pastry, and lamination remain unknown; Restaurantji reported 4.4/5 from 141 ratings.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "partial"
+        ],
+        "specialty": [
+          "regional-specialty"
+        ]
+      }
+    }
+  ],
+  "audit": [
+    {
+      "id": "T-001",
+      "name": "Salt Lake Sourdough",
+      "address": null,
+      "coordinates": null,
+      "location_label": "Salt Lake City",
+      "summary": "Strong natural-leavening and hand-shaped bagel process; no attributable current aggregate rating.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "preorder-market"
+        ],
+        "occasion": [],
+        "status": [
+          "rating-unconfirmed"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "T-003",
+      "name": "Tomodachi Bake Shoppe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "Salt Lake Valley",
+      "summary": "Trained pastry operator with small pop-ups and sold-out assortments.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "preorder-market"
+        ],
+        "occasion": [],
+        "status": [
+          "rating-unconfirmed"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "T-004",
+      "name": "Bedlam",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-005",
+      "name": "Slice of Delight",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "evidence-exhausted-unavailable — no score/adverse inference",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "evidence-unavailable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-006",
+      "name": "Bix Bakery & Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-007",
+      "name": "Cinnful Buns",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-008",
+      "name": "The Grey Rabbit Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-009",
+      "name": "Crumb Collective",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-010",
+      "name": "Doughlene Bakes SLC",
+      "address": null,
+      "coordinates": null,
+      "location_label": "East bench",
+      "summary": "Wild starter, long fermentation, and weekly ordering; exact place record displays no rating.",
+      "facet_values": {
+        "region": [
+          "east-bench"
+        ],
+        "access": [
+          "preorder-market"
+        ],
+        "occasion": [],
+        "status": [
+          "rating-unconfirmed"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "T-011",
+      "name": "The Salted Loaf",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — official evidence places it in Mapleton, outside catchment",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-012",
+      "name": "Petite Orangerie",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "deferred status — coming soon; not operating; no score",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "deferred"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-013",
+      "name": "The Chocolate Palette",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-014",
+      "name": "Aroma Chocolates",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-015",
+      "name": "Crown Chocolate",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-018",
+      "name": "Sweets by Steph SLC",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-020",
+      "name": "Mi Casa Tortilleria",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-021",
+      "name": "House of Corn",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-022",
+      "name": "El Asadero",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-026",
+      "name": "Park City Desserts",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-030",
+      "name": "Dottie's Kolaches",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — official-social evidence establishes Ritual Chocolate resale/format change",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-032",
+      "name": "Hungry Bunny Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-033",
+      "name": "Panaderia y Pasteleria Santa Cruz",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-034",
+      "name": "The Pretzel Connection",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-035",
+      "name": "Tina's Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-036",
+      "name": "CC Sweet Crumbs",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-038",
+      "name": "Bagel Coop",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-040",
+      "name": "Love & Light Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-041",
+      "name": "Doki Doki Dessert Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "T-042",
+      "name": "Gluten Free by Kassie",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "evidence-exhausted-unavailable — no score/adverse inference",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "evidence-unavailable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-001",
+      "name": "House of Bread",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "rated survivor — A — destination",
+      "facet_values": {
+        "region": [],
+        "access": [
+          "unavailable-unverified"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-002",
+      "name": "Magnolia Bakery — Foothill Village",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "deferred status — planned branch; not operating; no score",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "deferred"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-005",
+      "name": "Curt's Micro Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-007",
+      "name": "Conte De Fee",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-008",
+      "name": "Le Pain de Charlie",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "rated survivor — A; direct Google place record 5.0",
+      "facet_values": {
+        "region": [],
+        "access": [
+          "unavailable-unverified"
+        ],
+        "occasion": [],
+        "status": [
+          "rated"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-009",
+      "name": "Sugar Rush by MB",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-010",
+      "name": "Los Compadres Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-011",
+      "name": "Powder Peak Sweets",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-012",
+      "name": "Pies the Limit",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-013",
+      "name": "Harmons Bakery — Draper",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-014",
+      "name": "Harmons Bakery — West",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-015",
+      "name": "Harmons Bakery — Emigration Market",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-016",
+      "name": "Harmons Bakery — Mountain View Village",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-017",
+      "name": "Harmons Bakery — Seventh Street",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-018",
+      "name": "Harmons Bakery — The Brickyard",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-019",
+      "name": "Harmons Bakery — Taylorsville",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-020",
+      "name": "Harmons Bakery — The District",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-021",
+      "name": "Harmons Bakery — Daybreak",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-022",
+      "name": "Harmons Bakery — Cougar",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-023",
+      "name": "Harmons Bakery — Holladay Market",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-024",
+      "name": "Harmons Bakery — South Jordan",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-025",
+      "name": "Harmons Bakery — Bangerter Crossing",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-026",
+      "name": "Harmons Bakery — City Creek",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-027",
+      "name": "Flourish Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "deferred status — exact Google record shows 4.6 but current exact-address directory says CLOSED; no current-open inference",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "deferred"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-028",
+      "name": "Mad Dough",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "scratch-verified, rating-unconfirmed — scored above",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "rating-unconfirmed"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-029",
+      "name": "Lee's Scratch Bakery — Market at 4th West",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-030",
+      "name": "Lee's Scratch Bakery — Heber",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-031",
+      "name": "Lee's Scratch Bakery — Herriman",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-034",
+      "name": "My Brother's Pastry",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-035",
+      "name": "Sprinkle Me Frosted",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-036",
+      "name": "La Yaquesita",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-037",
+      "name": "New Mimosa Pastry Café",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-039",
+      "name": "Love Baked by Callie",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "deferred status — temporarily closed; no score",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "deferred"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-040",
+      "name": "Mandy's Custom Cakes",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-041",
+      "name": "Sourdough Bruh",
+      "address": null,
+      "coordinates": null,
+      "location_label": "Salt Lake Valley",
+      "summary": "Cottage sourdough specialist without an attributable direct rating record.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "preorder-market"
+        ],
+        "occasion": [],
+        "status": [
+          "rating-unconfirmed"
+        ],
+        "specialty": [
+          "bread"
+        ]
+      }
+    },
+    {
+      "id": "P3-042",
+      "name": "Artisan Bakery Utah",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "scratch-verified, rating-unconfirmed — scored above",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "rating-unconfirmed"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-043",
+      "name": "DeeLicious Park City",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-044",
+      "name": "Cakes By Edith — Riverton",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-045",
+      "name": "Esperanza Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-046",
+      "name": "Panadería Guatemalteca La Bendición",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "P3-047",
+      "name": "Panadería Monterrey",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-001",
+      "name": "[unnamed]",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — late duplicate of T-007 by accepted phone evidence",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "duplicate"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-002",
+      "name": "85°C Bakery Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-003",
+      "name": "Alebrijes Candy Shop",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-004",
+      "name": "Alicia's Panaderia",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-005",
+      "name": "Alicia's Panaderia",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "scored but filtered — rating below gate",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "filtered"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-007",
+      "name": "Altojitos",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-008",
+      "name": "Antojitos Luna",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "evidence-exhausted-unavailable — no score/adverse inference",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "evidence-unavailable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-009",
+      "name": "Atticus Coffee, Books, and Teahouse",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-011",
+      "name": "Avenue Bakery on Fourth",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-014",
+      "name": "Bakers C & C",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — source says goods are purchased from manufacturers/distributors",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-015",
+      "name": "Banbury Cross",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-017",
+      "name": "Beaumont Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "evidence-exhausted-unavailable — no score/adverse inference",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "evidence-unavailable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-018",
+      "name": "Beaumont Bakery & Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-019",
+      "name": "Bonne Vie",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-020",
+      "name": "Breads",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "evidence-exhausted-unavailable — no score/adverse inference",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "evidence-unavailable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-023",
+      "name": "Bruges Waffles & Frites",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-024",
+      "name": "Buono Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-025",
+      "name": "Buzzed Coffeehouse",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-027",
+      "name": "Cakes By Edith",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-028",
+      "name": "Canela Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-029",
+      "name": "Carlucci's",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-032",
+      "name": "Chip",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-033",
+      "name": "Chip",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "evidence-exhausted-unavailable — no score/adverse inference",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "evidence-unavailable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-034",
+      "name": "Chip Cookies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — positive current closure evidence",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-035",
+      "name": "Chip Cookies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-036",
+      "name": "Chip Cookies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-037",
+      "name": "Chocolate Cottage",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-038",
+      "name": "Chocolate Covered Wagon - Trolley Taffy Stat",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-039",
+      "name": "Cinnabon",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-041",
+      "name": "City Cakes",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "deferred status — official page says temporarily closed as of 2026-04-13; no score",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "deferred"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-042",
+      "name": "Colombian Baker",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-043",
+      "name": "Condie's Candies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-044",
+      "name": "Corner Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-045",
+      "name": "Corner Bakery Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-046",
+      "name": "Crave",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-047",
+      "name": "Crave",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-048",
+      "name": "Crave",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-049",
+      "name": "Crave",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-050",
+      "name": "Crave Cookies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-051",
+      "name": "Creme de Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-052",
+      "name": "Crumbl Cookies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-053",
+      "name": "Crumbl Cookies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-054",
+      "name": "Crumbl Cookies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-055",
+      "name": "Crumbl Cookies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-056",
+      "name": "Crumbl Cookies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-057",
+      "name": "Crust Club",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-058",
+      "name": "Cucina",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "evidence-exhausted-unavailable — no score/adverse inference",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "evidence-unavailable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-059",
+      "name": "Cumming's Studio Chocolates",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — category-adjacent confectionery only; accepted evidence documents chocolates, brittle, caramels, and dipped fruit but no bread, pastry, laminated goods, or other bakery production",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-061",
+      "name": "Cupcakes by Kasthuri",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — positive permanent-closure evidence",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-062",
+      "name": "Daniel's Fine Chocolate",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — positive closed-state evidence",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-063",
+      "name": "Darla's Doughnuts",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-064",
+      "name": "Daylight Donuts",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "evidence-exhausted-unavailable — no score/adverse inference",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "evidence-unavailable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-065",
+      "name": "Dear Coco",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-066",
+      "name": "Delicias Fruty Snacks",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-068",
+      "name": "Dirty Dough",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-071",
+      "name": "Donut Star Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-072",
+      "name": "Donut Star Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-075",
+      "name": "Dunkin'",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-076",
+      "name": "Dunkin'",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-077",
+      "name": "Délice",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "scored but filtered — S below gate",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "filtered"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-079",
+      "name": "Einstein Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — documented centralized frozen-dough model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-080",
+      "name": "Einstein Bros. Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — documented centralized frozen-dough model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-081",
+      "name": "Einstein Bros. Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "deferred status — current official page conflicts with closure label; no score",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "deferred"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-082",
+      "name": "Einstein Bros. Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — documented centralized frozen-dough model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-083",
+      "name": "Einstein Bros. Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — documented centralized frozen-dough model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-084",
+      "name": "Einstein Bros. Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — documented centralized frozen-dough model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-085",
+      "name": "Einstein Bros. Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — documented centralized frozen-dough model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-086",
+      "name": "Einstein Bros. Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — documented centralized frozen-dough model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-087",
+      "name": "Einstein Bros. Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — documented centralized frozen-dough model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-088",
+      "name": "Einstein Bros. Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — official closed state and centralized frozen-dough model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-089",
+      "name": "Einstein Bros. Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — documented centralized frozen-dough model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-090",
+      "name": "Einstein Bros. Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — documented centralized frozen-dough model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-091",
+      "name": "Einstein Bros. Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — documented centralized frozen-dough model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-094",
+      "name": "El Bodegon Dulceria",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-095",
+      "name": "Empanadas801",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-097",
+      "name": "Fernwood Finest Candies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-099",
+      "name": "Fillings & Emulsions",
+      "address": "1391 S 300 W, Salt Lake City",
+      "coordinates": {
+        "lat": 40.7395121,
+        "lng": -111.8992032
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Broad pâtisserie and laminated-pastry destination with strong variety.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "A-100",
+      "name": "Flake Pie Co.",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-101",
+      "name": "Flores Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-105",
+      "name": "Garden Gate",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-107",
+      "name": "Goodly Cookies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — positive closed-state evidence",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-108",
+      "name": "Gourmandise",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "scored but filtered — S below gate",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "filtered"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-109",
+      "name": "Gourmandise",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "scored but filtered — S below gate",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "filtered"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-110",
+      "name": "Granary Bakehouse",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — positive closed-state evidence",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-111",
+      "name": "Granite Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-112",
+      "name": "Great Harvest Bakery & Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-113",
+      "name": "Great Harvest Bread Co.",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-115",
+      "name": "Great Harvest Bread Company",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-116",
+      "name": "Great Harvest Bread Company",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-118",
+      "name": "Hall Patisserie",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — first-party order page shows all days closed",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-119",
+      "name": "Happy Camper Deli & Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-120",
+      "name": "Happy Camper Deli & Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-121",
+      "name": "Hatch Family Chocolates",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-122",
+      "name": "Java Cow Cafe & Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-123",
+      "name": "Judy's Donuts and Coffee",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — positive closed-state evidence",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-125",
+      "name": "Kahve Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-126",
+      "name": "Karim Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-127",
+      "name": "Kneaders",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-128",
+      "name": "Kneaders Bakery & Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-129",
+      "name": "Kneaders Bakery & Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-130",
+      "name": "Kneaders Bakery & Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-131",
+      "name": "Krispy Kreme",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-132",
+      "name": "Krispy Kreme",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-133",
+      "name": "Krispy Kreme",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-134",
+      "name": "Kyung's Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-135",
+      "name": "La Espiga Dorada",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-136",
+      "name": "La Flor de Salt Lake Tortillas",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-138",
+      "name": "Leslie's Pastries",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-139",
+      "name": "Lisa's Passion for Popcorn",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-140",
+      "name": "Local Cookie Co",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-141",
+      "name": "Lone Pine Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-142",
+      "name": "Louks Greek Baby Donuts",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — positive closed-state evidence",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-144",
+      "name": "Magnolia Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-147",
+      "name": "Mochinut",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — positive closed-state evidence",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-148",
+      "name": "Mochinut",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-151",
+      "name": "Mrs. Backer's Pastry Shop",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-152",
+      "name": "Mrs. Call's Chocolates",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-154",
+      "name": "My Sugar's Donut Shoppe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-155",
+      "name": "Napoli's Italian Restaurant",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-157",
+      "name": "Nothing Bundt Cakes",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-158",
+      "name": "Nothing Bundt Cakes",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-159",
+      "name": "Nothing Bundt Cakes",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-160",
+      "name": "Nothing Bundt Cakes",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-161",
+      "name": "Old Cuss Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-162",
+      "name": "Panaderia Dulcinea Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-163",
+      "name": "Panaderia Lizbeth",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-164",
+      "name": "Panaderia Mexico",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-165",
+      "name": "Panderia Flores",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-166",
+      "name": "Panera Bread",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — current documented par-baked chain model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-167",
+      "name": "Panera Bread",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — current documented par-baked chain model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-169",
+      "name": "Paris Baguette",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — official flash-frozen central-dough/bake-off model",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-170",
+      "name": "Park City Bread and Bagel",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-171",
+      "name": "Passion Flour Patisserie",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-172",
+      "name": "Picnic Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-173",
+      "name": "Pie Fight",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-174",
+      "name": "Pink Sweets Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-175",
+      "name": "RISE Bakery & Market",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-176",
+      "name": "Refreskeria Mi Fiesta Facil",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-177",
+      "name": "Rich's Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-178",
+      "name": "Rich's Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-179",
+      "name": "Ritual Chocolate",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-180",
+      "name": "Rocket Fizz",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — candy retail franchise/resale, not on-site production",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-181",
+      "name": "Rocket Fizz",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — candy retail franchise/resale, not on-site production",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-182",
+      "name": "Rocky Mountain Chocolate Factory",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-183",
+      "name": "Rocky Mountain Chocolate Factory",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-184",
+      "name": "Rocky Mountain Chocolate Factory",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-185",
+      "name": "Rocky Mountain Chocolate Factory",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-186",
+      "name": "Rough Stone Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-189",
+      "name": "Salt City Che",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-190",
+      "name": "Salt City Sweet Shop",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "deferred status — only historical closed branch verified; no score",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "deferred"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-191",
+      "name": "Sapori",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-192",
+      "name": "Schmidt's Pastry Cottage",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "scored but filtered — rating below gate",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "filtered"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-193",
+      "name": "Schmidt's Pastry Cottage",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "scored but filtered — rating below gate",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "filtered"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-194",
+      "name": "See's Candies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — finished-confectionery retail branch; no on-site production",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-195",
+      "name": "See's Candies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — finished-confectionery retail branch; no on-site production",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-196",
+      "name": "See's Candies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — production at chain candy kitchens, not this branch",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-197",
+      "name": "Shane's Donuts",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-198",
+      "name": "Shugarlandia",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-199",
+      "name": "Shugarlandia",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "evidence-exhausted-unavailable — no score/adverse inference",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "evidence-unavailable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-201",
+      "name": "So Cupcake",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — positive current closure evidence",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-202",
+      "name": "Sprinkle's Cupcakes",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-204",
+      "name": "Stone Ground Bakery Facility #2",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-205",
+      "name": "Sweet Corner Treats",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-206",
+      "name": "Sweet Hazel & Co. Grab & Go",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-207",
+      "name": "Sweet Rolled Tacos",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-208",
+      "name": "Sweet Spot Bakery & Cafe",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — positive permanent-closure evidence",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-209",
+      "name": "Sweetaly Gelato & Custom Cakes",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-210",
+      "name": "Sweethoney Dessert",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-212",
+      "name": "The Bagel Project",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-213",
+      "name": "The Bagel Project",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-216",
+      "name": "The Chocolate",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-217",
+      "name": "The Kolache Place",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-218",
+      "name": "The Kolache Place",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-219",
+      "name": "The Nut Garden",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-224",
+      "name": "The Other Side Donuts",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-225",
+      "name": "Tous les Jours",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — documented franchise bake-off model; its S-below-gate calibration is also retained above",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-227",
+      "name": "Twisted Sugar",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-228",
+      "name": "U-Swirl & Rocky Mountain Chocolate Factory",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-229",
+      "name": "Union Patisserie",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-230",
+      "name": "V Chocolates",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-233",
+      "name": "Wanna Cinn",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-234",
+      "name": "Wasatch Bagel",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-235",
+      "name": "Windy Ridge Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-236",
+      "name": "Wombat Bagels",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "deferred status — official page says coming soon; no score",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "deferred"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-237",
+      "name": "Xiao Bao Bao",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — local news confirms both locations closed by June 2026",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "disqualified"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-238",
+      "name": "Yao Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-239",
+      "name": "Yonutz",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "A-241",
+      "name": "Éclair",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "DQ (positive evidence) — duplicate identity/address of A-078",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "duplicate"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "COV-001",
+      "name": "Volker's Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "COV-003",
+      "name": "Hi Crunchy Utah",
+      "address": null,
+      "coordinates": null,
+      "location_label": "Salt Lake Valley",
+      "summary": "Handmade croissant-dough preorder specialist; pickup details require verification.",
+      "facet_values": {
+        "region": [
+          "salt-lake-valley"
+        ],
+        "access": [
+          "preorder-market"
+        ],
+        "occasion": [],
+        "status": [
+          "rating-unconfirmed"
+        ],
+        "specialty": [
+          "pastry-patisserie"
+        ]
+      }
+    },
+    {
+      "id": "COV-004",
+      "name": "Buckets Bakery",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "COV-005",
+      "name": "The Olive Press Café at The Dainty Pear Co.",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "COV-006",
+      "name": "La Paneria",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "COV-007",
+      "name": "Sweet and Savory Pies",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "COV-008",
+      "name": "Hearth & Crust",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "evidence-exhausted-unavailable — one market lineup documents the name, three products, prices, and a June 28 appearance, but no producer-controlled identity, process, rating, review, or independent current source survived the five-stage search; no score or adverse inference",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "evidence-unavailable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "COV-010",
+      "name": "Argentina's Best Empanadas",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "scored but filtered — S 71 est., I 48 est., G 58.4 calc.; in-house dough, named local inputs, and scratch retail history support S, while wholesale/frozen-line standardization suppresses I; direct current ratings of 3.5–3.9 are below the R gate",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "filtered"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "COV-011",
+      "name": "Pastelitos Pipo Utah",
+      "address": null,
+      "coordinates": null,
+      "location_label": "",
+      "summary": "Accepted evidence did not jointly establish enough process depth and rating provenance.",
+      "facet_values": {
+        "region": [],
+        "access": [],
+        "occasion": [],
+        "status": [
+          "not-scoreable"
+        ],
+        "specialty": []
+      }
+    },
+    {
+      "id": "COV-012",
+      "name": "High Altitude Bakeshop",
+      "address": "751 W 800 S, Salt Lake City",
+      "coordinates": {
+        "lat": 40.75171,
+        "lng": -111.90984
+      },
+      "location_label": "Salt Lake City",
+      "summary": "Handcrafted Filipino ensaymada and pandesal; strong scratch evidence but its exact rating misses the filter.",
+      "facet_values": {
+        "region": [
+          "salt-lake-city"
+        ],
+        "access": [
+          "walk-in"
+        ],
+        "occasion": [],
+        "status": [
+          "filtered"
+        ],
+        "specialty": [
+          "regional-specialty"
+        ]
+      }
+    }
+  ],
+  "omitted": []
+}

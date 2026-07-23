@@ -1,0 +1,558 @@
+{
+  "method": "lowest 20 SHA-256 hashes",
+  "salt": "cheap-heuristics-sample-2026-07-15-v1",
+  "population": 1680,
+  "sample": [
+    {
+      "key": "0091a8e7f32c44cd6a86dcb706da434f8c513c8f587bc4edcabb1cc575a69752",
+      "norm": "cafedelbarrio",
+      "name": "Cafe del Barrio",
+      "address": "Midvale, UT",
+      "phone": "",
+      "domain": "",
+      "aliases": [],
+      "category": "Mexican restaurant",
+      "geography": "Midvale, UT",
+      "language": "Latin/English listing",
+      "cuisine": "Mexican restaurant",
+      "service_format": "unverified",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "WEB-036; Web search family: birria/local recommendation; exact URLs/queries in query log"
+      ],
+      "osm_elements": [],
+      "point": null,
+      "candidate_id": "R-2910"
+    },
+    {
+      "key": "0096aa071215986d4da2299b2f3a6272b45f12506e7ac606d141dfa7c29c6f4a",
+      "norm": "sakuraexpress",
+      "name": "Sakura Express",
+      "address": "760 East Fort Union Boulevard Midvale 84047",
+      "phone": "+1 801-948-9390",
+      "domain": "",
+      "aliases": [],
+      "category": "restaurant",
+      "geography": "Midvale",
+      "language": "Latin/unspecified",
+      "cuisine": "japanese",
+      "service_format": "restaurant",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/2359060378; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/2359060378"
+      ],
+      "point": {
+        "lat": 40.6207042,
+        "lon": -111.8697976
+      },
+      "candidate_id": "R-0275"
+    },
+    {
+      "key": "00bd321b8e818697de5129d40e696f2c8810173827411afe2de6b3e8641c7b9e",
+      "norm": "mysugarsdonutshoppe",
+      "name": "My Sugar's Donut Shoppe",
+      "address": "",
+      "phone": "",
+      "domain": "",
+      "aliases": [],
+      "category": "fast_food",
+      "geography": "coordinate inside isochrone",
+      "language": "Latin/unspecified",
+      "cuisine": "donut",
+      "service_format": "fast_food",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/9217147215; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/9217147215"
+      ],
+      "point": {
+        "lat": 40.7252093,
+        "lon": -111.9682695
+      },
+      "candidate_id": "R-1115"
+    },
+    {
+      "key": "00c47e027468a7e41b753204975b3dca27b5337b252e217f393a60736914d97c",
+      "norm": "fortunecuisine",
+      "name": "Fortune Cuisine",
+      "address": "652 Union Square Sandy 84070",
+      "phone": "",
+      "domain": "",
+      "aliases": [],
+      "category": "restaurant",
+      "geography": "Sandy",
+      "language": "Latin/unspecified",
+      "cuisine": "chinese",
+      "service_format": "restaurant",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/10062272942; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/10062272942"
+      ],
+      "point": {
+        "lat": 40.5787664,
+        "lon": -111.8735745
+      },
+      "candidate_id": "R-1320"
+    },
+    {
+      "key": "00e9645bc9c65b548206b5fccf77745f12de37edacc70da49aee4ac8675fa489",
+      "norm": "cafeanhhong",
+      "name": "Cafe Anh Hong",
+      "address": "8650 South 1300 East Sandy 84094",
+      "phone": "",
+      "domain": "https://cafeanhhong.com/",
+      "aliases": [],
+      "category": "restaurant",
+      "geography": "Sandy",
+      "language": "Latin/unspecified",
+      "cuisine": "chinese",
+      "service_format": "restaurant",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/1761421398; Phase 2 exact Overpass query",
+        "WEB-066; Web search family: handmade noodles; exact URLs/queries in query log"
+      ],
+      "osm_elements": [
+        "node/1761421398"
+      ],
+      "point": {
+        "lat": 40.593951,
+        "lon": -111.853497
+      },
+      "candidate_id": "R-0051"
+    },
+    {
+      "key": "017ea5600e7738ff2bccdd6d4507c7592b2cccc529af8f4992f768e30242a598",
+      "norm": "mountaingrill",
+      "name": "Mountain Grill",
+      "address": "",
+      "phone": "",
+      "domain": "",
+      "aliases": [],
+      "category": "restaurant",
+      "geography": "coordinate inside isochrone",
+      "language": "Latin/unspecified",
+      "cuisine": "unverified",
+      "service_format": "restaurant",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/1201216874; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/1201216874"
+      ],
+      "point": {
+        "lat": 40.6603229,
+        "lon": -111.5086761
+      },
+      "candidate_id": "R-0019"
+    },
+    {
+      "key": "019e97037bcbc4e9aa25549d1ba2c6b631947e390980820ab15c902c11025a7e",
+      "norm": "tensecondsyunnanricenoodle",
+      "name": "Ten Seconds Yunnan Rice Noodle",
+      "address": "3370 South State Street South Salt Lake 84115",
+      "phone": "",
+      "domain": "https://www.tensecondsricenoodle.com/",
+      "aliases": [],
+      "category": "restaurant",
+      "geography": "South Salt Lake",
+      "language": "Latin/unspecified",
+      "cuisine": "chinese",
+      "service_format": "restaurant",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/11891902483; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/11891902483"
+      ],
+      "point": {
+        "lat": 40.6980538,
+        "lon": -111.889406
+      },
+      "candidate_id": "R-1643"
+    },
+    {
+      "key": "01f2d50d3e1c570724412c3f69d4f62fd7840cbc2ef473a76a6e767c9eb604b8",
+      "norm": "koinopoke",
+      "name": "Koino Poke",
+      "address": "",
+      "phone": "",
+      "domain": "",
+      "aliases": [],
+      "category": "fast_food",
+      "geography": "coordinate inside isochrone",
+      "language": "Latin/unspecified",
+      "cuisine": "unverified",
+      "service_format": "fast_food",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/12654178805; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/12654178805"
+      ],
+      "point": {
+        "lat": 40.6210447,
+        "lon": -111.8581611
+      },
+      "candidate_id": "R-1850"
+    },
+    {
+      "key": "020ec9e3cdac82755d50313ee99d694290a565fcda46cbb1e8e6e5cc20dae397",
+      "norm": "oldtbilisikitchen",
+      "name": "Old Tbilisi Kitchen",
+      "address": "Millcreek, UT",
+      "phone": "",
+      "domain": "",
+      "aliases": [],
+      "category": "Georgian restaurant",
+      "geography": "Millcreek, UT",
+      "language": "Latin/English listing",
+      "cuisine": "Georgian restaurant",
+      "service_format": "unverified",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "WEB-007; Web search family: relocation/reopening; exact URLs/queries in query log"
+      ],
+      "osm_elements": [],
+      "point": null,
+      "candidate_id": "R-2888"
+    },
+    {
+      "key": "021dcbcdd6e1ef655f31076fab7aee7a5d3b573e3e451d75c436e03ee0a859bb",
+      "norm": "umbrellacafe",
+      "name": "Umbrella Cafe",
+      "address": "511 West 200 South Salt Lake City 84101",
+      "phone": "+1-801-922-0923",
+      "domain": "https://undertheumbrellabookstore.com/cafe",
+      "aliases": [],
+      "category": "cafe",
+      "geography": "Salt Lake City",
+      "language": "Latin/unspecified",
+      "cuisine": "coffee_shop",
+      "service_format": "cafe",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/11388299263; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/11388299263"
+      ],
+      "point": {
+        "lat": 40.7646896,
+        "lon": -111.9057941
+      },
+      "candidate_id": "R-1516"
+    },
+    {
+      "key": "02251453917a869315b4cc36cf4850b7451372d6429518af8d0bedef218fc902",
+      "norm": "greatsteak",
+      "name": "Great Steak",
+      "address": "28 South State Street Salt Lake City 84111",
+      "phone": "+1-801-359-1061",
+      "domain": "https://www.thegreatsteak.com/stores/7145",
+      "aliases": [],
+      "category": "fast_food",
+      "geography": "Salt Lake City",
+      "language": "Latin/unspecified",
+      "cuisine": "sandwich",
+      "service_format": "fast_food",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/2327662167; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/2327662167"
+      ],
+      "point": {
+        "lat": 40.7687288,
+        "lon": -111.888863
+      },
+      "candidate_id": "R-0127"
+    },
+    {
+      "key": "022f9ea6131394fb0f1c63de5652af56b5752b7872df290f75c4de01c114a10e",
+      "norm": "jims",
+      "name": "Jim's",
+      "address": "1728 West Park Avenue Riverton",
+      "phone": "+1 801-446-7670",
+      "domain": "https://www.jimsfamilyrestaurant.com/jims-riverton",
+      "aliases": [],
+      "category": "restaurant",
+      "geography": "Riverton",
+      "language": "Latin/unspecified",
+      "cuisine": "unverified",
+      "service_format": "restaurant",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM way/463107504; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "way/463107504"
+      ],
+      "point": {
+        "lat": 40.5191837,
+        "lon": -111.9393275
+      },
+      "candidate_id": "R-2420"
+    },
+    {
+      "key": "0248994d56cc3a4e271bbd1ee75bf1b4f0dc03dbbb99430bafad2473fbf29fca",
+      "norm": "carmines",
+      "name": "Carmine's",
+      "address": "2477 East Fort Union Boulevard Cottonwood Heights",
+      "phone": "+1-801-948-4468",
+      "domain": "https://carmines.restaurant/",
+      "aliases": [],
+      "category": "restaurant",
+      "geography": "Cottonwood Heights",
+      "language": "Latin/unspecified",
+      "cuisine": "italian",
+      "service_format": "restaurant",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/12798806621; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/12798806621"
+      ],
+      "point": {
+        "lat": 40.6249488,
+        "lon": -111.8201303
+      },
+      "candidate_id": "R-1898"
+    },
+    {
+      "key": "027aaa3e128bafef5170896b9902ba21520f29bf396c324e21e998b2d62ef2d9",
+      "norm": "shabushabuhouse",
+      "name": "Shabu Shabu House",
+      "address": "",
+      "phone": "",
+      "domain": "",
+      "aliases": [],
+      "category": "restaurant",
+      "geography": "coordinate inside isochrone",
+      "language": "Latin/unspecified",
+      "cuisine": "unverified",
+      "service_format": "restaurant",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/4296789372; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/4296789372"
+      ],
+      "point": {
+        "lat": 40.7254949,
+        "lon": -111.5430072
+      },
+      "candidate_id": "R-0607"
+    },
+    {
+      "key": "0293abc9c7ab5be82dcb3044c49767cb6d28522c2a7fb16174af0ae9beadab7c",
+      "norm": "burgerexpress",
+      "name": "Burger Express",
+      "address": "",
+      "phone": "",
+      "domain": "",
+      "aliases": [],
+      "category": "fast_food",
+      "geography": "coordinate inside isochrone",
+      "language": "Latin/unspecified",
+      "cuisine": "unverified",
+      "service_format": "fast_food",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/4176900994; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/4176900994"
+      ],
+      "point": {
+        "lat": 40.9857631,
+        "lon": -111.891116
+      },
+      "candidate_id": "R-0563"
+    },
+    {
+      "key": "029847526757b713459a5381da23c609e838d9f133eb802c2d80129ea99354d0",
+      "norm": "fortunecookie",
+      "name": "Fortune Cookie",
+      "address": "3728 West 13400 South Riverton 84065",
+      "phone": "+1-801-302-1366",
+      "domain": "https://rivertonfortunecookie.com/",
+      "aliases": [],
+      "category": "restaurant",
+      "geography": "Riverton",
+      "language": "Latin/unspecified",
+      "cuisine": "chinese",
+      "service_format": "restaurant",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/10757941905; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/10757941905"
+      ],
+      "point": {
+        "lat": 40.508479,
+        "lon": -111.980284
+      },
+      "candidate_id": "R-1402"
+    },
+    {
+      "key": "02aeb707e9d293ddfa5b5b028626021916bd907f5b59666cc24635ab21cbfe97",
+      "norm": "courchevelbistro",
+      "name": "Courchevel Bistro",
+      "address": "201 Heber Avenue",
+      "phone": "+1 435 572 4398",
+      "domain": "https://www.courchevelbistro.com/",
+      "aliases": [],
+      "category": "restaurant",
+      "geography": "coordinate inside isochrone",
+      "language": "Latin/unspecified",
+      "cuisine": "french",
+      "service_format": "restaurant",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/1937258411; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/1937258411"
+      ],
+      "point": {
+        "lat": 40.6464212,
+        "lon": -111.4969303
+      },
+      "candidate_id": "R-0073"
+    },
+    {
+      "key": "02b39723f7f860a52797a8e5b926ad2a13bdeaafc492c2ee6e767db50212dbfb",
+      "norm": "greatharvestbreadcompany",
+      "name": "Great Harvest Bread Company",
+      "address": "",
+      "phone": "",
+      "domain": "",
+      "aliases": [],
+      "category": "fast_food",
+      "geography": "coordinate inside isochrone",
+      "language": "Latin/unspecified",
+      "cuisine": "sandwich",
+      "service_format": "fast_food",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/13818577893; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/13818577893"
+      ],
+      "point": {
+        "lat": 40.543887,
+        "lon": -111.976169
+      },
+      "candidate_id": "R-2134"
+    },
+    {
+      "key": "02f933123b133ec49eff2f0adc96198f6a3aff3b6ec28a61b3375daea80a0a89",
+      "norm": "olympiangreekamerican",
+      "name": "Olympian Greek & American",
+      "address": "2181 South 700 East Salt Lake City 84106",
+      "phone": "",
+      "domain": "",
+      "aliases": [],
+      "category": "restaurant",
+      "geography": "Salt Lake City",
+      "language": "Latin/unspecified",
+      "cuisine": "greek",
+      "service_format": "restaurant",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM way/578691703; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "way/578691703"
+      ],
+      "point": {
+        "lat": 40.7236614,
+        "lon": -111.8708521
+      },
+      "candidate_id": "R-2544"
+    },
+    {
+      "key": "033502990093794464b684b2137dcc7feb0585ea1f7fbe42c95077bacead5293",
+      "norm": "boilerroom",
+      "name": "Boiler Room",
+      "address": "16 East Exchange Place Salt Lake City 84111",
+      "phone": "",
+      "domain": "",
+      "aliases": [],
+      "category": "bar",
+      "geography": "Salt Lake City",
+      "language": "Latin/unspecified",
+      "cuisine": "unverified",
+      "service_format": "bar",
+      "specialist_broad": "unverified",
+      "established_new": "unverified",
+      "state": "candidate-discovered",
+      "sources": [
+        "OSM node/13110834574; Phase 2 exact Overpass query"
+      ],
+      "osm_elements": [
+        "node/13110834574"
+      ],
+      "point": {
+        "lat": 40.7610794,
+        "lon": -111.8901696
+      },
+      "candidate_id": "R-1973"
+    }
+  ]
+}

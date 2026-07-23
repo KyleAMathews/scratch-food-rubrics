@@ -3,7 +3,7 @@ name: restaurant-rubric
 description: Find ambitious scratch-made restaurants, resist prominence and format bias, and return an evidence-grounded shortlist for a requested location.
 ---
 
-# Scratch-Kitchen Scorecard & Travel Prompt (v8.13)
+# Scratch-Kitchen Scorecard & Travel Prompt (v8.14)
 
 Find restaurants that are **scratch-made AND interesting to a frequent diner**. The hidden attribute is ambition: is this a kitchen making meaningful components from raw materials, or a business primarily assembling and reheating commodity inputs?
 
@@ -21,6 +21,8 @@ Scratch production is the eligibility gate. Interestingness distinguishes surviv
 ## Version line
 
 This skill and the bakery skill share one version and bump together.
+
+**v8.14:** both rubrics preserve credible attributable current production evidence through provenance-labeled partial scores; unknown criteria never score zero. Restaurant partial S reports earned/observed-possible, coverage, provenance, and confidence, while turnover is removed from S and remains only in I. The ≈4.0★ restaurant quality gate and rating-unconfirmed tier are unchanged.
 
 **v8.13:** canonical schema-validated `06-decisions.json` is the Phase 6 handoff; optional generated Markdown is non-authoritative; completed runs may offer the separate local-first `/interactive-results` skill. The calibrated rubrics and rating floors are unchanged.
 
@@ -58,7 +60,7 @@ Before advancing, run the printed completion gate, mark every item `✅` or `❌
 3. **Discovery convergence** Read `../reference/phase-3-discovery-convergence.md`. Union, normalize, deduplicate, inspect gaps, and require a zero-new-candidate pass or a precise limitation.
 4. **Evidence research** Read `../reference/phase-4-evidence-research.md` and `phase-4-worker-prompt.md`. Dispatch the canonical prompt verbatim.
 5. **Evidence acceptance and repair** Read `../reference/phase-5-evidence-acceptance.md`, `../reference/shared-status-and-provenance.md`, and `phase-4-worker-prompt.md`. Inspect every record and repair defects.
-6. **Restaurant scoring and classification** Read `phase-6-scoring.md`. Apply the unchanged rubric yourself.
+6. **Restaurant scoring and classification** Read `phase-6-scoring.md`. Apply the current eligibility and partial-scoring policy yourself.
 7. **Coverage audit** Read `../reference/phase-7-coverage-audit.md` and `discovery-reference.md`. Newly found restaurants loop through Phases 4–6; repeat until the audit converges.
 8. **Rendering** Read `phase-8-rendering.md` only after every earlier gate passes.
 

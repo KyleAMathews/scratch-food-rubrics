@@ -43,6 +43,21 @@ def test_not_scoreable_disposition():
     value = text('bakery-rubric/phase-6-scoring.md')
     assert 'not-scoreable' in value and 'non-negative' in value
 
+def test_bakery_partial_score_contract():
+    scoring = text('bakery-rubric/phase-6-scoring.md')
+    rendering = text('bakery-rubric/phase-8-rendering.md')
+    for phrase in (
+        'missing criteria are `unknown`, never zero',
+        '`s_bakery partial = earned/observed-possible`',
+        'user-ground-truth',
+        'narrowly proven component',
+        'scratch-eligible-partial',
+        'never apply the complete-score s floor to a partial denominator',
+    ):
+        assert phrase in scoring
+    for phrase in ('scratch-eligible, partial evidence', 'fillings made in house; dough and lamination unknown'):
+        assert phrase in rendering
+
 def test_cultural_discovery_terms():
     value = text('bakery-rubric/discovery-reference.md')
     for phrase in ('empanada', 'pastelito', 'kolache', 'burek', 'ensaymada', 'pandesal'):
@@ -96,10 +111,10 @@ def test_aggregator_attributed_provisional_rating_contract():
     assert 'near-tie' in rendering and 'direct' in rendering
 
 
-def test_v813_metadata_is_synchronized():
+def test_v814_metadata_is_synchronized():
     bakery = text('bakery-rubric/SKILL.md')
     restaurant = text('restaurant-rubric/SKILL.md')
-    assert 'prompt (v8.13)' in bakery and '**v8.13:**' in bakery
-    assert 'prompt (v8.13)' in restaurant and '**v8.13:**' in restaurant
-    assert 'scratch-food-rubrics/8.13 (research)' in text('bakery-rubric/discovery-reference.md')
-    assert 'scratch-food-rubrics/8.13 (research)' in text('restaurant-rubric/discovery-reference.md')
+    assert 'prompt (v8.14)' in bakery and '**v8.14:**' in bakery
+    assert 'prompt (v8.14)' in restaurant and '**v8.14:**' in restaurant
+    assert 'scratch-food-rubrics/8.14 (research)' in text('bakery-rubric/discovery-reference.md')
+    assert 'scratch-food-rubrics/8.14 (research)' in text('restaurant-rubric/discovery-reference.md')

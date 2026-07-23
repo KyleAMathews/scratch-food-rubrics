@@ -1,0 +1,115 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-15T04:38:23Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1667621499,
+  "lat": 40.6598289,
+  "lon": -111.5021453,
+  "tags": {
+    "name": "Windy Ridge Bakery",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 3625585827,
+  "lat": 40.6472476,
+  "lon": -111.4978233,
+  "tags": {
+    "amenity": "cafe",
+    "atm": "yes",
+    "bar": "no",
+    "check_date": "2023-10-15",
+    "cuisine": "coffee_shop;bakery",
+    "drive_through": "no",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "Atticus",
+    "level": "0",
+    "name": "Atticus Coffee, Books, and Teahouse",
+    "opening_hours": "Mo-Fr 07:00-18:00; Su 07:00-17:00",
+    "outdoor_seating": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "books",
+    "toilets": "yes",
+    "website": "https://www.atticustea.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4299141280,
+  "lat": 40.6519301,
+  "lon": -111.5073066,
+  "tags": {
+    "brand": "Rocky Mountain Chocolate Factory",
+    "brand:wikidata": "Q7355878",
+    "name": "Rocky Mountain Chocolate Factory",
+    "shop": "confectionery"
+  }
+},
+{
+  "type": "node",
+  "id": 4468747090,
+  "lat": 40.6444260,
+  "lon": -111.4960821,
+  "tags": {
+    "brand": "Rocky Mountain Chocolate Factory",
+    "brand:wikidata": "Q7355878",
+    "name": "Rocky Mountain Chocolate Factory",
+    "shop": "confectionery"
+  }
+},
+{
+  "type": "node",
+  "id": 10102006222,
+  "lat": 40.7213439,
+  "lon": -111.5390328,
+  "tags": {
+    "addr:city": "Park City",
+    "addr:housenumber": "1241",
+    "addr:postcode": "84098",
+    "addr:state": "UT",
+    "addr:street": "Center Drive",
+    "addr:unit": "L150",
+    "amenity": "fast_food",
+    "brand": "Mochinut",
+    "brand:wikidata": "Q112757409",
+    "cuisine": "donut;bubble_tea",
+    "drive_through": "no",
+    "name": "Mochinut",
+    "outdoor_seating": "sidewalk",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13204028658,
+  "lat": 40.6467912,
+  "lon": -111.4971341,
+  "tags": {
+    "name": "Union Patisserie",
+    "shop": "pastry"
+  }
+},
+{
+  "type": "node",
+  "id": 13205806303,
+  "lat": 40.6445013,
+  "lon": -111.4965981,
+  "tags": {
+    "name": "Chip",
+    "shop": "pastry"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,40 @@
+# Phase 5 repair wave 014 — evidence_batch_002
+
+Accessed **2026-07-16**. Defect-only raw-evidence patches.
+
+## R-1129 — Les Bánh Mì
+
+- **Potentially adverse facts:** Earlier Postcard contributor wording described a rebrand from a prior tenant and unsettled ownership/permitting questions. The exact venue URL was not retained and could not be restored; those fragments are withdrawn from canonical evidence. No operator announcement, government finding or current service/food defect was recovered.
+- **Adverse exhaustion:** Ownership/rebrand chronology, prior-tenant relationship, permitting disposition and complete attributable defect reviews remain unavailable after operator, business-record, Postcard, press and review searches.
+- **Neutral boundary:** Operator-hosted `I really love the banh mi` is a hosted customer quotation, not operator process evidence. Vietnamese bánh mì/phở/noodle-shop breadth documents format only. Catering and delivery availability do not establish centralized production. Directory/review rebrand claims without direct provenance cannot establish ownership.
+- **Unavailable closure:** Sequence: official [site](https://lesbanhmislc.com/), menu/order/social; exact address/phone; DoorDash; Uber Eats; Restaurant Guru; Roadtrippers/Yelp; Roost; Postcard; Reddit; Google/Tripadvisor; business/permitting records; local press; process, sourcing, ownership and specials queries. Current literal hours, prices/full menu, production, named sourcing, turnover, direct aggregate, rebrand chronology and verified adverse facts remain **exhausted-unavailable**.
+- **Sources/access:** All linked sources accessed 2026-07-16.
+
+## R-1130 — Mr. Shabu
+
+- **Cuisine/format:** Operator calls the cuisine `CONTEMPORARY KOREAN`; Restaurantji labels Japanese/Hot Pot/Korean and describes AYCE guest cooking with broths, meats, seafood, vegetables, ramen wall, sauce/salad bar, appetizers, sushi and Korean fried chicken. [Official site](https://www.mrshabu.com/), operator source; [Restaurantji](https://www.restaurantji.com/ut/salt-lake-city/mr-shabu-/), review/directory platform. Candidate `159 S 400 W` differs from operator `159 S Rio Grande St`; both refer to Gateway vicinity but are preserved as address wording.
+- **Review text:** Operator site reproduces customer/critic praise for sauce/salad bar, fresh ingredients and broth; the same hosted quotation says cheesy corn has `a fake butter taste`. This is operator-hosted review text, not operator production disclosure. Restaurantji contains an allegation of an undisclosed `20–30% tip`; exact full quotation/context was not retained.
+- **Potentially adverse facts:** `fake butter taste` and tip allegation remain attributed review claims. No operator response, receipt/policy corroboration, health finding or verified recurring service defect recovered.
+- **Review/adverse exhaustion:** Complete individual Restaurantji quotation, exact tip amount/policy, and independent follow-up were not recovered after operator, reservation, review and exact-phrase searches.
+- **Neutral boundary:** Guest cooking is service format, not kitchen production. `Nightly sushi special` and `$5 late-night promotion` are Restaurantji wording and do not establish broad menu rotation. Customer `fresh ingredients` is not named sourcing. Hot-pot plus sushi/ramen/appetizers breadth is descriptive.
+- **Unavailable closure:** Sequence: official home/menu PDF/social/reservations; Gateway directory; exact address/phone; Restaurantji; Wanderlog; Gastronomic; Reddit; Google/Yelp/Tripadvisor/Restaurant Guru; production, sourcing, core-price, specials and adverse queries. Core AYCE prices, operator component production, named sourcing, fixed rotation cadence, complete tip-review context and verified adverse follow-up remain **exhausted-unavailable**.
+- **Sources/access:** All linked sources accessed 2026-07-16.
+
+## R-1131 — The Cliff Dining Pub
+
+- **Literal price evidence:** Operator menu displays chips with house chorizo-beef queso `$17`, house-BBQ wings `$15`, house-breaded Gulf coconut shrimp `$19`, chicken nachos `$19`, fries `$13`, calamari `$19`, spinach dip `$15`, tacos `$19`, and Brussels sprouts `$14`. [Official site/menu](https://cliffdiningpub.com/), operator source. These are current displayed operator values for named dinner starters.
+- **Price exhaustion:** The cited values establish named starter prices only. Complete brunch/drink/late-night pricing and effective-date history were not recovered after official menus, OpenTable, Tripadvisor, Restaurant Guru, Restaurantji and MenuWeb checks.
+- **Review text:** Restaurant Guru reproduces/reports review wording that dip was creamy/cheesy and sushi fresh/solid; Restaurantji city summary says portions are generous and food consistent. [Restaurant Guru](https://restaurantguru.com/Cliff-Dining-Pub-Draper), aggregator; Restaurantji city listing was not retained with a venue-specific direct URL, so its fragments are withdrawn pending provenance. Complete individual Restaurant Guru quotations were not retained.
+- **Review exhaustion:** Fuller attributable passages, dates/platform provenance for the summarized statements and complete defect quotations were not recovered after direct review-platform/exact-phrase searches.
+- **Unavailable closure:** Sequence: official home/dinner/brunch/drinks/social; exact address/phone; [OpenTable](https://www.opentable.com/r/cliff-dining-pub-draper); Tripadvisor; Restaurant Guru; Restaurantji; MenuWeb; Google/Yelp; local press; price, process, sourcing, seasonal and review queries. Full cross-daypart prices, named sourcing beyond Gulf shrimp/Daily's bacon, fixed menu-rotation cadence and complete review quotations remain **exhausted-unavailable**.
+- **Sources/access:** All linked sources accessed 2026-07-16.
+
+## R-1135 — Soulful Sips (`TEMPORARILY CLOSED` platform status)
+
+- **Identity and provenance:** Candidate supplies `Soulful Sips`, `2955 E 3300 S, Millcreek, UT 84109`, `801-691-6765`, [candidate domain](https://soulfulsips.co/). Restaurantji lists `Soulful Sips`, `2955 3300 S, Salt Lake City, UT 84109` and labels it `TEMPORARILY CLOSED`. [Restaurantji](https://www.restaurantji.com/ut/salt-lake-city/soulful-sips-/), review/directory platform. A Millcreek newsletter says `Soulful Sips has officially opened its doors in Millcreek!` [Millcreek newsletter](https://www.millcreekut.gov/DocumentCenter/View/5793/MC-News-November-2025-Digital-copy), municipal publication.
+- **Literal hours/status:** Restaurantji's retrieved page was updated `March 20, 2026` and displays `TEMPORARILY CLOSED`; it did not expose current weekly hours in the durable return. No operator-dated closure notice, closure date, reason or reopening date was recovered.
+- **Rating/price/menu:** Restaurantji displays `5.0 from 32 ratings`, `100%` five-star, and `$`; it names coffee drinks, pressed juices, crepes, pumpkin bread, `Sunni's garden`, and `ghost maple coffee`. `$` is a category, not literal item pricing.
+- **Potentially adverse/status facts:** The municipal opening statement and later Restaurantji temporary-closure label are dated source snapshots. They do not establish closure cause, operator intent or permanent closure. Candidate domain availability/absence of notice does not resolve status.
+- **Neutral boundary:** Restaurantji `fresh pressed juices`, clean/delicious descriptions, recommendations and samples are directory/review-summary wording, not operator process evidence. Menu vocabulary supports coffee/juice/crepe format only. Platform `TEMPORARILY CLOSED` is not an operator statement.
+- **Unavailable closure:** Sequence: candidate official domain and social/Instagram; exact address/phone; Restaurantji; Millcreek newsletter; Google/Yelp/Tripadvisor/Restaurant Guru; local news/business records; direct menu, hours, closure/reopening, process, sourcing and specials queries. Operator-confirmed current status, weekly hours, closure/reopening dates/reason, item prices, production, named sourcing and turnover remain **exhausted-unavailable**.
+- **Sources/access:** All linked sources accessed 2026-07-16.

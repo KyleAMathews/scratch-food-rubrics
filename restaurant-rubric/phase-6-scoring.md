@@ -9,9 +9,35 @@
 
 **Price** is carried as neutral metadata ($, Google's 1–4 quantile bucket) — displayed, never scored.
 
-Decision rule: filter {R ≥ 4.0 ∧ S ≥ 60}, rank by **G = √(S × I)** (novelty tilt: G′ = S^0.4·I^0.6).
+Decision rule: require **credible, attributable evidence of current food production** for scratch eligibility, then apply the quality gate **R ≥ θ (≈4.0★)**. Rank eligible, rating-confirmed venues with complete S by **G = √(S × I)** (novelty tilt: G′ = S^0.4·I^0.6). A partial S is allowed and must remain visibly partial in an eligible partial-evidence tier rather than being normalized for G.
 
-S_scratch latent variable: **on-site production intensity × proprietary-vs-commodity inputs**. Orthogonal to ownership (chain-ness is magnitude, not direction), so operator status is weighted low.
+S_scratch describes **on-site production intensity × proprietary-vs-commodity inputs**. It is orthogonal to ownership (chain-ness is magnitude, not direction). It is not an eligibility threshold: one credible current marker can establish scratch eligibility even when the rest of the production picture is unknown.
+
+## Scratch eligibility gate
+
+A restaurant is scratch-eligible when at least one accepted source provides credible, attributable evidence that the current restaurant produces food or a meaningful food component. The citation must support current food production at the applicable branch or explicitly scoped operation. Examples include house-made dough, pasta, sauces, stocks, fermentation, butchery, milling, baking, or other preparation from constituent ingredients.
+
+Generic “fresh,” “quality,” cuisine, menu photographs, service format, and ownership do not establish production. Conversely, once positive production evidence is accepted, absent evidence for other criteria cannot revoke eligibility or force `score-unresolved`. Only affirmative contradictory evidence may change the classification, under the controlled DQ rules below.
+
+## S_scratch evidence rubric (0–100 possible)
+
+Menu volatility and seasonality are **not part of S_scratch**. Turnover δ appears only in I.
+
+| # | Criterion | Possible | Observable scoring anchors |
+|---|-----------|---------:|----------------------------|
+| 1 | **Base-prep load & grammar (K)** | 25 | Coherent, demonstrably produced base preparations and high combinatorial leverage → high; heterogeneous commodity-dependent catalog → low, but only with affirmative evidence. |
+| 2 | **Sourcing & production intensity** | 40 | Multiple specific house-made processes and/or attributable raw inputs → high; narrower but credible current production marker → proportionate credit. |
+| 3 | **Cuisine coherence** | 20 | Focused production system → high; multiple unrelated systems → lower only when observed. |
+| 4 | **Operator / production format** | 15 | Direct evidence of chef/operator-controlled production or visible on-site kitchen → high; centralized/externalized production → lower only when affirmatively documented. Chain status alone is not negative evidence. |
+
+### Unknowns, partial scores, and provenance
+
+- **Missing criteria are `unknown`, never zero.** Zero is earned only by affirmative evidence matching a zero anchor; silence and failed retrieval do not count.
+- Score each observed criterion on its stated possible points. Do not impute unobserved criteria and do not normalize a partial score to 100.
+- A complete score is reported as `S_scratch = earned/100`.
+- A partial score is reported as **`S_scratch partial = earned/observed-possible`**, plus **coverage = `observed-possible/100`** and a provenance label (`documented`, `estimated`, or `mixed`) and confidence (`high`, `medium`, or `low`). Example: `S_scratch partial = 24/40; coverage 40%; documented; medium confidence`.
+- Confidence describes evidence strength and scope, not a substitute for coverage. Every criterion contribution retains its source citation and provenance.
+- A positive partial score establishes scratch eligibility when its evidence passes the gate above. Surface rating-confirmed cases in an eligible partial-evidence tier, but do not normalize them or compute G until S is complete; rating-exhausted cases retain the unchanged scratch-verified, rating-unconfirmed tier.
 
 ## Why K, not N (the combinatorial correction)
 
@@ -21,42 +47,18 @@ Item count conflates two things. A menu is often a *grammar*: pick base × prote
 - **K ≈ Σᵢ cᵢ + shared infra preps** — distinct base preparations scale additively
 - **Combinatorial leverage ρ = N/K**
 
-The perishability + labor budget binds on **K**, not N — each distinct fresh prep costs labor-hours and shelf-life; recombining existing preps into another line is ~free.
-
-- Taquería / mole house / deli / poke / thali: ρ ≈ 3–4 (large N, small K) → high N is *cheap* and should NOT be penalized
-- Cross-cuisine encyclopedia chain: ρ ≈ 1.3–1.5 (K ≈ N, ~150+ distinct components) → large N is *expensive*, implies pre-made SKUs
-
-(ρ and K figures throughout are first-principles estimates from menus, not a sourced dataset. Recalibrate by counting actual base preps at known venues.)
-
-**How to estimate K:** try to factor the menu into choice axes. If it expresses as (base) × (protein) × (format) × (sauce), K = sum of the axis sizes — small even when N is large. If items are heterogeneous one-offs that don't factor (a lasagna, a pad thai, a fish taco, a burger, orange chicken), K ≈ N → broadline dependency.
-
----
-
-## The rubric (0–100)
-
-| # | Criterion | Weight | Scoring |
-|---|-----------|-------:|---------|
-| 1 | **Base-prep load & grammar (K)** | 20 | Factors cleanly, K ≲ 20 → 20 · partial, K 20–35 → 14 · weak, K 35–55 → 8 · flat encyclopedia, K > ~55 → 0–3. High ρ over a coherent single-cuisine grammar is positive, not penalized. |
-| 2 | **Menu volatility / seasonality** | 25 | Dated/weekly change + specials board → 25 · seasonal rotation ≥4×/yr → 18 · occasional → 10 · static laminated → 0 |
-| 3 | **Sourcing & production intensity** | 30 | Named farms/breeds/mills + ≥3 house-made markers → 30 · some of one → 18 · vague "fresh/quality" + glossy photos → 6 · photo menu, zero specificity → 0 |
-| 4 | **Cuisine coherence** | 15 | Single focus → 15 · two adjacent → 10 · broad "American" grab-bag → 5 · 3+ unrelated cuisines → 0 |
-| 5 | **Operator / format** | 10 | Chef-owned, 1–3 locations, open kitchen → 10 · independent single-site → 7 · regional group (4–15) → 5 · national franchise → 0 |
-
-**Bands:** 80–100 very likely scratch · 60–79 scratch-leaning (spot-check) · 40–59 mixed/assembly-heavy · <40 almost certainly reheat.
-
-Note: criteria 1 (K) and 3 (production) are partially collinear — both load on a single "production intensity" factor — so effective independent dimensionality is ~3–4. Weights (1→20, 3→30) are set so the *direct* production signal outvotes the cardinality proxy, which is what discriminates small-K scratch (mole house) from small-K commissary (fast-casual chain).
+The perishability + labor budget binds on **K**, not N. Estimate K only to the extent supported by observable production evidence; an unavailable menu or uncertain prep map leaves the criterion unknown.
 
 ### Where to find each signal
-- **K / coherence:** the online menu — factor it mentally.
-- **Volatility:** dated menus, "market/seasonal" items, specials board, IG dish-of-the-day; compare archive.org snapshots for drift.
-- **Production/sourcing:** menu + "about" page. Named purveyors, breeds, cuts, "milled/baked/butchered/ground in house."
-- **Operator:** location count, "chef/owner," open-kitchen mentions.
+- **K / coherence:** menus and current production descriptions; factor only what the evidence supports.
+- **Production/sourcing:** menu, about page, interviews, and attributable reporting naming processes or inputs.
+- **Operator / format:** current branch or operation descriptions; do not infer production from independence or chain status.
 
 ---
 
-## Salt Lake Valley calibration set (v2, per-criterion)
+## Historical calibration — Salt Lake Valley (legacy v2; non-operative)
 
-Estimates from online signals, not kitchen audits. P=prep-load/20, V=volatility/25, S=sourcing/30, C=coherence/15, O=operator/10.
+**Historical only:** these examples used the retired volatility-bearing S rubric and must not be used for current scoring. Estimates were from online signals, not kitchen audits. P=prep-load/20, V=volatility/25, S=sourcing/30, C=coherence/15, O=operator/10.
 
 | Restaurant | P | V | S | C | O | **Total** | Notes |
 |-----------|--:|--:|--:|--:|--:|----------:|-------|
@@ -83,9 +85,9 @@ Key v2 effect: **Red Iguana 53 → 75** and **Urban Hill 78 → 89** without spe
 
 ---
 
-## Park City / Wasatch Back calibration set (v2, per-criterion)
+## Historical calibration — Park City / Wasatch Back (legacy v2; non-operative)
 
-Second worked example, resort-town context. Same axes. Confidence tags: High = named farms/house-made documented on the menu itself; Med = strong secondary signal; Low = thin data.
+**Historical only:** this worked example uses the retired volatility-bearing S rubric; preserve it for calibration history, not current decisions. Second worked example, resort-town context. Same legacy axes. Confidence tags: High = named farms/house-made documented on the menu itself; Med = strong secondary signal; Low = thin data.
 
 | Restaurant | P | V | S | C | O | **Total** | Conf | Notes |
 |-----------|--:|--:|--:|--:|--:|----------:|------|-------|
@@ -128,12 +130,12 @@ I is built from scrapeable proxies. **Weights are design choices, not empiricall
 - **Perfected-common** (Feldman's pastrami, TO NEON bougatsa): low δ, **low A_scarcity** — supreme execution of a dish available elsewhere → "reliable standby / who's doing [cuisine] right."
 - **Rare-cuisine** (Enjoy Vegetarian: Buddhist no-onion/garlic dishes a Hong Kong native "hadn't seen since home"): low δ, **high A_scarcity** → **"something you can't get elsewhere" despite never changing** — a travel-across-town place. Mis-scored at I≈60 under the old δ-dominant weighting; corrects to ~73 with scarcity carried independently.
 
-**Collinearity flag:** δ overlaps the scratch rubric's volatility axis (same observable, different latent: scratch="made fresh" vs. I="new each visit"), so G = √(S×I) partially double-counts churn. Known limitation; down-weight one side to correct.
+**Separation invariant:** δ menu turnover belongs only to I. It must never contribute to S_scratch, so G does not double-count turnover.
 
 **Novelty is marginal (flow) OR fixed (stock).** Flow novelty (δ) is exhausted in ~N/s visits; stock novelty (A_scarcity) never decays. Tourist objective (visit once) ≈ N; frequent-diner objective ≈ δ×technique **+ A_scarcity**. The star rating optimizes the tourist's and sees neither.
 
 ### Decision rule (v3)
-1. **Filter:** R ≥ θ (≈4.0★) AND S_scratch ≥ 60 (scratch is the enabling capacity for novelty).
+1. **Filter:** credible attributable current food-production evidence (scratch eligibility) AND R ≥ θ (≈4.0★). There is no numeric S floor. Partial S remains provenance-labeled and is surfaced in the eligible partial-evidence tier rather than normalized into G.
 2. **Rank by** G = √(S_scratch × I), 0–100. Novelty tilt: G′ = S^0.4 · I^0.6.
 3. **Price** = neutral metadata, displayed not scored. Optional value view: I per $ level.
 
@@ -148,7 +150,7 @@ A venue's correct rank depends on visit frequency, so compute **two rankings, no
 
 **Effect:** modes converge where S and I couple (fine-dining scratch — the SLC, Inner Sunset, and Berkeley restaurant sets barely reorder); they diverge only for I-decoupled venues — traditional-excellence (Red Iguana, Antica Sicilia, Feldman's: high-S/low-I → rise in trip mode) and I-inflated formats. Worked reorder (Provo): Oteo #1 home (G 79.8, chef's-choice format = higher single-draw variance, Med conf) → **Pizzeria 712 #1 trip** (S 88, fixed markers incl. hand-pulled mozzarella, all-day-consistent, High conf).
 
-### Combined ranking — Park City (R and $ documented this session; S, I are estimates)
+### Historical combined ranking — Park City (legacy scores; non-operative) (R and $ documented this session; S, I are estimates)
 
 | Restaurant | S | I | **G** | R★ | $ | Status |
 |---|--:|--:|--:|--:|:--:|---|
@@ -166,7 +168,7 @@ A venue's correct rank depends on visit frequency, so compute **two rankings, no
 
 The two filter-failures are the point: The Farm is scratch+interesting but below the quality gate; Eating Establishment clears quality but isn't a scratch kitchen. G alone would rank them above nothing useful — the filters remove them cleanly.
 
-### Combined ranking — Salt Lake Valley (I estimates; SLC R/$ NOT refreshed this session → approximate)
+### Historical combined ranking — Salt Lake Valley (legacy scores; non-operative) (I estimates; SLC R/$ NOT refreshed this session → approximate)
 
 | Restaurant | S | I | **G** | R★ (approx) | $ (approx) |
 |---|--:|--:|--:|--:|:--:|
@@ -183,7 +185,7 @@ The two filter-failures are the point: The Farm is scratch+interesting but below
 
 ---
 
-## Multi-city restaurant calibration (Inner Sunset SF · Berkeley)
+## Historical multi-city restaurant calibration (legacy scores; non-operative)
 
 Runs from user's decade-of-experience areas. R/$/hours documented (Google, this session); S/I/G are estimates (S scored holistically here, not per-criterion P/V/S/C/O; I-axis ±8); ◆ = marker-item find, ★ = canonical reference.
 
@@ -227,7 +229,7 @@ Filtered (S<60): Pacific Catch, Crepevine (chains).
 
 ## Controlled decision dispositions
 
-Use `evidence-exhausted-no-score` when required research completed without a defensible scoring packet. Use `score-unresolved` when accepted positive evidence exists but one or more required scoring dimensions remain too uncertain. Both are non-negative states: neither implies low quality, ineligibility, or DQ, and neither may be converted into a low numeric score.
+Use `evidence-exhausted-no-score` only when required research completed without accepted positive current food-production evidence or any defensible scoring packet. Use `score-unresolved` only for a genuine conflict that prevents interpretation of the accepted evidence—not merely because dimensions are missing. Accepted credible positive current food-production evidence requires scratch eligibility and a provenance-labeled partial score; missing dimensions remain unknown. Both controlled no-score states are non-negative and may not be converted into a low numeric score.
 
 Each no-score decision records the candidate ID, accepted-evidence citation, disposition, primary missing field or reason, and any positive scratch markers worth retaining. Mechanically generated rows are valid only when every row preserves its individual citation and reason.
 
@@ -239,7 +241,7 @@ Before Phase 6 closes, run deterministic integrity validation over the complete 
 - exactly one decision per canonical candidate and no duplicate decision IDs;
 - every canonical merge target exists and is resolved;
 - every criterion respects its criterion maxima, criterion sums and total S are internally consistent, and the recomputed geometric mean G matches the existing formula and rounding rule;
-- every ranked row satisfies the current scratch and rating gates;
+- every ranked row satisfies the current production-evidence and rating gates, with any partial S carrying earned/observed-possible, coverage, provenance, and confidence;
 - every DQ has a permitted positive-evidence subtype and citation;
 - unresolved and exhausted rows are absent from ranked tiers;
 - summary disposition counts equal the decision population.
@@ -256,7 +258,7 @@ Write every orchestrator decision to canonical `{RUN_DIR}/06-decisions.json`: st
 
 - [ ] Every candidate decision cites accepted evidence.
 - [ ] Every disqualification has an affirmative source citation and exactly one permitted DQ subtype; exhausted or absent evidence never supports DQ.
-- [ ] Every `score-unresolved` and `evidence-exhausted-no-score` row has its accepted-evidence citation, primary missing field/reason, and retained positive scratch markers.
+- [ ] No accepted positive current food-production evidence was routed to `score-unresolved` merely for missing dimensions; every partial score reports earned/observed-possible, coverage, provenance, and confidence.
 - [ ] Missing or process-sparse evidence was not converted to a low score.
 - [ ] Every score, scarcity, tier, tie, confidence, and occasion decision was made by the primary orchestrator.
 - [ ] Product-only evidence and service format were not treated as production verdicts.

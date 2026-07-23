@@ -3,7 +3,7 @@
   "source": {
     "run_id": "fixture-bakery",
     "category": "bakery",
-    "decision_hash": "sha256:1252bf7c7f272cb8ea8ca2f3f2bd3b9fd3e848cc2299a15d8c17bec19abe70ed"
+    "decision_hash": "sha256:27c69ba12c40f5ce32392df32c1e7a4729055c51809238e90fd233e6a1a09154"
   },
   "snapshots": {
     "run_date": "2026-07-18",

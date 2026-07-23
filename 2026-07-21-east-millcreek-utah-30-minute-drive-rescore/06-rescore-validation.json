@@ -1,0 +1,18 @@
+{
+  "schema_contract": "restaurant v8.14 migration invariants",
+  "population": 1650,
+  "unique_ids": 1650,
+  "disposition_counts": {
+    "US-standardized-chain-low-novelty": 55,
+    "canonical-duplicate": 5,
+    "evidence-exhausted-no-score": 906,
+    "positive-DQ": 33,
+    "scoreable": 207,
+    "scratch-eligible-partial": 444
+  },
+  "errors": [
+
+  ],
+  "passed": true,
+  "sha256": "b5322d3afb177f4714c27cbd08a6b89477888ce98f6a3a999ce860f5fb846959"
+}

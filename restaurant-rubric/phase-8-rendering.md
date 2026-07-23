@@ -76,11 +76,11 @@ When at least 12 eligible venues exist, treat all occasion slots and rare finds 
 
 Diversity is a presentation constraint, not a scoring input. It never changes the audit, lowers evidence or eligibility thresholds, invents rarity, or promotes a weak venue only to avoid repetition. Completeness-oriented appendices may repeat venues.
 
-## Normalized rendering boundary
+## Complete and partial rendering boundary
 
-Before rendering, transform every scoreable Phase 6 decision—including ordinary vector-form and calibration-backed scalar-form decisions—into one normalized audit-row schema. Each row contains the canonical candidate ID and venue name, disposition, criterion or accepted scalar score representation, total S, I, rating value and provenance, computed G, tier and ranking eligibility, and canonical merge target when applicable.
+Before rendering, transform every scoreable Phase 6 decision—including ordinary vector-form and calibration-backed scalar-form decisions—into one canonical audit-row schema. Each row contains the canonical candidate ID and venue name, disposition, criterion or accepted scalar score representation, rating value and provenance, tier and ranking eligibility, and canonical merge target when applicable.
 
-Rendering fails if a scoreable decision cannot be normalized, an ID appears twice, a canonical merge target is missing, the normalized row violates Phase 6 validation, or rendered audit-row count differs from scoreable decision count. Record both the scoreable decision count and rendered audit-row count in the final report. Successful Markdown, HTML, or PDF generation alone does not establish complete rendering.
+Complete scores include S, I, and G. Partial scores instead show `earned/observed-possible`, coverage, provenance, confidence, and the exact observed criteria. They remain unranked; never scale them to 100 or invent I or G. Rendering fails if a scoreable decision cannot be represented, an ID appears twice, a canonical merge target is missing, the row violates Phase 6 validation, or rendered audit-row count differs from scoreable decision count. Record both the scoreable decision count and rendered audit-row count in the final report. Successful Markdown, HTML, or PDF generation alone does not establish complete rendering.
 
 ## Coverage statement
 
@@ -101,7 +101,7 @@ Write the final reader-facing result to `{RUN_DIR}/08-results.md`. Any generated
 - [ ] Occasion, rare-find, tie, audit, hours/day-part, and plain-language rules above were followed.
 - [ ] For a large run, occasion and rare-find slots use distinct venues or every repetition records the lack of a credible distinct alternative.
 - [ ] Discovery limitations are stated at the source-convergence level.
-- [ ] Every scoreable decision normalized exactly once, Phase 6 validation remains green, and rendered audit-row count equals scoreable decision count.
+- [ ] Every scoreable decision rendered exactly once, all partial scores remain visibly partial and unranked, Phase 6 validation remains green, and rendered audit-row count equals scoreable decision count.
 
 ## Optional interactive follow-up
 

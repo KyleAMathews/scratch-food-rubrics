@@ -1,0 +1,521 @@
+{
+  "reviewed_at": "2026-07-15",
+  "reviewed_pair_count": 53,
+  "decision_cluster_count": 52,
+  "cluster_counts": {
+    "same-venue": 8,
+    "same-concept-branches": 27,
+    "different": 14,
+    "unresolved": 3
+  },
+  "removed_count": 36,
+  "remaining_count": 1644,
+  "decisions": [
+    {
+      "ids": [
+        "R-0018",
+        "R-1453"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-0022",
+        "R-2232"
+      ],
+      "decision": "same-venue",
+      "keep": "R-0022",
+      "remove": [
+        "R-2232"
+      ]
+    },
+    {
+      "ids": [
+        "R-0029",
+        "R-0836"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-0836",
+      "remove": [
+        "R-0029"
+      ]
+    },
+    {
+      "ids": [
+        "R-0045",
+        "R-2194"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-2194",
+      "remove": [
+        "R-0045"
+      ]
+    },
+    {
+      "ids": [
+        "R-0057",
+        "R-0058"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-0110",
+        "R-0652"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-0131",
+        "R-2357"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-2357",
+      "remove": [
+        "R-0131"
+      ]
+    },
+    {
+      "ids": [
+        "R-0162",
+        "R-0168"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-0162",
+      "remove": [
+        "R-0168"
+      ]
+    },
+    {
+      "ids": [
+        "R-0208",
+        "R-2175"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-2175",
+      "remove": [
+        "R-0208"
+      ]
+    },
+    {
+      "ids": [
+        "R-0210",
+        "R-2248"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-0217",
+        "R-2426"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-0217",
+      "remove": [
+        "R-2426"
+      ]
+    },
+    {
+      "ids": [
+        "R-0253",
+        "R-0748"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-0289",
+        "R-0819"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-0289",
+      "remove": [
+        "R-0819"
+      ]
+    },
+    {
+      "ids": [
+        "R-0338",
+        "R-0988"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-0338",
+      "remove": [
+        "R-0988"
+      ]
+    },
+    {
+      "ids": [
+        "R-0475",
+        "R-2403"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-2403",
+      "remove": [
+        "R-0475"
+      ]
+    },
+    {
+      "ids": [
+        "R-0614",
+        "R-1570"
+      ],
+      "decision": "same-venue",
+      "keep": "R-0614",
+      "remove": [
+        "R-1570"
+      ]
+    },
+    {
+      "ids": [
+        "R-0662",
+        "R-2462"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-0702",
+        "R-2566"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-2566",
+      "remove": [
+        "R-0702"
+      ]
+    },
+    {
+      "ids": [
+        "R-0709",
+        "R-1521"
+      ],
+      "decision": "same-venue",
+      "keep": "R-1521",
+      "remove": [
+        "R-0709"
+      ]
+    },
+    {
+      "ids": [
+        "R-0791",
+        "R-1253"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-1253",
+      "remove": [
+        "R-0791"
+      ]
+    },
+    {
+      "ids": [
+        "R-0814",
+        "R-0863"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-0941",
+        "R-2001"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-0941",
+      "remove": [
+        "R-2001"
+      ]
+    },
+    {
+      "ids": [
+        "R-0942",
+        "R-1661",
+        "R-1941"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-0942",
+      "remove": [
+        "R-1661",
+        "R-1941"
+      ]
+    },
+    {
+      "ids": [
+        "R-1024",
+        "R-1062"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-1062",
+      "remove": [
+        "R-1024"
+      ]
+    },
+    {
+      "ids": [
+        "R-1038",
+        "R-1149"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-1038",
+      "remove": [
+        "R-1149"
+      ]
+    },
+    {
+      "ids": [
+        "R-1063",
+        "R-2173"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-1063",
+        "R-2676"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-1137",
+        "R-1584"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-1137",
+      "remove": [
+        "R-1584"
+      ]
+    },
+    {
+      "ids": [
+        "R-1169",
+        "R-1756"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-1169",
+      "remove": [
+        "R-1756"
+      ]
+    },
+    {
+      "ids": [
+        "R-1262",
+        "R-2420"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-1262",
+      "remove": [
+        "R-2420"
+      ]
+    },
+    {
+      "ids": [
+        "R-1268",
+        "R-2435"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-1268",
+      "remove": [
+        "R-2435"
+      ]
+    },
+    {
+      "ids": [
+        "R-1318",
+        "R-1680"
+      ],
+      "decision": "same-venue",
+      "keep": "R-1680",
+      "remove": [
+        "R-1318"
+      ]
+    },
+    {
+      "ids": [
+        "R-1354",
+        "R-1583"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-1583",
+      "remove": [
+        "R-1354"
+      ]
+    },
+    {
+      "ids": [
+        "R-1364",
+        "R-2057"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-2057",
+      "remove": [
+        "R-1364"
+      ]
+    },
+    {
+      "ids": [
+        "R-1381",
+        "R-1956"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-1956",
+      "remove": [
+        "R-1381"
+      ]
+    },
+    {
+      "ids": [
+        "R-1471",
+        "R-2910"
+      ],
+      "decision": "same-venue",
+      "keep": "R-1471",
+      "remove": [
+        "R-2910"
+      ]
+    },
+    {
+      "ids": [
+        "R-1473",
+        "R-2686"
+      ],
+      "decision": "unresolved"
+    },
+    {
+      "ids": [
+        "R-1516",
+        "R-2320"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-1642",
+        "R-2289"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-1759",
+        "R-2107"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-2107",
+      "remove": [
+        "R-1759"
+      ]
+    },
+    {
+      "ids": [
+        "R-1771",
+        "R-1979"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-1848",
+        "R-2716"
+      ],
+      "decision": "unresolved"
+    },
+    {
+      "ids": [
+        "R-2053",
+        "R-2482"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-2482",
+      "remove": [
+        "R-2053"
+      ]
+    },
+    {
+      "ids": [
+        "R-2062",
+        "R-2071"
+      ],
+      "decision": "same-venue",
+      "keep": "R-2071",
+      "remove": [
+        "R-2062"
+      ]
+    },
+    {
+      "ids": [
+        "R-2083",
+        "R-2191"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-2084",
+        "R-2889"
+      ],
+      "decision": "same-venue",
+      "keep": "R-2084",
+      "remove": [
+        "R-2889"
+      ]
+    },
+    {
+      "ids": [
+        "R-2154",
+        "R-2515"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-2154",
+      "remove": [
+        "R-2515"
+      ]
+    },
+    {
+      "ids": [
+        "R-2173",
+        "R-2676"
+      ],
+      "decision": "different"
+    },
+    {
+      "ids": [
+        "R-2183",
+        "R-2324"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-2324",
+      "remove": [
+        "R-2183"
+      ]
+    },
+    {
+      "ids": [
+        "R-2365",
+        "R-2921"
+      ],
+      "decision": "same-venue",
+      "keep": "R-2365",
+      "remove": [
+        "R-2921"
+      ]
+    },
+    {
+      "ids": [
+        "R-2388",
+        "R-2545"
+      ],
+      "decision": "same-concept-branches",
+      "keep": "R-2545",
+      "remove": [
+        "R-2388"
+      ]
+    },
+    {
+      "ids": [
+        "R-2481",
+        "R-2582"
+      ],
+      "decision": "unresolved"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-15T04:37:28Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 8067158941,
+  "lat": 40.7291588,
+  "lon": -111.9691732,
+  "tags": {
+    "check_date:opening_hours": "2024-05-10",
+    "name": "La Flor de Salt Lake Tortillas",
+    "opening_hours": "Mo-Fr 08:00-16:00; Sa 09:00-14:00",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 8072353903,
+  "lat": 40.7848895,
+  "lon": -111.9852060,
+  "tags": {
+    "check_date": "2024-06-09",
+    "level": "2",
+    "name": "Fillings & Emulsions",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 8072353908,
+  "lat": 40.7856372,
+  "lon": -111.9865758,
+  "tags": {
+    "addr:city": "Salt Lake City",
+    "addr:housenumber": "3920",
+    "addr:postcode": "84116",
+    "addr:state": "UT",
+    "addr:street": "West Terminal Drive",
+    "addr:unit": "CAW-2-040",
+    "amenity": "fast_food",
+    "brand": "Panera Bread",
+    "brand:wikidata": "Q7130852",
+    "cuisine": "sandwich;bakery",
+    "level": "2",
+    "name": "Panera Bread",
+    "opening_hours": "24/7",
+    "phone": "+1 801-657-5070",
+    "short_name": "Panera",
+    "takeaway": "yes",
+    "website": "https://locations.panerabread.com/ut/salt-lake-city/3920-w-terminal-drive.html"
+  }
+},
+{
+  "type": "node",
+  "id": 9217147215,
+  "lat": 40.7252093,
+  "lon": -111.9682695,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "donut",
+    "name": "My Sugar's Donut Shoppe"
+  }
+},
+{
+  "type": "node",
+  "id": 11460525194,
+  "lat": 40.7267134,
+  "lon": -111.9795753,
+  "tags": {
+    "addr:city": "Salt Lake City",
+    "addr:housenumber": "3678",
+    "addr:state": "UT",
+    "addr:street": "West 2100 South",
+    "description": "Vegan chocolatier and specialty bakery. Location is for pickup and shipping only.",
+    "diet:vegan": "only",
+    "phone": "+1 801-839-5055",
+    "shop": "chocolate",
+    "takeaway": "only"
+  }
+},
+{
+  "type": "node",
+  "id": 13712161379,
+  "lat": 40.8175439,
+  "lon": -111.9554057,
+  "tags": {
+    "addr:city": "Salt Lake City",
+    "addr:housenumber": "2331",
+    "addr:street": "North 2200 West",
+    "man_made": "works",
+    "name": "Nature's Bakery",
+    "product": "bakery_products"
+  }
+},
+{
+  "type": "way",
+  "id": 375966630,
+  "center": {
+    "lat": 40.7124640,
+    "lon": -112.0237705
+  },
+  "tags": {
+    "addr:city": "West Valley City",
+    "addr:country": "US",
+    "addr:housenumber": "2642",
+    "addr:postcode": "84120",
+    "addr:state": "UT",
+    "addr:street": "South High Commons Way",
+    "building": "retail",
+    "name": "Kneaders",
+    "opening_hours": "Mo-Th 07:00-21:00; Fr-Sa 07:00-22:00; Su off",
+    "phone": "+1-801-456-5390",
+    "shop": "bakery",
+    "source": "website",
+    "website": "https://www.kneaders.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1059426026,
+  "center": {
+    "lat": 40.7849773,
+    "lon": -111.9846399
+  },
+  "tags": {
+    "brand": "Rocky Mountain Chocolate Factory",
+    "brand:wikidata": "Q7355878",
+    "indoor": "room",
+    "level": "2",
+    "name": "Rocky Mountain Chocolate Factory",
+    "room": "retail",
+    "shop": "confectionery"
+  }
+}
+
+  ]
+}

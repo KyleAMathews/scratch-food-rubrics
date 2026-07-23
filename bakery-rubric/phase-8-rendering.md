@@ -79,6 +79,8 @@ A valid provisional rating follows the same floor and ranking rule, but reader-f
 
 After the rated occasion lists, render a separate, visible, unranked **Scratch-verified, rating-unconfirmed** section. Include every candidate with accepted scratch evidence whose rating remains terminally unavailable after the identity-first sweep. State that omission from rated rankings reflects missing rating evidence, not a negative quality judgment.
 
+Before that section, render a visible, unranked **Scratch-eligible, partial evidence** section for rating-confirmed bakeries whose positive bakery-production evidence covers fewer than all S criteria. Show `earned/observed-possible`, coverage, confidence, and the exact proven production scope in plain language. Never show a percentage-like normalized S or G for a partial. A narrow component claim must say what remains unknown—for example, “fillings made in house; dough and lamination unknown.”
+
 For every otherwise eligible producer record:
 - **Access format:** `storefront`, `recurring market`, `active preorder`, `service-area/delivery`, `wholesale/stockist`, `home microbakery`, or `unknown`.
 - **Current acquisition evidence:** `walk-in active`, `drop active`, `preorder active`, `hiatus`, `closed`, `conflicting`, or `unverified`, with latest dated source.
@@ -105,6 +107,7 @@ Write the final reader-facing result to `{RUN_DIR}/08-results.md`. Any generated
 - [ ] Discovery limitations are stated at the source-convergence level.
 - [ ] Access format and current acquisition evidence are shown for every otherwise eligible producer; unstable or unverified paths are routed to the availability-sensitive watchlist.
 - [ ] The pre-render direct-place rating rerun is reflected in the rated lists and the visible rating-unconfirmed section.
+- [ ] Every partial score is visible in the correct partial or rating-unconfirmed section, remains non-normalized, and states its proven production scope and unknown criteria.
 - [ ] Every provisional rating is visibly labeled as secondary-source evidence with its attributed platform and was not used to break a near-tie against direct evidence.
 - [ ] Every generated HTML/PDF export received rendered-page visual inspection; long tables and disclosure blocks paginate without overlap or clipping.
 

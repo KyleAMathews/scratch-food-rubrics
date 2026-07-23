@@ -1,0 +1,130 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-15T04:37:28Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 9081052616,
+  "lat": 40.5123767,
+  "lon": -111.4673023,
+  "tags": {
+    "cuisine": "donut;coffee",
+    "drive_through": "yes",
+    "name": "Judy's Donuts and Coffee",
+    "opening_hours": "Tu-Sa 07:00-13:00",
+    "outdoor_seating": "yes",
+    "shop": "pastry",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "node",
+  "id": 9108643276,
+  "lat": 40.5066714,
+  "lon": -111.4137638,
+  "tags": {
+    "addr:city": "Heber City",
+    "addr:housenumber": "94",
+    "addr:postcode": "84032",
+    "addr:state": "UT",
+    "addr:street": "South Main Street",
+    "addr:unit": "2",
+    "name": "Sweet Corner Treats",
+    "shop": "confectionery"
+  }
+},
+{
+  "type": "node",
+  "id": 10102081887,
+  "lat": 40.4709211,
+  "lon": -111.4487389,
+  "tags": {
+    "addr:housenumber": "2175",
+    "addr:street": "West 3000 South",
+    "addr:unit": "Suite 100",
+    "check_date:opening_hours": "2022-10-12",
+    "name": "Ritual Chocolate",
+    "opening_hours": "Tu-Su 08:00-15:00",
+    "shop": "chocolate"
+  }
+},
+{
+  "type": "node",
+  "id": 10102081888,
+  "lat": 40.4710068,
+  "lon": -111.4486155,
+  "tags": {
+    "addr:housenumber": "2175",
+    "addr:street": "West 3000 South",
+    "addr:unit": "Suite 101",
+    "check_date:opening_hours": "2022-10-12",
+    "name": "June Pie",
+    "opening_hours": "Tu-Fr 15:00-19:00; Sa 11:00-14:00",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "way",
+  "id": 553841490,
+  "center": {
+    "lat": 40.4950814,
+    "lon": -111.4199671
+  },
+  "tags": {
+    "addr:city": "Heber City",
+    "addr:housenumber": "356",
+    "addr:state": "UT",
+    "addr:street": "W 1000 S",
+    "building": "yes",
+    "name": "Mrs. Call's Chocolates"
+  }
+},
+{
+  "type": "way",
+  "id": 984111235,
+  "center": {
+    "lat": 40.5155410,
+    "lon": -111.4123809
+  },
+  "tags": {
+    "addr:city": "Heber City",
+    "addr:housenumber": "570",
+    "addr:postcode": "84032",
+    "addr:state": "UT",
+    "addr:street": "North Main Street",
+    "building": "commercial",
+    "drive_through": "yes",
+    "name": "Bagel Den",
+    "opening_hours": "Mo-Su 06:00-17:00",
+    "shop": "bakery",
+    "website": "https://www.thebagelden.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1014522438,
+  "center": {
+    "lat": 40.4944230,
+    "lon": -111.4142180
+  },
+  "tags": {
+    "addr:city": "Heber City",
+    "addr:housenumber": "1020",
+    "addr:postcode": "84032",
+    "addr:state": "UT",
+    "addr:street": "South Main Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "sandwich",
+    "name": "Kneaders Bakery & Cafe",
+    "website": "https://kneaders.com/"
+  }
+}
+
+  ]
+}

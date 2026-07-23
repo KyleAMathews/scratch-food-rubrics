@@ -110,12 +110,15 @@ def test_phase6_deterministic_integrity_validation():
     assert 'the phase gate fails' in scoring
 
 
-def test_phase8_normalized_rendering_boundary():
+def test_phase8_complete_and_partial_rendering_boundary():
     rendering = text('restaurant-rubric/phase-8-rendering.md')
     for phrase in (
-        'normalized audit-row schema',
+        'canonical audit-row schema',
         'vector-form',
         'scalar-form',
+        'partial scores',
+        'earned/observed-possible',
+        'never scale them to 100',
         'scoreable decision count',
         'rendered audit-row count',
         'rendering fails',
@@ -152,10 +155,36 @@ def test_already_covered_invariants_remain_intact():
     assert 'chain-ness is magnitude, not direction' in scoring
 
 
-def test_v813_metadata_is_synchronized():
+
+def test_v814_scratch_eligibility_and_partial_score_contract():
+    scoring = text('restaurant-rubric/phase-6-scoring.md')
+    for phrase in (
+        'credible, attributable evidence of current food production',
+        'missing criteria are `unknown`, never zero',
+        '`s_scratch partial = earned/observed-possible`',
+        'coverage = `observed-possible/100`',
+        'provenance label',
+        'confidence (`high`, `medium`, or `low`)',
+        'there is no numeric s floor',
+        'menu turnover belongs only to i',
+        'not merely because dimensions are missing',
+    ):
+        assert phrase in scoring
+    assert 'rating-unconfirmed' in scoring
+    assert 'r ≥ θ (≈4.0★)' in scoring
+
+
+def test_menu_volatility_is_not_in_current_s_rubric():
+    scoring = text('restaurant-rubric/phase-6-scoring.md')
+    current = scoring.split('## s_scratch evidence rubric', 1)[1].split('## historical calibration', 1)[0]
+    assert 'menu volatility and seasonality are **not part of s_scratch**' in current
+    assert '**menu volatility / seasonality**' not in current
+    assert '| **δ menu turnover**' in scoring
+
+def test_v814_metadata_is_synchronized():
     bakery = text('bakery-rubric/SKILL.md')
     restaurant = text('restaurant-rubric/SKILL.md')
-    assert 'prompt (v8.13)' in bakery and '**v8.13:**' in bakery
-    assert 'prompt (v8.13)' in restaurant and '**v8.13:**' in restaurant
-    assert 'scratch-food-rubrics/8.13 (research)' in text('bakery-rubric/discovery-reference.md')
-    assert 'scratch-food-rubrics/8.13 (research)' in text('restaurant-rubric/discovery-reference.md')
+    assert 'prompt (v8.14)' in bakery and '**v8.14:**' in bakery
+    assert 'prompt (v8.14)' in restaurant and '**v8.14:**' in restaurant
+    assert 'scratch-food-rubrics/8.14 (research)' in text('bakery-rubric/discovery-reference.md')
+    assert 'scratch-food-rubrics/8.14 (research)' in text('restaurant-rubric/discovery-reference.md')

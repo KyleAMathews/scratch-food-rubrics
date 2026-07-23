@@ -15,6 +15,10 @@ from urllib.parse import urlencode
 GENERATOR_VERSION = "1.0"
 SCHEMA_VERSION = "1.0"
 PAYLOAD_MARKER = "__INTERACTIVE_RESULTS_PAYLOAD__"
+CRITERION_MAXIMA = {
+    "restaurant": {"base_prep": 25, "production": 40, "coherence": 20, "operator_format": 15},
+    "bakery": {"core_craft": 30, "input_sourcing": 20, "breadth_capacity": 20, "bake_cadence": 20, "operator_format": 10},
+}
 
 
 def load_json(path):
@@ -80,9 +84,52 @@ def validate_decisions(value, run_dir=None):
         if score is not None:
             if not isinstance(score,dict): errors.append(f"record {rid} score must be object or null")
             else:
-                for key in ("s","i","g"):
-                    n=score.get(key)
-                    if not isinstance(n,(int,float)) or isinstance(n,bool) or not math.isfinite(n) or not 0 <= n <= 100: errors.append(f"record {rid} score {key} out of range")
+                state=score.get("state","complete")
+                if state not in ("complete","partial"): errors.append(f"record {rid} score state must be complete or partial")
+                if score.get("provenance") not in ("documented","estimated","mixed","user-ground-truth","calibrated","provisional-secondary"):
+                    errors.append(f"record {rid} score provenance is invalid")
+                if state=="partial":
+                    if any(score.get(key) is not None for key in ("s","i","g")):
+                        errors.append(f"record {rid} partial score s/i/g must be null")
+                    for key in ("s_earned","s_observed_possible","s_coverage"):
+                        n=score.get(key)
+                        if not isinstance(n,(int,float)) or isinstance(n,bool) or not math.isfinite(n):
+                            errors.append(f"record {rid} partial score {key} must be finite")
+                    possible=score.get("s_observed_possible")
+                    coverage=score.get("s_coverage")
+                    earned=score.get("s_earned")
+                    if isinstance(earned,(int,float)) and not isinstance(earned,bool) and not 0 < earned <= 100:
+                        errors.append(f"record {rid} partial earned score out of range")
+                    if isinstance(possible,(int,float)) and not isinstance(possible,bool) and not 0 < possible <= 100:
+                        errors.append(f"record {rid} partial observed possible out of range")
+                    if isinstance(coverage,(int,float)) and not isinstance(coverage,bool) and not 0 < coverage <= 1:
+                        errors.append(f"record {rid} partial coverage out of range")
+                    if isinstance(possible,(int,float)) and isinstance(coverage,(int,float)) and abs(coverage-possible/100)>0.0001:
+                        errors.append(f"record {rid} partial coverage does not match observed possible")
+                    if score.get("confidence") not in ("high","medium","low"):
+                        errors.append(f"record {rid} partial confidence is invalid")
+                    criteria=score.get("criteria")
+                    maxima=CRITERION_MAXIMA.get(value.get("category"),{})
+                    if not isinstance(criteria,dict) or set(criteria)!=set(maxima):
+                        errors.append(f"record {rid} partial criteria do not match {value.get('category')} rubric")
+                    else:
+                        observed_possible=0
+                        observed_earned=0
+                        for key,maximum in maxima.items():
+                            n=criteria[key]
+                            if n is None: continue
+                            if not isinstance(n,(int,float)) or isinstance(n,bool) or not math.isfinite(n) or not 0 <= n <= maximum:
+                                errors.append(f"record {rid} partial criterion {key} out of range")
+                                continue
+                            observed_possible+=maximum
+                            observed_earned+=n
+                        if possible != observed_possible: errors.append(f"record {rid} partial observed possible does not match criteria")
+                        if earned != observed_earned: errors.append(f"record {rid} partial earned score does not match criteria")
+                    if row.get("ranking_eligible"): errors.append(f"record {rid} partial score cannot be ranking eligible")
+                else:
+                    for key in ("s","i","g"):
+                        n=score.get(key)
+                        if not isinstance(n,(int,float)) or isinstance(n,bool) or not math.isfinite(n) or not 0 <= n <= 100: errors.append(f"record {rid} score {key} out of range")
         if row.get("ranking_eligible") and score is None: errors.append(f"record {rid} ranking eligible without score")
         rating=row.get("rating")
         if rating is not None:
@@ -162,16 +209,17 @@ def validate_projection(value, decisions):
     return errors
 
 
-def _maps_url(name,address):
-    if not address: return None
-    return "https://www.google.com/maps/search/?"+urlencode({"api":"1","query":f"{name}, {address}"})
+def _maps_url(name,address,scope):
+    location = address or scope
+    if not location: return None
+    return "https://www.google.com/maps/search/?"+urlencode({"api":"1","query":f"{name}, {location}"})
 
 
 def build_payload(decisions,projection):
     by_id={r["id"]:r for r in decisions["records"]}
     def join(row,mode):
         d=by_id[row["id"]]
-        return {"id":d["id"],"name":d["name"],"address":d["address"],"coordinates":d["coordinates"],"location_label":row["location_label"],"summary":row["summary"],"facet_values":row["facet_values"],"disposition":d["disposition"],"reason":d["reason"],"score":d["score"],"rating":d["rating"],"tier":d["tier"],"ranking_eligible":d["ranking_eligible"],"occasions":d["occasions"],"rare_finds":d["rare_finds"],"access":d["access"],"map_url":_maps_url(d["name"],d["address"]),"map_action":("Directions" if mode=="practical" else "Check current place record") if d["address"] else None}
+        return {"id":d["id"],"name":d["name"],"address":d["address"],"coordinates":d["coordinates"],"location_label":row["location_label"],"summary":row["summary"],"facet_values":row["facet_values"],"disposition":d["disposition"],"reason":d["reason"],"score":d["score"],"rating":d["rating"],"tier":d["tier"],"ranking_eligible":d["ranking_eligible"],"occasions":d["occasions"],"rare_finds":d["rare_finds"],"access":d["access"],"map_url":_maps_url(d["name"],d["address"],projection["scope"]),"map_action":("Directions" if d["address"] and mode=="practical" else "Find on Google Maps")}
     return {"meta":{"run_id":decisions["run_id"],"title":projection["title"],"scope":projection["scope"],"category":decisions["category"],"snapshots":projection["snapshots"],"counts":projection["counts"]},"facets":projection["facets"],"theme":projection["theme"],"practical":[join(r,"practical") for r in projection["practical"]],"audit":[join(r,"audit") for r in projection["audit"]]}
 
 

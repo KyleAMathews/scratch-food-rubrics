@@ -3,7 +3,7 @@
   "source": {
     "run_id": "fixture-restaurant",
     "category": "restaurant",
-    "decision_hash": "sha256:f2a931d030d3858f2d62a2468ad0a1a16722608fca46bd7e67ddb2f2cd6672a0"
+    "decision_hash": "sha256:0f066c14a05aa53b3942dcc9829ac3d0cd24f63829f2b76772b8998fb03b5736"
   },
   "snapshots": {
     "run_date": "2026-07-18",

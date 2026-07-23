@@ -1,0 +1,42 @@
+{
+    "browser": {
+        "checked_at": "2026-07-23T00:00:00-06:00",
+        "status": "pass",
+        "observed_counts": {
+            "practical": 224,
+            "audit": 1426,
+            "mapped": 221
+        },
+        "checks": {
+            "partial_cards": true,
+            "search": true,
+            "audit_mode": true,
+            "map": true,
+            "mobile_layout": true,
+            "unicode": true,
+            "console_clean": true
+        }
+    },
+    "expected_counts": {
+        "audit": 1426,
+        "mapped": 221,
+        "omitted": 0,
+        "practical": 224
+    },
+    "generated_at": "2026-07-23T00:00:00-06:00",
+    "generator_version": "1.0",
+    "hashes": {
+        "decisions": "sha256:5eae241f6e68dfadcbce91187cba7838e0fe4305fcb7215eca5c0859e13612f1",
+        "output": "sha256:8de721d2f0120de1c45ac59f97b62bb0327bd4da7ba81850f7ca11b460e628ac",
+        "projection": "sha256:aad2e9305a75aebf0a267c457666726cfe710035b40618395cb26504c887bab4",
+        "template": "sha256:528e86582e6f4f7d614984d5c39c3143b657f568d29a165796ed6cf4cf1260e9"
+    },
+    "schema_version": "1.0",
+    "static_checks": {
+        "atomic_write": true,
+        "decision_validation": true,
+        "projection_validation": true,
+        "safe_embedding": true
+    },
+    "status": "static-pass"
+}

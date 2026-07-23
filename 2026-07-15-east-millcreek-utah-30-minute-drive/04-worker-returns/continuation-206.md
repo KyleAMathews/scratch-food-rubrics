@@ -1,0 +1,71 @@
+# Continuation 206 — raw evidence return
+
+Access date 2026-07-15. Raw source facts only.
+
+## Smothered Burrito (R-1915)
+- Identity: Smothered Burrito / “Smothered burrito downtown,” 250 W 500 S, Salt Lake City, UT 84101, (385) 500-2930, `https://smothered-burrito.com/`. MapQuest/Yelp customer reported in August 2025 that the restaurant name had become “Catrinas”; successor/name status remains conflicting.
+- Identity sources: candidate/official domain; Restaurantji `https://www.restaurantji.com/ut/salt-lake-city/smothered-burrito-/`; order.online `https://order.online/store/smothered-burrito-downtown-33345979`; MapQuest/Yelp; Salt Lake City February 2025 business-license list; Gastronomic SLC; accessed 2026-07-15.
+- Rating evidence: Restaurantji 4.2/30; MapQuest/Yelp 4.5/5. The latter listing is marked Closed and includes renamed-business reviews.
+- Price evidence: order.online: smothered burrito $7, homemade flour tortillas (3) $3.50, fresh homemade tamale $4, cheese enchiladas $11.25, carne-asada fries $14.50, meat chimichangas $14.75 and steak/eggs $14.99. Gastronomic SLC says lunch specials $6.50–$9.50. Restaurantji labels $.
+- Hours/day-part evidence: Restaurantji daily 11:30am–midnight except Fri to 2am and Sat to 3am. order.online shows ordering 11am–7:40pm. The operating-status conflict is retained.
+- Menu quotations: order menu offers ground beef, chicken, carnitas or carne asada smothered burritos with beans, cheese, onions, olives, tomatoes, guacamole and sour cream; also enchiladas, carne-asada fries, nachos, chimichangas, chile relleno, fajita quesadillas, pozole, steak and eggs and tamales. Restaurantji describes a Baja Combo with grilled prawns, mahi-mahi and crabmeat enchiladas with lobster crema.
+- Production/process quotations: order menu explicitly says “Tortillas (3) (Homemade Flour)” and “Fresh Homemade Tamale.” Other process/fabrication claims `exhausted-unavailable`.
+- Seasonality/turnover quotations: MapQuest/Yelp review says the renamed restaurant’s menu was “much refined with many fewer options” and old photo menu was no longer current. No seasonal/weekly specials wording retrieved.
+- Ingredient/sourcing quotations: menu names beef, chicken, carnitas, carne asada, crabmeat, lobster crema, prawns and mahi-mahi; no farms, fisheries, breeds, mills or producers retrieved.
+- Review-text quotations: Restaurantji summarizes Baja Combo texture/seasoning positively and says enchiladas contained real crab. MapQuest/Yelp reviews praise smothered burrito, quesadilla, enchiladas and pozole; one says the horchata was “just...” in a truncated excerpt and is not expanded. Renaming/menu-reduction review is operational evidence.
+- Potentially adverse factual quotations: Gastronomic SLC documents a second location at 7211 Plaza Center Dr in West Jordan. MapQuest marks the downtown listing Closed and a review says it is now Catrinas; old and current menu identity are therefore conflicting. Menu spans Mexican, American breakfast/fries and seafood preparations.
+- Cuisine/format: Mexican restaurant, lunch specials, late-night hours in one directory, dine-in/pickup/delivery; two-location operation reported in 2025.
+- Neutral factual claims: supports displayed menu/prices, two explicit homemade labels, multi-location and rename/status conflict, ratings/hours conflicts and attributed reviews only.
+- Search trail: official domain/menu/about/contact and archive/social queries; order.online; Restaurantji; MapQuest/Yelp; Gastronomic SLC 2025 opening roundups; SLC license list; Google/Yelp/Tripadvisor delivery/menu/rating and successor-name searches. Queries included exact address/name, site-restricted menu/process, Catrinas rename, ratings, owner, closure and sourcing variants.
+- Unavailable fields: verified present operating name/status, broader production, dated specials and named sourcing `exhausted-unavailable` after the listed sequence.
+
+## CoCo Bubble Tea — South Jordan (R-1918)
+- Identity: CoCo Bubble Tea (South Jordan) / CoCo Bubble Tea - South Jordan / CoCo Bubble Tea 犹他州, 11428 S Pkwy Plaza Dr #300, South Jordan, UT 84095, (385) 205-2670, Utah site `https://www.cocobubbleteautah.com/`; brand site `https://cocobubbletea.com/`.
+- Identity sources: official Utah location site `https://www.cocobubbleteautah.com/`; official brand menu/franchise pages; Restaurantji `https://www.restaurantji.com/ut/south-jordan/coco-bubble-tea-south-jordan-/`; accessed 2026-07-15.
+- Rating evidence: Restaurantji 4.8/97; DoorDash 4.9/50+ with four public reviews.
+- Price evidence: DoorDash examples: milk tea $5.25, pearl milk tea $5.50, taro milk tea $5.75, mango slush $6.50, brown-sugar pearl milk tea $7.80 and matcha-strawberry latte $7.90; prices may differ delivery/pickup.
+- Hours/day-part evidence: official Utah site and Restaurantji daily noon–9pm; beverage service only in retrieved menu.
+- Menu quotations: official catalog categories include Signature, Seasonal, Milk Tea, Lava Pearls, Fruit Tea, Probiotics, Fresh Milk, Smoothie/Slush, Fresh Tea, Cream Cloud, Fruit Chunks and Coffee. Signature drinks combine milk tea with tapioca, pudding/grass jelly; Bubble Gaga uses passion-fruit jasmine green tea, tapioca and coconut jelly; Lava Pearls Milk uses brown-sugar tapioca, fresh milk and cream.
+- Production/process quotations: official franchise page says “on-site brewing” and “a variety of freshly made toppings.” Brand says “freshly-made CoCo drinks.” No location-specific cooking/brewing detail retrieved.
+- Seasonality/turnover quotations: official menu has a “SEASONAL” category and warns the catalog represents potential items whose availability varies by location; no dated South Jordan seasonal menu retrieved.
+- Ingredient/sourcing quotations: official franchise page names “specially-selected black tea from Sri Lanka” and “jams made with real fruit,” plus a global supply chain/local warehouses. Menu names tapioca, pudding, grass jelly, jasmine green tea, coconut jelly, fresh milk and cream.
+- Review-text quotations: Restaurantji notes Pearl Milk Tea ordered at 50% sweetness/less ice and Panda Milk Tea with black pearls/white sago; DoorDash users call sago taro milk tea delicious and boba good for the price. Food-product defect evidence `exhausted-unavailable`.
+- Potentially adverse factual quotations: official franchise page says CoCo has “over 5000+ stores,” a “robust supply chain” and “global supply chain”; Utah site lists South Jordan and Provo. The official catalog says item availability varies by location.
+- Cuisine/format: global bubble-tea franchise beverage shop; milk tea, fruit/fresh tea, slush/smoothie, coffee and topping-based drinks; delivery/counter service.
+- Neutral factual claims: supports location identity, brand scale/supply-chain wording, on-site brewing/fresh topping claims, ingredient origins, menu/price/hours/ratings and attributed drink observations only.
+- Search trail: Utah official location/social/delivery pages; official U.S./global menu, seasonal and franchise pages; Restaurantji, DoorDash, Google/Yelp and direct rating queries; local boba press/Reddit. Queries included exact address, site-restricted menu/process/sourcing, South Jordan reviews/prices, franchise, defect and seasonal variants.
+- Unavailable fields: dated location-specific seasonal menu and location-specific physical defect review `exhausted-unavailable` after the listed sequence.
+
+## Kenny J’s BBQ (R-1919)
+- Identity: Kenny J’s BBQ, 11610 District Dr / 11610 S District Main Dr, South Jordan, UT 84095, (385) 563-3404, `https://kennyjsbbq.com/`. South Jordan licensee: Kenny’s Meat Town, LLC.
+- Identity sources: official home `https://kennyjsbbq.com/`; official contact; South Jordan May 2025 business-license list; Toast ordering; accessed 2026-07-15.
+- Rating evidence: MenuToEat Google 4.7/727 (Google checked Mar. 8, 2026); RestaurantGuru Google 4.7/813 and 340 visitor reviews displayed; Yahoo/Yelp 4.5/112; MapQuest/Yelp 4.5/96; Top-Rated.Online 4.90/185. Counts/dates conflict and are retained.
+- Price evidence: Toast: brisket $39/lb, pulled pork $26/lb, sides $3.99+, family packs $80/$155, bottled housemade sauce $7.99 and rendered beef tallow $8.99. MenuToEat half-pound examples: brisket $15.99, turkey/ribs $13.99, sausage $12.99, pork/chicken $11.99; Utah prime brisket and burnt ends $39.99.
+- Hours/day-part evidence: official Mon–Thu 11am–8pm, Fri–Sat 11am–9pm. Toast instead says Mon–Thu 11am–8pm, Fri–Sat 11am–5pm, Sun closed. Lunch/dinner; until-sold-out items documented.
+- Menu quotations: meats include brisket, turkey breast, pork spare ribs, pulled pork, chicken thighs, original and Hatch-green-chile/cheddar sausage, Utah-raised prime brisket and burnt ends. Sides include baked beans, Hatch-chile mac and cheese, coleslaw, funeral potatoes, potato salad and fries; desserts include banana pudding.
+- Production/process quotations: Toast says brisket is “Slow-smoked” and “sliced right before your eyes”; pork is “Slow-smoked for hours,” “hand-pulled and tossed in our house BBQ sauce”; ribs are “smoked low and slow.” It sells “housemade BBQ sauce” and “our own rendered brisket beef tallow.” MapQuest’s official-derived description says sides are “prepared fresh by hand daily.”
+- Seasonality/turnover quotations: MenuToEat marks Utah prime brisket/burnt ends “FRIDAY & SATURDAY UNTIL SOLD OUT.” No seasonal menu wording retrieved.
+- Ingredient/sourcing quotations: Toast: brisket “Sourced locally from Utah ranches”; MenuToEat: “UTAH RAISED PRIME BRISKET.” Named ranch/breed `exhausted-unavailable`.
+- Review-text quotations: official-republished Google reviews describe tender/juicy brisket, properly smoked/seasoned meats and chile-kick mac and cheese. Yahoo/Yelp calls ordering stations cumbersome for a first visit but praises burnt ends. Tripadvisor reviewer calls brisket memorable; MapQuest/Yelp praises burnt ends/turkey and fall-off-bone ribs. No location-specific dry/technical defect retrieved in unambiguous sources.
+- Potentially adverse factual quotations: no chain, commissary, frozen, premade or reheating wording retrieved. Ordering is meat-by-weight with family packs; business opened/licensed in 2025.
+- Cuisine/format: Texas-style barbecue counter, smoked meats by weight, sides/desserts, dine-in/takeout and family packs.
+- Neutral factual claims: supports specific smoking/hand-pulling/sauce/tallow processes, Utah sourcing claim, until-sold-out schedule, prices/hours/ratings and attributed reviews only.
+- Search trail: official home/menu/contact/about/social links; Toast ordering; MenuToEat; RestaurantGuru/Google, Yahoo/Yelp, MapQuest/Yelp, Tripadvisor, Top-Rated.Online; South Jordan licensing; local Reddit/press. Queries included exact address, site-restricted smoking/menu/sourcing, dry brisket/defect, ratings, owner and sold-out variants.
+- Unavailable fields: named Utah ranch/breed, seasonal rotation and clear adverse physical food review `exhausted-unavailable` after the listed sequence.
+
+## Mint Tapas and Sushi 5 — Draper (R-1921)
+- Identity: Mint Tapas and Sushi 5 Draper / Mint Tapas and Sushi 5 (Draper) / Mint Tapas and Sushi, 519 E 12300 S Unit D, Draper, UT 84020, (801) 385-1145, `https://mintsushiut.com/`. License entity: Mint Sushi and Tapas 5 LLC dba Mint Sushi and Tapas.
+- Identity sources: official site `https://mintsushiut.com/`; Draper licensing; Restaurantji `https://www.restaurantji.com/ut/draper/mint-tapas-and-sushi-5-draper-/`; Apple Maps; accessed 2026-07-15.
+- Rating evidence: Restaurantji 4.7/102; Apple Maps 4.8/15; Yahoo/Yelp 4.8/12.
+- Price evidence: Apple review says prices are high relative to portion size; itemized current menu prices `exhausted-unavailable` after official/ordering/menu-platform searches.
+- Hours/day-part evidence: Apple Maps/Restaurantji Sun–Thu 11:30am–2:30pm and 5–9pm; Fri–Sat 11:30am–2:30pm and 5–9:30pm. Lunch and dinner.
+- Menu quotations: official description “Modern Sushi. Artful Tapas.” Restaurantji favorites include jalapeño hamachi, coconut shrimp, ube ice cream, Vulcan/Vega rolls and gyoza; reviews name salmon belly, wagyu, Wagyu Crostini, salmon truffle, tiramisu, sashimi and miso soup.
+- Production/process quotations: official says “handcrafted cocktails”; no exact rice, dashi, sauce, noodle, dessert or fish-breaking process retrieved. Sushi-making classes are offered, but no fabrication claim is inferred from the class.
+- Seasonality/turnover quotations: official July 2026 events page advertises a “10-course tasting menu”; no course details or seasonal rotation language retrieved.
+- Ingredient/sourcing quotations: menu/reviews name hamachi, salmon/salmon belly, wagyu, shrimp, ube and miso; farms, fisheries, grades, prefectures and producers `exhausted-unavailable`.
+- Review-text quotations: Restaurantji notes fresh seafood/flavorful wagyu and some dishes “slightly salty.” Apple Maps review praises salmon-truffle/jalapeño-hamachi but says prices are high for portions. Yahoo/Yelp calls fish consistently high quality and names Wagyu Crostini/Apollo roll; another reports the restaurant was out of edamame.
+- Potentially adverse factual quotations: official site lists five Mint locations plus sister brand Gossip Kitchen locations; Draper is “Mint Tapas and Sushi 5.” Menu combines sushi, Asian-fusion tapas, wagyu, desserts and cocktails. No frozen, premade, commissary or closure wording retrieved.
+- Cuisine/format: literal labels Sushi Bars and Asian Fusion; multi-location full-service sushi/tapas/cocktail restaurant, lunch/dinner, tasting menu and sushi classes.
+- Neutral factual claims: supports multi-location identity, menu breadth, tasting-menu/class offerings, hours/ratings and attributed salt/portion/out-of-stock observations only.
+- Search trail: official home/history/locations/events/menu/reservations/social; Draper licensing; Restaurantji, Apple Maps, Yahoo/Yelp, Uber Eats, Google/Tripadvisor/OpenTable/direct rating queries; local press and sourcing/process/chef searches. Queries included exact address, site-restricted menu/tasting/process/sourcing, reviews salty/portion, rating and ownership variants.
+- Unavailable fields: itemized current prices, precise production methods, course details/rotation and named sourcing `exhausted-unavailable` after the listed sequence.

@@ -1,0 +1,75 @@
+# Continuation 128 — raw evidence return
+
+Accessed 2026-07-15. This return records quotation-level and close-paraphrase source evidence only. It does not score, classify, disqualify, rank, or infer.
+
+## Janet's Sunshine Cafe (R-1301)
+
+- Identity: Janet's Sunshine Cafe / Janet's Sunshine Café / Sunshine Cafe, 20 South Orchard Dr., North Salt Lake, Utah 84054, (801) 936-0915, `https://sunshinecafeutah.com/`; the official site uses both “Janet's Sunshine Cafe” and “Sunshine Cafe.”
+- Identity sources: [official home/menu](https://sunshinecafeutah.com/), [official about](https://sunshinecafeutah.com/about/), official contact, official 2025 menu PDF, Restaurantji, Restaurant Guru, DoorDash, Tripadvisor, MenuPix, Roadtrippers/Yelp and municipal documents; accessed 2026-07-15.
+- Rating evidence: Restaurantji displays 4.7 from 302 ratings; DoorDash 4.8 from 100+ ratings and 10+ public reviews; Tripadvisor 4.5 from 85 reviews; MenuPix 4.3 from 45; Restaurant Guru displays Google 4.6/5 from 1,179, Zomato 4/5 from 51, Foursquare 8.3/10 from 46, Tripadvisor 4.5/5 from 85 and Facebook 4.7/5 from 270.
+- Price evidence: official menu lists breakfast combinations $12–$14, pancakes/French toast $4–$10, breakfast sandwiches $6.75, burritos $10–$11, soup/chili $5–$6.50 and sides $2–$3.75; Restaurantji and Tripadvisor display `$`; Restaurant Guru displays $10–$20 per person.
+- Hours/day-part evidence: official site says Monday–Friday 7 a.m.–2 p.m., Saturday 7–11 a.m. and Sunday 8 a.m.–2 p.m.; Restaurantji lists Saturday to noon; Tripadvisor labels Breakfast, Lunch and Brunch and says Saturday closed; conflicts preserved.
+- Menu quotations: official categories include Breakfast Combinations, Pancakes & French Toast, Breakfast Sandwiches & Burritos, Omelets, Breakfast Classics, Sunshine Specials, Sides, Salads, Burgers and Chicken.
+- Menu quotations: official/about sources name thick-sourdough French toast, biscuits and gravy, Spanish omelet with ranchero sauce, granola pancakes, Garden Classic, breakfast burritos, soups, chili, garlic burger and Friday tri-tip.
+- Production/process quotations: official about says Janet's mother taught her to “always cook from scratch”; biscuits are “fluffy homemade biscuits,” hash browns are “made fresh daily from real potatoes,” and burgers use “1/2-pound, hand-pressed patties, never frozen.”
+- Production/process quotations: Friday tri-tip is “charcoal-grilled”; garlic burger patties are mixed with fresh garlic; granola pancakes use homestyle cinnamon granola and are served with real butter and warm maple syrup.
+- Seasonality/turnover quotations: official about names “Daily Soups” and a Friday charcoal-grilled tri-tip special; named soups include Hungarian Mushroom, Jalapeño Corn Chowder and Clam Chowder. No dated seasonal rotation was retrieved.
+- Ingredient/sourcing quotations: official menu/about names sourdough, real potatoes, real butter, maple syrup, homestyle cinnamon granola, fresh garlic and vegetables; no farm, mill, bakery, butcher or producer was retrieved.
+- Food/product review evidence: a 2020 customer says sunny-side eggs were cooked perfectly, sausage gravy on hash browns was “wonderful” and the whole-wheat pancake “delightful”; a 2026 DoorDash customer calls the Meatlovers Classic a very large portion.
+- Service/ambiance review evidence: MenuPix customers mention long waits and limited seating; official about says the original cafe had 37 seats. These statements address crowding/format, not food production.
+- Ownership/format evidence: official about names Janet and says the cafe grew from a bowling-alley coffee shop; a 2020 customer says Janet was usually in the kitchen cooking meals.
+- Search trail/unavailable: opened official home/menu/about/contact/PDF, Restaurantji, Restaurant Guru, DoorDash, Tripadvisor, MenuPix, Roadtrippers/Yelp excerpts and municipal documents; searched scratch, potatoes, patties, soups, specials, sourcing, ratings, defects and owner history. Named producers and dated seasonal turnover are exhausted-unavailable.
+
+## Beaumont Bakery & Cafe (R-1305)
+
+- Identity: Beaumont Bakery & Cafe / Beaumont Bakery & Café / BEAUMONT BAKERY, 3979 S Wasatch Blvd Suite B, Millcreek, UT 84124, (801) 676-9340, `https://www.beaumont.cafe/`; official pages also render the city as Salt Lake City.
+- Identity sources: [official site](https://www.beaumont.cafe/home-1), [official menu](https://beaumont-cafe.squarespace.com/menu), [official ordering](https://www.orderbeaumontcafe.com/), [Grubhub](https://www.grubhub.com/restaurant/beaumont-bakery--cafe-3979-wasatch-blvd-salt-lake-city/7561896), Restaurantji, Uber Eats, Restaurant Guru, SLUG Magazine and Utah DABS; accessed 2026-07-15.
+- Rating evidence: Grubhub displays 4.7 from 336 ratings; Restaurantji displays 3.9 from 334 ratings; official ordering says 90% of 277 customers recommended.
+- Price evidence: Grubhub lists pastries including Orange Kouign Amann $6.25, breakfast/bowls/sandwiches/salads roughly $12–$22, burger $19 and steak sandwich $20; Restaurantji displays `$`; merchant warns platform prices may vary from store prices.
+- Hours/day-part evidence: official site says Monday–Thursday 7:30 a.m.–8 p.m., Friday–Saturday 7:30 a.m.–9 p.m., Sunday 8 a.m.–3 p.m.; ordering displays 7 a.m.–8 p.m.; breakfast is served all day.
+- Menu quotations: current delivery menu groups Coffee, Tea, Frozen Drinks, Breakfast, Bowls, Sandwiches, Salads, Sides, Pastries and Bread; it names croissants, kouign-amann, quiche, French toast, bowls, salads, burger and ten sandwiches.
+- Menu quotations: dishes include avocado toast, truffle bun, breakfast croissant, burrito, Benedict, steak and eggs, Asian salmon bowl, roasted cauliflower, turkey/tuna/grilled-cheese/steak/chicken-pesto/caprese sandwiches and hot-honey fried chicken.
+- Production/process quotations: menu says “house made soft brioche bun,” “housemade tomatillo jalapeno sauce,” “housemade hollandaise sauce,” “house roasted turkey,” “house sourdough,” “house focaccia” and “house made ciabatta.”
+- Production/process quotations: chicken-pesto sandwich uses “buttermilk brined grilled chicken”; steak is marinated; French toast uses “Our croissant loaf”; pastry wording describes kouign-amann layers with fresh orange zest.
+- Seasonality/turnover quotations: official site says “fresh, seasonal ingredients”; grain bowl uses “seasonal roasted vegetables” and yogurt bowl “seasonal fresh fruit.” No dated menu-change cadence was retrieved.
+- Ingredient/sourcing quotations: Asian salmon bowl specifies “Glazed Alaskan Wild Caught Salmon”; menu names forbidden black rice, quinoa, farro, heirloom tomatoes/carrots, microgreens, burrata, pistachios and fresh mozzarella; no farm, mill, bakery or dairy producer was retrieved.
+- Food/product adverse review evidence: Restaurantji summary reports “small issues with the breakfast potatoes and hollandaise sauce”; underlying exact customer text was not accessible. A customer calls the raspberry cruffin and pastries favorable.
+- Ambiance evidence: Restaurantji says customers describe the industrial hard-surface room as noisy; this is separated from food/product evidence.
+- Cuisine/format and neutral claims: sources label Coffee Shops, Bakery and Cafe; official menu covers breakfast all day, bakery/pastry retail, coffee, lunch and dinner dishes, delivery/takeout and catering.
+- Search trail/unavailable: opened official home/menu/order/catering, Grubhub, Uber Eats, Restaurantji, Restaurant Guru, SLUG Magazine and DABS; searched bread/pastry/lamination, sauces, turkey, salmon, sourcing, seasonal specials, ratings, defects, chef and interviews. Named suppliers and a dated turnover cadence are exhausted-unavailable.
+
+## Dickey's Barbecue Pit — West Valley City (R-1306)
+
+- Identity: Dickey's Barbecue Pit, “West Valley City - 5600 W,” 2592 South 5600 West, West Valley City, UT 84120, (801) 969-6600, `https://www.dickeys.com/locations/utah/west-valley-city/west-valley`.
+- Identity sources: [official branch page](https://www.dickeys.com/locations/utah/west-valley-city/west-valley), official location menu/catering pages, [Restaurantji](https://www.restaurantji.com/ut/salt-lake-city/dickeys-barbecue-pit-/), Grubhub, coupon/local-license documents and direct-rating searches; accessed 2026-07-15.
+- Rating evidence: Restaurantji displays 3.7 from 315 ratings and distribution 56% five-star, 10% four, 6% three, 8% two and 20% one; other accessible literal direct-platform aggregate/count pairs are exhausted-unavailable.
+- Price evidence: Restaurantji displays `$`; current official branch item prices were not exposed without entering an order context, so exact prices are exhausted-unavailable after official menu/order, Grubhub and delivery searches.
+- Hours/day-part evidence: official branch page and Restaurantji list Monday–Saturday 11 a.m.–9 p.m. and Sunday closed; official page labels lunch and catering services.
+- Menu quotations: official branch page names ribs, brisket, fried okra, beans and creamed spinach; Restaurantji favorites include pulled pork, Polish kielbasa, brisket sandwich, baked potato, baked-potato casserole and pork/kielbasa plates.
+- Menu breadth: sources label Barbeque and American and name plates, sandwiches, potatoes, meat by the pound, southern-style sides, family packs and catering.
+- Production/process quotations: official branch wording calls the food “southern Texas style barbecue,” describes “smokin meats,” and names tender ribs and brisket; no branch-level wording describing smoker fuel, smoke duration, trimming, rubs, sauces or side production was retrieved.
+- Seasonality/turnover quotations: exhausted-unavailable after official branch/menu/catering, brand social/specials and local-deal searches.
+- Ingredient/sourcing quotations: sources name beef brisket/ribs, pulled pork, Polish kielbasa, potatoes, okra, beans and spinach; no ranch, meat packer, sausage maker, produce farm or named supplier was retrieved.
+- Food/product adverse review evidence: January 2026 Restaurantji customer says, “Throw your recipe for brisket chili in the trash and start over”; July 2024 customer says a wanted item and ice cream were unavailable.
+- Food/product review evidence: Restaurantji summary says pulled pork was good but “a little fatty” and fried okra was good; a 2020 customer names sliced brisket, sauce, smoked sausage, beans, coleslaw and potato salad.
+- Chain/ownership evidence: Grubhub describes Dickey's Barbecue Pit as a restaurant chain founded in 1941 by Travis Dickey in Dallas; the official branch is part of Dickey's national location system.
+- Cuisine/format and neutral claims: official sources label Texas-style barbecue, dine-in/takeout/delivery and catering; smoking language identifies a barbecue method without supplying branch-specific production details.
+- Search trail/unavailable: opened official branch/menu/catering, Restaurantji, Grubhub, local-license/coupon sources and direct-platform searches; queried smoker/onsite/smoke hours, brisket/ribs/sides/sauce, sourcing, specials, ratings, defects and franchise. Exact prices, detailed branch production, sourcing and turnover are exhausted-unavailable.
+
+## Great India LLC — Midvale (R-1307)
+
+- Identity: Great India / Great India LLC, 752 West Blue Vista Ln, Midvale, UT 84047, (801) 495-4141, `https://www.greatindiamidvaleutah.com/`; this was the matching local Great India retrieved for the coordinate-only candidate.
+- Identity sources: [official home](https://www.greatindiamidvaleutah.com/), [official menu](https://www.greatindiamidvaleutah.com/menu), [official about](https://www.greatindiamidvaleutah.com/about), official reviews, [Restaurantji](https://www.restaurantji.com/ut/midvale/great-india-/), DoorDash, USA Restaurants, MenuPix/menu PDF and Reddit; accessed 2026-07-15.
+- Rating evidence: Restaurantji displays 4.5 from 354 ratings with 82% five-star, 6% four, 2% three, 2% two and 8% one; USA Restaurants displays “5 Reviews” but no aggregate; other literal direct-platform pairs are exhausted-unavailable.
+- Price evidence: Restaurantji displays `$$`; exact item prices are exhausted-unavailable after official menu/order, DoorDash and PDF searches because accessible menu text omitted prices.
+- Hours/day-part evidence: official site says Monday–Thursday 11 a.m.–9:30 p.m., Friday–Saturday 11 a.m.–10 p.m. and Sunday 4–8:30 p.m.; sources describe lunch, dinner and a lunch buffet in older discussion.
+- Menu quotations: official categories are Appetizers & Soup, Chicken Specialties, Great India Combo Specials, Lamb Specialities, Rice Specialties, Tandoor Specialties, Tandoor Specialty Bread, Seafood Specialties, Vegetarian Specialties, Side Orders, Desserts and Drinks.
+- Menu quotations: sources name chicken tikka masala, butter chicken, lamb curry/tikka masala/biryani, chicken and vegetable coconut korma, bhindi masala, saag aloo, bengan bhartha, chana masala, samosas, chutneys, tandoori chicken and garlic/cheese/chili naan.
+- Production/process quotations: official home says meals are “always fresh, never frozen,” “crafted from scratch,” use “traditional family recipes,” and include “freshly baked naan”; menu identifies a separate Tandoor Specialties and Tandoor Specialty Bread section.
+- Seasonality/turnover quotations: official site invites VIP members to receive “updates on future discounts”; no seasonal menu, weekly/daily special, dated turnover statement or menu-change cadence was retrieved.
+- Ingredient/sourcing quotations: menu/item names identify chicken, lamb, seafood, paneer, eggplant, okra, potatoes, chickpeas, ginger, coconut, mint and tamarind; no farm, mill, spice producer, dairy or meat supplier was retrieved.
+- Food/product review evidence: official reviews call naan outstanding, tamarind/mint chutneys good, lamb curry delicious and chicken korma/butter chicken/rice ample; Restaurantji says a customer received a specially cooked lamb curry.
+- Food/product adverse evidence: no specific accessible branch review describing a physical or technical food defect was retrieved after Restaurantji, DoorDash, official reviews, Reddit and direct-review searches.
+- Ownership/format evidence: official about names Sukhpal Singh and wife Gurinder Kaur; Singh says he migrated from India in the 1990s and had over 20 years' restaurant-industry experience as waiter, cook and manager before owning the restaurant.
+- Cuisine/format and neutral claims: sources label Indian, Vegetarian and Seafood, family-friendly dine-in, takeout and delivery; official wording literally supports the stated fresh/frozen, scratch and naan claims without specifying component-by-component methods.
+- Search trail/unavailable: opened official home/menu/about/reviews, Restaurantji, DoorDash, USA Restaurants, MenuPix/menu PDF and Reddit threads; searched exact identity, buffet, tandoor/naan, curries/chutneys, scratch/frozen, sourcing, specials, ratings, defects, owners and press. Exact prices, named producers, detailed component methods and turnover cadence are exhausted-unavailable.

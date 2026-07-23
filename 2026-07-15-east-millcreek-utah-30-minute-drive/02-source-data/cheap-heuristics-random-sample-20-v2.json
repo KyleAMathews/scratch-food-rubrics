@@ -1,0 +1,12 @@
+{
+  "method": "lowest 20 SHA-256 hashes, excluding sample v1",
+  "salt": "cheap-heuristics-sample-2026-07-15-v2",
+  "population": 1680,
+  "excluded_prior_sample": 20,
+  "candidate_ids": [
+    "R-1006", "R-1131", "R-0347", "R-1471", "R-1990",
+    "R-1557", "R-0018", "R-0380", "R-0365", "R-2384",
+    "R-2461", "R-0503", "R-0247", "R-1236", "R-1337",
+    "R-0182", "R-1316", "R-1081", "R-1360", "R-2047"
+  ]
+}

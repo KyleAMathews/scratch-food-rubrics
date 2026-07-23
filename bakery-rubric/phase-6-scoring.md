@@ -26,6 +26,19 @@ The enemy isn't reheating — it's **par-bake**. Industrial suppliers (Bridor, R
 
 **Bands:** 80–100 near-certain scratch · 60–79 scratch-leaning · 40–59 mixed (scratch + par-bake) · <40 likely par-bake/commissary.
 
+### Scratch eligibility and partial scores
+
+A bakery is scratch-eligible when accepted evidence credibly attributes current in-house production of a baked product or a meaningful bakery component to the applicable operation. Qualifying evidence may be first-party, attributable reporting, a clearly scoped user observation, or strong physical product evidence under the register-independence rules below. Record user observations as `user-ground-truth`, with their exact scope.
+
+A narrowly proven component earns only narrow credit. House-made pastry cream, curd, jam, schmear, sauce, or filling may support the pâtisserie/component part of core craft, but it does not establish scratch dough, bread, bagels, lamination, or every item in the case. Product nouns, a bakery label, photographs, and generic “fresh” wording do not establish production by themselves.
+
+- **Missing criteria are `unknown`, never zero.** Zero requires affirmative evidence matching a zero anchor.
+- Score each observed criterion on its stated possible points. Do not impute an unobserved criterion and do not normalize a partial score to 100.
+- A complete score is `S_bakery = earned/100`.
+- A partial score is **`S_bakery partial = earned/observed-possible`**, plus coverage `observed-possible/100`, provenance (`documented`, `estimated`, `mixed`, or `user-ground-truth`), and confidence (`high`, `medium`, or `low`).
+- Every criterion contribution keeps its accepted citation and scope. Confidence describes evidence strength, not coverage.
+- A positive partial score establishes scratch eligibility only for the production scope actually supported. Rating-confirmed partials appear in a visible unranked partial-evidence tier; do not compute I or G until S is complete. Rating-exhausted partials appear in the scratch-verified, rating-unconfirmed tier with the same partial-score label.
+
 ### Register-independence rule (v3)
 
 Criteria 1 (core craft) and I-ambition must be scored on **physical/textural product descriptors, not vocabulary presence**, because process-language density is confounded by three things independent of actual craft:
@@ -70,9 +83,10 @@ Note: criteria 1, 2, and 4 all load partially on one "on-premise production" fac
 ---
 
 ## Decision rule
-1. **Filter:** R ≥ θ (**≈4.3★** — bakery ratings inflate ~0.2–0.3★ vs. restaurants, so 4.0 is non-discriminating) AND S ≥ 55.
-2. **Rank** survivors by G = √(S × I). Novelty tilt: G′ = S^0.4 · I^0.6.
-3. **Price** displayed, not scored. **Surface hours + sell-out timing** (a 4pm arrival at a sells-out-by-11 bakery is a miss regardless of score).
+1. **Complete-score filter:** R ≥ θ (**≈4.3★** — bakery ratings inflate ~0.2–0.3★ vs. restaurants, so 4.0 is non-discriminating) AND complete S ≥ 55.
+2. **Partial-score routing:** accepted positive bakery-production evidence with incomplete criterion coverage receives a non-normalized partial S. If R clears the quality gate, surface it in the eligible partial-evidence tier; if rating research is terminally exhausted, surface it in the rating-unconfirmed tier. Never apply the complete-score S floor to a partial denominator.
+3. **Rank** complete-score survivors by G = √(S × I). Novelty tilt: G′ = S^0.4 · I^0.6. Partial scores receive no G and are never interleaved into this ranking.
+4. **Price** displayed, not scored. **Surface hours + sell-out timing** (a 4pm arrival at a sells-out-by-11 bakery is a miss regardless of score).
 
 ### Dual-rank: Home vs. Trip mode (compute both, toggle on trip-frequency)
 
@@ -248,7 +262,7 @@ Foreign-market run. **Dominant marker = hand-stretched phyllo** (P≈0.90) — b
 
 ## Controlled decision dispositions
 
-Every candidate receives exactly one disposition: `category-adjacent-exclusion`, `not-scoreable`, `status-deferred`, `evidence-exhausted`, `disqualified`, `rated-survivor`, `rating-unconfirmed`, or `scored-filtered`. `not-scoreable` is a non-negative evidence state: accepted identity or menu facts exist, but evidence is insufficient to make a defensible process score. It is never shorthand for low craft. Preserve the reason and missing evidence fields.
+Every candidate receives exactly one disposition: `category-adjacent-exclusion`, `not-scoreable`, `status-deferred`, `evidence-exhausted`, `disqualified`, `rated-survivor`, `scratch-eligible-partial`, `rating-unconfirmed`, or `scored-filtered`. `not-scoreable` is a non-negative evidence state reserved for records with accepted identity or menu facts but no accepted positive bakery-production evidence and no defensible scoring packet. Once positive production evidence is accepted, missing dimensions cannot force `not-scoreable`; use a provenance-labeled partial score. Preserve the reason, evidence scope, and unknown fields.
 
 ## Phase 6 artifact
 
@@ -260,6 +274,7 @@ Write every orchestrator decision to canonical `{RUN_DIR}/06-decisions.json`: st
 
 - [ ] Every candidate decision cites accepted evidence.
 - [ ] Every disqualification rests on positive evidence.
+- [ ] No accepted positive current bakery-production evidence was routed to `not-scoreable` merely because other criteria were missing; every partial reports earned/observed-possible, coverage, provenance, confidence, and production scope.
 - [ ] Missing or process-sparse evidence was not converted to a low score.
 - [ ] Every score, scarcity, tier, tie, confidence, and occasion decision was made by the primary orchestrator.
 - [ ] Product-only evidence was not treated as process evidence.

@@ -138,17 +138,26 @@
             ],
             "properties": {
               "s": {
-                "type": "number",
+                "type": [
+                  "number",
+                  "null"
+                ],
                 "minimum": 0,
                 "maximum": 100
               },
               "i": {
-                "type": "number",
+                "type": [
+                  "number",
+                  "null"
+                ],
                 "minimum": 0,
                 "maximum": 100
               },
               "g": {
-                "type": "number",
+                "type": [
+                  "number",
+                  "null"
+                ],
                 "minimum": 0,
                 "maximum": 100
               },
@@ -156,9 +165,53 @@
                 "enum": [
                   "documented",
                   "estimated",
+                  "mixed",
+                  "user-ground-truth",
                   "calibrated",
                   "provisional-secondary"
                 ]
+              },
+              "state": {
+                "enum": [
+                  "complete",
+                  "partial"
+                ]
+              },
+              "s_earned": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "s_observed_possible": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 100
+              },
+              "s_coverage": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 1
+              },
+              "confidence": {
+                "enum": [
+                  "high",
+                  "medium",
+                  "low"
+                ]
+              },
+              "criteria": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "base_prep": { "$ref": "#/$defs/criterionScore" },
+                  "production": { "$ref": "#/$defs/criterionScore" },
+                  "coherence": { "$ref": "#/$defs/criterionScore" },
+                  "operator_format": { "$ref": "#/$defs/criterionScore" },
+                  "core_craft": { "$ref": "#/$defs/criterionScore" },
+                  "input_sourcing": { "$ref": "#/$defs/criterionScore" },
+                  "breadth_capacity": { "$ref": "#/$defs/criterionScore" },
+                  "bake_cadence": { "$ref": "#/$defs/criterionScore" }
+                }
               }
             }
           },
@@ -338,9 +391,67 @@
                 }
               }
             }
+          },
+          {
+            "if": {
+              "properties": {
+                "score": {
+                  "type": "object",
+                  "properties": {
+                    "state": {
+                      "const": "partial"
+                    }
+                  },
+                  "required": [
+                    "state"
+                  ]
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "score": {
+                  "required": [
+                    "s_earned",
+                    "s_observed_possible",
+                    "s_coverage",
+                    "confidence",
+                    "criteria"
+                  ],
+                  "properties": {
+                    "s": {
+                      "type": "null"
+                    },
+                    "s_earned": {
+                      "type": "number",
+                      "exclusiveMinimum": 0,
+                      "maximum": 100
+                    },
+                    "i": {
+                      "type": "null"
+                    },
+                    "g": {
+                      "type": "null"
+                    }
+                  }
+                },
+                "ranking_eligible": {
+                  "const": false
+                }
+              }
+            }
           }
         ]
       }
+    }
+  },
+  "$defs": {
+    "criterionScore": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
     }
   }
 }

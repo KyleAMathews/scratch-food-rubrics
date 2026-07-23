@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "artifact": "interactive occasion assignment audit",
+  "run_id": "2026-07-15-east-millcreek-utah-30-minute-drive",
+  "scope": "practical projection rows only",
+  "constraints": {
+    "occasion_values": [
+      "best-meal",
+      "unique",
+      "casual",
+      "cuisine-right",
+      "rare-dish-detour"
+    ],
+    "decisions_changed": false,
+    "decision_hash_changed": false,
+    "external_research": false
+  },
+  "rules": [
+    {
+      "occasion": "all",
+      "rule": "Preserve canonical explicit occasion decisions already represented in the snapshot."
+    },
+    {
+      "occasion": "best-meal",
+      "rule": "Assign when completed decision score G >= 80; this is the strongest overall-score band."
+    },
+    {
+      "occasion": "unique",
+      "rule": "Assign only when completed rationale/summary literally documents rarity, scarcity, uncommon/specialist status, hard-to-match status, or named pre-Hispanic/Diné/Navajo/Balkan scarcity evidence."
+    },
+    {
+      "occasion": "casual",
+      "rule": "Assign when completed name/rationale/summary or format documents a casual-service form (cafe, bakery, deli, pizzeria/pizza, bagel, market/canteen/counter, food truck/hall, barbecue, churro/cookie/donut, empanada/taqueria/taco, sandwich/burger), or preorder/mobile/event format."
+    },
+    {
+      "occasion": "cuisine-right",
+      "rule": "Assign when an existing cuisine/specialty facet is present and completed scratch score S >= 70."
+    },
+    {
+      "occasion": "rare-dish-detour",
+      "rule": "Retain/assign only from explicit canonical occasion or rare-find evidence; no inference from cuisine or score."
+    },
+    {
+      "occasion": "unassigned",
+      "rule": "Leave empty where no explicit occasion/rare-find, G >= 80, literal scarcity evidence, supported casual-service form, or cuisine facet plus S >= 70 applies."
+    }
+  ],
+  "counts": {
+    "practical_rows": 224,
+    "before": {
+      "assigned_rows": 16,
+      "unassigned_rows": 208
+    },
+    "before_by_occasion": {
+      "rare-dish-detour": 4,
+      "best-meal": 3,
+      "cuisine-right": 3,
+      "casual": 3,
+      "unique": 3
+    },
+    "after_by_occasion": {
+      "cuisine-right": 90,
+      "casual": 80,
+      "rare-dish-detour": 4,
+      "best-meal": 60,
+      "unique": 8
+    },
+    "after_assigned_rows": 157,
+    "after_unassigned_rows": 67,
+    "assignment_additions_by_rule": {
+      "cuisine facet + S >= 70": 87,
+      "casual-service format evidence": 77,
+      "explicit rare find": 0,
+      "G >= 80": 57,
+      "literal scarcity/specialist evidence": 5,
+      "explicit decision": 0
+    }
+  }
+}
