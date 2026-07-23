@@ -42,6 +42,8 @@ Before generation, show a proposed facet table with each facet, controlled value
 
 Ask the user to approve, revise, or reply **`use your defaults`**, and stop. Approval is required even when the defaults appear obvious. After approval, account explicitly for every canonical ID and freeze the projection; no fresh research follows.
 
+The interactive occasion facets represent the full evidence-supported suitability set, not only the three venues printed under each occasion in `08-results.md`. Preserve those top-three recommendations as highlights, then expand the facet memberships from accepted decision fields and record the deterministic rules and before/after counts in `{RUN_DIR}/interactive-occasion-assignment-audit.json`. This derived expansion must not change `06-decisions.json`, the Markdown shortlist, scores, or rankings. Apply the same split to rare finds: broaden only from explicit accepted item/scarcity evidence, never from cuisine, specialty, or a high score alone.
+
 ## Deterministic generation
 
 From the repository root, run:

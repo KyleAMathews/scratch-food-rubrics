@@ -1,3 +1,5 @@
+import json
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -118,3 +120,23 @@ def test_v814_metadata_is_synchronized():
     assert 'prompt (v8.14)' in restaurant and '**v8.14:**' in restaurant
     assert 'scratch-food-rubrics/8.14 (research)' in text('bakery-rubric/discovery-reference.md')
     assert 'scratch-food-rubrics/8.14 (research)' in text('restaurant-rubric/discovery-reference.md')
+
+
+def test_interactive_occasions_are_not_markdown_top_three():
+    run = ROOT / '2026-07-14-salt-lake-valley-park-city-heber-midway-utah'
+    projection = json.loads((run / 'interactive-results-projection.json').read_text())
+    audit = json.loads((run / 'interactive-occasion-assignment-audit.json').read_text())
+    counts = Counter(
+        value
+        for row in projection['practical']
+        for value in row['facet_values']['occasion']
+    )
+    assert counts == {
+        'best-bread': 11,
+        'pastry-coffee': 24,
+        'gift': 14,
+        'cross-town': 14,
+        'rare-find': 9,
+    }
+    assert audit['constraints']['markdown_top_three_changed'] is False
+    assert audit['counts']['interactive_by_occasion'] == counts

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "artifact": "interactive occasion assignment audit",
+  "run_id": "2026-07-14-salt-lake-valley-park-city-heber-midway-utah",
+  "scope": "practical projection rows only",
+  "constraints": {
+    "occasion_values": [
+      "best-bread",
+      "pastry-coffee",
+      "gift",
+      "cross-town",
+      "rare-find"
+    ],
+    "markdown_top_three_changed": false,
+    "decisions_changed": false,
+    "decision_hash_changed": false,
+    "external_research": false
+  },
+  "rules": [
+    {
+      "occasion": "all",
+      "rule": "Preserve explicit occasion values already represented in the projection."
+    },
+    {
+      "occasion": "best-bread",
+      "rule": "Assign to the bread specialty when completed scratch score S >= 70."
+    },
+    {
+      "occasion": "pastry-coffee",
+      "rule": "Assign to walk-in pastry, doughnut, cake, or gluten-free/vegan bakery records with a completed scratch score."
+    },
+    {
+      "occasion": "gift",
+      "rule": "Assign to pie, cookie/sweet, cake, or regional-specialty records when completed combined score G >= 55."
+    },
+    {
+      "occasion": "cross-town",
+      "rule": "Assign when completed combined score G >= 70, the strongest practical score band in this snapshot."
+    },
+    {
+      "occasion": "rare-find",
+      "rule": "Retain explicit rare finds and add only named scarce regional items documented in accepted decision text."
+    },
+    {
+      "occasion": "unassigned",
+      "rule": "Leave empty when none of the evidence-backed suitability rules apply."
+    }
+  ],
+  "counts": {
+    "practical_rows": 58,
+    "markdown_top_three_by_occasion": {
+      "best-bread": 3,
+      "pastry-coffee": 3,
+      "gift": 3,
+      "cross-town": 3,
+      "rare-find": 3
+    },
+    "interactive_by_occasion": {
+      "best-bread": 11,
+      "pastry-coffee": 24,
+      "gift": 14,
+      "cross-town": 14,
+      "rare-find": 9
+    },
+    "interactive_assigned_rows": 49,
+    "interactive_unassigned_rows": 9
+  }
+}

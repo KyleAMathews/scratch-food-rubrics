@@ -1,6 +1,6 @@
 {
     "browser": {
-        "checked_at": "2026-07-23T11:05:00-06:00",
+        "checked_at": "2026-07-23T11:13:00-06:00",
         "status": "pass",
         "observed_counts": {
             "practical": 58,
@@ -8,11 +8,15 @@
             "mapped": 49
         },
         "checks": {
-            "rating_floor_4_3": true,
-            "rating_filter": true,
-            "rating_reset": true,
-            "partial_cards_at_baseline": true,
-            "console_clean": true
+            "occasion_counts": {
+                "best-bread": 11,
+                "pastry-coffee": 24,
+                "gift": 14,
+                "cross-town": 14,
+                "rare-find": 9
+            },
+            "best_bread_filter": true,
+            "reset": true
         }
     },
     "expected_counts": {
@@ -21,12 +25,12 @@
         "omitted": 0,
         "practical": 58
     },
-    "generated_at": "2026-07-23T11:05:00-06:00",
+    "generated_at": "2026-07-23T11:13:00-06:00",
     "generator_version": "1.0",
     "hashes": {
         "decisions": "sha256:e2a7d076fcb76b43fff2008e8da3f209a60135ecb975eebca6033a1e19d1fd47",
-        "output": "sha256:ab82e8c6b6a2506a368a0c513e6ce5671cdc8074f2f50a1432eb2a59a1085146",
-        "projection": "sha256:73947a5520304a49e190d26e6a27bc59fcd2be8ee531cfde35845e3c959e6201",
+        "output": "sha256:4ef92960c1bd749c079e084ef5bb65bafd62cced60c14606548e7274c0992d87",
+        "projection": "sha256:abf9d651157d3b218586deb8a5459e839f3d0240be91dd44be4b7a97dd3815d1",
         "template": "sha256:2c6627488869eedc21a81900b692408d0900fcdba471d19b9e1a9662297a40f8"
     },
     "schema_version": "1.0",

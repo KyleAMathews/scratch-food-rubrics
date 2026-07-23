@@ -209,7 +209,9 @@
         "access": [
           "preorder-market"
         ],
-        "occasion": [],
+        "occasion": [
+          "best-bread"
+        ],
         "status": [
           "rated"
         ],
@@ -232,7 +234,10 @@
         "access": [
           "delivery-service-area"
         ],
-        "occasion": [],
+        "occasion": [
+          "gift",
+          "rare-find"
+        ],
         "status": [
           "rated"
         ],
@@ -259,7 +264,9 @@
           "walk-in"
         ],
         "occasion": [
-          "gift"
+          "gift",
+          "cross-town",
+          "rare-find"
         ],
         "status": [
           "rated"
@@ -312,7 +319,9 @@
         "access": [
           "preorder-market"
         ],
-        "occasion": [],
+        "occasion": [
+          "gift"
+        ],
         "status": [
           "rated"
         ],
@@ -338,7 +347,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -365,7 +376,8 @@
           "walk-in"
         ],
         "occasion": [
-          "best-bread"
+          "best-bread",
+          "cross-town"
         ],
         "status": [
           "rated"
@@ -392,7 +404,9 @@
         "access": [
           "wholesale-stockist"
         ],
-        "occasion": [],
+        "occasion": [
+          "best-bread"
+        ],
         "status": [
           "rated"
         ],
@@ -415,7 +429,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "gift"
+        ],
         "status": [
           "rated"
         ],
@@ -441,7 +457,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -467,7 +485,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -493,7 +513,10 @@
         "access": [
           "preorder-market"
         ],
-        "occasion": [],
+        "occasion": [
+          "gift",
+          "cross-town"
+        ],
         "status": [
           "rated"
         ],
@@ -519,7 +542,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -542,7 +567,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "gift"
+        ],
         "status": [
           "rated"
         ],
@@ -568,7 +595,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -594,7 +623,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "best-bread"
+        ],
         "status": [
           "rated"
         ],
@@ -620,7 +651,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -643,7 +676,10 @@
         "access": [
           "preorder-market"
         ],
-        "occasion": [],
+        "occasion": [
+          "best-bread",
+          "cross-town"
+        ],
         "status": [
           "rated"
         ],
@@ -698,7 +734,10 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee",
+          "gift"
+        ],
         "status": [
           "rated"
         ],
@@ -749,7 +788,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -775,7 +816,10 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee",
+          "rare-find"
+        ],
         "status": [
           "rated"
         ],
@@ -798,7 +842,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -824,7 +870,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -850,7 +898,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -873,7 +923,9 @@
         "access": [
           "preorder-market"
         ],
-        "occasion": [],
+        "occasion": [
+          "gift"
+        ],
         "status": [
           "rated"
         ],
@@ -900,7 +952,8 @@
           "walk-in"
         ],
         "occasion": [
-          "cross-town"
+          "cross-town",
+          "rare-find"
         ],
         "status": [
           "rated"
@@ -927,7 +980,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -953,7 +1008,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -979,7 +1036,10 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee",
+          "cross-town"
+        ],
         "status": [
           "rated"
         ],
@@ -1005,7 +1065,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -1031,7 +1093,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -1083,7 +1147,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -1109,7 +1175,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "best-bread"
+        ],
         "status": [
           "rated"
         ],
@@ -1135,7 +1203,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "best-bread"
+        ],
         "status": [
           "rated"
         ],
@@ -1161,7 +1231,10 @@
         "access": [
           "preorder-market"
         ],
-        "occasion": [],
+        "occasion": [
+          "gift",
+          "rare-find"
+        ],
         "status": [
           "rated"
         ],
@@ -1188,7 +1261,8 @@
           "walk-in"
         ],
         "occasion": [
-          "best-bread"
+          "best-bread",
+          "cross-town"
         ],
         "status": [
           "rated"
@@ -1243,7 +1317,10 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee",
+          "gift"
+        ],
         "status": [
           "rated"
         ],
@@ -1345,7 +1422,8 @@
           "walk-in"
         ],
         "occasion": [
-          "gift"
+          "gift",
+          "cross-town"
         ],
         "status": [
           "rated"
@@ -1373,6 +1451,8 @@
           "walk-in"
         ],
         "occasion": [
+          "gift",
+          "cross-town",
           "rare-find"
         ],
         "status": [
@@ -1400,7 +1480,10 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee",
+          "cross-town"
+        ],
         "status": [
           "rated"
         ],
@@ -1426,7 +1509,9 @@
         "access": [
           "wholesale-stockist"
         ],
-        "occasion": [],
+        "occasion": [
+          "best-bread"
+        ],
         "status": [
           "rated"
         ],
@@ -1453,7 +1538,8 @@
           "walk-in"
         ],
         "occasion": [
-          "best-bread"
+          "best-bread",
+          "cross-town"
         ],
         "status": [
           "rated"
@@ -1508,7 +1594,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "best-bread"
+        ],
         "status": [
           "rated"
         ],
@@ -1534,7 +1622,9 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "pastry-coffee"
+        ],
         "status": [
           "rated"
         ],
@@ -1590,7 +1680,11 @@
         "access": [
           "walk-in"
         ],
-        "occasion": [],
+        "occasion": [
+          "gift",
+          "cross-town",
+          "rare-find"
+        ],
         "status": [
           "rated"
         ],

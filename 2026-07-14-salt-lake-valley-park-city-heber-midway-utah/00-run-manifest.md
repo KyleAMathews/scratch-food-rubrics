@@ -24,6 +24,7 @@
 - Phase 8 reader results: [08-results.md](08-results.md)
 - Interactive faceted website: [index.html](index.html)
 - Static and browser validation: [interactive-results-validation.json](interactive-results-validation.json)
+- Interactive occasion expansion audit: [interactive-occasion-assignment-audit.json](interactive-occasion-assignment-audit.json)
 - Reproducible v8.14 partial-score repair: [rescore_partial_v814.py](rescore_partial_v814.py)
 - Historical pre-repair publication: [Gist Host](https://gisthost.github.io/?2c51f1ba56360b4f8f0ecd6a2990a4d9)
 - Post-run All Purpose rating re-review: [post-run-rating-rereview-A006.md](post-run-rating-rereview-A006.md)
